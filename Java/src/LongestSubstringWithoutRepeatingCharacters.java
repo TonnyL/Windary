@@ -1,4 +1,3 @@
-package io.github.tonnyl;
 
 public class LongestSubstringWithoutRepeatingCharacters {
 
