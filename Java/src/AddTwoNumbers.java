@@ -36,9 +36,17 @@ public class AddTwoNumbers {
         ListNode result243And564 = atn.addTwoNumbers(node243, node564);
         ListNode result1And99 = atn.addTwoNumbers(node1, node99);
 
+        // Expect:
+        // result: [0][0] ->  0
         System.out.println("result: [0] + [0] -> " + result0.val);
+        // Expect:
+        // result: [5][5] ->  0  ->  1
         System.out.println("result: [5] + [5] -> " + result5.val + " -> " + result5.next.val);
+        // Expect:
+        // result: [2,4,3] + [5,6,4] ->  7  ->  0  ->  8
         System.out.println("result: [2,4,3] + [5,6,4] -> " + result243And564.val + " -> " + result243And564.next.val + " -> " + result243And564.next.next.val);
+        // Expect:
+        // result: [1] + [9,9] ->  0  ->  0  ->  1
         System.out.println("result: [1] + [9,9] -> " + result1And99.val + " -> " + result1And99.next.val + " -> " + result1And99.next.next.val);
 
     }
@@ -66,7 +74,7 @@ public class AddTwoNumbers {
             } else {
                 int tmp = 0;
                 if (tmp1 == null) {
-                    tmp= tmp2.val;
+                    tmp = tmp2.val;
                 } else if (tmp2 == null) {
                     tmp = tmp1.val;
                 } else {
