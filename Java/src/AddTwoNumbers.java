@@ -10,6 +10,8 @@ import java.util.List;
  * <p>
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
  * Output: 7 -> 0 -> 8
+ * <p>
+ * Result: Accepted
  */
 public class AddTwoNumbers {
 
@@ -36,16 +38,16 @@ public class AddTwoNumbers {
         ListNode result243And564 = atn.addTwoNumbers(node243, node564);
         ListNode result1And99 = atn.addTwoNumbers(node1, node99);
 
-        // Expect:
+        // Expected:
         // result: [0][0] ->  0
         System.out.println("result: [0] + [0] -> " + result0.val);
-        // Expect:
+        // Expected:
         // result: [5][5] ->  0  ->  1
         System.out.println("result: [5] + [5] -> " + result5.val + " -> " + result5.next.val);
-        // Expect:
+        // Expected:
         // result: [2,4,3] + [5,6,4] ->  7  ->  0  ->  8
         System.out.println("result: [2,4,3] + [5,6,4] -> " + result243And564.val + " -> " + result243And564.next.val + " -> " + result243And564.next.next.val);
-        // Expect:
+        // Expected:
         // result: [1] + [9,9] ->  0  ->  0  ->  1
         System.out.println("result: [1] + [9,9] -> " + result1And99.val + " -> " + result1And99.next.val + " -> " + result1And99.next.next.val);
 
