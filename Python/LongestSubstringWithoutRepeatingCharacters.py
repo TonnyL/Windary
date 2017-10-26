@@ -32,7 +32,7 @@ class LongestSubstringWithoutRepeatingCharacters(object):
             if len(tmp_str) > len(result_str):
                 result_str = tmp_str
 
-        print(result_str)
+        # print(result_str)
         return len(result_str)
 
 
