@@ -19,6 +19,7 @@ My Solutions of LeetCode problems written in Java, Python and Kotlin.
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [√](Java/src/ImplementStrStr.java) | [√](Kotlin/src/ImplementStrStr.kt) | [√](Python/ImplementStrStr.py) | Easy |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [√](Java/src/SearchInsertPosition.java) | [√](Kotlin/src/SearchInsertPosition.kt) | [√](Python/SearchInsertPosition.py) | Easy |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [√](Java/src/PowXN.java) | [√](Kotlin/src/PowXN.kt) | [√](Python/PowXN.py) | Medium |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [√](Java/src/LengthOfLastWord.java) | [√](Kotlin/src/LengthOfLastWord.kt) | [√](Python/LengthOfLastWord.py) | Easy |
 
 ## Contributions
 ⚠️ Notice: We do **NOT** accept pull requests currently.
