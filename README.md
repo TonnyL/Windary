@@ -21,6 +21,7 @@ My Solutions of LeetCode problems written in Java, Python and Kotlin.
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [√](Java/src/SearchInsertPosition.java) | [√](Kotlin/src/SearchInsertPosition.kt) | [√](Python/SearchInsertPosition.py) | Easy |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [√](Java/src/PowXN.java) | [√](Kotlin/src/PowXN.kt) | [√](Python/PowXN.py) | Medium |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [√](Java/src/LengthOfLastWord.java) | [√](Kotlin/src/LengthOfLastWord.kt) | [√](Python/LengthOfLastWord.py) | Easy |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/description/) | [√](Java/src/AddBinary.java) | [√](Kotlin/src/AddBinary.kt) | [√](Python/AddBinary.py) | Easy |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | [√](Java/src/SqrtX.java) | [√](Kotlin/src/SqrtX.kt) | [√](Python/SqrtX.py) | Easy |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [√](Java/src/ClimbingStairs.java) | [√](Kotlin/src/ClimbingStairs.kt) | [√](Python/ClimbingStairs.py) | Easy |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/description/) | [√](Java/src/GrayCode.java) | [√](Kotlin/src/GrayCode.kt) | [√](Python/GrayCode.py) | Medium |
