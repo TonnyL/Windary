@@ -19,10 +19,10 @@ class UniquePaths(object):
             return 1
 
         # Init all the elements the 2d matrix with 1s
-        matrix = [[1 for x in range(m)] for x in range(n)]
+        matrix = [[1 for x in range(n)] for x in range(m)]
         for i in range(1, m):
             for j in range(1, n):
-                matrix[j][i] = matrix[j - 1][i] + matrix[j][i - 1]
+                matrix[i][j] = matrix[i - 1][j] + matrix[i][j - 1]
 
         return matrix[n - 1][m - 1]
 
