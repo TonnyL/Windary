@@ -71,6 +71,15 @@ print(up.uniquePathsWithObstacles([[0, 0], [1, 1], [0, 0]]))
 # Expected: 1
 print(up.uniquePathsWithObstacles([[0], [0]]))
 # Expected: 2
+# The matrix:
+# 1 1 1
+# 1 0 1
+# 1 1 2
 print(up.uniquePathsWithObstacles([[0, 0, 0], [0, 1, 0], [0, 0, 0]]))
 # Expected: 8
+# The matrix:
+# 1 1 1 1
+# 1 0 1 2
+# 1 1 2 4
+# 1 2 4 8
 print(up.uniquePathsWithObstacles([[0, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]))
