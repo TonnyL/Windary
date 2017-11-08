@@ -22,6 +22,7 @@ My Solutions of LeetCode problems written in Java, Python and Kotlin.
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [√](Java/src/PowXN.java) | [√](Kotlin/src/PowXN.kt) | [√](Python/PowXN.py) | Medium |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [√](Java/src/LengthOfLastWord.java) | [√](Kotlin/src/LengthOfLastWord.kt) | [√](Python/LengthOfLastWord.py) | Easy |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/) | [√](Java/src/UniquePaths.java) | [√](Kotlin/src/UniquePaths.kt) | [√](Python/UniquePaths.py) | Medium |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/) | [√](Java/src/UniquePathsII.java) | [√](Kotlin/src/UniquePathsII.kt) | [√](Python/UniquePathsII.py) | Medium |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/description/) | [√](Java/src/AddBinary.java) | [√](Kotlin/src/AddBinary.kt) | [√](Python/AddBinary.py) | Easy |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | [√](Java/src/SqrtX.java) | [√](Kotlin/src/SqrtX.kt) | [√](Python/SqrtX.py) | Easy |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [√](Java/src/ClimbingStairs.java) | [√](Kotlin/src/ClimbingStairs.kt) | [√](Python/ClimbingStairs.py) | Easy |
