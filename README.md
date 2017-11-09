@@ -24,6 +24,7 @@ My Solutions of LeetCode problems written in Java, Python and Kotlin.
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/) | [√](Java/src/UniquePaths.java) | [√](Kotlin/src/UniquePaths.kt) | [√](Python/UniquePaths.py) | Medium |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/) | [√](Java/src/UniquePathsII.java) | [√](Kotlin/src/UniquePathsII.kt) | [√](Python/UniquePathsII.py) | Medium |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [√](Java/src/MinimumPathSum.java) | [√](Kotlin/src/MinimumPathSum.kt) | [√](Python/MinimumPathSum.py) | Medium |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | [√](Java/src/PlusOne.java) | [√](Kotlin/src/PlusOne.kt) | [√](Python/PlusOne.py) | Easy |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary/description/) | [√](Java/src/AddBinary.java) | [√](Kotlin/src/AddBinary.kt) | [√](Python/AddBinary.py) | Easy |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | [√](Java/src/SqrtX.java) | [√](Kotlin/src/SqrtX.kt) | [√](Python/SqrtX.py) | Easy |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [√](Java/src/ClimbingStairs.java) | [√](Kotlin/src/ClimbingStairs.kt) | [√](Python/ClimbingStairs.py) | Easy |
