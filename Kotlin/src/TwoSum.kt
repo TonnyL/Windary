@@ -6,11 +6,11 @@
  * Because nums[0] + nums[1] = 2 + 7 = 9,
  * return [0, 1].
  *
+ * Accepted.
  */
 class TwoSum {
 
     fun twoSum(nums: IntArray, target: Int): IntArray {
-
         for (i in nums.indices) {
             (i + 1 until nums.size)
                     .filter { target == nums[i] + nums[it] }

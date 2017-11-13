@@ -1,12 +1,14 @@
 /**
  * Implement int sqrt(int x).
  * Compute and return the square root of x.
+ *
+ * Accepted.
  */
 class SqrtX {
 
     fun mySqrt(x: Int): Int {
         // A tricky way to solve the problem.
-        // return Math.sqrt(x.toDouble()).toInt();
+        // return Math.sqrt(x.toDouble()).toInt()
         if (x <= 0) return 0
         if (x <= 3) return 1
 

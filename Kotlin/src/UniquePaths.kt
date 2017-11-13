@@ -5,6 +5,8 @@
  * How many possible unique paths are there?
  *
  * Note: m and n will be at most 100.
+ *
+ * Accepted.
  */
 class UniquePaths {
 

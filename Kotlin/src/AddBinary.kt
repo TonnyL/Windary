@@ -5,6 +5,8 @@
  * a = "11"
  * b = "1"
  * Return "100".
+ *
+ * Accepted.
  */
 class AddBinary {
 
@@ -59,7 +61,6 @@ class AddBinary {
             }
             i--
             j--
-
         }
         if (flag) sb.append('1')
 

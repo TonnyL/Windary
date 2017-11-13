@@ -4,13 +4,13 @@ import java.util.*
  * Given a string containing just the characters '(', ')', '{', '}', '[' and ']',
  * determine if the input string is valid.
  * The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+ *
+ * Accepted.
  */
 class ValidParentheses {
 
-    fun isValid(s: String?): Boolean {
-        if (s == null || s.isEmpty() || s.length == 1) {
-            return false
-        }
+    fun isValid(s: String): Boolean {
+        if (s.isEmpty() || s.length == 1) return false
 
         val stack = Stack<Char>()
         for (c in s.toCharArray()) {

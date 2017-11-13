@@ -1,5 +1,7 @@
 /**
  * Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it in place.
+ *
+ * Accepted.
  */
 class SetMatrixZeroes {
 
@@ -8,26 +10,18 @@ class SetMatrixZeroes {
 
         val row = HashSet<Int>(matrix.size)
         val column = HashSet<Int>(matrix[0].size)
-        for (i in matrix.indices) {
-            for (j in 0 until matrix[0].size) {
-                if (matrix[i][j] == 0) {
+        matrix.indices.forEach { i ->
+            (0 until matrix[0].size).forEach {
+                if (matrix[i][it] == 0) {
                     row.add(i)
-                    column.add(j)
+                    column.add(it)
                 }
             }
         }
 
-        for (i in row) {
-            for (k in 0 until matrix[0].size) {
-                matrix[i][k] = 0
-            }
-        }
+        row.forEach { i -> (0 until matrix[0].size).forEach { matrix[i][it] = 0 } }
 
-        for (i in column) {
-            for (k in matrix.indices) {
-                matrix[k][i] = 0
-            }
-        }
+        column.forEach { i -> (0 until matrix.size).forEach { matrix[it][i] = 0 } }
 
         print("{")
         for (group in matrix) {
@@ -73,5 +67,4 @@ class SetMatrixZeroes {
             smz.setZeroes(arrayOf(intArrayOf(0, 0, 0, 5), intArrayOf(4, 3, 1, 4), intArrayOf(0, 1, 1, 4), intArrayOf(1, 2, 1, 3), intArrayOf(0, 0, 1, 1)))
         }
     }
-
 }

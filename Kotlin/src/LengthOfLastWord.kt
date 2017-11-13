@@ -5,11 +5,13 @@
  * For example,
  * Given s = "Hello World",
  * return 5.
+ *
+ * Accepted.
  */
 class LengthOfLastWord {
 
-    fun lengthOfLastWord(s: String?): Int {
-        if (s == null || s.isEmpty()) return 0
+    fun lengthOfLastWord(s: String): Int {
+        if (s.isEmpty()) return 0
 
         val strs = s.split(" ".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
         return if (strs.isEmpty()) 0 else strs[strs.size - 1].length
@@ -28,7 +30,6 @@ class LengthOfLastWord {
             // Expected: 1
             println(llw.lengthOfLastWord("a "))
         }
-
     }
 
 }

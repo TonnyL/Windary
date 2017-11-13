@@ -12,22 +12,23 @@
  * For a given n, a gray code sequence is not uniquely defined.
  * For example, [0,2,3,1] is also a valid gray code sequence according to the above definition.
  * For now, the judge is able to judge based on one instance of gray code sequence. Sorry about that.
+ *
+ * Accepted.
  */
 class GrayCode {
 
-    fun grayCode(n: Int): MutableList<Int> {
-        var resultList = mutableListOf<Int>()
+    fun grayCode(n: Int): List<Int> {
+        val resultList = ArrayList<Int>()
 
         if (n <= 0) return resultList.apply { add(0) }
-
         if (n == 1) return resultList.apply { add(0); add(1) }
 
-        resultList = grayCode(n - 1)
+        grayCode(n - 1).forEach { resultList.add(it) }
         for (i in resultList.indices.reversed()) {
             resultList.add(resultList[i] + Math.pow(2.0, (n - 1).toDouble()).toInt())
         }
 
-        return resultList
+        return resultList.toList()
     }
 
     companion object {
@@ -37,21 +38,15 @@ class GrayCode {
             val gc = GrayCode()
 
             // Expected: [0]
-            for (i in gc.grayCode(0)) {
-                print(i.toString() + " ")
-            }
+            gc.grayCode(0).forEach { print("$it ") }
             println()
 
             // Expected: [0, 1, 3, 2]
-            for (i in gc.grayCode(2)) {
-                print("$i ")
-            }
+            gc.grayCode(2).forEach { print("$it ") }
             println()
 
             // Expected: [0, 1, 3, 2, 6, 7, 5, 4]
-            for (i in gc.grayCode(3)) {
-                print(i.toString() + " ")
-            }
+            gc.grayCode(3).forEach { print("$it ") }
             println()
         }
     }

@@ -10,6 +10,8 @@
  * [ 7, 8, 9 ]
  * ]
  * You should return [1,2,3,6,9,8,7,4,5].
+ *
+ * Accepted.
  */
 class SpiralMatrix {
 

@@ -14,11 +14,9 @@ public class PowXN {
         if (n == 1) return x;
 
         double result = myPow(x, n / 2);
-        if (n % 2 == 0)
-            return result * result;
-        else if (n > 0) {
-            return x * result * result;
-        }
+        if (n % 2 == 0) return result * result;
+        else if (n > 0) return x * result * result;
+
         return (result * result) / x;
     }
 

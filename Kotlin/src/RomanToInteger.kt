@@ -1,14 +1,12 @@
 /**
  * Given a roman numeral, convert it to an integer.
  * Input is guaranteed to be within the range from 1 to 3999.
+ *
+ * Accepted.
  */
 class RomanToInteger {
 
-    fun romanToInt(s: String?): Int {
-        if (s == null) {
-            return 0
-        }
-
+    fun romanToInt(s: String): Int {
         val dict = mapOf(
                 Pair('I', 1),
                 Pair('V', 5),

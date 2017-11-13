@@ -9,10 +9,14 @@ import java.util.ArrayList
  *
  * Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
  * Output: 7 -> 0 -> 8
+ *
+ * Accepted.
  */
 class AddTwoNumbers {
 
-    fun addTwoNumbers(l1: ListNode, l2: ListNode): ListNode {
+    fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
+
+        if (l1 == null || l2 == null) return null
 
         var tmp1 = l1.next
         var tmp2 = l2.next
@@ -105,10 +109,10 @@ class AddTwoNumbers {
             val result243And564 = atn.addTwoNumbers(node243, node564)
             val result1And99 = atn.addTwoNumbers(node1, node99)
 
-            println("result: [0] + [0] -> " + result0.`val`)
-            println("result: [5] + [5] -> " + result5.`val` + " -> " + result5.next!!.`val`)
-            println("result: [2,4,3] + [5,6,4] -> " + result243And564.`val` + " -> " + result243And564.next!!.`val` + " -> " + result243And564.next!!.next!!.`val`)
-            println("result: [1] + [9,9] -> " + result1And99.`val` + " -> " + result1And99.next!!.`val` + " -> " + result1And99.next!!.next!!.`val`)
+            println("result: [0] + [0] -> " + result0?.`val`)
+            println("result: [5] + [5] -> " + result5?.`val` + " -> " + result5?.next?.`val`)
+            println("result: [2,4,3] + [5,6,4] -> " + result243And564?.`val` + " -> " + result243And564?.next?.`val` + " -> " + result243And564?.next?.next?.`val`)
+            println("result: [1] + [9,9] -> " + result1And99?.`val` + " -> " + result1And99?.next!!.`val` + " -> " + result1And99.next?.next?.`val`)
 
         }
     }

@@ -2,7 +2,7 @@
 
 My Solutions of LeetCode problems written in Java, Python and Kotlin.
 
-⚠️ Notice: Kotlin is not supported officially by LeetCode yet, all the Koltin files are translated from Java.
+All the solutions are accepted.
 
 ## Solutions
 | # | Title     | Java | Kotlin | Python |  Difficulty |

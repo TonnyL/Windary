@@ -15,14 +15,14 @@
  * The total number of unique paths is 2.
  *
  * Note: m and n will be at most 100.
+ *
+ * Accepted.
  */
 class UniquePathsII {
 
     fun uniquePathsWithObstacles(obstacleGrid: Array<IntArray>): Int {
         if (obstacleGrid[0][0] == 1) return 0
-        if (obstacleGrid.size == 1) {
-            return if (obstacleGrid[0].contains(1)) 0 else 1
-        }
+        if (obstacleGrid.size == 1) return if (obstacleGrid[0].contains(1)) 0 else 1
 
         val matrix = Array(obstacleGrid.size) { IntArray(obstacleGrid[0].size, { 0 }) }
 

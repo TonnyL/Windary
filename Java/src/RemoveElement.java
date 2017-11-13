@@ -5,19 +5,14 @@
  * Example:
  * Given input array nums = [3,2,2,3], val = 3
  * Your function should return length = 2, with the first two elements of nums being 2.
+ * <p>
+ * Accepted.
  */
 public class RemoveElement {
 
     public int removeElement(int[] nums, int val) {
-
-        if (nums.length == 0)
-            return 0;
-
-        if (nums.length == 1) {
-            if (nums[0] == val)
-                return 0;
-            return 1;
-        }
+        if (nums.length == 0) return 0;
+        if (nums.length == 1) return nums[0] == val ? 0 : 1;
 
         int lastIndex = nums.length - 1;
         for (int i = 0; i < lastIndex; i++) {
@@ -29,23 +24,22 @@ public class RemoveElement {
                     exchange2values(nums, i, lastIndex);
                     lastIndex--;
                 }
-
             }
         }
 
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == val)
-                return i;
+            if (nums[i] == val) return i;
         }
 
         return nums.length;
-
     }
 
-    public void exchange2values(int[] nums, int i, int lastIndex) {
-        int tmp = nums[lastIndex];
-        nums[lastIndex] = nums[i];
-        nums[i] = tmp;
+    private void exchange2values(int[] nums, int i, int lastIndex) {
+        if (lastIndex >= i && i >= 0) {
+            int tmp = nums[lastIndex];
+            nums[lastIndex] = nums[i];
+            nums[i] = tmp;
+        }
     }
 
     public static void main(String[] args) {

@@ -9,20 +9,17 @@
  * [1,3,5,6], 7 → 4
  * [1,3,5,6], 0 → 0
  *
+ * Accepted.
  */
 class SearchInsertPosition {
 
-    fun searchInsert(nums: IntArray?, target: Int): Int {
-        if (nums == null || nums.isEmpty()) {
-            return 0
-        }
+    fun searchInsert(nums: IntArray, target: Int): Int {
+        if (nums.isEmpty()) return 0
         for (i in nums.indices) {
-            if (nums[i] == target) {
-                return i
-            } else if (nums[i] < target) {
-                if (i + 1 < nums.size && nums[i + 1] > target || i + 1 == nums.size) {
-                    return i + 1
-                }
+            if (nums[i] == target) return i
+            else if (nums[i] < target
+                    && (i + 1 < nums.size && nums[i + 1] > target || i + 1 == nums.size)) {
+                return i + 1
             }
         }
         return 0

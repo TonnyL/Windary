@@ -33,14 +33,14 @@ public class SetMatrixZeroes {
             }
         }
 
-        System.out.print("{");
-        for (int[] group : matrix) {
-            System.out.println();
-            for (int i : group) {
-                System.out.print(i + " ");
-            }
-        }
-        System.out.println("\n}");
+//        System.out.print("{");
+//        for (int[] group : matrix) {
+//            System.out.println();
+//            for (int i : group) {
+//                System.out.print(i + " ");
+//            }
+//        }
+//        System.out.println("\n}");
     }
 
     public static void main(String[] args) {

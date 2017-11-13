@@ -5,20 +5,17 @@
  * Example:
  * Given input array nums = [3,2,2,3], val = 3
  * Your function should return length = 2, with the first two elements of nums being 2.
+ *
+ * Accepted.
  */
 class RemoveElement {
 
     fun removeElement(nums: IntArray, `val`: Int): Int {
-
-        if (nums.isEmpty())
-            return 0
-
-        if (nums.size == 1) {
-            return if (nums[0] == `val`) 0 else 1
-        }
+        if (nums.isEmpty()) return 0
+        if (nums.size == 1) return if (nums[0] == `val`) 0 else 1
 
         var lastIndex = nums.size - 1
-        for (i in 0 until lastIndex - 1) {
+        for (i in 0 until lastIndex) {
             if (nums[i] == `val`) {
                 exchange2values(nums, i, lastIndex)
                 lastIndex--
@@ -27,18 +24,18 @@ class RemoveElement {
                     exchange2values(nums, i, lastIndex)
                     lastIndex--
                 }
-
             }
         }
 
         return nums.indices.firstOrNull { nums[it] == `val` } ?: nums.size
-
     }
 
     private fun exchange2values(nums: IntArray, i: Int, lastIndex: Int) {
-        val tmp = nums[lastIndex]
-        nums[lastIndex] = nums[i]
-        nums[i] = tmp
+        if (i in 0..lastIndex) {
+            val tmp = nums[lastIndex]
+            nums[lastIndex] = nums[i]
+            nums[i] = tmp
+        }
     }
 
     companion object {
@@ -61,7 +58,6 @@ class RemoveElement {
             // nums: [3, 3] length = 2
             println(re.removeElement(intArrayOf(3, 3), 0))
         }
-
     }
 
 }
