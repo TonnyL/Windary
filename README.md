@@ -22,6 +22,7 @@ All the solutions are accepted.
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [√](Java/src/PowXN.java) | [√](Kotlin/src/PowXN.kt) | [√](Python/PowXN.py) | Medium |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [√](Java/src/SpiralMatrix.java) | [√](Kotlin/src/SpiralMatrix.kt) | [√](Python/SpiralMatrix.py) | Medium
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [√](Java/src/LengthOfLastWord.java) | [√](Kotlin/src/LengthOfLastWord.kt) | [√](Python/LengthOfLastWord.py) | Easy |
+| 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) | [√](Java/src/SpiralMatrixII.java) | [√](Kotlin/src/SpiralMatrixII.kt) | [√](Python/SpiralMatrixII.py) | Medium |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/) | [√](Java/src/UniquePaths.java) | [√](Kotlin/src/UniquePaths.kt) | [√](Python/UniquePaths.py) | Medium |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/) | [√](Java/src/UniquePathsII.java) | [√](Kotlin/src/UniquePathsII.kt) | [√](Python/UniquePathsII.py) | Medium |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [√](Java/src/MinimumPathSum.java) | [√](Kotlin/src/MinimumPathSum.kt) | [√](Python/MinimumPathSum.py) | Medium |

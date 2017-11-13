@@ -38,14 +38,14 @@ class SpiralMatrix:
             return result
 
         if matrix_length % 2 == 0:
-            center_x = (len(matrix) - 1) / 2
+            center_x = (matrix_length - 1) // 2
         else:
-            center_x = len(matrix) / 2
+            center_x = matrix_length // 2
 
         if matrix0_length % 2 == 0:
-            center_y = (len(matrix[0]) - 1) / 2
+            center_y = (matrix_length - 1) // 2
         else:
-            center_y = len(matrix) / 2
+            center_y = matrix_length // 2
 
         i = 0
         j = 0
