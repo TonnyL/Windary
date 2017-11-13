@@ -20,6 +20,7 @@ My Solutions of LeetCode problems written in Java, Python and Kotlin.
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [√](Java/src/ImplementStrStr.java) | [√](Kotlin/src/ImplementStrStr.kt) | [√](Python/ImplementStrStr.py) | Easy |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [√](Java/src/SearchInsertPosition.java) | [√](Kotlin/src/SearchInsertPosition.kt) | [√](Python/SearchInsertPosition.py) | Easy |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [√](Java/src/PowXN.java) | [√](Kotlin/src/PowXN.kt) | [√](Python/PowXN.py) | Medium |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [√](Java/src/SpiralMatrix.java) | [√](Kotlin/src/SpiralMatrix.kt) | [√](Python/SpiralMatrix.py) | Medium
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [√](Java/src/LengthOfLastWord.java) | [√](Kotlin/src/LengthOfLastWord.kt) | [√](Python/LengthOfLastWord.py) | Easy |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/) | [√](Java/src/UniquePaths.java) | [√](Kotlin/src/UniquePaths.kt) | [√](Python/UniquePaths.py) | Medium |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/) | [√](Java/src/UniquePathsII.java) | [√](Kotlin/src/UniquePathsII.kt) | [√](Python/UniquePathsII.py) | Medium |
