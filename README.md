@@ -21,6 +21,7 @@ All the solutions are accepted.
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/description/) | [√](Java/src/RemoveElement.java) | [√](Kotlin/src/RemoveElement.kt) |[√](Python/RemoveElement.py)| Easy|
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | [√](Java/src/ImplementStrStr.java) | [√](Kotlin/src/ImplementStrStr.kt) | [√](Python/ImplementStrStr.py) | Easy |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [√](Java/src/SearchInsertPosition.java) | [√](Kotlin/src/SearchInsertPosition.kt) | [√](Python/SearchInsertPosition.py) | Easy |
+| 38 | [Count and Say](https://leetcode.com/problems/count-and-say/description/) | [√](Java/src/CountAndSay.java) | [√](Kotlin/src/CountAndSay.kt) | [√](Python/CountAndSay.py) | Easy |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [√](Java/src/GroupAnagrams.java) | [√](Kotlin/src/GroupAnagrams.kt) | [√](Python/GroupAnagrams.py) | Medium |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [√](Java/src/PowXN.java) | [√](Kotlin/src/PowXN.kt) | [√](Python/PowXN.py) | Medium |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [√](Java/src/SpiralMatrix.java) | [√](Kotlin/src/SpiralMatrix.kt) | [√](Python/SpiralMatrix.py) | Medium
