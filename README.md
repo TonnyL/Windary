@@ -38,7 +38,7 @@ All the solutions are accepted.
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [√](Java/src/ClimbingStairs.java) | [√](Kotlin/src/ClimbingStairs.kt) | [√](Python/ClimbingStairs.py) | Easy |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | [√](Java/src/SetMatrixZeroes.java) | [√](Kotlin/src/SetMatrixZeroes.kt) | [√](Python/SetMatrixZeroes.py) | Medium |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) | [√](Java/src/SearchA2DMatrix.java) | [√](Kotlin/src/SearchA2DMatrix.kt) | [√](Python/SearchA2DMatrix.py) | Medium |
-| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [√](Java/src/MergeSortedArray.java) | [√](Kotlin/src/MergeSortedArray.kt) | [√](Python/MergeSortedArray.py)
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [√](Java/src/MergeSortedArray.java) | [√](Kotlin/src/MergeSortedArray.kt) | [√](Python/MergeSortedArray.py)| Easy | 
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/description/) | [√](Java/src/GrayCode.java) | [√](Kotlin/src/GrayCode.kt) | [√](Python/GrayCode.py) | Medium |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/description/) | [√](Java/src/SameTree.java) | [√](Kotlin/src/SameTree.kt) | [√](Python/SameTree.py)| Easy |
 
