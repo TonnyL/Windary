@@ -1,8 +1,6 @@
 # Windary
 
-My Solutions of LeetCode problems written in Java, Python and Kotlin.
-
-All the solutions are accepted.
+My Solutions for LeetCode problems written in Java, Python and Kotlin.
 
 ## Solutions
 | # | Title     | Java | Kotlin | Python |  Difficulty |
@@ -38,6 +36,7 @@ All the solutions are accepted.
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [√](Java/src/ClimbingStairs.java) | [√](Kotlin/src/ClimbingStairs.kt) | [√](Python/ClimbingStairs.py) | Easy |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | [√](Java/src/SetMatrixZeroes.java) | [√](Kotlin/src/SetMatrixZeroes.kt) | [√](Python/SetMatrixZeroes.py) | Medium |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/) | [√](Java/src/SearchA2DMatrix.java) | [√](Kotlin/src/SearchA2DMatrix.kt) | [√](Python/SearchA2DMatrix.py) | Medium |
+| 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/) | [√](Java/src/RemoveDuplicatesFromSortedListII.java) | [√](Kotlin/src/RemoveDuplicatesFromSortedListII.kt) | [√](Python/RemoveDuplicatesFromSortedListII.py) | Medium
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [√](Java/src/RemoveDuplicatesFromSortedList.java) | [√](Kotlin/src/RemoveDuplicatesFromSortedList.kt) | [√](Python/RemoveDuplicatesFromSortedList.py) | Easy |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [√](Java/src/MergeSortedArray.java) | [√](Kotlin/src/MergeSortedArray.kt) | [√](Python/MergeSortedArray.py)| Easy | 
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/description/) | [√](Java/src/GrayCode.java) | [√](Kotlin/src/GrayCode.kt) | [√](Python/GrayCode.py) | Medium |
