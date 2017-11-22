@@ -21,6 +21,7 @@ My Solutions for LeetCode problems written in Java, Python and Kotlin.
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [√](Java/src/SearchInRotatedSortedArray.java) | [√](Kotlin/src/SearchInRotatedSortedArray.kt) | [√](Python/SearchInRotatedSortedArray.py) | Medium |
 | 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | [√](Java/src/SearchForARange.java) | [√](Kotlin/src/SearchForARange.kt) | [√](Python/SearchForARange.py) | Medium |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [√](Java/src/SearchInsertPosition.java) | [√](Kotlin/src/SearchInsertPosition.kt) | [√](Python/SearchInsertPosition.py) | Easy |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/) | [√](Java/src/ValidSudoku.java) | [√](Kotlin/src/ValidSudoku.kt) | [√](Python/ValidSudoku.py) | Medium
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/description/) | [√](Java/src/CountAndSay.java) | [√](Kotlin/src/CountAndSay.kt) | [√](Python/CountAndSay.py) | Easy |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [√](Java/src/GroupAnagrams.java) | [√](Kotlin/src/GroupAnagrams.kt) | [√](Python/GroupAnagrams.py) | Medium |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/description/) | [√](Java/src/PowXN.java) | [√](Kotlin/src/PowXN.kt) | [√](Python/PowXN.py) | Medium |
