@@ -2,8 +2,15 @@
 //  Created by 黎赵太郎 on 24/11/2017.
 //  Copyright (c) 2017 lizhaotailang. All rights reserved.
 //
+//  You are climbing a stair case. It takes n steps to reach to the top.
+//
+//  Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+//
+//  Note: Given n will be a positive integer.
+//
 //  Accepted. See the [ClimbingStairsTests](../LeetCodeTest/ClimbingStairsTests.swift)
 //  for test cases.
+//
 
 import Foundation
 

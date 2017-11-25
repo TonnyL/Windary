@@ -5,6 +5,13 @@
 //  Created by 黎赵太郎 on 24/11/2017.
 //  Copyright © 2017 lizhaotailang. All rights reserved.
 //
+//
+//  Implement int sqrt(int x).
+//
+//  Compute and return the square root of x.
+//
+//  x is guaranteed to be a non-negative integer.
+//
 //  Accepted. See [SqrtXTests](./LeetCodeTests/SqrtXTest.swift) for the test cases.
 //
 
