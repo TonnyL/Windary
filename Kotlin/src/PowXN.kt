@@ -27,7 +27,7 @@ class PowXN {
             println(pxn.myPow(2.0, 2))
             // Expected: 700.28148
             println(pxn.myPow(8.88023, 3))
-            // Expected: 0.5
+            // Expected: 0.25
             println(pxn.myPow(2.0, -2))
             // Expected: 0.0
             println(pxn.myPow(0.00001, 2147483647))

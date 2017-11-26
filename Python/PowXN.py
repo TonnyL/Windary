@@ -40,7 +40,7 @@ pxn = PowXN()
 print(pxn.myPow(2, 2))
 # Expected: 700.28148
 print(pxn.myPow(8.88023, 3))
-# Expected: 0.5
+# Expected: 0.25
 print(pxn.myPow(2.0, -2))
 # Expected: 0.0
 print(pxn.myPow(0.00001, 2147483647))

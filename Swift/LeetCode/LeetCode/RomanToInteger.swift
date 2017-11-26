@@ -8,7 +8,7 @@
 //  Given a roman numeral, convert it to an integer.
 //  Input is guaranteed to be within the range from 1 to 3999.
 //
-//  Accepted. See [RomanToInteger](./LeetCodeTests/RomanToIntegerTests.swift) for the test cases.
+//  Accepted. See [RomanToIntegerTests](./LeetCodeTests/RomanToIntegerTests.swift) for the test cases.
 //
 
 import Foundation

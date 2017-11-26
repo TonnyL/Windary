@@ -6,6 +6,7 @@
 //  Copyright © 2017 lizhaotailang. All rights reserved.
 //
 //  Test cases for [TwoSum](./LeetCode/TwoSum.swift).
+//
 
 import XCTest
 @testable import LeetCode
