@@ -21,7 +21,7 @@ import Foundation
 
 class RemoveDuplicatesFromSortedArray {
     
-    func removeDuplicates(_ nums: [Int]) -> Int {
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
         if nums.isEmpty {
             return 0
         }

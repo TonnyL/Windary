@@ -22,8 +22,7 @@ class AddBinaryTests: XCTestCase {
         print(ab.addBinary("11", "1"))
         // Expected: 1010
         print(ab.addBinary("101", "101"))
-        
-        // "110001"
+        // Expected: "110001"
         print(ab.addBinary("101111", "10"))
     }
     

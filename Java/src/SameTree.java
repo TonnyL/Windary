@@ -10,9 +10,7 @@ public class SameTree {
         if (p == null && q == null) return true;
         if (p == null || q == null) return false;
 
-        while (true)
-            return p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
-
+        return p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 
     public static void main(String[] args) {
@@ -30,14 +28,14 @@ public class SameTree {
         // Expected: false
         System.out.println(st.isSameTree(tn1, tn2));
 
-        TreeNode tn_1_1_1_1 = new TreeNode(1);
-        tn_1_1_1_1.left = new TreeNode(1);
-        tn_1_1_1_1.right = new TreeNode(1);
-        TreeNode tn_2_1_1_1 = new TreeNode(1);
-        tn_2_1_1_1.left = new TreeNode(1);
-        tn_2_1_1_1.right = new TreeNode(1);
+        TreeNode tn1111 = new TreeNode(1);
+        tn1111.left = new TreeNode(1);
+        tn1111.right = new TreeNode(1);
+        TreeNode tn2111 = new TreeNode(1);
+        tn2111.left = new TreeNode(1);
+        tn2111.right = new TreeNode(1);
         // Expected: true
-        System.out.println(st.isSameTree(tn_1_1_1_1, tn_2_1_1_1));
+        System.out.println(st.isSameTree(tn1111, tn2111));
     }
 
     /**

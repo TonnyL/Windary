@@ -67,7 +67,7 @@ print(r.deleteDuplicates(node1222))
 
 node1122 = ListNode(1)
 node1122.next = ListNode(1)
-node1122.next = ListNode(2)
 node1122.next.next = ListNode(2)
+node1122.next.next.next = ListNode(2)
 # Expected: 1 -> 2
 print(r.deleteDuplicates(node1122))

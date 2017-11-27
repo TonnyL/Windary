@@ -16,7 +16,6 @@
 //  Did you notice that the reversed integer might overflow? Assume the input is a 32-bit integer, then the reverse of 1000000003 overflows.
 //  How should you handle such cases?
 //  For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
-
 //
 //  Note:
 //  Assume we are dealing with an environment which could only hold integers within the 32-bit signed integer range.

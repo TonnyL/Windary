@@ -10,9 +10,7 @@ class SameTree {
         if (p == null && q == null) return true
         if (p == null || q == null) return false
 
-        while (true) {
-            return p.`val` == q.`val` && isSameTree(p.left, q.left) && isSameTree(p.right, q.right)
-        }
+        return p.`val` == q.`val` && isSameTree(p.left, q.left) && isSameTree(p.right, q.right)
     }
 
     companion object {
@@ -32,14 +30,14 @@ class SameTree {
             // Expected: false
             println(st.isSameTree(tn1, tn2))
 
-            val tn_1_1_1_1 = TreeNode(1)
-            tn_1_1_1_1.left = TreeNode(1)
-            tn_1_1_1_1.right = TreeNode(1)
-            val tn_2_1_1_1 = TreeNode(1)
-            tn_2_1_1_1.left = TreeNode(1)
-            tn_2_1_1_1.right = TreeNode(1)
+            val tn1111 = TreeNode(1)
+            tn1111.left = TreeNode(1)
+            tn1111.right = TreeNode(1)
+            val tn2111 = TreeNode(1)
+            tn2111.left = TreeNode(1)
+            tn2111.right = TreeNode(1)
             // Expected: true
-            println(st.isSameTree(tn_1_1_1_1, tn_2_1_1_1))
+            println(st.isSameTree(tn1111, tn2111))
         }
 
         /**
