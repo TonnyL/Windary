@@ -44,6 +44,7 @@ My Solutions for LeetCode problems written in Java, Kotlin, Python and Swift.
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [√](Java/src/RemoveDuplicatesFromSortedList.java) | [√](Kotlin/src/RemoveDuplicatesFromSortedList.kt) | [√](Python/RemoveDuplicatesFromSortedList.py) | [√](Swift/LeetCode/LeetCode/RemoveDuplicatesFromSortedList.swift) | Easy |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/) | [√](Java/src/MergeSortedArray.java) | [√](Kotlin/src/MergeSortedArray.kt) | [√](Python/MergeSortedArray.py)| [√](Swift/LeetCode/LeetCode/MergeSortedArray.swift) | Easy | 
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/description/) | [√](Java/src/GrayCode.java) | [√](Kotlin/src/GrayCode.kt) | [√](Python/GrayCode.py) | [√](Swift/LeetCode/LeetCode/GrayCode.swift) | Medium |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [√](Java/src/BinaryTreeInorderTraversal.java) | [√](Kotlin/src/BinaryTreeInorderTraversal.kt) | [√](Python/BinaryTreeInorderTraversal.py) | [√](Swift/LeetCode/LeetCode/BinaryTreeInorderTraversal.swift) | Medium |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/description/) | [√](Java/src/SameTree.java) | [√](Kotlin/src/SameTree.kt) | [√](Python/SameTree.py) | [√](Swift/LeetCode/LeetCode/SameTree.swift) | Easy |
 
 ## Contributions
