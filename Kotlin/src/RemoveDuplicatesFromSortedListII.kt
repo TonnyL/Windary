@@ -43,7 +43,7 @@ class RemoveDuplicatesFromSortedListII {
             val r = RemoveDuplicatesFromSortedListII()
 
             // Expected: 1 -> 2 -> 5
-            val node1233445 = ListNode(1).apply {
+            println(r.deleteDuplicates(ListNode(1).apply {
                 next = ListNode(2).apply {
                     next = ListNode(3).apply {
                         next = ListNode(3).apply {
@@ -55,53 +55,47 @@ class RemoveDuplicatesFromSortedListII {
                         }
                     }
                 }
-            }
-            println(r.deleteDuplicates(node1233445))
+            }))
 
             // Expected: 2 -> 3
-            val node11123 = ListNode(1).apply {
+            println(r.deleteDuplicates(ListNode(1).apply {
                 next = ListNode(1).apply {
                     next = ListNode(2).apply {
                         next = ListNode(3)
                     }
                 }
-            }
-            println(r.deleteDuplicates(node11123))
+            }))
 
             // Expected: null
-            val node111 = ListNode(1).apply {
+            println(r.deleteDuplicates(ListNode(1).apply {
                 next = ListNode(1).apply {
                     next = ListNode(1)
                 }
-            }
-            println(r.deleteDuplicates(node111))
+            }))
 
             // Expected: null
             println(r.deleteDuplicates(null))
 
             // Expected: 1
-            val node122 = ListNode(1).apply {
+            println(r.deleteDuplicates(ListNode(1).apply {
                 next = ListNode(2).apply {
                     next = ListNode(2)
                 }
-            }
-            println(r.deleteDuplicates(node122))
+            }))
 
             // Expected: null
-            val node11 = ListNode(1).apply {
+            println(ListNode(1).apply {
                 next = ListNode(1)
-            }
-            println(r.deleteDuplicates(node11))
+            })
 
             // Expected: null
-            val node1122 = ListNode(1).apply {
+            println(r.deleteDuplicates(ListNode(1).apply {
                 next = ListNode(1).apply {
                     next = ListNode(2).apply {
                         next = ListNode(2)
                     }
                 }
-            }
-            println(r.deleteDuplicates(node1122))
+            }))
         }
     }
 

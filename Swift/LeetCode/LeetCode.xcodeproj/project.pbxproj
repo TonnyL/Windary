@@ -85,6 +85,8 @@
 		BAA6F09E1FCBDD460021B04F /* SameTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA6F09D1FCBDD460021B04F /* SameTreeTests.swift */; };
 		BAC3504E1FC881DC00E35287 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3504D1FC881DC00E35287 /* LongestSubstringWithoutRepeatingCharacters.swift */; };
 		BAC350501FC88C5E00E35287 /* LongestSubstringWithoutRepeatingCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3504F1FC88C5E00E35287 /* LongestSubstringWithoutRepeatingCharactersTests.swift */; };
+		BAEB1A781FCEA091007B4129 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB1A771FCEA091007B4129 /* RotateImage.swift */; };
+		BAEB1A7A1FCEA282007B4129 /* RotateImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */; };
 		D65A505D2258A3E94C43E65A /* SqrtXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A5D9AFC3B1D9099763811 /* SqrtXTests.swift */; };
 		D65A51746A077C5A25075447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65A53937B34936CEBF08482 /* Assets.xcassets */; };
 		D65A526B773D624EC371F97E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A58BE5468F921B3A7A679 /* ViewController.swift */; };
@@ -188,6 +190,8 @@
 		BAA6F09D1FCBDD460021B04F /* SameTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTreeTests.swift; sourceTree = "<group>"; };
 		BAC3504D1FC881DC00E35287 /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 		BAC3504F1FC88C5E00E35287 /* LongestSubstringWithoutRepeatingCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharactersTests.swift; sourceTree = "<group>"; };
+		BAEB1A771FCEA091007B4129 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
+		BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageTests.swift; sourceTree = "<group>"; };
 		D65A53577369258404F169DD /* SimplifyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifyPath.swift; sourceTree = "<group>"; };
 		D65A53937B34936CEBF08482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D65A53BEBBD867F85121A1D1 /* LeetCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeTests.swift; sourceTree = "<group>"; };
@@ -284,6 +288,7 @@
 				BA96975E1FCC099B00C5FFDE /* SortColors.swift */,
 				BA1261731FCC6E730044E9A8 /* BinaryTreeInorderTraversal.swift */,
 				BA28EB511FCD53A4007819DC /* UniqueBinarySearchTrees.swift */,
+				BAEB1A771FCEA091007B4129 /* RotateImage.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -335,6 +340,7 @@
 				BA9697601FCC09E800C5FFDE /* SortColorsTests.swift */,
 				BA1261751FCC70080044E9A8 /* BinaryTreeInorderTraversalTests.swift */,
 				BA28EB531FCD5449007819DC /* UniqueBinarySearchTreesTests.swift */,
+				BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -443,6 +449,7 @@
 				BA57E6EC1FCAA8570054C4A4 /* SpiralMatrix.swift in Sources */,
 				BA97ED071FC94DAD000A3DFF /* ContainerWithMostWater.swift in Sources */,
 				BA97ED281FC998EB000A3DFF /* RemoveElement.swift in Sources */,
+				BAEB1A781FCEA091007B4129 /* RotateImage.swift in Sources */,
 				BA57E6DC1FCA88850054C4A4 /* ValidSudoku.swift in Sources */,
 				BAA6F0981FCBDA3D0021B04F /* GrayCode.swift in Sources */,
 				BA57E6F41FCAB2160054C4A4 /* SpiralMatrixII.swift in Sources */,
@@ -502,6 +509,7 @@
 				BA57E7021FCB083E0054C4A4 /* MinimumPathSumTests.swift in Sources */,
 				BA97ED011FC93C65000A3DFF /* StringToIntegerAtoiTests.swift in Sources */,
 				BA57E6DE1FCA8D610054C4A4 /* ValidSudokuTests.swift in Sources */,
+				BAEB1A7A1FCEA282007B4129 /* RotateImageTests.swift in Sources */,
 				BA57E6E61FCAA1580054C4A4 /* GroupAnagramsTests.swift in Sources */,
 				BAC350501FC88C5E00E35287 /* LongestSubstringWithoutRepeatingCharactersTests.swift in Sources */,
 				BAA6F09E1FCBDD460021B04F /* SameTreeTests.swift in Sources */,
