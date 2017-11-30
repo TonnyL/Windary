@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA1261741FCC6E730044E9A8 /* BinaryTreeInorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1261731FCC6E730044E9A8 /* BinaryTreeInorderTraversal.swift */; };
 		BA1261761FCC70080044E9A8 /* BinaryTreeInorderTraversalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1261751FCC70080044E9A8 /* BinaryTreeInorderTraversalTests.swift */; };
+		BA1780231FCFFE24004293A6 /* ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1780221FCFFE24004293A6 /* ZigZagConversion.swift */; };
+		BA1780251FCFFE2F004293A6 /* ZigZagConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1780241FCFFE2F004293A6 /* ZigZagConversionTests.swift */; };
 		BA28EB521FCD53A4007819DC /* UniqueBinarySearchTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28EB511FCD53A4007819DC /* UniqueBinarySearchTrees.swift */; };
 		BA28EB541FCD5449007819DC /* UniqueBinarySearchTreesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28EB531FCD5449007819DC /* UniqueBinarySearchTreesTests.swift */; };
 		BA57E6D01FCA80770054C4A4 /* SearchInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E6CF1FCA80770054C4A4 /* SearchInRotatedSortedArray.swift */; };
@@ -114,6 +116,8 @@
 /* Begin PBXFileReference section */
 		BA1261731FCC6E730044E9A8 /* BinaryTreeInorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeInorderTraversal.swift; sourceTree = "<group>"; };
 		BA1261751FCC70080044E9A8 /* BinaryTreeInorderTraversalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeInorderTraversalTests.swift; sourceTree = "<group>"; };
+		BA1780221FCFFE24004293A6 /* ZigZagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversion.swift; sourceTree = "<group>"; };
+		BA1780241FCFFE2F004293A6 /* ZigZagConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversionTests.swift; sourceTree = "<group>"; };
 		BA28EB511FCD53A4007819DC /* UniqueBinarySearchTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueBinarySearchTrees.swift; sourceTree = "<group>"; };
 		BA28EB531FCD5449007819DC /* UniqueBinarySearchTreesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueBinarySearchTreesTests.swift; sourceTree = "<group>"; };
 		BA57E6CF1FCA80770054C4A4 /* SearchInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInRotatedSortedArray.swift; sourceTree = "<group>"; };
@@ -289,6 +293,7 @@
 				BA1261731FCC6E730044E9A8 /* BinaryTreeInorderTraversal.swift */,
 				BA28EB511FCD53A4007819DC /* UniqueBinarySearchTrees.swift */,
 				BAEB1A771FCEA091007B4129 /* RotateImage.swift */,
+				BA1780221FCFFE24004293A6 /* ZigZagConversion.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -341,6 +346,7 @@
 				BA1261751FCC70080044E9A8 /* BinaryTreeInorderTraversalTests.swift */,
 				BA28EB531FCD5449007819DC /* UniqueBinarySearchTreesTests.swift */,
 				BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */,
+				BA1780241FCFFE2F004293A6 /* ZigZagConversionTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -464,6 +470,7 @@
 				BAA6F0801FCBAEA30021B04F /* SetMatrixZeroes.swift in Sources */,
 				BA97ED0F1FC95427000A3DFF /* LongestCommonPrefix.swift in Sources */,
 				BA57E7041FCB0C7A0054C4A4 /* PlusOne.swift in Sources */,
+				BA1780231FCFFE24004293A6 /* ZigZagConversion.swift in Sources */,
 				BAA6F0881FCBC73C0021B04F /* RemoveDuplicatesFromSortedArrayII.swift in Sources */,
 				BA57E6FC1FCAB8E90054C4A4 /* UniquePathsII.swift in Sources */,
 				BAA6F0901FCBD29E0021B04F /* RemoveDuplicatesFromSortedList.swift in Sources */,
@@ -525,6 +532,7 @@
 				BA97ED221FC991FA000A3DFF /* ValidParenthesesTests.swift in Sources */,
 				BA97ED2E1FC99FB1000A3DFF /* ImplementStrStrTests.swift in Sources */,
 				BA57E6E21FCA9AEB0054C4A4 /* CountAndSayTests.swift in Sources */,
+				BA1780251FCFFE2F004293A6 /* ZigZagConversionTests.swift in Sources */,
 				D65A505D2258A3E94C43E65A /* SqrtXTests.swift in Sources */,
 				BA97ED091FC94E9E000A3DFF /* ContainerWithMostWaterTests.swift in Sources */,
 				D65A535C30EC757CB86F02F5 /* SimplifyPathTests.swift in Sources */,
