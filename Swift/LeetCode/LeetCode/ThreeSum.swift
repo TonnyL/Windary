@@ -62,8 +62,8 @@ class ThreeSum {
         }
         
         var lists = Array<Array<Int>>.init()
-        set.forEach{t in
-            lists.append([t.a, t.b, t.c])
+        set.forEach{
+            lists.append([$0.a, $0.b, $0.c])
         }
         
         return lists
