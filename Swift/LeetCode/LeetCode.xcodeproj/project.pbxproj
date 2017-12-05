@@ -43,6 +43,8 @@
 		BA57E7061FCB0DF50054C4A4 /* PlusOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E7051FCB0DF50054C4A4 /* PlusOneTests.swift */; };
 		BA57E7081FCB0F690054C4A4 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E7071FCB0F690054C4A4 /* AddBinary.swift */; };
 		BA57E70A1FCB12CB0054C4A4 /* AddBinaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E7091FCB12CB0054C4A4 /* AddBinaryTests.swift */; };
+		BA5E0ED91FD6598C00089B61 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E0ED81FD6598C00089B61 /* Permutations.swift */; };
+		BA5E0EDB1FD6599600089B61 /* PermutationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E0EDA1FD6599600089B61 /* PermutationsTests.swift */; };
 		BA6C11B41FC86710008DACF9 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B31FC86710008DACF9 /* TwoSum.swift */; };
 		BA6C11B61FC8689C008DACF9 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */; };
 		BA6C11B81FC86A5B008DACF9 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */; };
@@ -154,6 +156,8 @@
 		BA57E7051FCB0DF50054C4A4 /* PlusOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneTests.swift; sourceTree = "<group>"; };
 		BA57E7071FCB0F690054C4A4 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
 		BA57E7091FCB12CB0054C4A4 /* AddBinaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinaryTests.swift; sourceTree = "<group>"; };
+		BA5E0ED81FD6598C00089B61 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
+		BA5E0EDA1FD6599600089B61 /* PermutationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsTests.swift; sourceTree = "<group>"; };
 		BA6C11B31FC86710008DACF9 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
@@ -304,6 +308,7 @@
 				BA1780221FCFFE24004293A6 /* ZigZagConversion.swift */,
 				BAD517001FD40AF500850531 /* ThreeSum.swift */,
 				BAC830081FD53312005E345F /* GenerateParentheses.swift */,
+				BA5E0ED81FD6598C00089B61 /* Permutations.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -359,6 +364,7 @@
 				BA1780241FCFFE2F004293A6 /* ZigZagConversionTests.swift */,
 				BAD517021FD411B900850531 /* ThreeSumTests.swift */,
 				BAC8300A1FD53537005E345F /* GenerateParenthesesTests.swift */,
+				BA5E0EDA1FD6599600089B61 /* PermutationsTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -494,6 +500,7 @@
 				BAC3504E1FC881DC00E35287 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				BA97ED0B1FC9500C000A3DFF /* RomanToInteger.swift in Sources */,
 				BA57E6D81FCA86450054C4A4 /* SearchInsertPosition.swift in Sources */,
+				BA5E0ED91FD6598C00089B61 /* Permutations.swift in Sources */,
 				BAC830091FD53312005E345F /* GenerateParentheses.swift in Sources */,
 				D65A55B0CDBE73018558E6CC /* SimplifyPath.swift in Sources */,
 				BA57E7081FCB0F690054C4A4 /* AddBinary.swift in Sources */,
@@ -516,6 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5E0EDB1FD6599600089B61 /* PermutationsTests.swift in Sources */,
 				BA97ED111FC95CE5000A3DFF /* LongestCommonPrefixTests.swift in Sources */,
 				BA9697611FCC09E800C5FFDE /* SortColorsTests.swift in Sources */,
 				BAA6F08A1FCBC74D0021B04F /* RemoveDuplicatesFromSortedArrayIITests.swift in Sources */,
