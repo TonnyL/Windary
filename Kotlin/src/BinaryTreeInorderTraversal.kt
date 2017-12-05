@@ -62,14 +62,14 @@ class BinaryTreeInorderTraversal {
         fun main(args: Array<String>) {
             val b = BinaryTreeInorderTraversal()
 
-            println("[${b.inorderTraversal(null).joinToString()}]")
+            println(b.inorderTraversal(null))
 
             val node132 = TreeNode(1).apply {
                 right = TreeNode(2).apply {
                     left = TreeNode(3)
                 }
             }
-            println("[${b.inorderTraversal(node132).joinToString()}]")
+            println(b.inorderTraversal(node132))
 
             val node4251637 = TreeNode(1).apply {
                 left = TreeNode(2).apply {
@@ -81,7 +81,7 @@ class BinaryTreeInorderTraversal {
                     right = TreeNode(7)
                 }
             }
-            println("[${b.inorderTraversal(node4251637).joinToString()}]")
+            println(b.inorderTraversal(node4251637))
         }
     }
 

@@ -70,22 +70,14 @@ public class BinaryTreeInorderTraversal {
     public static void main(String[] args) {
         BinaryTreeInorderTraversal b = new BinaryTreeInorderTraversal();
 
-        System.out.print("[");
-        b.inorderTraversal(null).forEach(integer -> {
-            System.out.print(integer + ",");
-        });
-        System.out.println("]");
+        System.out.println(b.inorderTraversal(null));
 
         TreeNode node132 = new TreeNode(1);
         TreeNode right = new TreeNode(2);
         right.left = new TreeNode(3);
         node132.right = right;
 
-        System.out.print("[");
-        b.inorderTraversal(node132).forEach(integer -> {
-            System.out.print(integer + ",");
-        });
-        System.out.println("]");
+        System.out.println(b.inorderTraversal(node132));
 
         TreeNode node4251637 = new TreeNode(1);
         TreeNode node2 = new TreeNode(2);
@@ -97,11 +89,7 @@ public class BinaryTreeInorderTraversal {
         node4251637.left = node2;
         node4251637.right = node3;
 
-        System.out.print("[");
-        b.inorderTraversal(node4251637).forEach(integer -> {
-            System.out.print(integer + ",");
-        });
-        System.out.println("]");
+        System.out.println(b.inorderTraversal(node4251637));
     }
 
 }

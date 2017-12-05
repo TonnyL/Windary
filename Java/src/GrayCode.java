@@ -47,22 +47,13 @@ public class GrayCode {
         GrayCode gc = new GrayCode();
 
         // Expected: [0]
-        for (int i : gc.grayCode(0)) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
+        System.out.println(gc.grayCode(0));
 
         // Expected: [0, 1, 3, 2]
-        for (int i : gc.grayCode(2)) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
+        System.out.println(gc.grayCode(2));
 
         // Expected: [0, 1, 3, 2, 6, 7, 5, 4]
-        for (int i : gc.grayCode(3)) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
+        System.out.println(gc.grayCode(3));
     }
 
 }

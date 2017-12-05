@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
@@ -55,20 +54,20 @@ public class GenerateParentheses {
         GenerateParentheses gp = new GenerateParentheses();
 
         // Expected: []
-        System.out.println("[" + gp.generateParenthesis(0).stream().collect(Collectors.joining(",")) + "]");
+        System.out.println(gp.generateParenthesis(0));
 
         // Expected: [()]
-        System.out.println("[" + gp.generateParenthesis(1).stream().collect(Collectors.joining(",")) + "]");
+        System.out.println(gp.generateParenthesis(1));
 
         // Expected: [()(), (())]
-        System.out.println("[" + gp.generateParenthesis(2).stream().collect(Collectors.joining(",")) + "]");
+        System.out.println(gp.generateParenthesis(2));
 
         // Expected: [()()(), ()(()), (()()), (())(), ((()))]
-        System.out.println("[" + gp.generateParenthesis(3).stream().collect(Collectors.joining(",")) + "]");
+        System.out.println(gp.generateParenthesis(3));
 
         // Expected: [()()()(), (()(())), (()())(), ()()(()), (())()(), (((()))), (())(()),
         // ()((())), ()(())(), ()(()()), (()()()), ((()())), ((()))(), ((())())]
-        System.out.println("[" + gp.generateParenthesis(4).stream().collect(Collectors.joining(",")) + "]");
+        System.out.println(gp.generateParenthesis(4));
     }
 
 }

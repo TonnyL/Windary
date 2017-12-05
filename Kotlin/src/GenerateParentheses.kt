@@ -52,20 +52,20 @@ class GenerateParentheses {
             val gp = GenerateParentheses()
 
             // Expected: []
-            println("[" + gp.generateParenthesis(0).joinToString() + "]")
+            println(gp.generateParenthesis(0))
 
             // Expected: [()]
-            println("[" + gp.generateParenthesis(1).joinToString() + "]")
+            println(gp.generateParenthesis(1))
 
             // Expected: [()(), (())]
-            println("[" + gp.generateParenthesis(2).joinToString() + "]")
+            println(gp.generateParenthesis(2))
 
             // Expected: [()()(), ()(()), (()()), (())(), ((()))]
-            println("[" + gp.generateParenthesis(3).joinToString() + "]")
+            println(gp.generateParenthesis(3))
 
             // Expected: [()()()(), (()(())), (()())(), ()()(()), (())()(), (((()))), (())(()),
             // ()((())), ()(())(), ()(()()), (()()()), ((()())), ((()))(), ((())())]
-            println("[" + gp.generateParenthesis(4).joinToString() + "]")
+            println(gp.generateParenthesis(4))
         }
     }
 

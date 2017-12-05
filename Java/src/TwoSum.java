@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 /**
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
@@ -13,16 +14,6 @@
  */
 public class TwoSum {
 
-    public static void main(String[] args) {
-        int[] nums = new int[]{2, 5, 5, 11};
-        int target = 10;
-
-        int[] result = new TwoSum().twoSum(nums, target);
-        for (int aResult : result) {
-            System.out.print(aResult);
-        }
-    }
-
     public int[] twoSum(int[] nums, int target) {
 
         for (int i = 0; i < nums.length; i++) {
@@ -34,7 +25,13 @@ public class TwoSum {
         }
 
         return new int[]{0, 0};
+    }
 
+    public static void main(String[] args) {
+        int[] nums = new int[]{2, 5, 5, 11};
+        int target = 10;
+
+        System.out.println(Arrays.toString(new TwoSum().twoSum(nums, target)));
     }
 
 }

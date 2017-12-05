@@ -1,3 +1,5 @@
+import java.util.*
+
 /**
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
  * You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -28,10 +30,7 @@ class TwoSum {
             val nums = intArrayOf(2, 5, 5, 11)
             val target = 10
 
-            val result = TwoSum().twoSum(nums, target)
-            for (i in result) {
-                System.out.print("$i ")
-            }
+            println(Arrays.toString(TwoSum().twoSum(nums, target)))
         }
     }
 

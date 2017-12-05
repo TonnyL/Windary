@@ -92,40 +92,16 @@ public class ThreeSum {
         ThreeSum ts = new ThreeSum();
 
         // Expected: []
-        System.out.print("[");
-        ts.threeSum(new int[]{-1, 0}).forEach(list -> {
-            System.out.print("[");
-            list.forEach(i -> System.out.print(i + ","));
-            System.out.print("]");
-        });
-        System.out.println("]");
+        System.out.println(ts.threeSum(new int[]{-1, 0}));
 
         // Expected: [[-1, -1, 2], [-1, 0, 1]]
-        System.out.print("[");
-        ts.threeSum(new int[]{-1, 0, 1, 2, -1, -4}).forEach(list -> {
-            System.out.print("[");
-            list.forEach(i -> System.out.print(i + ","));
-            System.out.print("]");
-        });
-        System.out.println("]");
+        System.out.println(ts.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
 
         // Expected: [[0, 0, 0]]
-        System.out.print("[");
-        ts.threeSum(new int[]{0, 0, 0}).forEach(list -> {
-            System.out.print("[");
-            list.forEach(i -> System.out.print(i + ","));
-            System.out.print("]");
-        });
-        System.out.println("]");
+        System.out.println(ts.threeSum(new int[]{0, 0, 0}));
 
         // Expected: [[-4, -2, 6], [-4, 0, 4], [-4, 1, 3], [-4, 2, 2], [-2, -2, 4], [-2, 0, 2]]
-        System.out.print("[");
-        ts.threeSum(new int[]{-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6}).forEach(list -> {
-            System.out.print("[");
-            list.forEach(i -> System.out.print(i + ","));
-            System.out.print("]");
-        });
-        System.out.println("]");
+        System.out.println(ts.threeSum(new int[]{-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6}));
     }
 
 }

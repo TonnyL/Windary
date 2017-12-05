@@ -81,6 +81,8 @@ class AddTwoNumbers {
      */
     class ListNode internal constructor(internal var `val`: Int) {
         internal var next: ListNode? = null
+
+        override fun toString(): String = "ListNode val: $`val` next -> $next"
     }
 
     companion object {
@@ -109,10 +111,10 @@ class AddTwoNumbers {
             val result243And564 = atn.addTwoNumbers(node243, node564)
             val result1And99 = atn.addTwoNumbers(node1, node99)
 
-            println("result: [0] + [0] -> " + result0?.`val`)
-            println("result: [5] + [5] -> " + result5?.`val` + " -> " + result5?.next?.`val`)
-            println("result: [2,4,3] + [5,6,4] -> " + result243And564?.`val` + " -> " + result243And564?.next?.`val` + " -> " + result243And564?.next?.next?.`val`)
-            println("result: [1] + [9,9] -> " + result1And99?.`val` + " -> " + result1And99?.next!!.`val` + " -> " + result1And99.next?.next?.`val`)
+            println("result: [0] + [0] -> $result0")
+            println("result: [5] + [5] -> $result5")
+            println("result: [2,4,3] + [5,6,4] -> $result243And564")
+            println("result: [1] + [9,9] -> $result1And99")
 
         }
     }

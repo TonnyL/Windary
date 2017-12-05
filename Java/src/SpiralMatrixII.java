@@ -54,9 +54,7 @@ public class SpiralMatrixII {
         // Expected: []
         System.out.print("[");
         Arrays.stream(sm.generateMatrix(0)).forEach(ints -> {
-            System.out.print("[");
-            Arrays.stream(ints).forEach(it -> System.out.print(it + ","));
-            System.out.print("],");
+            System.out.print(Arrays.toString(ints) + ", ");
         });
         System.out.println("]");
 
@@ -66,9 +64,7 @@ public class SpiralMatrixII {
         // ]
         System.out.print("[");
         Arrays.stream(sm.generateMatrix(1)).forEach(ints -> {
-            System.out.print("[");
-            Arrays.stream(ints).forEach(it -> System.out.print(it + ","));
-            System.out.print("],");
+            System.out.print(Arrays.toString(ints) + ", ");
         });
         System.out.println("]");
 
@@ -79,9 +75,7 @@ public class SpiralMatrixII {
         // ]
         System.out.print("[");
         Arrays.stream(sm.generateMatrix(2)).forEach(ints -> {
-            System.out.print("[");
-            Arrays.stream(ints).forEach(it -> System.out.print(it + ","));
-            System.out.print("],");
+            System.out.print(Arrays.toString(ints) + ", ");
         });
         System.out.println("]");
 
@@ -94,12 +88,9 @@ public class SpiralMatrixII {
         // ]
         System.out.print("[");
         Arrays.stream(sm.generateMatrix(4)).forEach(ints -> {
-            System.out.print("[");
-            Arrays.stream(ints).forEach(it -> System.out.print(it + ","));
-            System.out.print("],");
+            System.out.print(Arrays.toString(ints) + ", ");
         });
         System.out.println("]");
-
     }
 
 }

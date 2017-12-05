@@ -1,3 +1,5 @@
+import java.util.*
+
 /**
  * Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
  *
@@ -67,32 +69,20 @@ class SpiralMatrixII {
             val sm = SpiralMatrixII()
 
             // Expected: []
-            print("[")
-            sm.generateMatrix(0).forEach {
-                print("[${it.joinToString()}],")
-            }
-            println("]")
+            println("[${sm.generateMatrix(0).joinToString { "[${it.joinToString()}]" }}]")
 
             // Expected:
             // [
             //  [1]
             // ]
-            print("[")
-            sm.generateMatrix(1).forEach {
-                print("[${it.joinToString()}],")
-            }
-            println("]")
+            println("[${sm.generateMatrix(1).joinToString { "[${it.joinToString()}]" }}]")
 
             // Expected:
             // [
             //  [1, 2],
             //  [4, 3]
             // ]
-            print("[")
-            sm.generateMatrix(2).forEach {
-                print("[${it.joinToString()}],")
-            }
-            println("]")
+            println("[${sm.generateMatrix(2).joinToString { "[${it.joinToString()}]" }}]")
 
             // Expected:
             // [
@@ -101,13 +91,7 @@ class SpiralMatrixII {
             //  [11, 16, 15, 6],
             //  [10, 9, 8, 7]
             // ]
-
-            print("[")
-            sm.generateMatrix(4).forEach {
-                print("[${it.joinToString()}],")
-            }
-            println("]")
-
+            println("[${sm.generateMatrix(4).joinToString { "[${it.joinToString()}]" }}]")
         }
     }
 

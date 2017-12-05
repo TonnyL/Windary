@@ -41,8 +41,7 @@ class GroupAnagrams {
             // [
             //  []
             // ]
-            println("[${ga.groupAnagrams(arrayOf())
-                    .joinToString { "[${it.joinToString { it }}]" }}]")
+            println(ga.groupAnagrams(arrayOf()))
 
             // Expected:
             // [
@@ -50,8 +49,7 @@ class GroupAnagrams {
             //  ["nat","tan"],
             //  ["bat"]
             // ]
-            println("[${ga.groupAnagrams(arrayOf("eat", "tea", "tan", "ate", "nat", "bat"))
-                    .joinToString { "[${it.joinToString { it }}]" }}]")
+            println(ga.groupAnagrams(arrayOf("eat", "tea", "tan", "ate", "nat", "bat")))
         }
     }
 

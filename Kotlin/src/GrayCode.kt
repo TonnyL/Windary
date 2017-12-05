@@ -38,16 +38,13 @@ class GrayCode {
             val gc = GrayCode()
 
             // Expected: [0]
-            gc.grayCode(0).forEach { print("$it ") }
-            println()
+            println(gc.grayCode(0))
 
             // Expected: [0, 1, 3, 2]
-            gc.grayCode(2).forEach { print("$it ") }
-            println()
+            println(gc.grayCode(2))
 
             // Expected: [0, 1, 3, 2, 6, 7, 5, 4]
-            gc.grayCode(3).forEach { print("$it ") }
-            println()
+            println(gc.grayCode(3))
         }
     }
 

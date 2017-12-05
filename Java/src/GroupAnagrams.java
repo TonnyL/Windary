@@ -42,13 +42,7 @@ public class GroupAnagrams {
         // [
         //  []
         // ]
-        System.out.print("[");
-        for (List<String> list : ga.groupAnagrams(new String[]{})) {
-            System.out.print("[");
-            list.forEach(s -> System.out.print(s + ","));
-            System.out.print("],");
-        }
-        System.out.println("]");
+        System.out.println(ga.groupAnagrams(new String[]{}));
 
         // Expected:
         // [
@@ -56,13 +50,7 @@ public class GroupAnagrams {
         //  ["nat","tan"],
         //  ["bat"]
         // ]
-        System.out.print("[");
-        for (List<String> list : ga.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"})) {
-            System.out.print("[");
-            list.forEach(s -> System.out.print(s + ","));
-            System.out.print("],");
-        }
-        System.out.println("]");
+        System.out.println(ga.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
     }
 
 }
