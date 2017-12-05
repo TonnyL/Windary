@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA1261741FCC6E730044E9A8 /* BinaryTreeInorderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1261731FCC6E730044E9A8 /* BinaryTreeInorderTraversal.swift */; };
 		BA1261761FCC70080044E9A8 /* BinaryTreeInorderTraversalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1261751FCC70080044E9A8 /* BinaryTreeInorderTraversalTests.swift */; };
+		BA13C7A61FD6789600EC7943 /* PermutationsII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA13C7A51FD6789600EC7943 /* PermutationsII.swift */; };
+		BA13C7A81FD678A300EC7943 /* PermutationsIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA13C7A71FD678A300EC7943 /* PermutationsIITests.swift */; };
 		BA1780231FCFFE24004293A6 /* ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1780221FCFFE24004293A6 /* ZigZagConversion.swift */; };
 		BA1780251FCFFE2F004293A6 /* ZigZagConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1780241FCFFE2F004293A6 /* ZigZagConversionTests.swift */; };
 		BA28EB521FCD53A4007819DC /* UniqueBinarySearchTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28EB511FCD53A4007819DC /* UniqueBinarySearchTrees.swift */; };
@@ -122,6 +124,8 @@
 /* Begin PBXFileReference section */
 		BA1261731FCC6E730044E9A8 /* BinaryTreeInorderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeInorderTraversal.swift; sourceTree = "<group>"; };
 		BA1261751FCC70080044E9A8 /* BinaryTreeInorderTraversalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeInorderTraversalTests.swift; sourceTree = "<group>"; };
+		BA13C7A51FD6789600EC7943 /* PermutationsII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsII.swift; sourceTree = "<group>"; };
+		BA13C7A71FD678A300EC7943 /* PermutationsIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsIITests.swift; sourceTree = "<group>"; };
 		BA1780221FCFFE24004293A6 /* ZigZagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversion.swift; sourceTree = "<group>"; };
 		BA1780241FCFFE2F004293A6 /* ZigZagConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversionTests.swift; sourceTree = "<group>"; };
 		BA28EB511FCD53A4007819DC /* UniqueBinarySearchTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueBinarySearchTrees.swift; sourceTree = "<group>"; };
@@ -309,6 +313,7 @@
 				BAD517001FD40AF500850531 /* ThreeSum.swift */,
 				BAC830081FD53312005E345F /* GenerateParentheses.swift */,
 				BA5E0ED81FD6598C00089B61 /* Permutations.swift */,
+				BA13C7A51FD6789600EC7943 /* PermutationsII.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -365,6 +370,7 @@
 				BAD517021FD411B900850531 /* ThreeSumTests.swift */,
 				BAC8300A1FD53537005E345F /* GenerateParenthesesTests.swift */,
 				BA5E0EDA1FD6599600089B61 /* PermutationsTests.swift */,
+				BA13C7A71FD678A300EC7943 /* PermutationsIITests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -471,6 +477,7 @@
 				BAA6F0941FCBD7260021B04F /* MergeSortedArray.swift in Sources */,
 				BA97ED241FC99351000A3DFF /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				BA57E6EC1FCAA8570054C4A4 /* SpiralMatrix.swift in Sources */,
+				BA13C7A61FD6789600EC7943 /* PermutationsII.swift in Sources */,
 				BA97ED071FC94DAD000A3DFF /* ContainerWithMostWater.swift in Sources */,
 				BA97ED281FC998EB000A3DFF /* RemoveElement.swift in Sources */,
 				BAEB1A781FCEA091007B4129 /* RotateImage.swift in Sources */,
@@ -563,6 +570,7 @@
 				BA28EB541FCD5449007819DC /* UniqueBinarySearchTreesTests.swift in Sources */,
 				BA6C11B61FC8689C008DACF9 /* TwoSumTests.swift in Sources */,
 				BAA6F0961FCBD72E0021B04F /* MergeSortedArrayTests.swift in Sources */,
+				BA13C7A81FD678A300EC7943 /* PermutationsIITests.swift in Sources */,
 				BAD517031FD411B900850531 /* ThreeSumTests.swift in Sources */,
 				BA57E6FE1FCABAE30054C4A4 /* UniquePathsIITests.swift in Sources */,
 				BAA6F0861FCBBED50021B04F /* SearchA2DMatrixTests.swift in Sources */,
