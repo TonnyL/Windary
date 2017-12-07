@@ -5,6 +5,9 @@
 //  Created by 黎赵太郎 on 07/12/2017.
 //  Copyright © 2017 lizhaotailang. All rights reserved.
 //
+//
+//  Test cases for [MergeTwoSortedLists](./LeetCode/MergeTwoSortedLists.swift).
+//
 
 import XCTest
 @testable import LeetCode

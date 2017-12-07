@@ -5,6 +5,16 @@
 //  Created by 黎赵太郎 on 07/12/2017.
 //  Copyright © 2017 lizhaotailang. All rights reserved.
 //
+//  Merge two sorted linked lists and return it as a new list.
+//  The new list should be made by splicing together the nodes of the first two lists.
+//
+//  Example:
+//
+//  Input: 1->2->4, 1->3->4
+//  Output: 1->1->2->3->4->4
+//
+//  Accepted. See [MergeTwoSortedListsTests](./LeetCodeTests/MergeTwoSortedListsTests.swift) for test cases.
+//
 
 import Foundation
 
