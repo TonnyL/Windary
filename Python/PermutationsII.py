@@ -10,7 +10,7 @@
 # [2,1,1]
 # ]
 #
-#
+# Python, Python 3 all accepted.
 class PermutationsII:
     def permuteUnique(self, nums):
         """

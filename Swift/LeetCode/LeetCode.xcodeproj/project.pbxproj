@@ -51,6 +51,8 @@
 		BA6C11B61FC8689C008DACF9 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */; };
 		BA6C11B81FC86A5B008DACF9 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */; };
 		BA6C11BA1FC86EB2008DACF9 /* AddTwoNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B91FC86EB2008DACF9 /* AddTwoNumbersTests.swift */; };
+		BA8D362B1FD94D9C00073066 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8D362A1FD94D9C00073066 /* MergeTwoSortedLists.swift */; };
+		BA8D362D1FD94DAC00073066 /* MergeTwoSortedListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8D362C1FD94DAC00073066 /* MergeTwoSortedListsTests.swift */; };
 		BA96975F1FCC099B00C5FFDE /* SortColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA96975E1FCC099B00C5FFDE /* SortColors.swift */; };
 		BA9697611FCC09E800C5FFDE /* SortColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9697601FCC09E800C5FFDE /* SortColorsTests.swift */; };
 		BA97ECFB1FC924AF000A3DFF /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97ECFA1FC924AF000A3DFF /* ReverseInteger.swift */; };
@@ -166,6 +168,8 @@
 		BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		BA6C11B91FC86EB2008DACF9 /* AddTwoNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersTests.swift; sourceTree = "<group>"; };
+		BA8D362A1FD94D9C00073066 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		BA8D362C1FD94DAC00073066 /* MergeTwoSortedListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedListsTests.swift; sourceTree = "<group>"; };
 		BA96975E1FCC099B00C5FFDE /* SortColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortColors.swift; sourceTree = "<group>"; };
 		BA9697601FCC09E800C5FFDE /* SortColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortColorsTests.swift; sourceTree = "<group>"; };
 		BA97ECFA1FC924AF000A3DFF /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
@@ -314,6 +318,7 @@
 				BAC830081FD53312005E345F /* GenerateParentheses.swift */,
 				BA5E0ED81FD6598C00089B61 /* Permutations.swift */,
 				BA13C7A51FD6789600EC7943 /* PermutationsII.swift */,
+				BA8D362A1FD94D9C00073066 /* MergeTwoSortedLists.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -371,6 +376,7 @@
 				BAC8300A1FD53537005E345F /* GenerateParenthesesTests.swift */,
 				BA5E0EDA1FD6599600089B61 /* PermutationsTests.swift */,
 				BA13C7A71FD678A300EC7943 /* PermutationsIITests.swift */,
+				BA8D362C1FD94DAC00073066 /* MergeTwoSortedListsTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -480,6 +486,7 @@
 				BA13C7A61FD6789600EC7943 /* PermutationsII.swift in Sources */,
 				BA97ED071FC94DAD000A3DFF /* ContainerWithMostWater.swift in Sources */,
 				BA97ED281FC998EB000A3DFF /* RemoveElement.swift in Sources */,
+				BA8D362B1FD94D9C00073066 /* MergeTwoSortedLists.swift in Sources */,
 				BAEB1A781FCEA091007B4129 /* RotateImage.swift in Sources */,
 				BA57E6DC1FCA88850054C4A4 /* ValidSudoku.swift in Sources */,
 				BAA6F0981FCBDA3D0021B04F /* GrayCode.swift in Sources */,
@@ -566,6 +573,7 @@
 				D65A505D2258A3E94C43E65A /* SqrtXTests.swift in Sources */,
 				BA97ED091FC94E9E000A3DFF /* ContainerWithMostWaterTests.swift in Sources */,
 				D65A535C30EC757CB86F02F5 /* SimplifyPathTests.swift in Sources */,
+				BA8D362D1FD94DAC00073066 /* MergeTwoSortedListsTests.swift in Sources */,
 				D65A5E8086417B191C25B76C /* ClimbingStairsTest.swift in Sources */,
 				BA28EB541FCD5449007819DC /* UniqueBinarySearchTreesTests.swift in Sources */,
 				BA6C11B61FC8689C008DACF9 /* TwoSumTests.swift in Sources */,
