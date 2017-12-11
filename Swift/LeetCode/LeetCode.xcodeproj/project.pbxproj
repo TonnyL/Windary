@@ -101,6 +101,8 @@
 		BADC96191FD968EF00B63351 /* RemoveNthNodeFromEndOfListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC96181FD968EF00B63351 /* RemoveNthNodeFromEndOfListTests.swift */; };
 		BAEB1A781FCEA091007B4129 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB1A771FCEA091007B4129 /* RotateImage.swift */; };
 		BAEB1A7A1FCEA282007B4129 /* RotateImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */; };
+		BAF97EAB1FDEBF1D0039845A /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF97EAA1FDEBF1D0039845A /* Subsets.swift */; };
+		BAF97EAD1FDEBF2B0039845A /* SubsetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF97EAC1FDEBF2B0039845A /* SubsetsTests.swift */; };
 		D65A505D2258A3E94C43E65A /* SqrtXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A5D9AFC3B1D9099763811 /* SqrtXTests.swift */; };
 		D65A51746A077C5A25075447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65A53937B34936CEBF08482 /* Assets.xcassets */; };
 		D65A526B773D624EC371F97E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A58BE5468F921B3A7A679 /* ViewController.swift */; };
@@ -220,6 +222,8 @@
 		BADC96181FD968EF00B63351 /* RemoveNthNodeFromEndOfListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfListTests.swift; sourceTree = "<group>"; };
 		BAEB1A771FCEA091007B4129 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
 		BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageTests.swift; sourceTree = "<group>"; };
+		BAF97EAA1FDEBF1D0039845A /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
+		BAF97EAC1FDEBF2B0039845A /* SubsetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsetsTests.swift; sourceTree = "<group>"; };
 		D65A53577369258404F169DD /* SimplifyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifyPath.swift; sourceTree = "<group>"; };
 		D65A53937B34936CEBF08482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D65A53BEBBD867F85121A1D1 /* LeetCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeTests.swift; sourceTree = "<group>"; };
@@ -324,6 +328,7 @@
 				BA13C7A51FD6789600EC7943 /* PermutationsII.swift */,
 				BA8D362A1FD94D9C00073066 /* MergeTwoSortedLists.swift */,
 				BADC96161FD968E100B63351 /* RemoveNthNodeFromEndOfList.swift */,
+				BAF97EAA1FDEBF1D0039845A /* Subsets.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -383,6 +388,7 @@
 				BA13C7A71FD678A300EC7943 /* PermutationsIITests.swift */,
 				BA8D362C1FD94DAC00073066 /* MergeTwoSortedListsTests.swift */,
 				BADC96181FD968EF00B63351 /* RemoveNthNodeFromEndOfListTests.swift */,
+				BAF97EAC1FDEBF2B0039845A /* SubsetsTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -520,6 +526,7 @@
 				BAA6F08C1FCBCB9A0021B04F /* RemoveDuplicatesFromSortedListII.swift in Sources */,
 				BAC3504E1FC881DC00E35287 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				BA97ED0B1FC9500C000A3DFF /* RomanToInteger.swift in Sources */,
+				BAF97EAB1FDEBF1D0039845A /* Subsets.swift in Sources */,
 				BA57E6D81FCA86450054C4A4 /* SearchInsertPosition.swift in Sources */,
 				BA5E0ED91FD6598C00089B61 /* Permutations.swift in Sources */,
 				BAC830091FD53312005E345F /* GenerateParentheses.swift in Sources */,
@@ -581,6 +588,7 @@
 				D65A505D2258A3E94C43E65A /* SqrtXTests.swift in Sources */,
 				BA97ED091FC94E9E000A3DFF /* ContainerWithMostWaterTests.swift in Sources */,
 				D65A535C30EC757CB86F02F5 /* SimplifyPathTests.swift in Sources */,
+				BAF97EAD1FDEBF2B0039845A /* SubsetsTests.swift in Sources */,
 				BA8D362D1FD94DAC00073066 /* MergeTwoSortedListsTests.swift in Sources */,
 				D65A5E8086417B191C25B76C /* ClimbingStairsTest.swift in Sources */,
 				BA28EB541FCD5449007819DC /* UniqueBinarySearchTreesTests.swift in Sources */,
