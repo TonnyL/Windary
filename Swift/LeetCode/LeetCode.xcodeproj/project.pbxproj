@@ -51,6 +51,8 @@
 		BA6C11B61FC8689C008DACF9 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */; };
 		BA6C11B81FC86A5B008DACF9 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */; };
 		BA6C11BA1FC86EB2008DACF9 /* AddTwoNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B91FC86EB2008DACF9 /* AddTwoNumbersTests.swift */; };
+		BA843BDB1FFF425F004466FC /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA843BDA1FFF425F004466FC /* Combinations.swift */; };
+		BA843BDD1FFF4270004466FC /* CombinationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA843BDC1FFF4270004466FC /* CombinationsTests.swift */; };
 		BA8601B71FE91CCA0025DAE3 /* MultiplyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8601B61FE91CCA0025DAE3 /* MultiplyStrings.swift */; };
 		BA8601B91FE91CE80025DAE3 /* MultiplyStringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8601B81FE91CE80025DAE3 /* MultiplyStringsTests.swift */; };
 		BA8D362B1FD94D9C00073066 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8D362A1FD94D9C00073066 /* MergeTwoSortedLists.swift */; };
@@ -178,6 +180,8 @@
 		BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		BA6C11B91FC86EB2008DACF9 /* AddTwoNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersTests.swift; sourceTree = "<group>"; };
+		BA843BDA1FFF425F004466FC /* Combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
+		BA843BDC1FFF4270004466FC /* CombinationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationsTests.swift; sourceTree = "<group>"; };
 		BA8601B61FE91CCA0025DAE3 /* MultiplyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStrings.swift; sourceTree = "<group>"; };
 		BA8601B81FE91CE80025DAE3 /* MultiplyStringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStringsTests.swift; sourceTree = "<group>"; };
 		BA8D362A1FD94D9C00073066 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
@@ -344,6 +348,7 @@
 				BAF6C8061FE51B3900EF511A /* LongestPalindromicSubstring.swift */,
 				BA8601B61FE91CCA0025DAE3 /* MultiplyStrings.swift */,
 				BAD4641D1FFE3C210064C399 /* JumpGame.swift */,
+				BA843BDA1FFF425F004466FC /* Combinations.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -407,6 +412,7 @@
 				BAF6C8081FE51BA700EF511A /* LongestPalindromicSubstringTests.swift */,
 				BA8601B81FE91CE80025DAE3 /* MultiplyStringsTests.swift */,
 				BAD4641F1FFE3C320064C399 /* JumpGameTests.swift */,
+				BA843BDC1FFF4270004466FC /* CombinationsTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -565,6 +571,7 @@
 				BA97ED201FC99039000A3DFF /* ValidParentheses.swift in Sources */,
 				BA97ECFB1FC924AF000A3DFF /* ReverseInteger.swift in Sources */,
 				BAA6F09C1FCBDC300021B04F /* SameTree.swift in Sources */,
+				BA843BDB1FFF425F004466FC /* Combinations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +590,7 @@
 				BAC8300B1FD53537005E345F /* GenerateParenthesesTests.swift in Sources */,
 				BAA6F09A1FCBDA4E0021B04F /* GrayCodeTests.swift in Sources */,
 				BA6C11BA1FC86EB2008DACF9 /* AddTwoNumbersTests.swift in Sources */,
+				BA843BDD1FFF4270004466FC /* CombinationsTests.swift in Sources */,
 				BA57E6DA1FCA873C0054C4A4 /* SearchInsertPositionTests.swift in Sources */,
 				BAF6C8091FE51BA700EF511A /* LongestPalindromicSubstringTests.swift in Sources */,
 				BA57E7061FCB0DF50054C4A4 /* PlusOneTests.swift in Sources */,
