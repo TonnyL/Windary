@@ -1,4 +1,4 @@
-package main
+package SwapNodesInPairs
 
 // Given a linked list, swap every two adjacent nodes and return its head.
 //

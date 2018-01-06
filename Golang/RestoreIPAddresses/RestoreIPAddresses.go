@@ -1,4 +1,4 @@
-package main
+package RestoreIPAddresses
 
 //Given a string containing only digits, restore it by returning all possible valid IP address combinations.
 //
