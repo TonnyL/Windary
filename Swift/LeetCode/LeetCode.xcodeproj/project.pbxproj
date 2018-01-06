@@ -51,6 +51,8 @@
 		BA6C11B61FC8689C008DACF9 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */; };
 		BA6C11B81FC86A5B008DACF9 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */; };
 		BA6C11BA1FC86EB2008DACF9 /* AddTwoNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B91FC86EB2008DACF9 /* AddTwoNumbersTests.swift */; };
+		BA7940E520008D5900C7D61F /* RestoreIPAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7940E420008D5900C7D61F /* RestoreIPAddresses.swift */; };
+		BA7940E720008D6900C7D61F /* RestoreIPAddressesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7940E620008D6900C7D61F /* RestoreIPAddressesTests.swift */; };
 		BA843BDB1FFF425F004466FC /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA843BDA1FFF425F004466FC /* Combinations.swift */; };
 		BA843BDD1FFF4270004466FC /* CombinationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA843BDC1FFF4270004466FC /* CombinationsTests.swift */; };
 		BA8601B71FE91CCA0025DAE3 /* MultiplyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8601B61FE91CCA0025DAE3 /* MultiplyStrings.swift */; };
@@ -180,6 +182,8 @@
 		BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		BA6C11B91FC86EB2008DACF9 /* AddTwoNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbersTests.swift; sourceTree = "<group>"; };
+		BA7940E420008D5900C7D61F /* RestoreIPAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreIPAddresses.swift; sourceTree = "<group>"; };
+		BA7940E620008D6900C7D61F /* RestoreIPAddressesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreIPAddressesTests.swift; sourceTree = "<group>"; };
 		BA843BDA1FFF425F004466FC /* Combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
 		BA843BDC1FFF4270004466FC /* CombinationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationsTests.swift; sourceTree = "<group>"; };
 		BA8601B61FE91CCA0025DAE3 /* MultiplyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStrings.swift; sourceTree = "<group>"; };
@@ -349,6 +353,7 @@
 				BA8601B61FE91CCA0025DAE3 /* MultiplyStrings.swift */,
 				BAD4641D1FFE3C210064C399 /* JumpGame.swift */,
 				BA843BDA1FFF425F004466FC /* Combinations.swift */,
+				BA7940E420008D5900C7D61F /* RestoreIPAddresses.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -413,6 +418,7 @@
 				BA8601B81FE91CE80025DAE3 /* MultiplyStringsTests.swift */,
 				BAD4641F1FFE3C320064C399 /* JumpGameTests.swift */,
 				BA843BDC1FFF4270004466FC /* CombinationsTests.swift */,
+				BA7940E620008D6900C7D61F /* RestoreIPAddressesTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -571,6 +577,7 @@
 				BA97ED201FC99039000A3DFF /* ValidParentheses.swift in Sources */,
 				BA97ECFB1FC924AF000A3DFF /* ReverseInteger.swift in Sources */,
 				BAA6F09C1FCBDC300021B04F /* SameTree.swift in Sources */,
+				BA7940E520008D5900C7D61F /* RestoreIPAddresses.swift in Sources */,
 				BA843BDB1FFF425F004466FC /* Combinations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,6 +622,7 @@
 				BA57E6F21FCAB0EE0054C4A4 /* LengthOfLastWordTests.swift in Sources */,
 				BA97ED221FC991FA000A3DFF /* ValidParenthesesTests.swift in Sources */,
 				BA97ED2E1FC99FB1000A3DFF /* ImplementStrStrTests.swift in Sources */,
+				BA7940E720008D6900C7D61F /* RestoreIPAddressesTests.swift in Sources */,
 				BA57E6E21FCA9AEB0054C4A4 /* CountAndSayTests.swift in Sources */,
 				BA1780251FCFFE2F004293A6 /* ZigZagConversionTests.swift in Sources */,
 				D65A505D2258A3E94C43E65A /* SqrtXTests.swift in Sources */,
