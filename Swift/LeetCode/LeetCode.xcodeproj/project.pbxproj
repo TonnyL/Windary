@@ -101,6 +101,8 @@
 		BAA6F09E1FCBDD460021B04F /* SameTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA6F09D1FCBDD460021B04F /* SameTreeTests.swift */; };
 		BAC3504E1FC881DC00E35287 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3504D1FC881DC00E35287 /* LongestSubstringWithoutRepeatingCharacters.swift */; };
 		BAC350501FC88C5E00E35287 /* LongestSubstringWithoutRepeatingCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3504F1FC88C5E00E35287 /* LongestSubstringWithoutRepeatingCharactersTests.swift */; };
+		BAC481EB2002081B00639EB3 /* ReverseLinkedListII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC481EA2002081B00639EB3 /* ReverseLinkedListII.swift */; };
+		BAC481ED2002082800639EB3 /* ReverseLinkedListIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC481EC2002082800639EB3 /* ReverseLinkedListIITests.swift */; };
 		BAC830091FD53312005E345F /* GenerateParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC830081FD53312005E345F /* GenerateParentheses.swift */; };
 		BAC8300B1FD53537005E345F /* GenerateParenthesesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8300A1FD53537005E345F /* GenerateParenthesesTests.swift */; };
 		BAD2ABFA2000AE6900D9D2C3 /* RotateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2ABF92000AE6900D9D2C3 /* RotateList.swift */; };
@@ -236,6 +238,8 @@
 		BAA6F09D1FCBDD460021B04F /* SameTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTreeTests.swift; sourceTree = "<group>"; };
 		BAC3504D1FC881DC00E35287 /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 		BAC3504F1FC88C5E00E35287 /* LongestSubstringWithoutRepeatingCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharactersTests.swift; sourceTree = "<group>"; };
+		BAC481EA2002081B00639EB3 /* ReverseLinkedListII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListII.swift; sourceTree = "<group>"; };
+		BAC481EC2002082800639EB3 /* ReverseLinkedListIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListIITests.swift; sourceTree = "<group>"; };
 		BAC830081FD53312005E345F /* GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParentheses.swift; sourceTree = "<group>"; };
 		BAC8300A1FD53537005E345F /* GenerateParenthesesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesesTests.swift; sourceTree = "<group>"; };
 		BAD2ABF92000AE6900D9D2C3 /* RotateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateList.swift; sourceTree = "<group>"; };
@@ -364,6 +368,7 @@
 				BA7940E420008D5900C7D61F /* RestoreIPAddresses.swift */,
 				BAD2ABF92000AE6900D9D2C3 /* RotateList.swift */,
 				BA631DCA2001EA3E00535183 /* PartitionList.swift */,
+				BAC481EA2002081B00639EB3 /* ReverseLinkedListII.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -431,6 +436,7 @@
 				BA7940E620008D6900C7D61F /* RestoreIPAddressesTests.swift */,
 				BAD2ABFB2000AE7800D9D2C3 /* RotateListTests.swift */,
 				BA631DCC2001EA4B00535183 /* PartitionListTests.swift */,
+				BAC481EC2002082800639EB3 /* ReverseLinkedListIITests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -543,6 +549,7 @@
 				BAD4641E1FFE3C210064C399 /* JumpGame.swift in Sources */,
 				BA8D362B1FD94D9C00073066 /* MergeTwoSortedLists.swift in Sources */,
 				BAEB1A781FCEA091007B4129 /* RotateImage.swift in Sources */,
+				BAC481EB2002081B00639EB3 /* ReverseLinkedListII.swift in Sources */,
 				BAF6C8071FE51B3900EF511A /* LongestPalindromicSubstring.swift in Sources */,
 				BA57E6DC1FCA88850054C4A4 /* ValidSudoku.swift in Sources */,
 				BAA6F0981FCBDA3D0021B04F /* GrayCode.swift in Sources */,
@@ -641,6 +648,7 @@
 				BA7940E720008D6900C7D61F /* RestoreIPAddressesTests.swift in Sources */,
 				BA57E6E21FCA9AEB0054C4A4 /* CountAndSayTests.swift in Sources */,
 				BA1780251FCFFE2F004293A6 /* ZigZagConversionTests.swift in Sources */,
+				BAC481ED2002082800639EB3 /* ReverseLinkedListIITests.swift in Sources */,
 				D65A505D2258A3E94C43E65A /* SqrtXTests.swift in Sources */,
 				BA97ED091FC94E9E000A3DFF /* ContainerWithMostWaterTests.swift in Sources */,
 				D65A535C30EC757CB86F02F5 /* SimplifyPathTests.swift in Sources */,
