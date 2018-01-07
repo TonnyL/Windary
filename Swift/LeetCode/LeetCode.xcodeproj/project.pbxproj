@@ -47,6 +47,8 @@
 		BA57E70A1FCB12CB0054C4A4 /* AddBinaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E7091FCB12CB0054C4A4 /* AddBinaryTests.swift */; };
 		BA5E0ED91FD6598C00089B61 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E0ED81FD6598C00089B61 /* Permutations.swift */; };
 		BA5E0EDB1FD6599600089B61 /* PermutationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E0EDA1FD6599600089B61 /* PermutationsTests.swift */; };
+		BA631DCB2001EA3E00535183 /* PartitionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA631DCA2001EA3E00535183 /* PartitionList.swift */; };
+		BA631DCD2001EA4B00535183 /* PartitionListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA631DCC2001EA4B00535183 /* PartitionListTests.swift */; };
 		BA6C11B41FC86710008DACF9 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B31FC86710008DACF9 /* TwoSum.swift */; };
 		BA6C11B61FC8689C008DACF9 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */; };
 		BA6C11B81FC86A5B008DACF9 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */; };
@@ -180,6 +182,8 @@
 		BA57E7091FCB12CB0054C4A4 /* AddBinaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinaryTests.swift; sourceTree = "<group>"; };
 		BA5E0ED81FD6598C00089B61 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		BA5E0EDA1FD6599600089B61 /* PermutationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsTests.swift; sourceTree = "<group>"; };
+		BA631DCA2001EA3E00535183 /* PartitionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionList.swift; sourceTree = "<group>"; };
+		BA631DCC2001EA4B00535183 /* PartitionListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionListTests.swift; sourceTree = "<group>"; };
 		BA6C11B31FC86710008DACF9 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
@@ -359,6 +363,7 @@
 				BA843BDA1FFF425F004466FC /* Combinations.swift */,
 				BA7940E420008D5900C7D61F /* RestoreIPAddresses.swift */,
 				BAD2ABF92000AE6900D9D2C3 /* RotateList.swift */,
+				BA631DCA2001EA3E00535183 /* PartitionList.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -425,6 +430,7 @@
 				BA843BDC1FFF4270004466FC /* CombinationsTests.swift */,
 				BA7940E620008D6900C7D61F /* RestoreIPAddressesTests.swift */,
 				BAD2ABFB2000AE7800D9D2C3 /* RotateListTests.swift */,
+				BA631DCC2001EA4B00535183 /* PartitionListTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -579,6 +585,7 @@
 				BA97ECFF1FC92A99000A3DFF /* StringToIntegerAtoi.swift in Sources */,
 				BA57E6D41FCA83C90054C4A4 /* SearchForARange.swift in Sources */,
 				BAA6F0841FCBBECB0021B04F /* SearchA2DMatrix.swift in Sources */,
+				BA631DCB2001EA3E00535183 /* PartitionList.swift in Sources */,
 				D65A59EF31ABF547BC123B8C /* ClimbingStairs.swift in Sources */,
 				BA57E6D01FCA80770054C4A4 /* SearchInRotatedSortedArray.swift in Sources */,
 				BA97ED201FC99039000A3DFF /* ValidParentheses.swift in Sources */,
@@ -622,6 +629,7 @@
 				BA57E6FA1FCAB8030054C4A4 /* UniquePathsTests.swift in Sources */,
 				BA8601B91FE91CE80025DAE3 /* MultiplyStringsTests.swift in Sources */,
 				BA57E6EA1FCAA56B0054C4A4 /* PowXNTests.swift in Sources */,
+				BA631DCD2001EA4B00535183 /* PartitionListTests.swift in Sources */,
 				BA57E6D61FCA85100054C4A4 /* SearchForARangeTests.swift in Sources */,
 				BA57E70A1FCB12CB0054C4A4 /* AddBinaryTests.swift in Sources */,
 				BA97ED0D1FC952EA000A3DFF /* RomanToIntegerTests.swift in Sources */,
