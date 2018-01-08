@@ -99,6 +99,8 @@
 		BAA6F09A1FCBDA4E0021B04F /* GrayCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA6F0991FCBDA4E0021B04F /* GrayCodeTests.swift */; };
 		BAA6F09C1FCBDC300021B04F /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA6F09B1FCBDC300021B04F /* SameTree.swift */; };
 		BAA6F09E1FCBDD460021B04F /* SameTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA6F09D1FCBDD460021B04F /* SameTreeTests.swift */; };
+		BAAD30222003572D00FEF1F1 /* DecodeWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD30212003572D00FEF1F1 /* DecodeWays.swift */; };
+		BAAD3024200358E500FEF1F1 /* DecodeWaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD3023200358E500FEF1F1 /* DecodeWaysTests.swift */; };
 		BAC3504E1FC881DC00E35287 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3504D1FC881DC00E35287 /* LongestSubstringWithoutRepeatingCharacters.swift */; };
 		BAC350501FC88C5E00E35287 /* LongestSubstringWithoutRepeatingCharactersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3504F1FC88C5E00E35287 /* LongestSubstringWithoutRepeatingCharactersTests.swift */; };
 		BAC481EB2002081B00639EB3 /* ReverseLinkedListII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC481EA2002081B00639EB3 /* ReverseLinkedListII.swift */; };
@@ -238,6 +240,8 @@
 		BAA6F0991FCBDA4E0021B04F /* GrayCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayCodeTests.swift; sourceTree = "<group>"; };
 		BAA6F09B1FCBDC300021B04F /* SameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTree.swift; sourceTree = "<group>"; };
 		BAA6F09D1FCBDD460021B04F /* SameTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTreeTests.swift; sourceTree = "<group>"; };
+		BAAD30212003572D00FEF1F1 /* DecodeWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeWays.swift; sourceTree = "<group>"; };
+		BAAD3023200358E500FEF1F1 /* DecodeWaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeWaysTests.swift; sourceTree = "<group>"; };
 		BAC3504D1FC881DC00E35287 /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 		BAC3504F1FC88C5E00E35287 /* LongestSubstringWithoutRepeatingCharactersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharactersTests.swift; sourceTree = "<group>"; };
 		BAC481EA2002081B00639EB3 /* ReverseLinkedListII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedListII.swift; sourceTree = "<group>"; };
@@ -374,6 +378,7 @@
 				BA631DCA2001EA3E00535183 /* PartitionList.swift */,
 				BAC481EA2002081B00639EB3 /* ReverseLinkedListII.swift */,
 				BAF4C9092002691C001892BD /* MergeIntervals.swift */,
+				BAAD30212003572D00FEF1F1 /* DecodeWays.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -443,6 +448,7 @@
 				BA631DCC2001EA4B00535183 /* PartitionListTests.swift */,
 				BAC481EC2002082800639EB3 /* ReverseLinkedListIITests.swift */,
 				BAF4C90B2002692E001892BD /* MergeIntervalsTests.swift */,
+				BAAD3023200358E500FEF1F1 /* DecodeWaysTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -607,6 +613,7 @@
 				BAA6F09C1FCBDC300021B04F /* SameTree.swift in Sources */,
 				BA7940E520008D5900C7D61F /* RestoreIPAddresses.swift in Sources */,
 				BA843BDB1FFF425F004466FC /* Combinations.swift in Sources */,
+				BAAD30222003572D00FEF1F1 /* DecodeWays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +626,7 @@
 				BA9697611FCC09E800C5FFDE /* SortColorsTests.swift in Sources */,
 				BAA6F08A1FCBC74D0021B04F /* RemoveDuplicatesFromSortedArrayIITests.swift in Sources */,
 				D65A5EF0C9304AE898E101AE /* LeetCodeTests.swift in Sources */,
+				BAAD3024200358E500FEF1F1 /* DecodeWaysTests.swift in Sources */,
 				BA57E6F61FCAB5000054C4A4 /* SpiralMatrixIITests.swift in Sources */,
 				BA97ECFD1FC92847000A3DFF /* ReverseIntegerTests.swift in Sources */,
 				BA57E6D21FCA82050054C4A4 /* SearchInRotatedSortedArrayTests.swift in Sources */,
