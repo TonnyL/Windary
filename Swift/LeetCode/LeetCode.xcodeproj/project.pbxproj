@@ -127,6 +127,8 @@
 		BAE30AF420079F6F008A98F3 /* ValidateBinarySearchTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE30AF320079F6F008A98F3 /* ValidateBinarySearchTreeTests.swift */; };
 		BAEB1A781FCEA091007B4129 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB1A771FCEA091007B4129 /* RotateImage.swift */; };
 		BAEB1A7A1FCEA282007B4129 /* RotateImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */; };
+		BAECCDAC200B1B0E0078B9F5 /* WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAECCDAB200B1B0E0078B9F5 /* WordSearch.swift */; };
+		BAECCDAE200B21040078B9F5 /* WordSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAECCDAD200B21040078B9F5 /* WordSearchTests.swift */; };
 		BAF4C90A2002691C001892BD /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4C9092002691C001892BD /* MergeIntervals.swift */; };
 		BAF4C90C2002692E001892BD /* MergeIntervalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4C90B2002692E001892BD /* MergeIntervalsTests.swift */; };
 		BAF6C8071FE51B3900EF511A /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6C8061FE51B3900EF511A /* LongestPalindromicSubstring.swift */; };
@@ -278,6 +280,8 @@
 		BAE30AF320079F6F008A98F3 /* ValidateBinarySearchTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateBinarySearchTreeTests.swift; sourceTree = "<group>"; };
 		BAEB1A771FCEA091007B4129 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
 		BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageTests.swift; sourceTree = "<group>"; };
+		BAECCDAB200B1B0E0078B9F5 /* WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearch.swift; sourceTree = "<group>"; };
+		BAECCDAD200B21040078B9F5 /* WordSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearchTests.swift; sourceTree = "<group>"; };
 		BAF4C9092002691C001892BD /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
 		BAF4C90B2002692E001892BD /* MergeIntervalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervalsTests.swift; sourceTree = "<group>"; };
 		BAF6C8061FE51B3900EF511A /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
@@ -404,6 +408,7 @@
 				BAA4A9F82004E99300FEAD22 /* SearchInRotatedSortedArrayII.swift */,
 				BA1E2B7A2006184B006A35F0 /* DivideTwoIntegers.swift */,
 				BAE30AF120079F5F008A98F3 /* ValidateBinarySearchTree.swift */,
+				BAECCDAB200B1B0E0078B9F5 /* WordSearch.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -479,6 +484,7 @@
 				BAA4A9FA2004E9A200FEAD22 /* SearchInRotatedSortedArrayIITests.swift */,
 				BA1E2B7C20061854006A35F0 /* DivideTwoIntegersTests.swift */,
 				BAE30AF320079F6F008A98F3 /* ValidateBinarySearchTreeTests.swift */,
+				BAECCDAD200B21040078B9F5 /* WordSearchTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -595,6 +601,7 @@
 				BAF6C8071FE51B3900EF511A /* LongestPalindromicSubstring.swift in Sources */,
 				BA57E6DC1FCA88850054C4A4 /* ValidSudoku.swift in Sources */,
 				BAA6F0981FCBDA3D0021B04F /* GrayCode.swift in Sources */,
+				BAECCDAC200B1B0E0078B9F5 /* WordSearch.swift in Sources */,
 				BA57E6F41FCAB2160054C4A4 /* SpiralMatrixII.swift in Sources */,
 				BAD517011FD40AF500850531 /* ThreeSum.swift in Sources */,
 				BA8601B71FE91CCA0025DAE3 /* MultiplyStrings.swift in Sources */,
@@ -701,6 +708,7 @@
 				BA57E6F21FCAB0EE0054C4A4 /* LengthOfLastWordTests.swift in Sources */,
 				BA97ED221FC991FA000A3DFF /* ValidParenthesesTests.swift in Sources */,
 				BA97ED2E1FC99FB1000A3DFF /* ImplementStrStrTests.swift in Sources */,
+				BAECCDAE200B21040078B9F5 /* WordSearchTests.swift in Sources */,
 				BA7940E720008D6900C7D61F /* RestoreIPAddressesTests.swift in Sources */,
 				BA57E6E21FCA9AEB0054C4A4 /* CountAndSayTests.swift in Sources */,
 				BA1780251FCFFE2F004293A6 /* ZigZagConversionTests.swift in Sources */,
