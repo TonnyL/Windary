@@ -1,6 +1,3 @@
-import java.util.*
-import kotlin.collections.ArrayList
-
 /**
  * Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0?
  * Find all unique triplets in the array which gives the sum of zero.
@@ -21,10 +18,12 @@ class ThreeSum {
 
     fun threeSum(nums: IntArray): List<List<Int>> {
         nums.sort()
-        val set = HashSet<Triple>()
+        val set = mutableSetOf<Triple>()
 
         for (first in 0 until nums.size - 2) {
-            if (nums[first] > 0) break
+            if (nums[first] > 0) {
+                break
+            }
 
             val target = 0 - nums[first]
             var second = first + 1
@@ -49,7 +48,9 @@ class ThreeSum {
             }
         }
 
-        return ArrayList<ArrayList<Int>>().apply { addAll(set.map { arrayListOf(it.a, it.b, it.c) }) }
+        return mutableListOf<List<Int>>().apply {
+            addAll(set.map { arrayListOf(it.a, it.b, it.c) })
+        }
     }
 
     internal data class Triple(

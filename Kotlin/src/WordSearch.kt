@@ -26,8 +26,12 @@ class WordSearch {
         }
         for (i in board.indices) {
             (0 until board[0].size)
-                    .filter { search(board, i, it, word, 0) }
-                    .forEach { return true }
+                    .filter {
+                        search(board, i, it, word, 0)
+                    }
+                    .forEach {
+                        return true
+                    }
         }
         return false
     }

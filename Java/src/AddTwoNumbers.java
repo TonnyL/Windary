@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -77,9 +76,6 @@ public class AddTwoNumbers {
         return results.get(0);
     }
 
-    /**
-     * Definition for singly-linked list.
-     */
     public static class ListNode {
         int val;
         ListNode next;

@@ -15,10 +15,16 @@
 public class MinimumPathSum {
 
     public int minPathSum(int[][] grid) {
-        if (grid.length == 0) return 0;
+        if (grid.length == 0) {
+            return 0;
+        }
         if (grid.length == 1) {
-            if (grid[0].length == 0) return 0;
-            if (grid[0].length == 1) return grid[0][0];
+            if (grid[0].length == 0) {
+                return 0;
+            }
+            if (grid[0].length == 1) {
+                return grid[0][0];
+            }
         }
 
         int[][] matrix = new int[grid.length][grid[0].length];

@@ -1,5 +1,3 @@
-import java.util.ArrayList
-
 /**
  * You are given two non-empty linked lists representing two non-negative integers.
  * The digits are stored in reverse order and each of their nodes contain a single digit.
@@ -15,13 +13,14 @@ import java.util.ArrayList
 class AddTwoNumbers {
 
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
-
-        if (l1 == null || l2 == null) return null
+        if (l1 == null || l2 == null) {
+            return null
+        }
 
         var tmp1 = l1.next
         var tmp2 = l2.next
 
-        val results = ArrayList<ListNode>()
+        val results = mutableListOf<ListNode>()
 
         var addOne = l1.`val` + l2.`val` >= 10
 
@@ -37,8 +36,7 @@ class AddTwoNumbers {
             if (tmp1 == null && tmp2 == null) {
                 break
             } else {
-                var tmp = 0
-                tmp = when {
+                var tmp: Int = when {
                     tmp1 == null -> tmp2!!.`val`
                     tmp2 == null -> tmp1.`val`
                     else -> tmp1.`val` + tmp2.`val`
@@ -69,21 +67,17 @@ class AddTwoNumbers {
 
         var rst: ListNode? = results[0]
         for (i in 1 until results.size) {
-            rst!!.next = results[i]
-            rst = rst.next
+            rst?.next = results[i]
+            rst = rst?.next
         }
 
         return results[0]
     }
 
-    /**
-     * Definition for singly-linked list.
-     */
-    class ListNode internal constructor(internal var `val`: Int) {
-        internal var next: ListNode? = null
-
-        override fun toString(): String = "ListNode val: $`val` next -> $next"
-    }
+    data class ListNode(
+            var `val`: Int,
+            var next: ListNode? = null
+    )
 
     companion object {
 

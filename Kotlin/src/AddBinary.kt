@@ -11,9 +11,15 @@
 class AddBinary {
 
     fun addBinary(a: String?, b: String?): String {
-        if (a == null || b == null) return ""
-        if (a.isEmpty()) return b
-        if (b.isEmpty()) return a
+        if (a == null || b == null) {
+            return ""
+        }
+        if (a.isEmpty()) {
+            return b
+        }
+        if (b.isEmpty()) {
+            return a
+        }
 
         var flag = false // if it needs to plus one
 
@@ -27,42 +33,49 @@ class AddBinary {
         while (i >= 0) {
             if (j < 0) {
                 if (longer[i] == '1') {
-                    if (flag)
+                    if (flag) {
                         sb.append('0')
-                    else
+                    } else {
                         sb.append('1')
+                    }
                 } else { // l == '0'
                     if (flag) {
                         sb.append('1')
                         flag = false
-                    } else
+                    } else {
                         sb.append('0')
+                    }
                 }
             } else {
                 if (longer[i] == '1' && shorter[j] == '1') {
-                    if (flag)
+                    if (flag) {
                         sb.append('1')
-                    else
+                    } else {
                         sb.append('0')
+                    }
                     flag = true
                 } else if (longer[i] == '0' && shorter[j] == '0') {
-                    if (flag)
+                    if (flag) {
                         sb.append('1')
-                    else
+                    } else {
                         sb.append('0')
+                    }
                     flag = false
                 } else { // (l == '1' && s == '0') || (l == '0' && s == '1')
                     if (flag) {
                         sb.append('0')
                         flag = true
-                    } else
+                    } else {
                         sb.append('1')
+                    }
                 }
             }
             i--
             j--
         }
-        if (flag) sb.append('1')
+        if (flag) {
+            sb.append('1')
+        }
 
         return sb.reverse().toString()
     }

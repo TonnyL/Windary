@@ -23,7 +23,9 @@ public class ThreeSum {
         Set<Triple> set = new HashSet<>();
 
         for (int first = 0; first < nums.length - 2; first++) {
-            if (nums[first] > 0) break;
+            if (nums[first] > 0) {
+                break;
+            }
 
             int target = 0 - nums[first];
             int second = first + 1;

@@ -28,13 +28,10 @@ class SwapNodesInPairs {
         return head
     }
 
-    class ListNode internal constructor(internal var `val`: Int) {
-
-        internal var next: ListNode? = null
-
-        override fun toString(): String = "ListNode val: $`val` next -> $next"
-
-    }
+    data class ListNode(
+            var `val`: Int,
+            var next: ListNode? = null
+    )
 
     companion object {
 
@@ -49,24 +46,29 @@ class SwapNodesInPairs {
             println(s.swapPairs(ListNode(1)))
 
             // Expected: 2 -> 1
-            val node12 = ListNode(1)
-            node12.next = ListNode(2)
-            println(s.swapPairs(node12))
+            println(s.swapPairs(ListNode(1).apply {
+                next = ListNode(2)
+            }))
 
             // Expected: 2 -> 1 -> 4 -> 3
-            val node1234 = ListNode(1)
-            node1234.next = ListNode(2)
-            node1234.next?.next = ListNode(3)
-            node1234.next?.next?.next = ListNode(4)
-            println(s.swapPairs(node1234))
+            println(s.swapPairs(ListNode(1).apply {
+                next = ListNode(2).apply {
+                    next = ListNode(3).apply {
+                        next = ListNode(4)
+                    }
+                }
+            }))
 
             // Expected: 2 -> 1 -> 4 -> 3 -> 5
-            val node12345 = ListNode(1)
-            node12345.next = ListNode(2)
-            node12345.next?.next = ListNode(3)
-            node12345.next?.next?.next = ListNode(4)
-            node12345.next?.next?.next?.next = ListNode(5)
-            println(s.swapPairs(node12345))
+            println(s.swapPairs(ListNode(1).apply {
+                next = ListNode(2).apply {
+                    next = ListNode(3).apply {
+                        next = ListNode(4).apply {
+                            next = ListNode(5)
+                        }
+                    }
+                }
+            }))
         }
     }
 

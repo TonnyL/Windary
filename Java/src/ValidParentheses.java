@@ -25,11 +25,7 @@ public class ValidParentheses {
             }
         }
 
-//        System.out.println("======");
-//        for (char c : stack) {
-//            System.out.print(c + " ");
-//        }
-//        System.out.println("\n*****");
+        System.out.println(stack);
 
         return stack.isEmpty();
     }

@@ -11,7 +11,7 @@
 class RestoreIPAddresses {
 
     fun restoreIpAddresses(s: String): List<String> {
-        val results = ArrayList<String>()
+        val results = mutableListOf<String>()
         if (s.length < 4 || s.length > 12) {
             return results
         }
@@ -21,10 +21,10 @@ class RestoreIPAddresses {
                 for (k in 1..3) {
                     for (m in 1..3) {
                         if (i + j + k + m == s.length) {
-                            val a = Integer.valueOf(s.substring(0, i))
-                            val b = Integer.valueOf(s.substring(i, j + i))
-                            val c = Integer.valueOf(s.substring(i + j, k + i + j))
-                            val d = Integer.valueOf(s.substring(i + j + k, m + i + j + k))
+                            val a = s.substring(0, i).toInt()
+                            val b = s.substring(i, j + i).toInt()
+                            val c = s.substring(i + j, k + i + j).toInt()
+                            val d = s.substring(i + j + k, m + i + j + k).toInt()
                             if (a <= 255 && b <= 255 && c <= 255 && d <= 255) {
                                 val str = "$a.$b.$c.$d"
                                 if (str.length == s.length + 3) {

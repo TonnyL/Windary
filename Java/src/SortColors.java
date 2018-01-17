@@ -1,4 +1,4 @@
-import java.util.Arrays;
+//import java.util.Arrays;
 
 /**
  * Given an array with n objects colored red, white or blue, sort them so that objects of the same color are adjacent, with the colors in the order red, white and blue.
@@ -33,11 +33,7 @@ public class SortColors {
             }
         }
 
-//        System.out.print("[");
-//        Arrays.stream(nums).forEach(integer -> {
-//            System.out.print(integer + ",");
-//        });
-//        System.out.println("]");
+//        System.out.println(Arrays.toString(nums));
     }
 
     public static void main(String[] args) {

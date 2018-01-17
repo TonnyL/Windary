@@ -13,17 +13,23 @@
 public class RemoveDuplicatesFromSortedArrayII {
 
     public int removeDuplicates(int[] nums) {
-        if (nums == null) return 0;
-        if (nums.length <= 2) return nums.length;
+        if (nums == null) {
+            return 0;
+        }
+        if (nums.length <= 2) {
+            return nums.length;
+        }
 
         int count = 0, i = 0;
         while (i + 2 < nums.length - count) {
             if (nums[i + 1] == nums[i] && nums[i + 2] == nums[i]) {
                 count++;
-                if (i + 3 <= nums.length - count)
+                if (i + 3 <= nums.length - count) {
                     System.arraycopy(nums, i + 3, nums, i + 2, nums.length - count - (i + 2));
-            } else
+                }
+            } else {
                 i++;
+            }
         }
 
         return nums.length - count;

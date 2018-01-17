@@ -1,3 +1,5 @@
+//import java.util.Arrays
+
 /**
  * Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
  *
@@ -13,7 +15,7 @@ class MergeSortedArray {
         if (n == 0) return
         System.arraycopy(nums2, 0, nums1, m, n)
         nums1.sort(0, m + n)
-//        println("[${nums1.joinToString()}]")
+//        println(Arrays.toString(nums1))
     }
 
     companion object {

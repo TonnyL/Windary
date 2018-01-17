@@ -18,7 +18,7 @@ class Combinations {
     // Iterative solution.
     // Accepted.
     fun combine(n: Int, k: Int): List<List<Int>> {
-        var results: MutableList<List<Int>> = mutableListOf()
+        var results = mutableListOf<List<Int>>()
         if (n == 0 || k == 0 || k > n) {
             return results
         }
@@ -45,13 +45,15 @@ class Combinations {
     // Recursive solution.
     // Accepted.
     /*fun combine(n: Int, k: Int): List<List<Int>> {
-        val results = ArrayList<List<Int>>()
+        val results = mutableListOf<List<Int>>()
         if (n == 0 || k == 0 || k > n) {
             return results
         }
 
         if (k == 1) {
-            (1..n).mapTo(results) { listOf(it) }
+            (1..n).mapTo(results) {
+                listOf(it)
+            }
             return results
         }
 
@@ -64,8 +66,7 @@ class Combinations {
             }
         }
 
-        return results
-    }*/
+        return results*/
 
     companion object {
 

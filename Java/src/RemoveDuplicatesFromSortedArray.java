@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
  * Do not allocate extra space for another array, you must do this in place with constant memory.
@@ -23,10 +25,7 @@ public class RemoveDuplicatesFromSortedArray {
             }
         }
 
-//        for (int j : nums) {
-//            System.out.print(j + " ");
-//        }
-//        System.out.println();
+        System.out.println(Arrays.toString(nums));
 
         return i + 1;
     }

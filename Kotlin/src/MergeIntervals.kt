@@ -18,7 +18,9 @@ class MergeIntervals {
         var newIntervals = intervals
 
         // Sort the list by starts.
-        newIntervals = newIntervals.sortedBy { it.start }
+        newIntervals = newIntervals.sortedBy {
+            it.start
+        }
 
         results.add(newIntervals[0])
         for (i in 1 until newIntervals.size) {

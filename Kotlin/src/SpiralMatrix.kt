@@ -16,19 +16,27 @@
 class SpiralMatrix {
 
     fun spiralOrder(matrix: Array<IntArray>): List<Int> {
-        if (matrix.isEmpty() || matrix[0].isEmpty()) return ArrayList()
+        if (matrix.isEmpty() || matrix[0].isEmpty()) {
+            return emptyList()
+        }
 
         val capacity = matrix.size * matrix[0].size
-        val result = ArrayList<Int>(capacity)
-        val added = Array(matrix.size) { BooleanArray(matrix[0].size) }
+        val result = mutableListOf(capacity)
+        val added = Array(matrix.size) {
+            BooleanArray(matrix[0].size)
+        }
 
         if (matrix.size == 1) {
-            matrix[0].forEach { result.add(it) }
+            matrix[0].forEach {
+                result.add(it)
+            }
             return result
         }
 
         if (matrix[0].size == 1) {
-            matrix.forEach { result.add(it[0]) }
+            matrix.forEach {
+                result.add(it[0])
+            }
             return result
         }
 

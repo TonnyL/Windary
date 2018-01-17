@@ -18,7 +18,9 @@ class GroupAnagrams {
     fun groupAnagrams(strs: Array<String>): List<List<String>> {
         val results = mutableListOf<MutableList<String>>()
 
-        if (strs.isEmpty()) return results
+        if (strs.isEmpty()) {
+            return emptyList()
+        }
 
         val map = mutableMapOf<String, MutableList<String>>()
         strs.forEach {
@@ -29,7 +31,9 @@ class GroupAnagrams {
             map[key]?.add(it)
         }
 
-        return results.apply { addAll(map.values) }
+        return results.apply {
+            addAll(map.values)
+        }
     }
 
     companion object {

@@ -11,6 +11,32 @@
  */
 public class LongestSubstringWithoutRepeatingCharacters {
 
+    public int lengthOfLongestSubstring(String s) {
+        if (s.isEmpty()) {
+            return 0;
+        }
+
+        StringBuilder resultBuilder = new StringBuilder();
+        StringBuilder tmpBuilder = new StringBuilder();
+        char[] inputChars = s.toCharArray();
+
+        for (char inputChar : inputChars) {
+            if (tmpBuilder.toString().contains(String.valueOf(inputChar))) {
+                String s1 = tmpBuilder.toString().substring(tmpBuilder.toString().lastIndexOf(inputChar) + 1);
+                tmpBuilder.delete(0, tmpBuilder.length());
+                tmpBuilder.append(s1);
+            }
+            tmpBuilder.append(inputChar);
+
+            if (tmpBuilder.length() > resultBuilder.length()) {
+                resultBuilder.delete(0, resultBuilder.length());
+                resultBuilder.append(tmpBuilder);
+            }
+        }
+
+        return resultBuilder.toString().length();
+    }
+
     public static void main(String[] args) {
         LongestSubstringWithoutRepeatingCharacters ls = new LongestSubstringWithoutRepeatingCharacters();
         // Expected: 3
@@ -25,33 +51,6 @@ public class LongestSubstringWithoutRepeatingCharacters {
         // Expected:
         // vdf, length = 3
         System.out.println(ls.lengthOfLongestSubstring("dvdf"));
-    }
-
-    public int lengthOfLongestSubstring(String s) {
-        if (s.isEmpty()) {
-            return 0;
-        }
-
-        StringBuilder resultBuilder = new StringBuilder();
-        StringBuilder tmpBuilder = new StringBuilder();
-        char[] inputChars = s.toCharArray();
-
-        for (int i = 0; i < inputChars.length; i++) {
-            if (tmpBuilder.toString().contains(String.valueOf(inputChars[i]))) {
-                String s1 = tmpBuilder.toString().substring(tmpBuilder.toString().lastIndexOf(inputChars[i]) + 1);
-                tmpBuilder.delete(0, tmpBuilder.length());
-                tmpBuilder.append(s1);
-            }
-            tmpBuilder.append(inputChars[i]);
-
-            if (tmpBuilder.length() > resultBuilder.length()) {
-                resultBuilder.delete(0, resultBuilder.length());
-                resultBuilder.append(tmpBuilder);
-            }
-        }
-
-        // System.out.println(resultBuilder.toString().length());
-        return resultBuilder.toString().length();
     }
 
 }

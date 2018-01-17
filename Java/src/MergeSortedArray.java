@@ -12,12 +12,12 @@ import java.util.Arrays;
 public class MergeSortedArray {
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        if (n == 0) return;
+        if (n == 0) {
+            return;
+        }
         System.arraycopy(nums2, 0, nums1, m, n);
         Arrays.sort(nums1, 0, m + n);
-//        System.out.print("[");
-//        Arrays.stream(nums1).forEach(it -> System.out.print(it + ","));
-//        System.out.println("]");
+//        System.out.println(Arrays.toString(nums1));
     }
 
     public static void main(String[] args) {

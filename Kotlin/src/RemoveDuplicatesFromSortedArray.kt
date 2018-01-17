@@ -1,3 +1,5 @@
+//import java.util.Arrays
+
 /**
  * Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
  * Do not allocate extra space for another array, you must do this in place with constant memory.
@@ -11,7 +13,9 @@
 class RemoveDuplicatesFromSortedArray {
 
     fun removeDuplicates(nums: IntArray): Int {
-        if (nums.isEmpty()) return 0
+        if (nums.isEmpty()) {
+            return 0
+        }
 
         var i = 0
         for (j in 1 until nums.size) {
@@ -21,10 +25,7 @@ class RemoveDuplicatesFromSortedArray {
             }
         }
 
-//        for (j in nums) {
-//            System.out.print("$j ");
-//        }
-//        System.out.println();
+//        println(Arrays.toString(nums))
 
         return i + 1
     }

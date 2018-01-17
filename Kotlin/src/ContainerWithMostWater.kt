@@ -8,16 +8,23 @@
 class ContainerWithMostWater {
 
     fun maxArea(height: IntArray): Int {
-        if (height.size < 2) return 0
+        if (height.size < 2) {
+            return 0
+        }
         var low = 0
         var high = height.size - 1
         var maxCapacity = 0
 
         while (low < high) {
             val cap = (high - low) * Math.min(height[low], height[high])
-            if (cap > maxCapacity) maxCapacity = cap
-            if (height[low] < height[high]) low++
-            else high--
+            if (cap > maxCapacity) {
+                maxCapacity = cap
+            }
+            if (height[low] < height[high]) {
+                low++
+            } else {
+                high--
+            }
         }
 
         return maxCapacity

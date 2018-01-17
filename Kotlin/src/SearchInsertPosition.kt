@@ -14,10 +14,13 @@
 class SearchInsertPosition {
 
     fun searchInsert(nums: IntArray, target: Int): Int {
-        if (nums.isEmpty()) return 0
+        if (nums.isEmpty()) {
+            return 0
+        }
         for (i in nums.indices) {
-            if (nums[i] == target) return i
-            else if (nums[i] < target
+            if (nums[i] == target) {
+                return i
+            } else if (nums[i] < target
                     && (i + 1 < nums.size && nums[i + 1] > target || i + 1 == nums.size)) {
                 return i + 1
             }

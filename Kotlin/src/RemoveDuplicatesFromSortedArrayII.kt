@@ -13,17 +13,21 @@
 class RemoveDuplicatesFromSortedArrayII {
 
     fun removeDuplicates(nums: IntArray): Int {
-        if (nums.size <= 2) return nums.size
+        if (nums.size <= 2) {
+            return nums.size
+        }
 
         var count = 0
         var i = 0
         while (i + 2 < nums.size - count) {
             if (nums[i + 1] == nums[i] && nums[i + 2] == nums[i]) {
                 count++
-                if (i + 3 <= nums.size - count)
+                if (i + 3 <= nums.size - count) {
                     System.arraycopy(nums, i + 3, nums, i + 2, nums.size - count - (i + 2))
-            } else
+                }
+            } else {
                 i++
+            }
         }
 
         return nums.size - count

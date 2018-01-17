@@ -1,5 +1,3 @@
-import java.util.LinkedList
-
 /**
  * Given a collection of distinct numbers, return all possible permutations.
  *
@@ -19,17 +17,24 @@ import java.util.LinkedList
 class Permutations {
 
     fun permute(nums: IntArray): List<List<Int>> {
-        val results = LinkedList<List<Int>>()
+        val results = mutableListOf<List<Int>>()
 
-        if (nums.isEmpty()) return results
-        if (nums.size == 1) return results.apply { add(mutableListOf(nums[0])) }
+        if (nums.isEmpty()) {
+            return results
+        }
+        if (nums.size == 1) {
+            return results.apply {
+                add(mutableListOf(nums[0]))
+            }
+        }
 
         val ints = IntArray(nums.size - 1)
         System.arraycopy(nums, 0, ints, 0, nums.size - 1)
 
         for (list in permute(ints)) {
             for (i in 0..list.size) {
-                val tmp = LinkedList(list)
+                val tmp = mutableListOf<Int>()
+                tmp.addAll(list)
                 tmp.add(i, nums[nums.size - 1])
                 results.add(tmp)
             }

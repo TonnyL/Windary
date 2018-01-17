@@ -16,9 +16,10 @@
 class BinaryTreeInorderTraversal {
 
     fun inorderTraversal(root: TreeNode?): List<Int> {
-        val list = ArrayList<Int>()
-        if (root == null)
+        val list = mutableListOf<Int>()
+        if (root == null) {
             return list
+        }
 
         val stack = mutableListOf<TreeNode>()
         var node = root
@@ -40,22 +41,28 @@ class BinaryTreeInorderTraversal {
     /*fun inorderTraversal(root: TreeNode?): List<Int> {
         val list = mutableListOf<Int>()
 
-        if (root == null)
+        if (root == null) {
             return list
+        }
 
-        root.left?.let { list.addAll(inorderTraversal(root.left)) }
+        root.left?.let {
+            list.addAll(inorderTraversal(root.left))
+        }
 
         list.add(root.`val`)
 
-        root.right?.let { list.addAll(inorderTraversal(it)) }
+        root.right?.let {
+            list.addAll(inorderTraversal(it))
+        }
 
         return list
     }*/
 
-    class TreeNode internal constructor(internal var `val`: Int) {
-        var left: TreeNode? = null
-        var right: TreeNode? = null
-    }
+    data class TreeNode(
+            var `val`: Int,
+            var left: TreeNode? = null,
+            var right: TreeNode? = null
+    )
 
     companion object {
         @JvmStatic
@@ -64,14 +71,13 @@ class BinaryTreeInorderTraversal {
 
             println(b.inorderTraversal(null))
 
-            val node132 = TreeNode(1).apply {
+            println(b.inorderTraversal(TreeNode(1).apply {
                 right = TreeNode(2).apply {
                     left = TreeNode(3)
                 }
-            }
-            println(b.inorderTraversal(node132))
+            }))
 
-            val node4251637 = TreeNode(1).apply {
+            println(b.inorderTraversal(TreeNode(1).apply {
                 left = TreeNode(2).apply {
                     left = TreeNode(4)
                     right = TreeNode(5)
@@ -80,8 +86,7 @@ class BinaryTreeInorderTraversal {
                     left = TreeNode(6)
                     right = TreeNode(7)
                 }
-            }
-            println(b.inorderTraversal(node4251637))
+            }))
         }
     }
 

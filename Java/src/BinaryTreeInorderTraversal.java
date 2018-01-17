@@ -22,8 +22,9 @@ public class BinaryTreeInorderTraversal {
     // Iterative solution.
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        if (root == null)
+        if (root == null) {
             return list;
+        }
 
         Stack<TreeNode> stack = new Stack<>();
         while (root != null || !stack.empty()) {
@@ -43,16 +44,19 @@ public class BinaryTreeInorderTraversal {
     /*public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
 
-        if (root == null)
+        if (root == null) {
             return list;
+        }
 
-        if (root.left != null)
+        if (root.left != null) {
             list.addAll(inorderTraversal(root.left));
+        }
 
         list.add(root.val);
 
-        if (root.right != null)
+        if (root.right != null) {
             list.addAll(inorderTraversal(root.right));
+        }
 
         return list;
     }*/

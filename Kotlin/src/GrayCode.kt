@@ -18,12 +18,19 @@
 class GrayCode {
 
     fun grayCode(n: Int): List<Int> {
-        val resultList = ArrayList<Int>()
+        val resultList = mutableListOf<Int>()
 
-        if (n <= 0) return resultList.apply { add(0) }
-        if (n == 1) return resultList.apply { add(0); add(1) }
+        if (n <= 0) return resultList.apply {
+            add(0)
+        }
+        if (n == 1) return resultList.apply {
+            add(0)
+            add(1)
+        }
 
-        grayCode(n - 1).forEach { resultList.add(it) }
+        grayCode(n - 1).forEach {
+            resultList.add(it)
+        }
         for (i in resultList.indices.reversed()) {
             resultList.add(resultList[i] + Math.pow(2.0, (n - 1).toDouble()).toInt())
         }

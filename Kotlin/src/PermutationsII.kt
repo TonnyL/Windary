@@ -16,8 +16,14 @@ class PermutationsII {
     fun permuteUnique(nums: IntArray): List<List<Int>> {
         val results = mutableListOf<List<Int>>()
 
-        if (nums.isEmpty()) return results
-        if (nums.size == 1) return results.apply { add(mutableListOf(nums[0])) }
+        if (nums.isEmpty()) {
+            return results
+        }
+        if (nums.size == 1) {
+            return results.apply {
+                add(mutableListOf(nums[0]))
+            }
+        }
 
         val ints = IntArray(nums.size - 1)
         System.arraycopy(nums, 0, ints, 0, nums.size - 1)

@@ -1,5 +1,3 @@
-import java.util.*
-
 /**
  * Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
  *
@@ -18,11 +16,17 @@ import java.util.*
 class GenerateParentheses {
 
     fun generateParenthesis(n: Int): List<String> {
-        val set = HashSet<String>()
-        val list = LinkedList<String>()
+        val set = mutableSetOf<String>()
+        val list = mutableListOf<String>()
 
-        if (n <= 0) return list
-        if (n == 1) return list.apply { add("()") }
+        if (n <= 0) {
+            return list
+        }
+        if (n == 1) {
+            return list.apply {
+                add("()")
+            }
+        }
 
         generateParenthesis(n - 1).forEach { s ->
             val sb = StringBuilder()
@@ -43,7 +47,9 @@ class GenerateParentheses {
             set.add(s + "()")
         }
 
-        return list.apply { addAll(set) }
+        return list.apply {
+            addAll(set)
+        }
     }
 
     companion object {

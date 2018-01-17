@@ -18,8 +18,12 @@ import java.util.Arrays;
 public class SpiralMatrixII {
 
     public int[][] generateMatrix(int n) {
-        if (n <= 0) return new int[][]{};
-        if (n == 1) return new int[][]{{1}};
+        if (n <= 0) {
+            return new int[][]{};
+        }
+        if (n == 1) {
+            return new int[][]{{1}};
+        }
 
         int[][] matrix = new int[n][n];
         int centerX = n % 2 == 0 ? (n - 1) / 2 : n / 2;
@@ -27,19 +31,27 @@ public class SpiralMatrixII {
         int i = 0, j = 0, depth = 0, result = 1;
         while (i <= centerX && j <= centerY && depth <= centerX && depth <= centerY) {
             for (j = depth, i = depth; j < matrix[0].length - depth; j++) {
-                if (matrix[i][j] == 0) matrix[i][j] = result++;
+                if (matrix[i][j] == 0) {
+                    matrix[i][j] = result++;
+                }
             }
 
             for (j--, i++; i < matrix.length - depth; i++) {
-                if (matrix[i][j] == 0) matrix[i][j] = result++;
+                if (matrix[i][j] == 0) {
+                    matrix[i][j] = result++;
+                }
             }
 
             for (i--, j--; j >= depth; j--) {
-                if (matrix[i][j] == 0) matrix[i][j] = result++;
+                if (matrix[i][j] == 0) {
+                    matrix[i][j] = result++;
+                }
             }
 
             for (j++, i--; i > depth; i--) {
-                if (matrix[i][j] == 0) matrix[i][j] = result++;
+                if (matrix[i][j] == 0) {
+                    matrix[i][j] = result++;
+                }
             }
 
             depth++;
@@ -52,32 +64,20 @@ public class SpiralMatrixII {
         SpiralMatrixII sm = new SpiralMatrixII();
 
         // Expected: []
-        System.out.print("[");
-        Arrays.stream(sm.generateMatrix(0)).forEach(ints -> {
-            System.out.print(Arrays.toString(ints) + ", ");
-        });
-        System.out.println("]");
+        System.out.println(Arrays.deepToString(sm.generateMatrix(0)));
 
         // Expected:
         // [
         //  [1]
         // ]
-        System.out.print("[");
-        Arrays.stream(sm.generateMatrix(1)).forEach(ints -> {
-            System.out.print(Arrays.toString(ints) + ", ");
-        });
-        System.out.println("]");
+        System.out.println(Arrays.deepToString(sm.generateMatrix(1)));
 
         // Expected:
         // [
         //  [1, 2],
         //  [4, 3]
         // ]
-        System.out.print("[");
-        Arrays.stream(sm.generateMatrix(2)).forEach(ints -> {
-            System.out.print(Arrays.toString(ints) + ", ");
-        });
-        System.out.println("]");
+        System.out.println(Arrays.deepToString(sm.generateMatrix(2)));
 
         // Expected:
         // [
@@ -86,11 +86,7 @@ public class SpiralMatrixII {
         //  [11, 16, 15, 6],
         //  [10, 9, 8, 7]
         // ]
-        System.out.print("[");
-        Arrays.stream(sm.generateMatrix(4)).forEach(ints -> {
-            System.out.print(Arrays.toString(ints) + ", ");
-        });
-        System.out.println("]");
+        System.out.println(Arrays.deepToString(sm.generateMatrix(4)));
     }
 
 }

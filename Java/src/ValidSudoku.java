@@ -10,25 +10,30 @@ import java.util.Map;
 public class ValidSudoku {
 
     public boolean isValidSudoku(char[][] board) {
-        if (board == null || (board.length != 9 && board[0].length != 9)) return false;
+        if (board == null || (board.length != 9 && board[0].length != 9)) {
+            return false;
+        }
 
         Map<Character, Boolean> mapRow = new HashMap<>();
         Map<Character, Boolean> mapColumn = new HashMap<>();
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 if (board[i][j] >= '1' && board[i][j] <= '9') {
-                    if (mapRow.getOrDefault(board[i][j], false))
+                    if (mapRow.getOrDefault(board[i][j], false)) {
                         return false;
-                    else
+                    } else {
                         mapRow.put(board[i][j], true);
-                } else if (board[i][j] != '.')
+                    }
+                } else if (board[i][j] != '.') {
                     return false;
+                }
 
                 if (board[j][i] >= '1' && board[j][i] <= '9') {
-                    if (mapColumn.getOrDefault(board[j][i], false))
+                    if (mapColumn.getOrDefault(board[j][i], false)) {
                         return false;
-                    else
+                    } else {
                         mapColumn.put(board[j][i], true);
+                    }
                 } else if (board[j][i] != '.')
                     return false;
             }
@@ -42,12 +47,14 @@ public class ValidSudoku {
                 for (int m = 0; m < 3; m++) {
                     for (int n = 0; n < 3; n++) {
                         if (board[i + m][j + n] >= '1' && board[i + m][j + n] <= '9') {
-                            if (mapBlock.getOrDefault(board[i + m][j + n], false))
+                            if (mapBlock.getOrDefault(board[i + m][j + n], false)) {
                                 return false;
-                            else
+                            } else {
                                 mapBlock.put(board[i + m][j + n], true);
-                        } else if (board[i + m][j + n] != '.')
+                            }
+                        } else if (board[i + m][j + n] != '.') {
                             return false;
+                        }
                     }
                 }
                 mapBlock.clear();

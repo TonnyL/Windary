@@ -11,8 +11,12 @@
 class RemoveElement {
 
     fun removeElement(nums: IntArray, `val`: Int): Int {
-        if (nums.isEmpty()) return 0
-        if (nums.size == 1) return if (nums[0] == `val`) 0 else 1
+        if (nums.isEmpty()) {
+            return 0
+        }
+        if (nums.size == 1) {
+            return if (nums[0] == `val`) 0 else 1
+        }
 
         var lastIndex = nums.size - 1
         for (i in 0 until lastIndex) {
@@ -27,7 +31,9 @@ class RemoveElement {
             }
         }
 
-        return nums.indices.firstOrNull { nums[it] == `val` } ?: nums.size
+        return nums.indices.firstOrNull {
+            nums[it] == `val`
+        } ?: nums.size
     }
 
     private fun exchange2values(nums: IntArray, i: Int, lastIndex: Int) {

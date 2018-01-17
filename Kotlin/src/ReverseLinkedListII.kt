@@ -39,8 +39,10 @@ class ReverseLinkedListII {
         return head
     }
 
-    data class ListNode(var `val`: Int,
-                        var next: ListNode? = null)
+    data class ListNode(
+            var `val`: Int,
+            var next: ListNode? = null
+    )
 
     companion object {
 
@@ -51,27 +53,31 @@ class ReverseLinkedListII {
             // Expected: null
             println(r.reverseBetween(null, 1, 2))
 
-            val node123 = ListNode(1)
-            node123.next = ListNode(2)
-            node123.next?.next = ListNode(3)
             // Expected: 1 -> 3 -> 2
-            println(r.reverseBetween(node123, 2, 3))
+            println(r.reverseBetween(ListNode(1).apply {
+                next = ListNode(2).apply {
+                    next = ListNode(3)
+                }
+            }, 2, 3))
 
             // Expected: 1
             println(r.reverseBetween(ListNode(1), 1, 1))
 
-            val node12 = ListNode(1)
-            node12.next = ListNode(2)
             // Expected: 2 -> 1
-            println(r.reverseBetween(node12, 1, 2))
+            println(r.reverseBetween(ListNode(1).apply {
+                next = ListNode(2)
+            }, 1, 2))
 
-            val node12345 = ListNode(1)
-            node12345.next = ListNode(2)
-            node12345.next?.next = ListNode(3)
-            node12345.next?.next?.next = ListNode(4)
-            node12345.next?.next?.next?.next = ListNode(5)
             // Expected: 1 -> 4 -> 3 -> 2 -> 5
-            println(r.reverseBetween(node12345, 2, 4))
+            println(r.reverseBetween(ListNode(1).apply {
+                next = ListNode(2).apply {
+                    next = ListNode(3).apply {
+                        next = ListNode(4).apply {
+                            next = ListNode(5)
+                        }
+                    }
+                }
+            }, 2, 4))
         }
     }
 

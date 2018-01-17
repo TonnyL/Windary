@@ -19,7 +19,9 @@
 public class ReverseInteger {
 
     public int reverse(int x) {
-        if (x == 0) return 0;
+        if (x == 0) {
+            return 0;
+        }
 
         long result = 0;
         while (x != 0) {

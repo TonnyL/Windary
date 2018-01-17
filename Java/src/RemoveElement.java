@@ -11,8 +11,12 @@
 public class RemoveElement {
 
     public int removeElement(int[] nums, int val) {
-        if (nums.length == 0) return 0;
-        if (nums.length == 1) return nums[0] == val ? 0 : 1;
+        if (nums.length == 0) {
+            return 0;
+        }
+        if (nums.length == 1) {
+            return nums[0] == val ? 0 : 1;
+        }
 
         int lastIndex = nums.length - 1;
         for (int i = 0; i < lastIndex; i++) {
@@ -28,7 +32,9 @@ public class RemoveElement {
         }
 
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == val) return i;
+            if (nums[i] == val) {
+                return i;
+            }
         }
 
         return nums.length;

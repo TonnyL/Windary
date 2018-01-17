@@ -13,8 +13,12 @@ class PalindromeNumber {
 
     fun isPalindrome(x: Int): Boolean {
         var num = x
-        if (num in 0..9) return true
-        if (num % 10 == 0) return false
+        if (num in 0..9) {
+            return true
+        }
+        if (num % 10 == 0) {
+            return false
+        }
 
         var y = 0
         while (num > y) {

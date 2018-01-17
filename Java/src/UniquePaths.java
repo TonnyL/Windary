@@ -11,7 +11,9 @@
 public class UniquePaths {
 
     public int uniquePaths(int m, int n) {
-        if (m == 1 || n == 1) return 1;
+        if (m == 1 || n == 1) {
+            return 1;
+        }
 
         int[][] matrix = new int[m][n];
         for (int i = 0; i < m; i++) {

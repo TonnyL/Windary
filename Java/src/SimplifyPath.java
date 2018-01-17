@@ -18,20 +18,26 @@ import java.util.Stack;
 public class SimplifyPath {
 
     public String simplifyPath(String path) {
-        if (path == null || path.isEmpty()) return path;
+        if (path == null || path.isEmpty()) {
+            return path;
+        }
 
         String[] strings = path.split("/");
         Stack<String> stack = new Stack<>();
         for (int i = 1; i < strings.length; i++) {
             if (strings[i].equals("..")) {
-                if (!stack.empty())
+                if (!stack.empty()) {
                     stack.pop();
-            } else if (!strings[i].equals(".") && !strings[i].isEmpty())
+                }
+            } else if (!strings[i].equals(".") && !strings[i].isEmpty()) {
                 stack.push(strings[i]);
+            }
         }
 
         StringBuilder sb = new StringBuilder();
-        stack.forEach(s -> sb.append("/").append(s));
+        stack.forEach(s ->
+                sb.append("/").append(s)
+        );
 
         return sb.length() == 0 ? "/" : sb.toString();
     }

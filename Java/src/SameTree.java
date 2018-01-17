@@ -7,10 +7,8 @@
 public class SameTree {
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
-        if (p == null && q == null) return true;
-        if (p == null || q == null) return false;
-
-        return p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        return p == null && q == null
+                || p != null && q != null && p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 
     public static void main(String[] args) {
@@ -38,9 +36,6 @@ public class SameTree {
         System.out.println(st.isSameTree(tn1111, tn2111));
     }
 
-    /**
-     * Definition for a binary tree node.
-     */
     public static class TreeNode {
         int val;
         TreeNode left;

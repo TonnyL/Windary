@@ -23,7 +23,9 @@ public class Permutations {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> results = new LinkedList<>();
 
-        if (nums.length == 0) return results;
+        if (nums.length == 0) {
+            return results;
+        }
         if (nums.length == 1) {
             List<Integer> list = new ArrayList<>(1);
             list.add(nums[0]);

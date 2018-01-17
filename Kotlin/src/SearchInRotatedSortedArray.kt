@@ -9,23 +9,29 @@
 class SearchInRotatedSortedArray {
 
     fun search(nums: IntArray, target: Int): Int {
-        if (nums.isEmpty()) return -1
+        if (nums.isEmpty()) {
+            return -1
+        }
 
         var l = 0
         var r = nums.size - 1
         while (l <= r) {
             val m = (l + r) / 2
-            if (nums[m] == target) return m
+            if (nums[m] == target) {
+                return m
+            }
             if (nums[m] >= nums[l]) {
-                if (nums[l] <= target && target < nums[m])
+                if (nums[l] <= target && target < nums[m]) {
                     r = m - 1
-                else
+                } else {
                     l = m + 1
+                }
             } else {
-                if (nums[m] < target && target <= nums[r])
+                if (nums[m] < target && target <= nums[r]) {
                     l = m + 1
-                else
+                } else {
                     r = m - 1
+                }
             }
         }
         return -1

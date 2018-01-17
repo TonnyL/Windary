@@ -13,8 +13,12 @@ public class StringToIntegerAtoi {
 
     public int myAtoi(String str) {
         String s = str.trim();
-        if (s.length() == 0) return 0;
-        if (s.length() == 1) return (s.charAt(0) <= '0' || s.charAt(0) >= '9') ? 0 : Integer.valueOf(s);
+        if (s.length() == 0) {
+            return 0;
+        }
+        if (s.length() == 1) {
+            return (s.charAt(0) <= '0' || s.charAt(0) >= '9') ? 0 : Integer.valueOf(s);
+        }
 
         boolean plus = s.charAt(0) == '+';
         boolean minus = s.charAt(0) == '-';
@@ -23,7 +27,9 @@ public class StringToIntegerAtoi {
         for (int i = startIndex; i < s.length(); i++) {
             if (s.charAt(i) >= '0' && s.charAt(i) <= '9') {
                 if (Integer.MAX_VALUE / 10 - (s.charAt(i) - '0') <= result) {
-                    if (minus && result * 10 + (s.charAt(i) - '0') == Integer.MAX_VALUE) return -Integer.MAX_VALUE;
+                    if (minus && result * 10 + (s.charAt(i) - '0') == Integer.MAX_VALUE) {
+                        return -Integer.MAX_VALUE;
+                    }
                     return minus ? Integer.MIN_VALUE : Integer.MAX_VALUE;
                 }
                 result = result * 10 + (s.charAt(i) - '0');

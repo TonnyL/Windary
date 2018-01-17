@@ -12,10 +12,10 @@ class RemoveDuplicatesFromSortedList {
     fun deleteDuplicates(head: ListNode?): ListNode? {
         var node = head
         while (node != null && node.next != null) {
-            if (node.`val` == node.next!!.`val`) {
+            if (node.`val` == node.next?.`val`) {
                 val tmp = node.next
-                node.next = tmp!!.next
-                tmp.next = null
+                node.next = tmp?.next
+                tmp?.next = null
             } else {
                 node = node.next
             }
@@ -23,10 +23,10 @@ class RemoveDuplicatesFromSortedList {
         return head
     }
 
-    class ListNode internal constructor(internal var `val`: Int) {
-        internal var next: ListNode? = null
-        override fun toString() = "ListNode val: $`val` next: -> $next"
-    }
+    data class ListNode(
+            var `val`: Int,
+            var next: ListNode? = null
+    )
 
     companion object {
         @JvmStatic
@@ -38,17 +38,17 @@ class RemoveDuplicatesFromSortedList {
 
             // Expected: 1 -> 2
             println(r.deleteDuplicates(ListNode(1).apply {
-                this.next = ListNode(1).apply {
-                    this.next = ListNode(2)
+                next = ListNode(1).apply {
+                    next = ListNode(2)
                 }
             }))
 
             // Expected: 1 -> 2 -> 3
             println(r.deleteDuplicates(ListNode(1).apply {
-                this.next = ListNode(1).apply {
-                    this.next = ListNode(2).apply {
-                        this.next = ListNode(3).apply {
-                            this.next = ListNode(3)
+                next = ListNode(1).apply {
+                    next = ListNode(2).apply {
+                        next = ListNode(3).apply {
+                            next = ListNode(3)
                         }
                     }
                 }

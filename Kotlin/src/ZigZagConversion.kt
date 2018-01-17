@@ -16,7 +16,9 @@
 class ZigZagConversion {
 
     fun convert(s: String, numRows: Int): String {
-        if (s.length < 2 || numRows <= 1) return s
+        if (s.length < 2 || numRows <= 1) {
+            return s
+        }
 
         val sb = StringBuilder()
         for (i in 0 until numRows) {
@@ -24,8 +26,9 @@ class ZigZagConversion {
             var index = i
             while (index < s.length) {
                 sb.append(s[index])
-                if (i != 0 && i != numRows - 1 && index + (numRows - i - 1) * 2 < s.length)
+                if (i != 0 && i != numRows - 1 && index + (numRows - i - 1) * 2 < s.length) {
                     sb.append(s[index + (numRows - i - 1) * 2])
+                }
                 j++
                 index = (2 * numRows - 2) * j + i
             }

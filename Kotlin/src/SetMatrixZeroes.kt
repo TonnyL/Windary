@@ -1,3 +1,5 @@
+//import java.util.Arrays
+
 /**
  * Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it in place.
  *
@@ -6,7 +8,9 @@
 class SetMatrixZeroes {
 
     fun setZeroes(matrix: Array<IntArray>) {
-        if (matrix.isEmpty() || matrix[0].isEmpty()) return
+        if (matrix.isEmpty() || matrix[0].isEmpty()) {
+            return
+        }
 
         val row = HashSet<Int>(matrix.size)
         val column = HashSet<Int>(matrix[0].size)
@@ -19,16 +23,19 @@ class SetMatrixZeroes {
             }
         }
 
-        row.forEach { i -> (0 until matrix[0].size).forEach { matrix[i][it] = 0 } }
-
-        column.forEach { i -> (0 until matrix.size).forEach { matrix[it][i] = 0 } }
-
-        print("{")
-        for (group in matrix) {
-            println()
-            group.forEach { print("$it ") }
+        row.forEach { i ->
+            (0 until matrix[0].size).forEach {
+                matrix[i][it] = 0
+            }
         }
-        println("\n}")
+
+        column.forEach { i ->
+            (0 until matrix.size).forEach {
+                matrix[it][i] = 0
+            }
+        }
+
+//        println(Arrays.deepToString(matrix))
     }
 
     companion object {

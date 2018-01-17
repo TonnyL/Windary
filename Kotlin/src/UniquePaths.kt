@@ -11,7 +11,9 @@
 class UniquePaths {
 
     fun uniquePaths(m: Int, n: Int): Int {
-        if (m == 1 || n == 1) return 1
+        if (m == 1 || n == 1) {
+            return 1
+        }
 
         // Init the elements of the 2d matrix with 1s
         val matrix = Array(m) { IntArray(n, { 1 }) }

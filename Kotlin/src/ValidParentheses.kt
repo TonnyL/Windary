@@ -1,4 +1,4 @@
-import java.util.*
+import java.util.Stack
 
 /**
  * Given a string containing just the characters '(', ')', '{', '}', '[' and ']',
@@ -10,7 +10,9 @@ import java.util.*
 class ValidParentheses {
 
     fun isValid(s: String): Boolean {
-        if (s.isEmpty() || s.length == 1) return false
+        if (s.isEmpty() || s.length == 1) {
+            return false
+        }
 
         val stack = Stack<Char>()
         for (c in s.toCharArray()) {
@@ -23,11 +25,7 @@ class ValidParentheses {
             }
         }
 
-//        System.out.println("======")
-//        for (c in stack) {
-//            System.out.print("$c ")
-//        }
-//        System.out.println("\n*****")
+//        println(stack)
 
         return stack.isEmpty()
     }

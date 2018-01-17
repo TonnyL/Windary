@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Arrays;
 
 /**
  * Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
@@ -17,7 +17,9 @@ public class SearchForARange {
 
     public int[] searchRange(int[] nums, int target) {
         int[] result = new int[]{-1, -1};
-        if (nums.length <= 0) return result;
+        if (nums.length <= 0) {
+            return result;
+        }
 
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == target) {

@@ -38,12 +38,10 @@ class RotateList {
         return anotherHead
     }
 
-    class ListNode internal constructor(internal var `val`: Int) {
-
-        internal var next: ListNode? = null
-
-        override fun toString(): String = "ListNode val: $`val` next -> $next"
-    }
+    data class ListNode(
+            var `val`: Int,
+            var next: ListNode? = null
+    )
 
     companion object {
 
@@ -58,22 +56,26 @@ class RotateList {
             println(rl.rotateRight(ListNode(1), 1))
 
             // Expected: 1 -> 2
-            val node12 = ListNode(1)
-            node12.next = ListNode(2)
-            println(rl.rotateRight(node12, 0))
+            println(rl.rotateRight(ListNode(1).apply {
+                next = ListNode(2)
+            }, 0))
 
             // Expected: 3 -> 1 -> 2
-            val node123 = ListNode(1)
-            node123.next = ListNode(2)
-            node123.next?.next = ListNode(3)
-            println(rl.rotateRight(node123, 1))
+            println(rl.rotateRight(ListNode(1).apply {
+                next = ListNode(2).apply {
+                    next = ListNode(3)
+                }
+            }, 1))
 
-            val node12345 = ListNode(1)
-            node12345.next = ListNode(2)
-            node12345.next?.next = ListNode(3)
-            node12345.next?.next?.next = ListNode(4)
-            node12345.next?.next?.next?.next = ListNode(5)
-            println(rl.rotateRight(node12345, 2))
+            println(rl.rotateRight(ListNode(1).apply {
+                next = ListNode(2).apply {
+                    next = ListNode(3).apply {
+                        next = ListNode(4).apply {
+                            next = ListNode(5)
+                        }
+                    }
+                }
+            }, 2))
         }
     }
 

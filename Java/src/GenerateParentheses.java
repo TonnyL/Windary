@@ -21,7 +21,9 @@ public class GenerateParentheses {
         Set<String> set = new HashSet<>();
         List<String> list = new ArrayList<>();
 
-        if (n <= 0) return list;
+        if (n <= 0) {
+            return list;
+        }
         if (n == 1) {
             list.add("()");
             return list;

@@ -1,4 +1,6 @@
-import java.util.*;
+//import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Given a m x n matrix, if an element is 0, set its entire row and column to 0. Do it in place.
@@ -8,7 +10,9 @@ import java.util.*;
 public class SetMatrixZeroes {
 
     public void setZeroes(int[][] matrix) {
-        if (matrix.length == 0 || matrix[0].length == 0) return;
+        if (matrix.length == 0 || matrix[0].length == 0) {
+            return;
+        }
 
         Set<Integer> row = new HashSet<>(matrix.length);
         Set<Integer> column = new HashSet<>(matrix[0].length);
@@ -33,14 +37,7 @@ public class SetMatrixZeroes {
             }
         }
 
-//        System.out.print("{");
-//        for (int[] group : matrix) {
-//            System.out.println();
-//            for (int i : group) {
-//                System.out.print(i + " ");
-//            }
-//        }
-//        System.out.println("\n}");
+//        System.out.println(Arrays.deepToString(matrix));
     }
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-import java.util.*
+import java.util.Arrays
 
 /**
  * Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
@@ -17,7 +17,9 @@ class SearchForARange {
 
     fun searchRange(nums: IntArray, target: Int): IntArray {
         val result = intArrayOf(-1, -1)
-        if (nums.isEmpty()) return result
+        if (nums.isEmpty()) {
+            return result
+        }
 
         for (i in nums.indices) {
             if (nums[i] == target) {

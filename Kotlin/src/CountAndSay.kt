@@ -28,8 +28,12 @@
 class CountAndSay {
 
     fun countAndSay(n: Int): String {
-        if (n <= 0) return "0"
-        if (n == 1) return "1"
+        if (n <= 0) {
+            return "0"
+        }
+        if (n == 1) {
+            return "1"
+        }
 
         val sb = StringBuilder()
         val chars = countAndSay(n - 1).toCharArray()

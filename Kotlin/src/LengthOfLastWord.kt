@@ -11,9 +11,16 @@
 class LengthOfLastWord {
 
     fun lengthOfLastWord(s: String): Int {
-        if (s.isEmpty()) return 0
+        if (s.isEmpty()) {
+            return 0
+        }
 
-        val strs = s.split(" ".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+        val strs = s.split(" ".toRegex())
+                .dropLastWhile {
+                    it.isEmpty()
+                }
+                .toTypedArray()
+
         return if (strs.isEmpty()) 0 else strs[strs.size - 1].length
     }
 

@@ -11,7 +11,9 @@
 class LongestSubstringWithoutRepeatingCharacters {
 
     fun lengthOfLongestSubstring(s: String): Int {
-        if (s.isEmpty()) return 0
+        if (s.isEmpty()) {
+            return 0
+        }
 
         val resultBuilder = StringBuilder()
         val tmpBuilder = StringBuilder()
@@ -31,7 +33,6 @@ class LongestSubstringWithoutRepeatingCharacters {
             }
         }
 
-        // System.out.println(resultBuilder.toString().length());
         return resultBuilder.toString().length
     }
 
@@ -41,16 +42,16 @@ class LongestSubstringWithoutRepeatingCharacters {
             val ls = LongestSubstringWithoutRepeatingCharacters()
             // Expected: 3
             // wke, length = 3
-            System.out.println(ls.lengthOfLongestSubstring("pwwkew"))
+            println(ls.lengthOfLongestSubstring("pwwkew"))
             // Expected:
             // b, length = 1
-            System.out.println(ls.lengthOfLongestSubstring("bbbbbb"))
+            println(ls.lengthOfLongestSubstring("bbbbbb"))
             // Expected:
             // abc, length = 3
-            System.out.println(ls.lengthOfLongestSubstring("abcabcbb"))
+            println(ls.lengthOfLongestSubstring("abcabcbb"))
             // Expected:
             // vdf, length = 3
-            System.out.println(ls.lengthOfLongestSubstring("dvdf"))
+            println(ls.lengthOfLongestSubstring("dvdf"))
         }
     }
 

@@ -15,13 +15,21 @@
 class MinimumPathSum {
 
     fun minPathSum(grid: Array<IntArray>): Int {
-        if (grid.isEmpty()) return 0
+        if (grid.isEmpty()) {
+            return 0
+        }
         if (grid.size == 1) {
-            if (grid[0].isEmpty()) return 0
-            if (grid[0].size == 1) return grid[0][0]
+            if (grid[0].isEmpty()) {
+                return 0
+            }
+            if (grid[0].size == 1) {
+                return grid[0][0]
+            }
         }
 
-        val matrix = Array(grid.size) { IntArray(grid[0].size) }
+        val matrix = Array(grid.size) {
+            IntArray(grid[0].size)
+        }
         matrix[0][0] = grid[0][0]
 
         (1 until grid.size).forEach {

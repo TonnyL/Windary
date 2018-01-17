@@ -11,7 +11,9 @@
 class RemoveDuplicatesFromSortedListII {
 
     fun deleteDuplicates(head: ListNode?): ListNode? {
-        if (head == null) return null
+        if (head == null) {
+            return null
+        }
 
         val fakeHead = ListNode(0)
         fakeHead.next = head
@@ -31,10 +33,10 @@ class RemoveDuplicatesFromSortedListII {
         return fakeHead.next
     }
 
-    class ListNode internal constructor(internal var `val`: Int) {
-        internal var next: ListNode? = null
-        override fun toString() = "ListNode val: $`val` next: -> $next"
-    }
+    data class ListNode(
+            var `val`: Int,
+            var next: ListNode? = null
+    )
 
 
     companion object {

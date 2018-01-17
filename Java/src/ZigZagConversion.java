@@ -16,14 +16,17 @@
 public class ZigZagConversion {
 
     public String convert(String s, int numRows) {
-        if (s == null || s.length() < 2 || numRows <= 1) return s;
+        if (s == null || s.length() < 2 || numRows <= 1) {
+            return s;
+        }
 
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < numRows; i++) {
             for (int j = 0, index = i; index < s.length(); j++, index = (2 * numRows - 2) * j + i) {
                 sb.append(s.charAt(index));
-                if (i != 0 && i != numRows - 1 && index + (numRows - i - 1) * 2 < s.length())
+                if (i != 0 && i != numRows - 1 && index + (numRows - i - 1) * 2 < s.length()) {
                     sb.append(s.charAt(index + (numRows - i - 1) * 2));
+                }
             }
         }
 

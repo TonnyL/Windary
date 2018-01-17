@@ -21,10 +21,14 @@
 public class UniquePathsII {
 
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
-        if (obstacleGrid[0][0] == 1) return 0;
+        if (obstacleGrid[0][0] == 1) {
+            return 0;
+        }
         if (obstacleGrid.length == 1) {
             for (int i : obstacleGrid[0]) {
-                if (i == 1) return 0;
+                if (i == 1) {
+                    return 0;
+                }
             }
             return 1;
         }

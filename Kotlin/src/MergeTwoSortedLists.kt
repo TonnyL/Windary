@@ -22,7 +22,7 @@ class MergeTwoSortedLists {
                 result?.next = ListNode(node1.`val`)
                 node1 = node1.next
             } else {
-                result!!.next = ListNode(node2.`val`)
+                result?.next = ListNode(node2.`val`)
                 node2 = node2.next
             }
             result = result?.next
@@ -30,14 +30,13 @@ class MergeTwoSortedLists {
 
         result?.next = if (node1 == null) node2 else node1
 
-        return fakeHeader!!.next
+        return fakeHeader?.next
     }
 
-    class ListNode internal constructor(internal var `val`: Int) {
-        internal var next: ListNode? = null
-
-        override fun toString(): String = "ListNode val: $`val` next: -> $next"
-    }
+    data class ListNode(
+            var `val`: Int,
+            var next: ListNode? = null
+    )
 
     companion object {
 
@@ -45,13 +44,17 @@ class MergeTwoSortedLists {
         fun main(args: Array<String>) {
             val m = MergeTwoSortedLists()
 
-            val node1 = ListNode(1)
-            node1.next = ListNode(2)
-            node1.next!!.next = ListNode(4)
+            val node1 = ListNode(1).apply {
+                next = ListNode(2).apply {
+                    next = ListNode(4)
+                }
+            }
 
-            val node2 = ListNode(1)
-            node2.next = ListNode(3)
-            node2.next!!.next = ListNode(4)
+            val node2 = ListNode(1).apply {
+                next = ListNode(3).apply {
+                    next = ListNode(4)
+                }
+            }
 
             // Expected: 1->1->2->3->4->4
             println(m.mergeTwoLists(node1, node2))

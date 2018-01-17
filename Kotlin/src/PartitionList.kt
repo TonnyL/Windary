@@ -50,12 +50,10 @@ class PartitionList {
         return lessHead
     }
 
-    class ListNode internal constructor(internal var `val`: Int) {
-
-        internal var next: ListNode? = null
-
-        override fun toString(): String = "ListNode val: $`val` next -> $next"
-    }
+    data class ListNode(
+            var `val`: Int,
+            var next: ListNode? = null
+    )
 
     companion object {
 
@@ -67,19 +65,25 @@ class PartitionList {
             println(pl.partition(null, 2))
 
             // Expected: 1 -> 2
-            val node12 = ListNode(1)
-            node12.next = ListNode(2)
+            val node12 = ListNode(1).apply {
+                next = ListNode(2)
+            }
             println(pl.partition(node12, 3))
 
             // Expected: 1 -> 2
             println(pl.partition(node12, 0))
 
-            val node143252 = ListNode(1)
-            node143252.next = ListNode(4)
-            node143252.next?.next = ListNode(3)
-            node143252.next?.next?.next = ListNode(2)
-            node143252.next?.next?.next?.next = ListNode(5)
-            node143252.next?.next?.next?.next?.next = ListNode(2)
+            val node143252 = ListNode(1).apply {
+                next = ListNode(4).apply {
+                    next = ListNode(3).apply {
+                        next = ListNode(2).apply {
+                            next = ListNode(5).apply {
+                                next = ListNode(2)
+                            }
+                        }
+                    }
+                }
+            }
             // Expected: 1 -> 2 -> 2 -> 4 -> 3 -> 5
             println(pl.partition(node143252, 3))
 

@@ -44,11 +44,10 @@ class RemoveNthNodeFromEndOfList {
         return first
     }
 
-    class ListNode internal constructor(private var `val`: Int) {
-        internal var next: ListNode? = null
-
-        override fun toString(): String = "ListNode val: $`val` next: -> $next"
-    }
+    data class ListNode(
+            private var `val`: Int,
+            var next: ListNode? = null
+    )
 
     companion object {
 
@@ -56,18 +55,21 @@ class RemoveNthNodeFromEndOfList {
         fun main(args: Array<String>) {
             val r = RemoveNthNodeFromEndOfList()
 
-            val node12345 = ListNode(1)
-            node12345.next = ListNode(2)
-            node12345.next?.next = ListNode(3)
-            node12345.next?.next?.next = ListNode(4)
-            node12345.next?.next?.next?.next = ListNode(5)
             // Expected: 1->2->3->5
-            println(r.removeNthFromEnd(node12345, 2))
+            println(r.removeNthFromEnd(ListNode(1).apply {
+                next = ListNode(2).apply {
+                    next = ListNode(3).apply {
+                        next = ListNode(4).apply {
+                            next = ListNode(5)
+                        }
+                    }
+                }
+            }, 2))
 
-            val node12 = ListNode(1)
-            node12.next = ListNode(2)
             // Expected: 1
-            println(r.removeNthFromEnd(node12, 1))
+            println(r.removeNthFromEnd(ListNode(1).apply {
+                next = ListNode(2)
+            }, 1))
 
             // Expected: null
             println(r.removeNthFromEnd(ListNode(1), 1))
@@ -75,11 +77,12 @@ class RemoveNthNodeFromEndOfList {
             // Expected: null
             println(r.removeNthFromEnd(null, 2))
 
-            var node123: ListNode? = ListNode(1)
-            node123?.next = ListNode(2)
-            node123?.next?.next = ListNode(3)
             // Expected: 2->3
-            node123 = r.removeNthFromEnd(node123, 3)
+            val node123: ListNode? = r.removeNthFromEnd(ListNode(1).apply {
+                next = ListNode(2).apply {
+                    next = ListNode(3)
+                }
+            }, 3)
             println(node123)
             // Expected: 2
             println(r.removeNthFromEnd(node123, 1))

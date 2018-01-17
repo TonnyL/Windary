@@ -19,19 +19,25 @@ import java.util.List;
 public class SpiralMatrix {
 
     public List<Integer> spiralOrder(int[][] matrix) {
-        if (matrix.length == 0 || matrix[0].length == 0) return new ArrayList<>();
+        if (matrix.length == 0 || matrix[0].length == 0) {
+            return new ArrayList<>();
+        }
 
         int capacity = matrix.length * matrix[0].length;
         List<Integer> result = new ArrayList<>(capacity);
         boolean[][] added = new boolean[matrix.length][matrix[0].length];
 
         if (matrix.length == 1) {
-            for (int i : matrix[0]) result.add(i);
+            for (int i : matrix[0]) {
+                result.add(i);
+            }
             return result;
         }
 
         if (matrix[0].length == 1) {
-            for (int[] ints : matrix) result.add(ints[0]);
+            for (int[] ints : matrix) {
+                result.add(ints[0]);
+            }
             return result;
         }
 

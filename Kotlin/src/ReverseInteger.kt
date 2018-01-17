@@ -19,7 +19,9 @@
 class ReverseInteger {
 
     fun reverse(x: Int): Int {
-        if (x == 0) return 0
+        if (x == 0) {
+            return 0
+        }
         var anotherX = x
 
         var result: Long = 0
