@@ -51,6 +51,8 @@
 		BA57E7061FCB0DF50054C4A4 /* PlusOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E7051FCB0DF50054C4A4 /* PlusOneTests.swift */; };
 		BA57E7081FCB0F690054C4A4 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E7071FCB0F690054C4A4 /* AddBinary.swift */; };
 		BA57E70A1FCB12CB0054C4A4 /* AddBinaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E7091FCB12CB0054C4A4 /* AddBinaryTests.swift */; };
+		BA5BB0A72011FFB8009931D0 /* LetterCombinationsOfAPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BB0A62011FFB8009931D0 /* LetterCombinationsOfAPhoneNumber.swift */; };
+		BA5BB0A92011FFC7009931D0 /* LetterCombinationsOfAPhoneNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BB0A82011FFC7009931D0 /* LetterCombinationsOfAPhoneNumberTests.swift */; };
 		BA5E0ED91FD6598C00089B61 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E0ED81FD6598C00089B61 /* Permutations.swift */; };
 		BA5E0EDB1FD6599600089B61 /* PermutationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E0EDA1FD6599600089B61 /* PermutationsTests.swift */; };
 		BA631DCB2001EA3E00535183 /* PartitionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA631DCA2001EA3E00535183 /* PartitionList.swift */; };
@@ -208,6 +210,8 @@
 		BA57E7051FCB0DF50054C4A4 /* PlusOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneTests.swift; sourceTree = "<group>"; };
 		BA57E7071FCB0F690054C4A4 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
 		BA57E7091FCB12CB0054C4A4 /* AddBinaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinaryTests.swift; sourceTree = "<group>"; };
+		BA5BB0A62011FFB8009931D0 /* LetterCombinationsOfAPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinationsOfAPhoneNumber.swift; sourceTree = "<group>"; };
+		BA5BB0A82011FFC7009931D0 /* LetterCombinationsOfAPhoneNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinationsOfAPhoneNumberTests.swift; sourceTree = "<group>"; };
 		BA5E0ED81FD6598C00089B61 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		BA5E0EDA1FD6599600089B61 /* PermutationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsTests.swift; sourceTree = "<group>"; };
 		BA631DCA2001EA3E00535183 /* PartitionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionList.swift; sourceTree = "<group>"; };
@@ -419,6 +423,7 @@
 				BAECCDAB200B1B0E0078B9F5 /* WordSearch.swift */,
 				BABF42AB200B96DB00157FDE /* UniqueBinarySearchTreesII.swift */,
 				BA9A05AC20108E4A0022E1CB /* ThreeSumClosest.swift */,
+				BA5BB0A62011FFB8009931D0 /* LetterCombinationsOfAPhoneNumber.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -497,6 +502,7 @@
 				BAECCDAD200B21040078B9F5 /* WordSearchTests.swift */,
 				BABF42AD200B96EA00157FDE /* UniqueBinarySearchTreesIITests.swift */,
 				BA9A05AE20108F460022E1CB /* ThreeSumClosestTests.swift */,
+				BA5BB0A82011FFC7009931D0 /* LetterCombinationsOfAPhoneNumberTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -631,6 +637,7 @@
 				BAA6F0801FCBAEA30021B04F /* SetMatrixZeroes.swift in Sources */,
 				BA97ED0F1FC95427000A3DFF /* LongestCommonPrefix.swift in Sources */,
 				BAE30AF220079F5F008A98F3 /* ValidateBinarySearchTree.swift in Sources */,
+				BA5BB0A72011FFB8009931D0 /* LetterCombinationsOfAPhoneNumber.swift in Sources */,
 				BA57E7041FCB0C7A0054C4A4 /* PlusOne.swift in Sources */,
 				BA1780231FCFFE24004293A6 /* ZigZagConversion.swift in Sources */,
 				BAA6F0881FCBC73C0021B04F /* RemoveDuplicatesFromSortedArrayII.swift in Sources */,
@@ -739,6 +746,7 @@
 				BAA6F0961FCBD72E0021B04F /* MergeSortedArrayTests.swift in Sources */,
 				BA13C7A81FD678A300EC7943 /* PermutationsIITests.swift in Sources */,
 				BAD517031FD411B900850531 /* ThreeSumTests.swift in Sources */,
+				BA5BB0A92011FFC7009931D0 /* LetterCombinationsOfAPhoneNumberTests.swift in Sources */,
 				BA57E6FE1FCABAE30054C4A4 /* UniquePathsIITests.swift in Sources */,
 				BAA6F0861FCBBED50021B04F /* SearchA2DMatrixTests.swift in Sources */,
 				BABF42AE200B96EA00157FDE /* UniqueBinarySearchTreesIITests.swift in Sources */,
