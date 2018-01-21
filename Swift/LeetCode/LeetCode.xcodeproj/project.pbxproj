@@ -23,6 +23,8 @@
 		BA3E703820047CDE000FA007 /* MaximumSubArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E703720047CDE000FA007 /* MaximumSubArrayTests.swift */; };
 		BA4D43EC20132F1400552440 /* FourSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D43EB20132F1400552440 /* FourSum.swift */; };
 		BA4D43EE20132F2100552440 /* FourSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D43ED20132F2100552440 /* FourSumTests.swift */; };
+		BA5137CF2014A716007FC700 /* CombinationSumII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5137CE2014A716007FC700 /* CombinationSumII.swift */; };
+		BA5137D12014A724007FC700 /* CombinationSumIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5137D02014A724007FC700 /* CombinationSumIITests.swift */; };
 		BA57E6D01FCA80770054C4A4 /* SearchInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E6CF1FCA80770054C4A4 /* SearchInRotatedSortedArray.swift */; };
 		BA57E6D21FCA82050054C4A4 /* SearchInRotatedSortedArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E6D11FCA82050054C4A4 /* SearchInRotatedSortedArrayTests.swift */; };
 		BA57E6D41FCA83C90054C4A4 /* SearchForARange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E6D31FCA83C90054C4A4 /* SearchForARange.swift */; };
@@ -188,6 +190,8 @@
 		BA3E703720047CDE000FA007 /* MaximumSubArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubArrayTests.swift; sourceTree = "<group>"; };
 		BA4D43EB20132F1400552440 /* FourSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSum.swift; sourceTree = "<group>"; };
 		BA4D43ED20132F2100552440 /* FourSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSumTests.swift; sourceTree = "<group>"; };
+		BA5137CE2014A716007FC700 /* CombinationSumII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSumII.swift; sourceTree = "<group>"; };
+		BA5137D02014A724007FC700 /* CombinationSumIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSumIITests.swift; sourceTree = "<group>"; };
 		BA57E6CF1FCA80770054C4A4 /* SearchInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInRotatedSortedArray.swift; sourceTree = "<group>"; };
 		BA57E6D11FCA82050054C4A4 /* SearchInRotatedSortedArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInRotatedSortedArrayTests.swift; sourceTree = "<group>"; };
 		BA57E6D31FCA83C90054C4A4 /* SearchForARange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForARange.swift; sourceTree = "<group>"; };
@@ -439,6 +443,7 @@
 				BA4D43EB20132F1400552440 /* FourSum.swift */,
 				BAB0E3C320134A9D0061805D /* IntegerToRoman.swift */,
 				BA8A676D20146D92009685E8 /* CombinationSum.swift */,
+				BA5137CE2014A716007FC700 /* CombinationSumII.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -521,6 +526,7 @@
 				BA4D43ED20132F2100552440 /* FourSumTests.swift */,
 				BAB0E3C520134AA60061805D /* IntegerToRomanTests.swift */,
 				BA8A676F20146DA0009685E8 /* CombinationSumTests.swift */,
+				BA5137D02014A724007FC700 /* CombinationSumIITests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -658,6 +664,7 @@
 				BA97ED0F1FC95427000A3DFF /* LongestCommonPrefix.swift in Sources */,
 				BAE30AF220079F5F008A98F3 /* ValidateBinarySearchTree.swift in Sources */,
 				BA5BB0A72011FFB8009931D0 /* LetterCombinationsOfAPhoneNumber.swift in Sources */,
+				BA5137CF2014A716007FC700 /* CombinationSumII.swift in Sources */,
 				BA57E7041FCB0C7A0054C4A4 /* PlusOne.swift in Sources */,
 				BA1780231FCFFE24004293A6 /* ZigZagConversion.swift in Sources */,
 				BAA6F0881FCBC73C0021B04F /* RemoveDuplicatesFromSortedArrayII.swift in Sources */,
@@ -711,6 +718,7 @@
 				BAA6F08A1FCBC74D0021B04F /* RemoveDuplicatesFromSortedArrayIITests.swift in Sources */,
 				D65A5EF0C9304AE898E101AE /* LeetCodeTests.swift in Sources */,
 				BAAD3024200358E500FEF1F1 /* DecodeWaysTests.swift in Sources */,
+				BA5137D12014A724007FC700 /* CombinationSumIITests.swift in Sources */,
 				BA57E6F61FCAB5000054C4A4 /* SpiralMatrixIITests.swift in Sources */,
 				BA97ECFD1FC92847000A3DFF /* ReverseIntegerTests.swift in Sources */,
 				BA57E6D21FCA82050054C4A4 /* SearchInRotatedSortedArrayTests.swift in Sources */,
