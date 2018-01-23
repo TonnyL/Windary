@@ -59,6 +59,8 @@
 		BA5BB0A92011FFC7009931D0 /* LetterCombinationsOfAPhoneNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5BB0A82011FFC7009931D0 /* LetterCombinationsOfAPhoneNumberTests.swift */; };
 		BA5E0ED91FD6598C00089B61 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E0ED81FD6598C00089B61 /* Permutations.swift */; };
 		BA5E0EDB1FD6599600089B61 /* PermutationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5E0EDA1FD6599600089B61 /* PermutationsTests.swift */; };
+		BA606323201748FD008D67E2 /* NextPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA606322201748FD008D67E2 /* NextPermutation.swift */; };
+		BA6063252017490B008D67E2 /* NextPermutationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6063242017490B008D67E2 /* NextPermutationTests.swift */; };
 		BA631DCB2001EA3E00535183 /* PartitionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA631DCA2001EA3E00535183 /* PartitionList.swift */; };
 		BA631DCD2001EA4B00535183 /* PartitionListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA631DCC2001EA4B00535183 /* PartitionListTests.swift */; };
 		BA6C11B41FC86710008DACF9 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B31FC86710008DACF9 /* TwoSum.swift */; };
@@ -226,6 +228,8 @@
 		BA5BB0A82011FFC7009931D0 /* LetterCombinationsOfAPhoneNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinationsOfAPhoneNumberTests.swift; sourceTree = "<group>"; };
 		BA5E0ED81FD6598C00089B61 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		BA5E0EDA1FD6599600089B61 /* PermutationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsTests.swift; sourceTree = "<group>"; };
+		BA606322201748FD008D67E2 /* NextPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPermutation.swift; sourceTree = "<group>"; };
+		BA6063242017490B008D67E2 /* NextPermutationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPermutationTests.swift; sourceTree = "<group>"; };
 		BA631DCA2001EA3E00535183 /* PartitionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionList.swift; sourceTree = "<group>"; };
 		BA631DCC2001EA4B00535183 /* PartitionListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionListTests.swift; sourceTree = "<group>"; };
 		BA6C11B31FC86710008DACF9 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -444,6 +448,7 @@
 				BAB0E3C320134A9D0061805D /* IntegerToRoman.swift */,
 				BA8A676D20146D92009685E8 /* CombinationSum.swift */,
 				BA5137CE2014A716007FC700 /* CombinationSumII.swift */,
+				BA606322201748FD008D67E2 /* NextPermutation.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -527,6 +532,7 @@
 				BAB0E3C520134AA60061805D /* IntegerToRomanTests.swift */,
 				BA8A676F20146DA0009685E8 /* CombinationSumTests.swift */,
 				BA5137D02014A724007FC700 /* CombinationSumIITests.swift */,
+				BA6063242017490B008D67E2 /* NextPermutationTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -645,6 +651,7 @@
 				BA57E6DC1FCA88850054C4A4 /* ValidSudoku.swift in Sources */,
 				BAA6F0981FCBDA3D0021B04F /* GrayCode.swift in Sources */,
 				BAECCDAC200B1B0E0078B9F5 /* WordSearch.swift in Sources */,
+				BA606323201748FD008D67E2 /* NextPermutation.swift in Sources */,
 				BA57E6F41FCAB2160054C4A4 /* SpiralMatrixII.swift in Sources */,
 				BAD517011FD40AF500850531 /* ThreeSum.swift in Sources */,
 				BA8601B71FE91CCA0025DAE3 /* MultiplyStrings.swift in Sources */,
@@ -727,6 +734,7 @@
 				BA6C11BA1FC86EB2008DACF9 /* AddTwoNumbersTests.swift in Sources */,
 				BA843BDD1FFF4270004466FC /* CombinationsTests.swift in Sources */,
 				BAD2ABFC2000AE7800D9D2C3 /* RotateListTests.swift in Sources */,
+				BA6063252017490B008D67E2 /* NextPermutationTests.swift in Sources */,
 				BA57E6DA1FCA873C0054C4A4 /* SearchInsertPositionTests.swift in Sources */,
 				BA3E703820047CDE000FA007 /* MaximumSubArrayTests.swift in Sources */,
 				BAB0E3C620134AA60061805D /* IntegerToRomanTests.swift in Sources */,
