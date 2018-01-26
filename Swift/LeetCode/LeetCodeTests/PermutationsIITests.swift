@@ -16,14 +16,23 @@ class PermutationsIITests: XCTestCase {
     func testPermuteUnique() {
         let p = PermutationsII()
         
-        // Expected: [[]]
-        print(p.permuteUnique([]))
+        XCTAssertTrue(p.permuteUnique([]).isEmpty)
         
-        // Expected: [[1]]
-        print(p.permuteUnique([1]))
+        let array1 = p.permuteUnique([1])
+        XCTAssertTrue(array1.count == 1)
+        XCTAssertTrue(array1[0] == [1])
         
-        // Expected: [[1, 1, 2], [1, 2, 1], [2, 1, 1]]
-        print(p.permuteUnique([1, 1, 2]))
+        let array2 = p.permuteUnique([1, 1, 2])
+        XCTAssertTrue(array2.count == 3)
+        XCTAssertTrue(array2.contains {
+            $0 == [1, 1, 2]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [1, 2, 1]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [2, 1, 1]
+        })
     }
     
 }

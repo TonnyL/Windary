@@ -16,14 +16,31 @@ class CombinationSumIITests: XCTestCase {
     func testCombinationSum2() {
         let cs = CombinationSumII()
         
-        // Expected: [[1, 7], [1, 2, 5], [2, 6], [1, 1, 6]]
-        print(cs.combinationSum2([10, 1, 2, 7, 6, 1, 5], 8))
+        let array0 = cs.combinationSum2([10, 1, 2, 7, 6, 1, 5], 8)
+        XCTAssertTrue(array0.count == 4)
+        XCTAssertTrue(array0.contains {
+            $0 == [1, 7]
+        })
+        XCTAssertTrue(array0.contains {
+            $0 == [1, 2, 5]
+        })
+        XCTAssertTrue(array0.contains {
+            $0 == [2, 6]
+        })
+        XCTAssertTrue(array0.contains {
+            $0 == [1, 1, 6]
+        })
         
-        // Expected: []
-        print(cs.combinationSum2([1], 2))
+        XCTAssertTrue(cs.combinationSum2([1], 2).isEmpty)
         
-        // Expected: [[1, 1, 2], [2, 2]]
-        print(cs.combinationSum2([1, 1, 2, 2], 4))
+        let array1 = cs.combinationSum2([1, 1, 2, 2], 4)
+        XCTAssertTrue(array1.count == 2)
+        XCTAssertTrue(array1.contains {
+            $0 == [1, 1, 2]
+        })
+        XCTAssertTrue(array1.contains {
+            $0 == [2, 2]
+        })
     }
     
 }

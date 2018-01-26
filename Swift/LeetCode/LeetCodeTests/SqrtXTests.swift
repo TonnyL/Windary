@@ -15,15 +15,15 @@ class SqrtXTests: XCTestCase {
 
     func testMySqrt() {
         let sx = SqrtX()
-        // Expected: 0
+        
         XCTAssertTrue(sx.mySqrt(0) == 0)
-        // Expected: 1
+        
         XCTAssertTrue(sx.mySqrt(1) == 1)
-        // Expected: 46339
+        
         XCTAssertTrue(sx.mySqrt(2147395599) == 46339)
-        // Expected: 46340
+        
         XCTAssertTrue(sx.mySqrt(2147395600) == 46340)
-        // Expected: 2
+        
         XCTAssertTrue(sx.mySqrt(6) == 2)
     }
 

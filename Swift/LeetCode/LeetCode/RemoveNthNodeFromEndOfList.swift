@@ -52,7 +52,8 @@ class RemoveNthNodeFromEndOfList {
         return first
     }
     
-    public class ListNode: CustomStringConvertible {
+    public class ListNode: Equatable {
+
         public var val: Int
         public var next: ListNode?
         
@@ -61,9 +62,10 @@ class RemoveNthNodeFromEndOfList {
             self.next = nil
         }
         
-        public var description: String {
-            return "ListNode val: \(self.val) next: -> \(String(describing: self.next))"
+        public static func ==(lhs: RemoveNthNodeFromEndOfList.ListNode, rhs: RemoveNthNodeFromEndOfList.ListNode) -> Bool {
+            return lhs.val == rhs.val && lhs.next == rhs.next
         }
+        
     }
     
 }

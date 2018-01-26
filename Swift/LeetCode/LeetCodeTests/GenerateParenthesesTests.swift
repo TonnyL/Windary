@@ -16,21 +16,23 @@ class GenerateParenthesesTests: XCTestCase {
     func testGenerateParenthesis() {
         let gp = GenerateParentheses()
         
-        // Expected: []
-        print(gp.generateParenthesis(0))
+        XCTAssertTrue(gp.generateParenthesis(0).isEmpty)
         
-        // Expected: [()]
-        print(gp.generateParenthesis(1))
+        let array0 = gp.generateParenthesis(1)
+        XCTAssertTrue(array0.count == 1)
+        XCTAssertTrue(array0[0] == "()")
         
-        // Expected: [()(), (())]
-        print(gp.generateParenthesis(2))
+        let array1 = gp.generateParenthesis(2)
+        XCTAssertTrue(array1.count == 2)
+        XCTAssertTrue(Set<String>.init(array1) == Set<String>.init(arrayLiteral: "()()", "(())"))
         
-        // Expected: [()()(), ()(()), (()()), (())(), ((()))]
-        print(gp.generateParenthesis(3))
+        let array2 = gp.generateParenthesis(3)
+        XCTAssertTrue(array2.count == 5)
+        XCTAssertTrue(Set<String>.init(array2) == Set<String>.init(arrayLiteral: "()()()", "()(())", "(()())", "(())()", "((()))"))
         
-        // Expected: [()()()(), (()(())), (()())(), ()()(()), (())()(), (((()))), (())(()),
-        // ()((())), ()(())(), ()(()()), (()()()), ((()())), ((()))(), ((())())]
-        print(gp.generateParenthesis(4))
+        let array3 = gp.generateParenthesis(4)
+        XCTAssertTrue(array3.count == 14)
+        XCTAssertTrue(Set<String>.init(array3) == Set<String>.init(arrayLiteral: "()((()))", "(())(())", "(((())))", "(())()()", "()()(())", "(()())()", "(()(()))", "()()()()", "()(())()", "()(()())", "(()()())", "((()()))", "((()))()", "((())())"))
     }
     
 }

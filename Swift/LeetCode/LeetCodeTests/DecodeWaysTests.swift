@@ -17,34 +17,34 @@ class DecodeWaysTests: XCTestCase {
         let dw = DecodeWays()
         
         // Expected: 1, ['A']
-        print(dw.numDecodings("1"))
+        XCTAssertTrue(dw.numDecodings("1") == 1)
         
         // Expected: 0
-        print(dw.numDecodings("0"))
+        XCTAssertTrue(dw.numDecodings("0") == 0)
         
         // Expected: 1, ['JA']
-        print(dw.numDecodings("101"))
+        XCTAssertTrue(dw.numDecodings("101") == 1)
         
         // Expected: 1, ['AK']
-        print(dw.numDecodings("110"))
+        XCTAssertTrue(dw.numDecodings("110") == 1)
         
         // Expected: 1, ['JJ']
-        print(dw.numDecodings("1010"))
+        XCTAssertTrue(dw.numDecodings("1010") == 1)
         
         // Expected: 0
-        print(dw.numDecodings("012"))
+        XCTAssertTrue(dw.numDecodings("012") == 0)
         
         // Expected: 2, ['JAA', 'JK']
-        print(dw.numDecodings("1011"))
+        XCTAssertTrue(dw.numDecodings("1011") == 2)
         
         // Expected: 2, ['AB', 'L']
-        print(dw.numDecodings("12"))
+        XCTAssertTrue(dw.numDecodings("12") == 2)
         
         // Expected: 3, ['ABC', 'LC', 'AW']
-        print(dw.numDecodings("123"))
+        XCTAssertTrue(dw.numDecodings("123") == 3)
         
         // Expected: 3, ['ABAT', 'LAT', 'AUT']
-        print(dw.numDecodings("12120"))
+        XCTAssertTrue(dw.numDecodings("12120") == 3)
     }
     
 }

@@ -16,13 +16,18 @@ class RotateImageTests: XCTestCase {
     func testExample() {
         let ri = RotateImage()
         
-        // let ints1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-        // ri.rotate(ints1)
-        // print(ints1)
+        var ints1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+        ri.rotate(&ints1)
+        XCTAssertTrue(ints1[0] == [7, 4, 1])
+        XCTAssertTrue(ints1[1] == [8, 5, 2])
+        XCTAssertTrue(ints1[2] == [9, 6, 3])
         
-        // let ints2 = [[5, 1, 9, 11], [2, 4, 8, 10], [13, 3, 6, 7], [15, 14, 12, 16]]
-        // ri.rotate(ints2)
-        // print(ints2)
+        var ints2 = [[5, 1, 9, 11], [2, 4, 8, 10], [13, 3, 6, 7], [15, 14, 12, 16]]
+        ri.rotate(&ints2)
+        XCTAssertTrue(ints2[0] == [15, 13, 2, 5])
+        XCTAssertTrue(ints2[1] == [14, 3, 4, 1])
+        XCTAssertTrue(ints2[2] == [12, 6, 8, 9])
+        XCTAssertTrue(ints2[3] == [16, 7, 10, 11])
     }
     
 }

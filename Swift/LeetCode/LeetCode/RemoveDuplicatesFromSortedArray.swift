@@ -14,8 +14,6 @@
 //
 //  Accepted. See [RemoveDuplicatesFromSortedArrayTests](./LeetCodeTests/RemoveDuplicatesFromSortedArrayTests.swift) for the test cases.
 //
-//  Here, the signature of removeDuplicates() is not completely similar to the LeetCode's. But I submit my solution and it was accepted.
-//
 
 import Foundation
 

@@ -17,17 +17,60 @@ class SubsetsTests: XCTestCase {
     func testSubsets() {
         let s = Subsets()
         
-        // [[]]
-        print(s.subsets([]))
+        let array0 = s.subsets([])
+        XCTAssertTrue(array0.count == 1)
+        XCTAssertTrue(array0[0] == [])
         
-        // [[], [1]]
-        print(s.subsets([1]))
+        let array1 = s.subsets([1])
+        XCTAssertTrue(array1.count == 2)
+        XCTAssertTrue(array1.contains {
+            $0 == []
+        })
+        XCTAssertTrue(array1.contains {
+            $0 == [1]
+        })
         
-        // [[], [1], [2], [1, 2]]
-        print(s.subsets([1, 2]))
+        let array2 = s.subsets([1, 2])
+        XCTAssertTrue(array2.count == 4)
+        XCTAssertTrue(array2.contains {
+            $0 == []
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [1]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [2]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [1, 2]
+        })
         
-        // [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
-        print(s.subsets([1, 2, 3]))
+        let array3 = s.subsets([1, 2, 3])
+        XCTAssertTrue(array3.count == 8)
+        XCTAssertTrue(array3.contains {
+            $0 == []
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [1]
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [2]
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [1, 2]
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [3]
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [1, 3]
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [2, 3]
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [1, 2, 3]
+        })
     }
     
 }

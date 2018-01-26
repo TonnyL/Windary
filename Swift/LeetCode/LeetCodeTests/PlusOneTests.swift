@@ -16,16 +16,15 @@ class PlusOneTests: XCTestCase {
     func testPlusOne() {
         let po = PlusOne()
         
-        // Expected: [2]
-        print(po.plusOne([1]))
-        // Expected: [1, 0]
-        print(po.plusOne([9]))
-        // Expected: [1, 0, 0]
-        print(po.plusOne([9, 9]))
-        // Expected: [2, 9, 0, 0, 0]
-        print(po.plusOne([2, 8, 9, 9, 9]))
-        // Expected: [2, 8, 9, 0]
-        print(po.plusOne([2, 8, 8, 9]))
+        XCTAssertTrue(po.plusOne([1]) == [2])
+        
+        XCTAssertTrue(po.plusOne([9]) == [1, 0])
+        
+        XCTAssertTrue(po.plusOne([9, 9]) == [1, 0, 0])
+        
+        XCTAssertTrue(po.plusOne([2, 8, 9, 9, 9]) == [2, 9, 0, 0, 0])
+        
+        XCTAssertTrue(po.plusOne([2, 8, 8, 9]) == [2, 8, 9, 0])
     }
     
 }

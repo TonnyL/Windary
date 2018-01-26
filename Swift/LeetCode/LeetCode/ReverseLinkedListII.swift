@@ -49,16 +49,18 @@ class ReverseLinkedListII {
         return head
     }
     
-    public class ListNode: CustomStringConvertible {
+    public class ListNode: Equatable {
+        
         public var val: Int
         public var next: ListNode?
+        
         public init(_ val: Int) {
             self.val = val
             self.next = nil
         }
         
-        public var description: String {
-            return "ListNode val: \(self.val) next: -> \(String(describing: self.next))"
+        public static func ==(lhs: ReverseLinkedListII.ListNode, rhs: ReverseLinkedListII.ListNode) -> Bool {
+            return lhs.val == rhs.val && lhs.next == rhs.next
         }
         
     }

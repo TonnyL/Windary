@@ -16,25 +16,18 @@ class DivideTwoIntegersTests: XCTestCase {
     func testDivide() {
         let d = DivideTwoIntegers()
         
-        // Expected: 1
         XCTAssertTrue(d.divide(1, 1) == 1)
         
-        // Expected: 0
         XCTAssertTrue(d.divide(0, 1) == 0)
         
-        // Expected: 1
         XCTAssertTrue(d.divide(-1, -1) == 1)
         
-        // Expected: 2147483647
         XCTAssertTrue(d.divide(2147483647, 1) == 2147483647)
         
-        // Expected: 0
         XCTAssertTrue(d.divide(2147483647, -2147483648) == 0)
         
-        // Expected: 2147483647
         XCTAssertTrue(d.divide(-2147483648, -1) == 2147483647)
         
-        // Expected: 16
         XCTAssertTrue(d.divide(100, 6) == 16)
     }
     

@@ -16,18 +16,42 @@ class ThreeSumTests: XCTestCase {
     func testThreeSum() {
         let ts = ThreeSum()
         
-        // Expected: []
-        print(ts.threeSum([-1, 0]))
+        XCTAssertTrue(ts.threeSum([-1, 0]).isEmpty)
         
-        // Expected: [[-1, -1, 2], [-1, 0, 1]]
-        print(ts.threeSum([-1, 0, 1, 2, -1, -4]))
+        let array0 = ts.threeSum([-1, 0, 1, 2, -1, -4])
+        XCTAssertTrue(array0.count == 2)
         
-        // Expected: [[0, 0, 0]]
-        print(ts.threeSum([0, 0, 0]))
+        XCTAssertTrue(array0.contains {
+            $0 == [-1, -1, 2]
+        })
+        XCTAssertTrue(array0.contains {
+            $0 == [-1, 0, 1]
+        })
         
-        // Expected: [[-4, -2, 6], [-4, 0, 4], [-4, 1, 3], [-4, 2, 2], [-2, -2, 4], [-2, 0, 2]]
-        print(ts.threeSum([-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6]))
-
+        let array1 = ts.threeSum([0, 0, 0])
+        XCTAssertTrue(array1.count == 1)
+        XCTAssertTrue(array1[0] == [0, 0, 0])
+        
+        let array2 = ts.threeSum([-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6])
+        XCTAssertTrue(array2.count == 6)
+        XCTAssertTrue(array2.contains {
+            $0 == [-4, -2, 6]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [-4, 0, 4]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [-4, 1, 3]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [-4, 2, 2]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [-2, -2, 4]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [-2, 0, 2]
+        })
     }
     
 }

@@ -17,9 +17,11 @@ class RemoveElementTests: XCTestCase {
     func testRemoveElement() {
         let re = RemoveElement()
         
-//        XCTAssertTrue(re.removeElement([3, 2, 2, 3], 3) == 2)
+        var array3223 = [3, 2, 2, 3]
+        XCTAssertTrue(re.removeElement(&array3223, 3) == 2)
         
-//        XCTAssertTrue(re.removeElement([3, 3], 3) == 0)
+        var array33 = [3, 3]
+        XCTAssertTrue(re.removeElement(&array33, 3) == 0)
     }
     
 }

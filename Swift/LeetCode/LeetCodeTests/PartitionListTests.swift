@@ -16,28 +16,36 @@ class PartitionListTests: XCTestCase {
     func testPartition() {
         let pl = PartitionList()
         
-        // Expected: nil
-        print(pl.partition(nil, 2))
+        XCTAssertNil(pl.partition(nil, 2))
         
-        // Expected: 1 -> 2
-        var node12 = PartitionList.ListNode(1)
+        let node12 = PartitionList.ListNode(1)
         node12.next = PartitionList.ListNode(2)
-        print(pl.partition(node12, 3))
+        let node12r = PartitionList.ListNode(1)
+        node12r.next = PartitionList.ListNode(2)
+        XCTAssertTrue(pl.partition(node12, 3) == node12r)
+        XCTAssertTrue(pl.partition(node12, 0) == node12r)
         
-        // Expected: 1 -> 2
-        print(pl.partition(node12, 0))
-        
-        var node143252 = PartitionList.ListNode(1)
+        let node143252 = PartitionList.ListNode(1)
         node143252.next = PartitionList.ListNode(4)
         node143252.next?.next = PartitionList.ListNode(3)
         node143252.next?.next?.next = PartitionList.ListNode(2)
         node143252.next?.next?.next?.next = PartitionList.ListNode(5)
         node143252.next?.next?.next?.next?.next = PartitionList.ListNode(2)
-        // Expected: 1 -> 2 -> 2 -> 4 -> 3 -> 5
-        print(pl.partition(node143252, 3))
+        let node122435 = PartitionList.ListNode(1)
+        node122435.next = PartitionList.ListNode(2)
+        node122435.next?.next = PartitionList.ListNode(2)
+        node122435.next?.next?.next = PartitionList.ListNode(4)
+        node122435.next?.next?.next?.next = PartitionList.ListNode(3)
+        node122435.next?.next?.next?.next?.next = PartitionList.ListNode(5)
+        XCTAssertTrue(pl.partition(node143252, 3) == node122435)
         
-        // Expected: 1 -> 3 -> 2 -> 2 -> 4 -> 5
-        print(pl.partition(node143252, 4))
+        let node132245 = PartitionList.ListNode(1)
+        node132245.next = PartitionList.ListNode(3)
+        node132245.next?.next = PartitionList.ListNode(2)
+        node132245.next?.next?.next = PartitionList.ListNode(2)
+        node132245.next?.next?.next?.next = PartitionList.ListNode(4)
+        node132245.next?.next?.next?.next?.next = PartitionList.ListNode(5)
+        XCTAssertTrue(pl.partition(node143252, 4) == node132245)
     }
     
 }

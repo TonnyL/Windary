@@ -16,23 +16,21 @@ class LetterCombinationsOfAPhoneNumberTests: XCTestCase {
     func testLetterCombinations() {
         let l = LetterCombinationsOfAPhoneNumber()
         
-        // Expected: []
-        print(l.letterCombinations(""))
+        XCTAssertTrue(l.letterCombinations("").isEmpty)
         
-        // Expected: [""]
-        print(l.letterCombinations("1"))
+        XCTAssertTrue(l.letterCombinations("1").isEmpty)
         
-        // Expected: ["a", "b", "c"]
-        print(l.letterCombinations("2"))
+        let array1 = l.letterCombinations("2")
+        XCTAssertTrue(array1.count == 3)
+        XCTAssertTrue(Set<String>.init(array1) == Set<String>.init(arrayLiteral: "a", "b", "c"))
         
-        // Expected: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
-        print(l.letterCombinations("23"))
+        let array2 = l.letterCombinations("23")
+        XCTAssertTrue(array2.count == 9)
+        XCTAssertTrue(Set<String>.init(array2) == Set<String>.init(arrayLiteral: "ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"))
         
-        // Expected: ["adg", "adh", "adi", "aeg", "aeh", "aei",
-        // "afg", "afh", "afi", "bdg", "bdh", "bdi", "beg", "beh",
-        // "bei", "bfg", "bfh", "bfi", "cdg", "cdh", "cdi", "ceg",
-        // "ceh", "cei", "cfg", "cfh", "cfi"]
-        print(l.letterCombinations("234"))
+        let array3 = l.letterCombinations("234")
+        XCTAssertTrue(array3.count == 27)
+        XCTAssertTrue(Set<String>.init(array3) == Set<String>.init(arrayLiteral: "adg", "adh", "adi", "aeg", "aeh", "aei", "afg", "afh", "afi", "bdg", "bdh", "bdi", "beg", "beh", "bei", "bfg", "bfh", "bfi", "cdg", "cdh", "cdi", "ceg", "ceh", "cei", "cfg", "cfh", "cfi"))
     }
 
 }

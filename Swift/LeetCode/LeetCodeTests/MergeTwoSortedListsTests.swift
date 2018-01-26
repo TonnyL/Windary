@@ -17,24 +17,32 @@ class MergeTwoSortedListsTests: XCTestCase {
     func testMergeTwoLists() {
         let m = MergeTwoSortedLists()
         
-        var node1 = MergeTwoSortedLists.ListNode(1)
+        let node1 = MergeTwoSortedLists.ListNode(1)
         node1.next = MergeTwoSortedLists.ListNode(2)
         node1.next?.next = MergeTwoSortedLists.ListNode(4)
         
-        var node2 = MergeTwoSortedLists.ListNode(1)
+        let node2 = MergeTwoSortedLists.ListNode(1)
         node2.next = MergeTwoSortedLists.ListNode(3)
         node2.next?.next = MergeTwoSortedLists.ListNode(4)
         
-        // Expected: 1->1->2->3->4->4
-        print(m.mergeTwoLists(node1, node2))
+        let node124Merge134 = MergeTwoSortedLists.ListNode(1)
+        node124Merge134.next = MergeTwoSortedLists.ListNode(1)
+        node124Merge134.next?.next = MergeTwoSortedLists.ListNode(2)
+        node124Merge134.next?.next?.next = MergeTwoSortedLists.ListNode(3)
+        node124Merge134.next?.next?.next?.next = MergeTwoSortedLists.ListNode(4)
+        node124Merge134.next?.next?.next?.next?.next = MergeTwoSortedLists.ListNode(4)
+        XCTAssertTrue(m.mergeTwoLists(node1, node2) == node124Merge134)
         
-        // Expected: 1->2->4
-        print(m.mergeTwoLists(node1, nil))
+        let node123MergeNil = MergeTwoSortedLists.ListNode(1)
+        node123MergeNil.next = MergeTwoSortedLists.ListNode(2)
+        node123MergeNil.next?.next = MergeTwoSortedLists.ListNode(4)
+        XCTAssertTrue(m.mergeTwoLists(node1, nil) == node123MergeNil)
 
-        // Expected: 1->3->4
-        print(m.mergeTwoLists(nil, node2))
+        let node134MergeNil = MergeTwoSortedLists.ListNode(1)
+        node134MergeNil.next = MergeTwoSortedLists.ListNode(3)
+        node134MergeNil.next?.next = MergeTwoSortedLists.ListNode(4)
+        XCTAssertTrue(m.mergeTwoLists(nil, node2) == node134MergeNil)
 
-        // Expected: nil
         XCTAssertNil(m.mergeTwoLists(nil, nil))
     }
     

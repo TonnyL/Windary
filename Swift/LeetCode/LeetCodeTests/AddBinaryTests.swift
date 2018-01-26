@@ -16,14 +16,13 @@ class AddBinaryTests: XCTestCase {
     func testAddBinary() {
         let ab = AddBinary()
         
-        // Expected: 0
-        print(ab.addBinary("0", "0"))
-        // Expected: 100
-        print(ab.addBinary("11", "1"))
-        // Expected: 1010
-        print(ab.addBinary("101", "101"))
-        // Expected: "110001"
-        print(ab.addBinary("101111", "10"))
+        XCTAssertTrue(ab.addBinary("0", "0") == "0")
+        
+        XCTAssertTrue(ab.addBinary("11", "1") == "100")
+        
+        XCTAssertTrue(ab.addBinary("101", "101") == "1010")
+        
+        XCTAssertTrue(ab.addBinary("101111", "10") == "110001")
     }
     
 }

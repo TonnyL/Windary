@@ -12,11 +12,11 @@ class ClimbingStairsTests: XCTestCase {
 
     func testClimbStairs() {
         let cs = ClimbingStairs()
-        // Expected: 1
+        
         XCTAssertTrue(cs.climbStairs(1) == 1)
-        // Expected: 3
+        
         XCTAssertTrue(cs.climbStairs(3) == 3)
-        // Expected: 8
+        
         XCTAssertTrue(cs.climbStairs(5) == 8)
     }
 

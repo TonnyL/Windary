@@ -16,13 +16,17 @@ class RemoveDuplicatesFromSortedArrayTests: XCTestCase {
     func testRemoveDuplicates() {
         let r = RemoveDuplicatesFromSortedArray()
         
-        // XCTAssertTrue(r.removeDuplicates([]) == 0)
+        var array: [Int] = []
+        XCTAssertTrue(r.removeDuplicates(&array) == 0)
         
-        // XCTAssertTrue(r.removeDuplicates([1, 2, 2]) == 2)
+        var array122 = [1, 2, 2]
+        XCTAssertTrue(r.removeDuplicates(&array122) == 2)
         
-        // XCTAssertTrue(r.removeDuplicates([1, 1, 1]) == 1)
+        var array111 = [1, 1, 1]
+        XCTAssertTrue(r.removeDuplicates(&array111) == 1)
         
-        // XCTAssertTrue(r.removeDuplicates([1, 1, 2, 3, 4]) == 4)
+        var array11234 = [1, 1, 2, 3, 4]
+        XCTAssertTrue(r.removeDuplicates(&array11234) == 4)
     }
     
 }

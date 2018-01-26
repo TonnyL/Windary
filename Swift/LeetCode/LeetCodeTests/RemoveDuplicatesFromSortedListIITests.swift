@@ -16,45 +16,50 @@ class RemoveDuplicatesFromSortedListIITests: XCTestCase {
     func testDeleteDuplicates() {
         let r = RemoveDuplicatesFromSortedListII()
         
-        // Expected: 1 -> 2 -> 5
-        var node1233445: RemoveDuplicatesFromSortedListII.ListNode? = RemoveDuplicatesFromSortedListII.ListNode(1)
-        node1233445?.next = RemoveDuplicatesFromSortedListII.ListNode(2)
-        node1233445?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(3)
-        node1233445?.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(3)
-        node1233445?.next?.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(4)
-        node1233445?.next?.next?.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(4)
-        node1233445?.next?.next?.next?.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(5)
-        print(r.deleteDuplicates(node1233445))
+        let node1233445 = RemoveDuplicatesFromSortedListII.ListNode(1)
+        node1233445.next = RemoveDuplicatesFromSortedListII.ListNode(2)
+        node1233445.next?.next = RemoveDuplicatesFromSortedListII.ListNode(3)
+        node1233445.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(3)
+        node1233445.next?.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(4)
+        node1233445.next?.next?.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(4)
+        node1233445.next?.next?.next?.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(5)
+        
+        let node1233445r = RemoveDuplicatesFromSortedListII.ListNode(1)
+        node1233445r.next = RemoveDuplicatesFromSortedListII.ListNode(2)
+        node1233445r.next?.next = RemoveDuplicatesFromSortedListII.ListNode(5)
+        XCTAssertTrue(r.deleteDuplicates(node1233445) == node1233445r)
         
         // Expected: 2 -> 3
-        var node11123: RemoveDuplicatesFromSortedListII.ListNode? = RemoveDuplicatesFromSortedListII.ListNode(1)
-        node11123?.next = RemoveDuplicatesFromSortedListII.ListNode(1)
-        node11123?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(1)
-        node11123?.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(2)
-        node11123?.next?.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(3)
-        print(r.deleteDuplicates(node11123))
+        let node11123 = RemoveDuplicatesFromSortedListII.ListNode(1)
+        node11123.next = RemoveDuplicatesFromSortedListII.ListNode(1)
+        node11123.next?.next = RemoveDuplicatesFromSortedListII.ListNode(1)
+        node11123.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(2)
+        node11123.next?.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(3)
         
-        var node111: RemoveDuplicatesFromSortedListII.ListNode? = RemoveDuplicatesFromSortedListII.ListNode(1)
-        node111?.next = RemoveDuplicatesFromSortedListII.ListNode(1)
-        node111?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(1)
+        let node11123r = RemoveDuplicatesFromSortedListII.ListNode(2)
+        node11123r.next = RemoveDuplicatesFromSortedListII.ListNode(3)
+        XCTAssertTrue(r.deleteDuplicates(node11123) == node11123r)
+        
+        let node111 = RemoveDuplicatesFromSortedListII.ListNode(1)
+        node111.next = RemoveDuplicatesFromSortedListII.ListNode(1)
+        node111.next?.next = RemoveDuplicatesFromSortedListII.ListNode(1)
         XCTAssertNil(r.deleteDuplicates(node111))
         
         XCTAssertNil(r.deleteDuplicates(nil))
         
-        // Expected: 1
-        var node122: RemoveDuplicatesFromSortedListII.ListNode? = RemoveDuplicatesFromSortedListII.ListNode(1)
-        node122?.next = RemoveDuplicatesFromSortedListII.ListNode(2)
-        node122?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(2)
-        print(r.deleteDuplicates(node122))
+        let node122 = RemoveDuplicatesFromSortedListII.ListNode(1)
+        node122.next = RemoveDuplicatesFromSortedListII.ListNode(2)
+        node122.next?.next = RemoveDuplicatesFromSortedListII.ListNode(2)
+        XCTAssertTrue(r.deleteDuplicates(node122) == RemoveDuplicatesFromSortedListII.ListNode(1))
         
-        var node11: RemoveDuplicatesFromSortedListII.ListNode? = RemoveDuplicatesFromSortedListII.ListNode(1)
-        node11?.next = RemoveDuplicatesFromSortedListII.ListNode(1)
+        let node11 = RemoveDuplicatesFromSortedListII.ListNode(1)
+        node11.next = RemoveDuplicatesFromSortedListII.ListNode(1)
         XCTAssertNil(r.deleteDuplicates(node11))
         
-        var node1122: RemoveDuplicatesFromSortedListII.ListNode? = RemoveDuplicatesFromSortedListII.ListNode(1)
-        node1122?.next = RemoveDuplicatesFromSortedListII.ListNode(1)
-        node1122?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(2)
-        node1122?.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(2)
+        let node1122 = RemoveDuplicatesFromSortedListII.ListNode(1)
+        node1122.next = RemoveDuplicatesFromSortedListII.ListNode(1)
+        node1122.next?.next = RemoveDuplicatesFromSortedListII.ListNode(2)
+        node1122.next?.next?.next = RemoveDuplicatesFromSortedListII.ListNode(2)
         XCTAssertNil(r.deleteDuplicates(node1122))
     }
     

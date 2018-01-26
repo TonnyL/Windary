@@ -16,24 +16,97 @@ class SubsetsIITests: XCTestCase {
     func testSubsetsWithDup() {
         let s = SubsetsII()
         
-        // Expected: []
-        print(s.subsetsWithDup([]))
+        XCTAssertTrue(s.subsetsWithDup([]).isEmpty)
         
-        // Expected: [[1], []]
-        print(s.subsetsWithDup([1]))
+        let array0 = s.subsetsWithDup([1])
+        XCTAssertTrue(array0.count == 2)
+        XCTAssertTrue(array0.contains {
+            $0 == [1]
+        })
+        XCTAssertTrue(array0.contains {
+            $0 == []
+        })
         
-        // Expected: [[], [1], [1, 1]]
-        print(s.subsetsWithDup([1, 1]))
+        let array1 = s.subsetsWithDup([1, 1])
+        XCTAssertTrue(array1.count == 3)
+        XCTAssertTrue(array1.contains {
+            $0 == []
+        })
+        XCTAssertTrue(array1.contains {
+            $0 == [1]
+        })
+        XCTAssertTrue(array1.contains {
+            $0 == [1, 1]
+        })
         
-        // Expected: [[1], [2], [1, 2], []]
-        print(s.subsetsWithDup([1, 2]))
+        let array2 = s.subsetsWithDup([1, 2])
+        XCTAssertTrue(array2.count == 4)
+        XCTAssertTrue(array2.contains {
+            $0 == []
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [1]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [2]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [2, 1]
+        })
         
-        // Expected: [[2], [1], [1, 2, 2], [2, 2], [1, 2], []]
-        print(s.subsetsWithDup([1, 2, 2]))
+        let array3 = s.subsetsWithDup([1, 2, 2])
+        XCTAssertTrue(array3.count == 6)
+        XCTAssertTrue(array3.contains {
+            $0 == []
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [1]
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [2]
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [2, 2, 1]
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [2, 2]
+        })
+        XCTAssertTrue(array3.contains {
+            $0 == [2, 1]
+        })
         
-        // Expected: [[], [1], [1, 4], [1, 4, 4], [1, 4, 4, 4], [1, 4, 4, 4, 4], [4], [4, 4], [4, 4, 4], [4, 4, 4, 4]]
-        print(s.subsetsWithDup([4, 4, 4, 1, 4]))
-        
+        let array4 = s.subsetsWithDup([4, 4, 4, 1, 4])
+        XCTAssertTrue(array4.count == 10)
+        XCTAssertTrue(array4.contains {
+            $0 == []
+        })
+        XCTAssertTrue(array4.contains {
+            $0 == [1]
+        })
+        XCTAssertTrue(array4.contains {
+            $0 == [4, 1]
+        })
+        XCTAssertTrue(array4.contains {
+            $0 == [4, 4, 1]
+        })
+        XCTAssertTrue(array4.contains {
+            $0 == [4, 4, 4, 1]
+        })
+        XCTAssertTrue(array4.contains {
+            $0 == [4, 4, 4, 4, 1]
+        })
+        XCTAssertTrue(array4.contains {
+            $0 == [4]
+        })
+        XCTAssertTrue(array4.contains {
+            $0 == [4, 4]
+        })
+        XCTAssertTrue(array4.contains {
+            $0 == [4, 4, 4]
+        })
+        XCTAssertTrue(array4.contains {
+            $0 == [4, 4, 4, 4]
+        })
     }
     
 }

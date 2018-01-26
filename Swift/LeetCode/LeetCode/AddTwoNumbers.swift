@@ -82,15 +82,20 @@ class AddTwoNumbers {
         return results[0]
     }
     
-}
-
-class ListNode {
-    
-    public var val: Int
-    public var next: ListNode?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
+    class ListNode: Equatable {
+        
+        public var val: Int
+        public var next: ListNode?
+        
+        public init(_ val: Int) {
+            self.val = val
+            self.next = nil
+        }
+        
+        static func ==(lhs: AddTwoNumbers.ListNode, rhs: AddTwoNumbers.ListNode) -> Bool {
+            return lhs.val == rhs.val && lhs.next == rhs.next
+        }
+        
     }
     
 }

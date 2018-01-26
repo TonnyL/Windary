@@ -16,11 +16,14 @@ class GroupAnagramsTests: XCTestCase {
     func testGroupAnagrams() {
         let ga = GroupAnagrams()
         
-        // Expected: []
-        print(ga.groupAnagrams([]))
+        let r0 = ga.groupAnagrams([])
+        XCTAssertTrue(r0.isEmpty)
         
-        // Expected: [["tan", "nat"], ["eat", "tea", "ate"], ["bat"]]
-        print(ga.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
+        let r1 = ga.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"])
+        XCTAssertTrue(r1.count == 3)
+        XCTAssertTrue(r1[0] == ["tan", "nat"])
+        XCTAssertTrue(r1[1] == ["eat", "tea", "ate"])
+        XCTAssertTrue(r1[2] == ["bat"])
     }
     
 }

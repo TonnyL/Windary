@@ -46,7 +46,8 @@ class MergeTwoSortedLists {
         return fakeHead!.next
     }
 
-    public class ListNode: CustomStringConvertible {
+    public class ListNode: Equatable {
+        
         public var val: Int
         public var next: ListNode?
         
@@ -55,9 +56,10 @@ class MergeTwoSortedLists {
             self.next = nil
         }
         
-        public var description: String {
-            return "ListNode val: \(self.val) next: -> \(String(describing: self.next))"
+        public static func ==(lhs: MergeTwoSortedLists.ListNode, rhs: MergeTwoSortedLists.ListNode) -> Bool {
+            return lhs.val == rhs.val && lhs.next == rhs.next
         }
+        
     }
     
 }

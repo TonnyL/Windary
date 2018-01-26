@@ -15,30 +15,36 @@ class RotateListTests: XCTestCase {
     
     func testRotateRight() {
         let rl = RotateList()
-        
-        // Expected: None
+
         XCTAssertNil(rl.rotateRight(nil, 1))
         
-        // Expected: 1
-        print(rl.rotateRight(RotateList.ListNode(1), 1))
+        XCTAssertTrue(rl.rotateRight(RotateList.ListNode(1), 1) == RotateList.ListNode(1))
         
-        // Expected: 1 -> 2
-        var node12 = RotateList.ListNode(1)
+        let node12 = RotateList.ListNode(1)
         node12.next = RotateList.ListNode(2)
-        print(rl.rotateRight(node12, 0))
+        let node12r = RotateList.ListNode(1)
+        node12r.next = RotateList.ListNode(2)
+        XCTAssertTrue(rl.rotateRight(node12, 0) == node12r)
         
-        // Expected: 3 -> 1 -> 2
-        var node123 = RotateList.ListNode(1)
+        let node123 = RotateList.ListNode(1)
         node123.next = RotateList.ListNode(2)
         node123.next?.next = RotateList.ListNode(3)
-        print(rl.rotateRight(node123, 1))
+        let node123r = RotateList.ListNode(3)
+        node123r.next = RotateList.ListNode(1)
+        node123r.next?.next = RotateList.ListNode(2)
+        XCTAssertTrue(rl.rotateRight(node123, 1) == node123r)
         
-        var node12345 = RotateList.ListNode(1)
+        let node12345 = RotateList.ListNode(1)
         node12345.next = RotateList.ListNode(2)
         node12345.next?.next = RotateList.ListNode(3)
         node12345.next?.next?.next = RotateList.ListNode(4)
         node12345.next?.next?.next?.next = RotateList.ListNode(5)
-        print(rl.rotateRight(node12345, 2))
+        let node12345r = RotateList.ListNode(4)
+        node12345r.next = RotateList.ListNode(5)
+        node12345r.next?.next = RotateList.ListNode(1)
+        node12345r.next?.next?.next = RotateList.ListNode(2)
+        node12345r.next?.next?.next?.next = RotateList.ListNode(3)
+        XCTAssertTrue(rl.rotateRight(node12345, 2) == node12345r)
     }
     
 }

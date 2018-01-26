@@ -16,9 +16,7 @@ class TwoSumTests: XCTestCase {
     func testTwoSum() {
         let ts = TwoSum()
         
-        for result in ts.twoSum([2, 5, 5, 11], 10) {
-            print(result)
-        }
+        XCTAssertTrue(ts.twoSum([2, 5, 5, 11], 10) == [1, 2])
     }
 
 }

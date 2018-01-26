@@ -162,7 +162,6 @@
 		D65A59EF31ABF547BC123B8C /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A5EDDE1F045B47419F0BA /* ClimbingStairs.swift */; };
 		D65A5A087B5516716644AFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65A502F05E9E9CDD3E1286B /* Main.storyboard */; };
 		D65A5E8086417B191C25B76C /* ClimbingStairsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A58CAD393542E414BA0FB /* ClimbingStairsTest.swift */; };
-		D65A5EF0C9304AE898E101AE /* LeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A53BEBBD867F85121A1D1 /* LeetCodeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -322,7 +321,6 @@
 		BAF97EAC1FDEBF2B0039845A /* SubsetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsetsTests.swift; sourceTree = "<group>"; };
 		D65A53577369258404F169DD /* SimplifyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifyPath.swift; sourceTree = "<group>"; };
 		D65A53937B34936CEBF08482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D65A53BEBBD867F85121A1D1 /* LeetCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeTests.swift; sourceTree = "<group>"; };
 		D65A543760A54B630795C53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		D65A586087659F02390C1217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D65A58948087724CE0F20538 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -457,7 +455,6 @@
 			isa = PBXGroup;
 			children = (
 				D65A592292168BC281F8F0BF /* Info.plist */,
-				D65A53BEBBD867F85121A1D1 /* LeetCodeTests.swift */,
 				D65A5D9AFC3B1D9099763811 /* SqrtXTests.swift */,
 				D65A5DE11BC6FC98D489D2E7 /* SimplifyPathTests.swift */,
 				D65A58CAD393542E414BA0FB /* ClimbingStairsTest.swift */,
@@ -723,7 +720,6 @@
 				BA97ED111FC95CE5000A3DFF /* LongestCommonPrefixTests.swift in Sources */,
 				BA9697611FCC09E800C5FFDE /* SortColorsTests.swift in Sources */,
 				BAA6F08A1FCBC74D0021B04F /* RemoveDuplicatesFromSortedArrayIITests.swift in Sources */,
-				D65A5EF0C9304AE898E101AE /* LeetCodeTests.swift in Sources */,
 				BAAD3024200358E500FEF1F1 /* DecodeWaysTests.swift in Sources */,
 				BA5137D12014A724007FC700 /* CombinationSumIITests.swift in Sources */,
 				BA57E6F61FCAB5000054C4A4 /* SpiralMatrixIITests.swift in Sources */,

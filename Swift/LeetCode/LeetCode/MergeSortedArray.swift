@@ -26,8 +26,8 @@ class MergeSortedArray {
             for i in array.indices {
                 nums1[i] = array[i]
             }
-            // print(newNums1)
         }
+        // print(nums1)
     }
     
 }

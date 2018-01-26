@@ -16,18 +16,18 @@ class BinaryTreeInorderTraversalTests: XCTestCase {
     func testInorderTraversal() {
         let b = BinaryTreeInorderTraversal()
         
-        print(b.inorderTraversal(nil))
+        XCTAssertTrue(b.inorderTraversal(nil).isEmpty)
         
-        var node132: BinaryTreeInorderTraversal.TreeNode = BinaryTreeInorderTraversal.TreeNode(1)
-        var right = BinaryTreeInorderTraversal.TreeNode(2)
+        let node132: BinaryTreeInorderTraversal.TreeNode = BinaryTreeInorderTraversal.TreeNode(1)
+        let right = BinaryTreeInorderTraversal.TreeNode(2)
         right.left = BinaryTreeInorderTraversal.TreeNode(3)
         node132.right = right
         
-        print(b.inorderTraversal(node132))
+        XCTAssertTrue(b.inorderTraversal(node132) == [1, 3, 2])
         
-        var node4251637 = BinaryTreeInorderTraversal.TreeNode(1)
-        var node2 = BinaryTreeInorderTraversal.TreeNode(2)
-        var node3 = BinaryTreeInorderTraversal.TreeNode(3)
+        let node4251637 = BinaryTreeInorderTraversal.TreeNode(1)
+        let node2 = BinaryTreeInorderTraversal.TreeNode(2)
+        let node3 = BinaryTreeInorderTraversal.TreeNode(3)
         node2.left = BinaryTreeInorderTraversal.TreeNode(4)
         node2.right = BinaryTreeInorderTraversal.TreeNode(5)
         node3.left = BinaryTreeInorderTraversal.TreeNode(6)
@@ -35,7 +35,7 @@ class BinaryTreeInorderTraversalTests: XCTestCase {
         node4251637.left = node2
         node4251637.right = node3
         
-        print(b.inorderTraversal(node4251637))
+        XCTAssertTrue(b.inorderTraversal(node4251637) == [4, 2, 5, 1, 6, 3, 7])
     }
     
 }

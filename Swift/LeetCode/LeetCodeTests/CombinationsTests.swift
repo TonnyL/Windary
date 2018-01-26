@@ -16,17 +16,52 @@ class CombinationsTests: XCTestCase {
     func testCombine() {
         let c = Combinations()
         
-        // Expected: []
-        print(c.combine(2, 0))
+        XCTAssertTrue(c.combine(2, 0).isEmpty)
         
-        // Expected: [[1], [2]]
-        print(c.combine(2, 1));
+        let array0 = c.combine(2, 1)
+        XCTAssertTrue(array0.count == 2)
+        XCTAssertTrue(array0.contains {
+            $0 == [1]
+        })
+        XCTAssertTrue(array0.contains {
+            $0 == [2]
+        })
         
-        // Expected: [[2,4], [3,4], [2,3], [1,2], [1,3], [1,4]]
-        print(c.combine(4, 2));
+        let array1 = c.combine(4, 2)
+        XCTAssertTrue(array1.count == 6)
+        XCTAssertTrue(array1.contains {
+            $0 == [2, 4]
+        })
+        XCTAssertTrue(array1.contains {
+            $0 == [3, 4]
+        })
+        XCTAssertTrue(array1.contains {
+            $0 == [2, 3]
+        })
+        XCTAssertTrue(array1.contains {
+            $0 == [1, 2]
+        })
+        XCTAssertTrue(array1.contains {
+            $0 == [1, 3]
+        })
+        XCTAssertTrue(array1.contains {
+            $0 == [1, 4]
+        })
         
-        // Expected: [[1, 2, 3], [1, 2, 4], [1, 3, 4], [2, 3, 4]]
-        print(c.combine(4, 3));
+        let array2 = c.combine(4, 3)
+        XCTAssertTrue(array2.count == 4)
+        XCTAssertTrue(array2.contains {
+            $0 == [1, 2, 3]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [1, 2, 4]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [1, 3, 4]
+        })
+        XCTAssertTrue(array2.contains {
+            $0 == [2, 3, 4]
+        })
     }
     
 }

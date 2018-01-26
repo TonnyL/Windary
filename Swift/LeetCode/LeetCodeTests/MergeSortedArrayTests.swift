@@ -15,20 +15,34 @@ class MergeSortedArrayTests: XCTestCase {
     
     func testMerge() {
         let msa = MergeSortedArray()
-        // Expected: [1]
-        // msa.merge([1], 1, [], 0)
-        // Expected: []
-        // msa.merge([0], 0, [1], 1)
-        // Expected: [1, 2, 3, 4, 5, 6]
-        // msa.merge([4, 5, 6, 0, 0, 0], 3, [1, 2, 3], 3)
-        // Expected: [0, 0, 0, 0, 1, 2, 3, 4, -1]
-        // msa.merge([0, 0, 0, 1, 2, 3, -1, -1, -1], 6, [0, 4], 2)
-        // Expected: [0, 1, 2, 3, 3, 4, 0, 0, 0]
-        // msa.merge([0, 1, 2, 3, 0, 0, 0, 0, 0], 4, [3, 4, 0], 2)
-        // Expected: [1, 1, 2, 0]
-        // msa.merge([1, 2, 0, 0], 2, [1], 1)
-        // Expected: [1, 2, 2, 3, 5, 6]
-        // msa.merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3)
+        
+        var array0 = [1]
+        msa.merge(&array0, 1, [], 0)
+        XCTAssertTrue(array0 == [1])
+        
+        var array1 = [0]
+        msa.merge(&array1, 0, [1], 1)
+        XCTAssertTrue(array1 == [1])
+        
+        var array2 = [4, 5, 6, 0, 0, 0]
+        msa.merge(&array2, 3, [1, 2, 3], 3)
+        XCTAssertTrue(array2 == [1, 2, 3, 4, 5, 6])
+        
+        var array3 = [0, 0, 0, 1, 2, 3, -1, -1, -1]
+        msa.merge(&array3, 6, [0, 4], 2)
+        XCTAssertTrue(array3 == [0, 0, 0, 0, 1, 2, 3, 4, -1])
+        
+        var array4 = [0, 1, 2, 3, 0, 0, 0, 0, 0]
+        msa.merge(&array4, 4, [3, 4, 0], 2)
+        XCTAssertTrue(array4 == [0, 1, 2, 3, 3, 4, 0, 0, 0, 0])
+        
+        var array5 = [1, 2, 0, 0]
+        msa.merge(&array5, 2, [1], 1)
+        XCTAssertTrue(array5 == [1, 1, 2, 0])
+        
+        var array6 = [1, 2, 3, 0, 0, 0]
+        msa.merge(&array6, 3, [2, 5, 6], 3)
+        XCTAssertTrue(array6 == [1, 2, 2, 3, 5, 6])
     }
     
 }
