@@ -28,24 +28,4 @@ class MaximumSubArray {
         return max
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val ms = MaximumSubArray()
-
-            // Expected: 1
-            println(ms.maxSubArray(intArrayOf(1)))
-
-            // Expected: -2
-            println(ms.maxSubArray(intArrayOf(-4, -2)))
-
-            // Expected: 1
-            println(ms.maxSubArray(intArrayOf(1, 0, -1)))
-
-            // Expected: 6
-            println(ms.maxSubArray(intArrayOf(-2, 1, -3, 4, -1, 2, 1, -5, 4)))
-        }
-    }
-
 }

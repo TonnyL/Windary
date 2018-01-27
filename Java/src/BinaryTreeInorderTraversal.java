@@ -62,6 +62,7 @@ public class BinaryTreeInorderTraversal {
     }*/
 
     public static class TreeNode {
+
         int val;
         TreeNode left;
         TreeNode right;
@@ -69,31 +70,28 @@ public class BinaryTreeInorderTraversal {
         TreeNode(int x) {
             val = x;
         }
-    }
 
-    public static void main(String[] args) {
-        BinaryTreeInorderTraversal b = new BinaryTreeInorderTraversal();
+        @Override
+        public boolean equals(Object obj) {
+            if (obj instanceof TreeNode) {
+                TreeNode node = (TreeNode) obj;
+                if (this.val != node.val) {
+                    return false;
+                }
+                if (this.left == null) {
+                    if (this.right == null) {
+                        return node.left == null && node.right == null;
+                    }
+                    return this.right.equals(node.right);
+                }
+                if (this.right == null) {
+                    return node.right == null;
+                }
+                return this.left.equals(node.left) && this.right.equals(node.right);
+            }
+            return false;
+        }
 
-        System.out.println(b.inorderTraversal(null));
-
-        TreeNode node132 = new TreeNode(1);
-        TreeNode right = new TreeNode(2);
-        right.left = new TreeNode(3);
-        node132.right = right;
-
-        System.out.println(b.inorderTraversal(node132));
-
-        TreeNode node4251637 = new TreeNode(1);
-        TreeNode node2 = new TreeNode(2);
-        TreeNode node3 = new TreeNode(3);
-        node2.left = new TreeNode(4);
-        node2.right = new TreeNode(5);
-        node3.left = new TreeNode(6);
-        node3.right = new TreeNode(7);
-        node4251637.left = node2;
-        node4251637.right = node3;
-
-        System.out.println(b.inorderTraversal(node4251637));
     }
 
 }

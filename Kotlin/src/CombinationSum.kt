@@ -48,21 +48,4 @@ class CombinationSum {
         }
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val cs = CombinationSum()
-
-            // Expected: [[7], [2, 2, 3]]
-            println(cs.combinationSum(intArrayOf(2, 3, 6, 7), 7))
-
-            // Expected: [[1, 1, 1]]
-            println(cs.combinationSum(intArrayOf(1), 3))
-
-            // Expected: [[1, 1, 1, 1], [1, 1, 2], [2, 2]]
-            println(cs.combinationSum(intArrayOf(1, 2), 4))
-        }
-    }
-
 }

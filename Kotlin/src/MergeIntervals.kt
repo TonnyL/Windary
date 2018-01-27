@@ -39,27 +39,4 @@ class MergeIntervals {
             var end: Int = 0
     )
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val mi = MergeIntervals()
-
-            // Expected: [1, 1]
-            println(mi.merge(listOf(Interval(1, 1))))
-
-            // Expected: [1, 2]
-            println(mi.merge(listOf(Interval(1, 2), Interval(2, 2))))
-
-            // Expected: [1, 2], [4, 5], [7, 8]
-            println(mi.merge(listOf(Interval(1, 2), Interval(4, 5), Interval(7, 8))))
-
-            // Expected: [1, 4]
-            println(mi.merge(listOf(Interval(1, 3), Interval(2, 4))))
-
-            // Expected: [1, 4]
-            println(mi.merge(listOf(Interval(1, 4), Interval(2, 3))))
-        }
-    }
-
 }

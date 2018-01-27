@@ -1,5 +1,3 @@
-//import java.util.Arrays
-
 /**
  * Given an array with n objects colored red, white or blue, sort them so that objects of the same color are adjacent, with the colors in the order red, white and blue.
  *
@@ -36,39 +34,6 @@ class SortColors {
             }
         }
 
-//        println(Arrays.toString(nums))
-    }
-
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val sc = SortColors()
-
-            // Expected: []
-            sc.sortColors(intArrayOf())
-
-            // Expected: [0]
-            sc.sortColors(intArrayOf(0))
-
-            // Expected: [0, 1, 2]
-            sc.sortColors(intArrayOf(2, 1, 0))
-
-            // Expected: [0, 0, 0, 1, 1, 1, 1, 1, 2]
-            sc.sortColors(intArrayOf(0, 1, 0, 1, 1, 1, 2, 0, 1))
-
-            // Expected: [0, 0, 1, 1, 2]
-            sc.sortColors(intArrayOf(0, 1, 2, 0, 1))
-
-            // Expected: [0, 0, 1, 1, 2, 2, 2, 2, 2]
-            sc.sortColors(intArrayOf(2, 2, 2, 2, 1, 0, 2, 0, 1))
-
-            // Expected: [0, 0, 1, 1, 1, 2, 2, 2]
-            sc.sortColors(intArrayOf(0, 0, 1, 1, 1, 2, 2, 2))
-
-            // Expected: [0, 0, 0, 1, 1, 1, 2, 2, 2]
-            sc.sortColors(intArrayOf(0, 0, 0, 2, 2, 2, 1, 1, 1))
-
-        }
     }
 
 }

@@ -32,33 +32,4 @@ class DivideTwoIntegers {
         return if (result < Integer.MIN_VALUE || result > Integer.MAX_VALUE) Integer.MAX_VALUE else result.toInt()
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val d = DivideTwoIntegers()
-
-            // Expected: 1
-            println(d.divide(1, 1))
-
-            // Expected: 0
-            println(d.divide(0, 1))
-
-            // Expected: 1
-            println(d.divide(-1, -1))
-
-            // Expected: 2147483647
-            println(d.divide(Int.MAX_VALUE, 1))
-
-            // Expected: 0
-            println(d.divide(Int.MAX_VALUE, Int.MIN_VALUE))
-
-            // Expected: 2147483647
-            println(d.divide(Int.MIN_VALUE, -1))
-
-            // Expected: 16
-            println(d.divide(100, 6))
-        }
-    }
-
 }

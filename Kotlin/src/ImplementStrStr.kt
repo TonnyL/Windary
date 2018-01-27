@@ -19,19 +19,4 @@ class ImplementStrStr {
         } ?: -1
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val iss = ImplementStrStr()
-            // Expected: 3
-            println(iss.strStr("aaab", "b"))
-            // Expected: 0
-            println(iss.strStr("", ""))
-            // Expected: -1
-            println(iss.strStr("", "a"))
-            // Expected: 4
-            println(iss.strStr("whats up", "s "))
-        }
-    }
-
 }

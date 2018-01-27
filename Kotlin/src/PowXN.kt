@@ -26,21 +26,4 @@ class PowXN {
         return result * result / x
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val pxn = PowXN()
-            // Expected: 4
-            println(pxn.myPow(2.0, 2))
-            // Expected: 700.28148
-            println(pxn.myPow(8.88023, 3))
-            // Expected: 0.25
-            println(pxn.myPow(2.0, -2))
-            // Expected: 0.0
-            println(pxn.myPow(0.00001, 2147483647))
-            // Expected: 0.00003
-            println(pxn.myPow(34.00515, -3))
-        }
-    }
-
 }

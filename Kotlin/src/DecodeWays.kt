@@ -35,42 +35,4 @@ class DecodeWays {
         return ints[s.length]
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val dw = DecodeWays()
-
-            // Expected: 1, ['A']
-            println(dw.numDecodings("1"))
-
-            // Expected: 0
-            println(dw.numDecodings("0"))
-
-            // Expected: 1, ['JA']
-            println(dw.numDecodings("101"))
-
-            // Expected: 1, ['AK']
-            println(dw.numDecodings("110"))
-
-            // Expected: 1, ['JJ']
-            println(dw.numDecodings("1010"))
-
-            // Expected: 0
-            println(dw.numDecodings("012"))
-
-            // Expected: 2, ['JAA', 'JK']
-            println(dw.numDecodings("1011"))
-
-            // Expected: 2, ['AB', 'L']
-            println(dw.numDecodings("12"))
-
-            // Expected: 3, ['ABC', 'LC', 'AW']
-            println(dw.numDecodings("123"))
-
-            // Expected: 3, ['ABAT', 'LAT', 'AUT']
-            println(dw.numDecodings("12120"))
-        }
-    }
-
 }

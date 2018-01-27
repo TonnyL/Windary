@@ -55,21 +55,4 @@ class LongestPalindromicSubstring {
         return s.substring(startIndex, maxLength + startIndex)
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val l = LongestPalindromicSubstring()
-
-            // Expected: "bab" or "aba"
-            println(l.longestPalindrome("babad"))
-
-            // Expected: "bb"
-            println(l.longestPalindrome("cbbd"))
-
-            // Expected: "ddtattarrattatdd"
-            println(l.longestPalindrome("babaddtattarrattatddetartrateedredividerb"))
-        }
-    }
-
 }

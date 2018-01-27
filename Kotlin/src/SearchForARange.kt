@@ -1,5 +1,3 @@
-import java.util.Arrays
-
 /**
  * Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
  *
@@ -36,22 +34,6 @@ class SearchForARange {
         }
 
         return result
-    }
-
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val sr = SearchForARange()
-
-            // Expected: [0, 0]
-            println(Arrays.toString(sr.searchRange(intArrayOf(1), 1)))
-
-            // Expected: [-1, -1]
-            println(Arrays.toString(sr.searchRange(intArrayOf(5, 7, 7, 8, 8, 10), 11)))
-
-            // Expected: [3, 4]
-            println(Arrays.toString(sr.searchRange(intArrayOf(5, 7, 7, 8, 8, 10), 8)))
-        }
     }
 
 }

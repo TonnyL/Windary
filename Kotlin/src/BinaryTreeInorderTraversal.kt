@@ -64,30 +64,4 @@ class BinaryTreeInorderTraversal {
             var right: TreeNode? = null
     )
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val b = BinaryTreeInorderTraversal()
-
-            println(b.inorderTraversal(null))
-
-            println(b.inorderTraversal(TreeNode(1).apply {
-                right = TreeNode(2).apply {
-                    left = TreeNode(3)
-                }
-            }))
-
-            println(b.inorderTraversal(TreeNode(1).apply {
-                left = TreeNode(2).apply {
-                    left = TreeNode(4)
-                    right = TreeNode(5)
-                }
-                right = TreeNode(3).apply {
-                    left = TreeNode(6)
-                    right = TreeNode(7)
-                }
-            }))
-        }
-    }
-
 }

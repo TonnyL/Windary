@@ -26,28 +26,4 @@ class UniquePaths {
         return matrix[m - 1][n - 1]
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val up = UniquePaths()
-
-            // Expected: 1
-            println(up.uniquePaths(1, 1))
-            // Expected: 1
-            println(up.uniquePaths(1, 2))
-            // Expected: 2
-            // The matrix:
-            // 1 1
-            // 1 2(result)
-            println(up.uniquePaths(2, 2))
-            // Expected: 20
-            // The matrix:
-            // 1 1 1 1
-            // 1 2 3 4
-            // 1 3 6 10
-            // 1 4 10 20(result)
-            println(up.uniquePaths(4, 4))
-        }
-    }
-
 }

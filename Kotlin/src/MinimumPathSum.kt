@@ -49,30 +49,4 @@ class MinimumPathSum {
         return matrix[grid.size - 1][grid[0].size - 1]
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val mps = MinimumPathSum()
-
-            // Expected: 0
-            println(mps.minPathSum(arrayOf<IntArray>()))
-            // Expected: 0
-            println(mps.minPathSum(arrayOf(intArrayOf())))
-            // Expected: 1
-            println(mps.minPathSum(arrayOf(intArrayOf(1))))
-            // Expected: 7
-            // The matrix:
-            // 1 4 5
-            // 2 7 6
-            // 6 8 7
-            println(mps.minPathSum(arrayOf(intArrayOf(1, 3, 1), intArrayOf(1, 5, 1), intArrayOf(4, 2, 1))))
-            // Expected: 5
-            // The matrix:
-            // 1 2 3
-            // 2 4 4
-            // 3 6 5
-            println(mps.minPathSum(arrayOf(intArrayOf(1, 1, 1), intArrayOf(1, 2, 1), intArrayOf(1, 3, 1))))
-        }
-    }
-
 }

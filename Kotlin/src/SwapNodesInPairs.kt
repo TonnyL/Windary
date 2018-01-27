@@ -33,43 +33,4 @@ class SwapNodesInPairs {
             var next: ListNode? = null
     )
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val s = SwapNodesInPairs()
-
-            // Expected: null
-            println(s.swapPairs(null))
-
-            // Expected: 1
-            println(s.swapPairs(ListNode(1)))
-
-            // Expected: 2 -> 1
-            println(s.swapPairs(ListNode(1).apply {
-                next = ListNode(2)
-            }))
-
-            // Expected: 2 -> 1 -> 4 -> 3
-            println(s.swapPairs(ListNode(1).apply {
-                next = ListNode(2).apply {
-                    next = ListNode(3).apply {
-                        next = ListNode(4)
-                    }
-                }
-            }))
-
-            // Expected: 2 -> 1 -> 4 -> 3 -> 5
-            println(s.swapPairs(ListNode(1).apply {
-                next = ListNode(2).apply {
-                    next = ListNode(3).apply {
-                        next = ListNode(4).apply {
-                            next = ListNode(5)
-                        }
-                    }
-                }
-            }))
-        }
-    }
-
 }

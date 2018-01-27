@@ -44,41 +44,4 @@ class ReverseLinkedListII {
             var next: ListNode? = null
     )
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val r = ReverseLinkedListII()
-
-            // Expected: null
-            println(r.reverseBetween(null, 1, 2))
-
-            // Expected: 1 -> 3 -> 2
-            println(r.reverseBetween(ListNode(1).apply {
-                next = ListNode(2).apply {
-                    next = ListNode(3)
-                }
-            }, 2, 3))
-
-            // Expected: 1
-            println(r.reverseBetween(ListNode(1), 1, 1))
-
-            // Expected: 2 -> 1
-            println(r.reverseBetween(ListNode(1).apply {
-                next = ListNode(2)
-            }, 1, 2))
-
-            // Expected: 1 -> 4 -> 3 -> 2 -> 5
-            println(r.reverseBetween(ListNode(1).apply {
-                next = ListNode(2).apply {
-                    next = ListNode(3).apply {
-                        next = ListNode(4).apply {
-                            next = ListNode(5)
-                        }
-                    }
-                }
-            }, 2, 4))
-        }
-    }
-
 }

@@ -1,5 +1,3 @@
-import java.util.Arrays
-
 /**
  * Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
  *
@@ -42,29 +40,6 @@ class NextPermutation {
         var tmpJ = j
         while (tmpI < tmpJ) {
             swap(nums, tmpI++, tmpJ--)
-        }
-    }
-
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val np = NextPermutation()
-
-            // Expected: [1, 3, 2]
-            val array123 = intArrayOf(1, 2, 3)
-            np.nextPermutation(array123)
-            println(Arrays.toString(array123))
-
-            // Expected: [1, 2, 3]
-            val array321 = intArrayOf(3, 2, 1)
-            np.nextPermutation(array321)
-            println(Arrays.toString(array321))
-
-            // Expected: [1, 5, 1]
-            val array115 = intArrayOf(1, 1, 5)
-            np.nextPermutation(array115)
-            println(Arrays.toString(array115))
         }
     }
 

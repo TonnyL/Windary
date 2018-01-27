@@ -1,5 +1,3 @@
-import java.util.Arrays
-
 /**
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
  * You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -24,17 +22,6 @@ class TwoSum {
         }
 
         return intArrayOf(0, 0)
-    }
-
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val nums = intArrayOf(2, 5, 5, 11)
-            val target = 10
-
-            println(Arrays.toString(TwoSum().twoSum(nums, target)))
-        }
     }
 
 }

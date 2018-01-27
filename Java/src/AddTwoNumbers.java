@@ -77,6 +77,7 @@ public class AddTwoNumbers {
     }
 
     public static class ListNode {
+
         int val;
         ListNode next;
 
@@ -85,46 +86,14 @@ public class AddTwoNumbers {
         }
 
         @Override
-        public String toString() {
-            return "ListNode val: " + val + " next: -> " + next;
+        public boolean equals(Object obj) {
+            if (obj instanceof ListNode) {
+                ListNode node = (ListNode) obj;
+                return this.next == null && node.next == null || this.val == node.val && (this.next != null) && this.next.equals(node.next);
+            }
+            return false;
         }
-    }
 
-    public static void main(String[] args) {
-
-        ListNode node0 = new ListNode(0);
-        ListNode node5 = new ListNode(5);
-
-        ListNode node243 = new ListNode(2);
-        node243.next = new ListNode(4);
-        node243.next.next = new ListNode(3);
-
-        ListNode node564 = new ListNode(5);
-        node564.next = new ListNode(6);
-        node564.next.next = new ListNode(4);
-
-        ListNode node1 = new ListNode(1);
-        ListNode node99 = new ListNode(9);
-        node99.next = new ListNode(9);
-
-        AddTwoNumbers atn = new AddTwoNumbers();
-        ListNode result0 = atn.addTwoNumbers(node0, node0);
-        ListNode result5 = atn.addTwoNumbers(node5, node5);
-        ListNode result243And564 = atn.addTwoNumbers(node243, node564);
-        ListNode result1And99 = atn.addTwoNumbers(node1, node99);
-
-        // Expected:
-        // result: [0][0] ->  0
-        System.out.println("result: [0] + [0] -> " + result0);
-        // Expected:
-        // result: [5][5] ->  0  ->  1
-        System.out.println("result: [5] + [5] -> " + result5);
-        // Expected:
-        // result: [2,4,3] + [5,6,4] ->  7  ->  0  ->  8
-        System.out.println("result: [2,4,3] + [5,6,4] -> " + result243And564);
-        // Expected:
-        // result: [1] + [9,9] ->  0  ->  0  ->  1
-        System.out.println("result: [1] + [9,9] -> " + result1And99);
     }
 
 }

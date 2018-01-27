@@ -42,26 +42,4 @@ class SimplifyPath {
         return if (sb.isEmpty()) "/" else sb.toString()
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val sp = SimplifyPath()
-
-            // Expected: "/home"
-            println(sp.simplifyPath("/home/"))
-
-            // Expected: "/c"
-            println(sp.simplifyPath("/a/./b/../../c/"))
-
-            // Expected: "/"
-            println(sp.simplifyPath("/../"))
-
-            // Expected: "/home/foo"
-            println(sp.simplifyPath("/home//foo/"))
-
-            // Expected: "/a/b/c"
-            println(sp.simplifyPath("/a/b/c"))
-        }
-    }
-
 }

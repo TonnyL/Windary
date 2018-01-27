@@ -37,22 +37,4 @@ class SearchInRotatedSortedArray {
         return -1
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val s = SearchInRotatedSortedArray()
-
-            // Expected: -1
-            println(s.search(intArrayOf(), 1))
-            // Expected: 6
-            println(s.search(intArrayOf(0, 1, 2, 4, 5, 6, 7), 7))
-            // Expected: 3
-            println(s.search(intArrayOf(4, 5, 6, 7, 0, 1, 2), 7))
-            // Expected: 2
-            println(s.search(intArrayOf(5, 6, 7, 0, 1, 2, 4), 7))
-            // Expected: -1
-            println(s.search(intArrayOf(4, 5, 6, 7, 0, 1, 2), 8))
-        }
-    }
-
 }

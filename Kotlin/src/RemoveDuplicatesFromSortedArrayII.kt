@@ -33,27 +33,4 @@ class RemoveDuplicatesFromSortedArrayII {
         return nums.size - count
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val r = RemoveDuplicatesFromSortedArrayII()
-
-            // Expected: 5
-            println(r.removeDuplicates(intArrayOf(1, 1, 1, 2, 2, 3)))
-
-            // Expected: 5
-            println(r.removeDuplicates(intArrayOf(1, 1, 2, 2, 3)))
-
-            // Expected: 2
-            println(r.removeDuplicates(intArrayOf(1, 1)))
-
-            // Expected: 1
-            println(r.removeDuplicates(intArrayOf(1)))
-
-            // Expected: 3
-            println(r.removeDuplicates(intArrayOf(1, 1, 2)))
-        }
-    }
-
 }

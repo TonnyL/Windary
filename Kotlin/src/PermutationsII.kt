@@ -42,21 +42,4 @@ class PermutationsII {
         return results.apply { addAll(set) }
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val p = PermutationsII()
-
-            // Expected: [[]]
-            println(p.permuteUnique(intArrayOf()))
-
-            // Expected: [[1]]
-            println(p.permuteUnique(intArrayOf(1)))
-
-            // Expected: [[1, 1, 2], [1, 2, 1], [2, 1, 1]]
-            println(p.permuteUnique(intArrayOf(1, 1, 2)))
-        }
-    }
-
 }

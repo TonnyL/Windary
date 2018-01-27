@@ -59,16 +59,7 @@ class CombinationSumII {
 
         @JvmStatic
         fun main(args: Array<String>) {
-            val cs = CombinationSumII()
 
-            // Expected: [[1, 7], [1, 2, 5], [2, 6], [1, 1, 6]]
-            println(cs.combinationSum2(intArrayOf(10, 1, 2, 7, 6, 1, 5), 8))
-
-            // Expected: []
-            println(cs.combinationSum2(intArrayOf(1), 2))
-
-            // Expected: [[1, 1, 2], [2, 2]]
-            println(cs.combinationSum2(intArrayOf(1, 1, 2, 2), 4))
         }
     }
 

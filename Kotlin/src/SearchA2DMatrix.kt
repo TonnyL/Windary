@@ -34,23 +34,4 @@ class SearchA2DMatrix {
         return matrix[matrix.size - 1].binarySearch(target) >= 0
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val s = SearchA2DMatrix()
-
-            // Expected: false
-            println(s.searchMatrix(arrayOf(), 0))
-
-            // Expected: false
-            println(s.searchMatrix(arrayOf(intArrayOf()), 1))
-
-            // Expected: true
-            println(s.searchMatrix(arrayOf(intArrayOf(1, 3, 5, 7), intArrayOf(10, 11, 16, 20), intArrayOf(23, 30, 34, 50)), 3))
-
-            // Expected: true
-            println(s.searchMatrix(arrayOf(intArrayOf(1)), 1))
-        }
-    }
-
 }

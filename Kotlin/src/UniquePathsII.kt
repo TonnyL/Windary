@@ -55,36 +55,4 @@ class UniquePathsII {
         return matrix[matrix.size - 1][matrix[0].size - 1]
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val up = UniquePathsII()
-
-            // Expected: 1
-            println(up.uniquePathsWithObstacles(arrayOf(intArrayOf(0, 0, 0))))
-            // Expected: 0
-            println(up.uniquePathsWithObstacles(arrayOf(intArrayOf(0, 1, 0))))
-            // Expected: 0
-            println(up.uniquePathsWithObstacles(arrayOf(intArrayOf(1), intArrayOf(0))))
-            // Expected: 0
-            println(up.uniquePathsWithObstacles(arrayOf(intArrayOf(0), intArrayOf(1))))
-            // Expected: 0
-            println(up.uniquePathsWithObstacles(arrayOf(intArrayOf(0, 0), intArrayOf(1, 1), intArrayOf(0, 0))))
-            // Expected: 1
-            println(up.uniquePathsWithObstacles(arrayOf(intArrayOf(0), intArrayOf(0))))
-            // Expected: 2
-            // The matrix:
-            // 1 1 1
-            // 1 0 1
-            // 1 1 2
-            println(up.uniquePathsWithObstacles(arrayOf(intArrayOf(0, 0, 0), intArrayOf(0, 1, 0), intArrayOf(0, 0, 0))))
-            // Expected: 8
-            // 1 1 1 1
-            // 1 0 1 2
-            // 1 1 2 4
-            // 1 2 4 8
-            println(up.uniquePathsWithObstacles(arrayOf(intArrayOf(0, 0, 0, 0), intArrayOf(0, 1, 0, 0), intArrayOf(0, 0, 0, 0), intArrayOf(0, 0, 0, 0))))
-        }
-    }
-
 }

@@ -35,24 +35,4 @@ class IntegerToRoman {
         return sb.toString()
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val i = IntegerToRoman()
-
-            // Expected: "I"
-            println(i.intToRoman(1))
-
-            // Expected: "DCXXI"
-            println(i.intToRoman(621))
-
-            // Expected: "MCMXCVI"
-            println(i.intToRoman(1996))
-
-            // Expected: "CMXCIX"
-            println(i.intToRoman(999))
-        }
-    }
-
 }

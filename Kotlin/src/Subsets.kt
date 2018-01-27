@@ -45,23 +45,4 @@ class Subsets {
         return results
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val s = Subsets()
-
-            // [[]]
-            println(s.subsets(intArrayOf()))
-            // [[]]
-            println(s.subsets(null))
-            // [[], [1]]
-            println(s.subsets(intArrayOf(1)))
-            // [[], [1], [2], [1, 2]]
-            println(s.subsets(intArrayOf(1, 2)))
-            // [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
-            println(s.subsets(intArrayOf(1, 2, 3)))
-        }
-    }
-
 }

@@ -49,46 +49,4 @@ class RemoveNthNodeFromEndOfList {
             var next: ListNode? = null
     )
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val r = RemoveNthNodeFromEndOfList()
-
-            // Expected: 1->2->3->5
-            println(r.removeNthFromEnd(ListNode(1).apply {
-                next = ListNode(2).apply {
-                    next = ListNode(3).apply {
-                        next = ListNode(4).apply {
-                            next = ListNode(5)
-                        }
-                    }
-                }
-            }, 2))
-
-            // Expected: 1
-            println(r.removeNthFromEnd(ListNode(1).apply {
-                next = ListNode(2)
-            }, 1))
-
-            // Expected: null
-            println(r.removeNthFromEnd(ListNode(1), 1))
-
-            // Expected: null
-            println(r.removeNthFromEnd(null, 2))
-
-            // Expected: 2->3
-            val node123: ListNode? = r.removeNthFromEnd(ListNode(1).apply {
-                next = ListNode(2).apply {
-                    next = ListNode(3)
-                }
-            }, 3)
-            println(node123)
-            // Expected: 2
-            println(r.removeNthFromEnd(node123, 1))
-            // Expected: null
-            println(r.removeNthFromEnd(node123, 1))
-        }
-    }
-
 }

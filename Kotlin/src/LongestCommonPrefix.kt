@@ -26,19 +26,4 @@ class LongestCommonPrefix {
         return strs[0]
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val lcp = LongestCommonPrefix()
-            // Expected: "" (empty)
-            println(lcp.longestCommonPrefix(arrayOf()))
-            // Expected: abc
-            println(lcp.longestCommonPrefix(arrayOf("abc")))
-            // Expected: abc
-            println(lcp.longestCommonPrefix(arrayOf("abcf", "abcd", "abcdefg")))
-            // Expected: a
-            println(lcp.longestCommonPrefix(arrayOf("aa", "a")))
-        }
-    }
-
 }

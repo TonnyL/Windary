@@ -43,40 +43,4 @@ class RotateList {
             var next: ListNode? = null
     )
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val rl = RotateList()
-
-            // Expected: null
-            println(rl.rotateRight(null, 1))
-
-            // Expected: 1
-            println(rl.rotateRight(ListNode(1), 1))
-
-            // Expected: 1 -> 2
-            println(rl.rotateRight(ListNode(1).apply {
-                next = ListNode(2)
-            }, 0))
-
-            // Expected: 3 -> 1 -> 2
-            println(rl.rotateRight(ListNode(1).apply {
-                next = ListNode(2).apply {
-                    next = ListNode(3)
-                }
-            }, 1))
-
-            println(rl.rotateRight(ListNode(1).apply {
-                next = ListNode(2).apply {
-                    next = ListNode(3).apply {
-                        next = ListNode(4).apply {
-                            next = ListNode(5)
-                        }
-                    }
-                }
-            }, 2))
-        }
-    }
-
 }

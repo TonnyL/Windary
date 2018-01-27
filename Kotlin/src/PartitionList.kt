@@ -55,41 +55,4 @@ class PartitionList {
             var next: ListNode? = null
     )
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val pl = PartitionList()
-
-            // Expected: null
-            println(pl.partition(null, 2))
-
-            // Expected: 1 -> 2
-            val node12 = ListNode(1).apply {
-                next = ListNode(2)
-            }
-            println(pl.partition(node12, 3))
-
-            // Expected: 1 -> 2
-            println(pl.partition(node12, 0))
-
-            val node143252 = ListNode(1).apply {
-                next = ListNode(4).apply {
-                    next = ListNode(3).apply {
-                        next = ListNode(2).apply {
-                            next = ListNode(5).apply {
-                                next = ListNode(2)
-                            }
-                        }
-                    }
-                }
-            }
-            // Expected: 1 -> 2 -> 2 -> 4 -> 3 -> 5
-            println(pl.partition(node143252, 3))
-
-            // Expected: 1 -> 3 -> 2 -> 2 -> 4 -> 5
-            println(pl.partition(node143252, 4))
-        }
-    }
-
 }

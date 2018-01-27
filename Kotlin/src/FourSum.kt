@@ -74,20 +74,4 @@ class FourSum {
         return results
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val fs = FourSum()
-
-            // Expected:
-            // [[-1, 0, 0, 1], [-2, -1, 1, 2], [-2, 0, 0, 2]]
-            println(fs.fourSum(intArrayOf(1, 0, -1, 0, -2, 2), 0))
-
-            // Expected:
-            // [[-5, 0, 4, 5], [-3, -2, 4, 5]]
-            println(fs.fourSum(intArrayOf(-5, 5, 4, -3, 0, 0, 4, -2), 4))
-        }
-    }
-
 }

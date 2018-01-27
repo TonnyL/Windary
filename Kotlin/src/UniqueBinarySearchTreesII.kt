@@ -53,34 +53,4 @@ class UniqueBinarySearchTreesII {
             var right: TreeNode? = null
     )
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val u = UniqueBinarySearchTreesII()
-
-            // Expected:
-            // null
-            println(u.generateTrees(0))
-
-            // Expected:
-            // 1
-            println(u.generateTrees(1))
-
-            // Expected:
-            // 2  1
-            // /   \
-            //1    2
-            println(u.generateTrees(2))
-
-            // Expected:
-            // 1       3     3      2      1
-            // \      /     /      / \      \
-            // 3     2     1      1  3      2
-            ///    /       \                \
-            //2   1        2                 3
-            println(u.generateTrees(3))
-        }
-    }
-
 }

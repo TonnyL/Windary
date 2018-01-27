@@ -53,31 +53,4 @@ class SubsetsII {
         return lists
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val s = SubsetsII()
-
-            // Expected: []
-            println(s.subsetsWithDup(intArrayOf()))
-
-            // Expected: [[1], []]
-            println(s.subsetsWithDup(intArrayOf(1)))
-
-            // Expected: [[], [1], [1, 1]]
-            println(s.subsetsWithDup(intArrayOf(1, 1)))
-
-            // Expected: [[1], [2], [1, 2], []]
-            println(s.subsetsWithDup(intArrayOf(1, 2)))
-
-            // Expected: [[2], [1], [1, 2, 2], [2, 2], [1, 2], []]
-            println(s.subsetsWithDup(intArrayOf(1, 2, 2)))
-
-            // Expected: [[], [1], [1, 4], [1, 4, 4], [1, 4, 4, 4], [1, 4, 4, 4, 4], [4], [4, 4], [4, 4, 4], [4, 4, 4, 4]]
-            println(s.subsetsWithDup(intArrayOf(4, 4, 4, 1, 4)))
-
-        }
-    }
-
 }

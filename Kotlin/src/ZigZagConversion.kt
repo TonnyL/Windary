@@ -37,23 +37,4 @@ class ZigZagConversion {
         return sb.toString()
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val z = ZigZagConversion()
-
-            // Expected: "0123456789"
-            println(z.convert("0123456789", 1))
-
-            // Expected: "PAHNAPLSIIGYIR"
-            println(z.convert("PAYPALISHIRING", 3))
-
-            // Expected: "0246813579"
-            println(z.convert("0123456789", 2))
-
-            // Expected: "0481357926"
-            println(z.convert("0123456789", 3))
-        }
-    }
-
 }

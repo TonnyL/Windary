@@ -1,5 +1,3 @@
-import java.util.Arrays
-
 /**
  * Given a non-negative integer represented as a non-empty array of digits, plus one to the integer.
  * You may assume the integer do not contain any leading zero, except the number 0 itself.
@@ -31,28 +29,6 @@ class PlusOne {
         }
 
         return digits
-    }
-
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val po = PlusOne()
-
-            // Expected: [2]
-            println(Arrays.toString(po.plusOne(intArrayOf(1))))
-
-            // Expected: [1, 0]
-            println(Arrays.toString(po.plusOne(intArrayOf(9))))
-
-            // Expected: [1, 0, 0]
-            println(Arrays.toString(po.plusOne(intArrayOf(9, 9))))
-
-            // Expected: [2, 9, 0, 0, 0]
-            println(Arrays.toString(po.plusOne(intArrayOf(2, 8, 9, 9, 9))))
-
-            // Expected: [2, 8, 9, 0]
-            println(Arrays.toString(po.plusOne(intArrayOf(2, 8, 8, 9))))
-        }
     }
 
 }

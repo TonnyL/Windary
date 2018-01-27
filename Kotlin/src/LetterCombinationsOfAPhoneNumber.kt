@@ -42,30 +42,4 @@ class LetterCombinationsOfAPhoneNumber {
         return results
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val l = LetterCombinationsOfAPhoneNumber()
-
-            // Expected: []
-            println(l.letterCombinations(""))
-
-            // Expected: [""]
-            println(l.letterCombinations("1"))
-
-            // Expected: ["a", "b", "c"]
-            println(l.letterCombinations("2"))
-
-            // Expected: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
-            println(l.letterCombinations("23"))
-
-            // Expected: ["adg", "adh", "adi", "aeg", "aeh", "aei",
-            // "afg", "afh", "afi", "bdg", "bdh", "bdi", "beg", "beh",
-            // "bei", "bfg", "bfh", "bfi", "cdg", "cdh", "cdi", "ceg",
-            // "ceh", "cei", "cfg", "cfh", "cfi"]
-            println(l.letterCombinations("234"))
-        }
-    }
-
 }

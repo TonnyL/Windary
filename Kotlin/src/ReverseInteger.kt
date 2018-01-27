@@ -36,19 +36,4 @@ class ReverseInteger {
         } else result.toInt()
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val ri = ReverseInteger()
-            // Expected: 321
-            println(ri.reverse(123))
-            // Expected: -321
-            println(ri.reverse(-123))
-            // Expected: 0
-            println(ri.reverse(1000000003))
-            // Expected: 0
-            println(ri.reverse(1534236469))
-        }
-    }
-
 }

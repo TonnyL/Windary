@@ -36,30 +36,4 @@ class JumpGame {
         return maxLength > 0
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val jg = JumpGame()
-
-            // Expected: false
-            println(jg.canJump(intArrayOf()))
-
-            // Expected: true
-            println(jg.canJump(intArrayOf(1)))
-
-            // Expected: true
-            println(jg.canJump(intArrayOf(0)))
-
-            // Expected: true
-            println(jg.canJump(intArrayOf(2, 3, 1, 1, 4)))
-
-            // Expected: false
-            println(jg.canJump(intArrayOf(3, 2, 1, 0, 4)))
-
-            // Expected: true
-            println(jg.canJump(intArrayOf(4, 0, 0, 0)))
-        }
-    }
-
 }

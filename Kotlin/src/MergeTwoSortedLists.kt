@@ -38,36 +38,4 @@ class MergeTwoSortedLists {
             var next: ListNode? = null
     )
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val m = MergeTwoSortedLists()
-
-            val node1 = ListNode(1).apply {
-                next = ListNode(2).apply {
-                    next = ListNode(4)
-                }
-            }
-
-            val node2 = ListNode(1).apply {
-                next = ListNode(3).apply {
-                    next = ListNode(4)
-                }
-            }
-
-            // Expected: 1->1->2->3->4->4
-            println(m.mergeTwoLists(node1, node2))
-
-            // Expected: 1->2->4
-            println(m.mergeTwoLists(node1, null))
-
-            // Expected: 1->3->4
-            println(m.mergeTwoLists(null, node2))
-
-            // Expected: null
-            println(m.mergeTwoLists(null, null))
-        }
-    }
-
 }

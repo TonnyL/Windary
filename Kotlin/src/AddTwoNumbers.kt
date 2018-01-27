@@ -79,38 +79,4 @@ class AddTwoNumbers {
             var next: ListNode? = null
     )
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-
-            val node0 = ListNode(0)
-            val node5 = ListNode(5)
-
-            val node243 = ListNode(2)
-            node243.next = ListNode(4)
-            node243.next!!.next = ListNode(3)
-
-            val node564 = ListNode(5)
-            node564.next = ListNode(6)
-            node564.next!!.next = ListNode(4)
-
-            val node1 = ListNode(1)
-            val node99 = ListNode(9)
-            node99.next = ListNode(9)
-
-            val atn = AddTwoNumbers()
-            val result0 = atn.addTwoNumbers(node0, node0)
-            val result5 = atn.addTwoNumbers(node5, node5)
-            val result243And564 = atn.addTwoNumbers(node243, node564)
-            val result1And99 = atn.addTwoNumbers(node1, node99)
-
-            println("result: [0] + [0] -> $result0")
-            println("result: [5] + [5] -> $result5")
-            println("result: [2,4,3] + [5,6,4] -> $result243And564")
-            println("result: [1] + [9,9] -> $result1And99")
-
-        }
-    }
-
 }

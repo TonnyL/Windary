@@ -38,26 +38,4 @@ class UniqueBinarySearchTrees {
         return array[n]
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val u = UniqueBinarySearchTrees()
-
-            // Expected: 1
-            println(u.numTrees(0))
-
-            // Expected: 1
-            println(u.numTrees(1))
-
-            // Expected: 2
-            println(u.numTrees(2))
-
-            // Expected: 5
-            println(u.numTrees(3))
-
-            // Expected: 14
-            println(u.numTrees(4))
-        }
-    }
-
 }

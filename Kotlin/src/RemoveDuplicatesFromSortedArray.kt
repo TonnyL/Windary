@@ -1,5 +1,3 @@
-//import java.util.Arrays
-
 /**
  * Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
  * Do not allocate extra space for another array, you must do this in place with constant memory.
@@ -25,7 +23,7 @@ class RemoveDuplicatesFromSortedArray {
             }
         }
 
-//        println(Arrays.toString(nums))
+        // println(Arrays.toString(nums))
 
         return i + 1
     }
@@ -33,15 +31,7 @@ class RemoveDuplicatesFromSortedArray {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            val r = RemoveDuplicatesFromSortedArray()
-            // Expected: [], length = 0
-            println(r.removeDuplicates(intArrayOf()))
-            // Expected: [1, 2, 2], length = 2
-            println(r.removeDuplicates(intArrayOf(1, 2, 2)))
-            // Expected: [1, 1, 1], length = 1
-            println(r.removeDuplicates(intArrayOf(1, 1, 1)))
-            // Expected: [1, 2, 3, 4, 4], length = 4
-            println(r.removeDuplicates(intArrayOf(1, 1, 2, 3, 4)))
+
         }
     }
 

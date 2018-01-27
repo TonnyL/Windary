@@ -50,47 +50,4 @@ class ValidateBinarySearchTree {
             var right: TreeNode? = null
     )
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val v = ValidateBinarySearchTree()
-
-            // Expected: true
-            println(v.isValidBST(null))
-
-            // Expected: true
-            println(v.isValidBST(TreeNode(2).apply {
-                left = TreeNode(1)
-                right = TreeNode(3)
-            }))
-
-            // Expected: true
-            println(v.isValidBST(TreeNode(1)))
-
-            // Expected: false
-            println(v.isValidBST(TreeNode(1).apply {
-                left = TreeNode(2)
-                right = TreeNode(3)
-            }))
-
-            // Expected: true
-            println(v.isValidBST(TreeNode(3).apply {
-                left = TreeNode(2).apply {
-                    left = TreeNode(1)
-                }
-            }))
-
-            // Expected: false
-            println(v.isValidBST(TreeNode(1).apply {
-                right = TreeNode(0)
-            }))
-
-            // Expected: true
-            println(v.isValidBST(TreeNode(0).apply {
-                left = TreeNode(-1)
-            }))
-        }
-    }
-
 }

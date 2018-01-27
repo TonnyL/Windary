@@ -80,18 +80,4 @@ class AddBinary {
         return sb.reverse().toString()
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val ab = AddBinary()
-
-            // Expected: 0
-            println(ab.addBinary("0", "0"))
-            // Expected: 100
-            println(ab.addBinary("11", "1"))
-            // Expected: 1010
-            println(ab.addBinary("101", "101"))
-        }
-    }
-
 }

@@ -17,25 +17,23 @@ class SpiralMatrix {
 
     fun spiralOrder(matrix: Array<IntArray>): List<Int> {
         if (matrix.isEmpty() || matrix[0].isEmpty()) {
-            return emptyList()
+            return listOf()
         }
 
         val capacity = matrix.size * matrix[0].size
-        val result = mutableListOf(capacity)
-        val added = Array(matrix.size) {
-            BooleanArray(matrix[0].size)
-        }
+        val result = ArrayList<Int>(capacity)
+        val added = Array(matrix.size) { BooleanArray(matrix[0].size) }
 
         if (matrix.size == 1) {
-            matrix[0].forEach {
-                result.add(it)
+            matrix[0].mapTo(result) {
+                it
             }
             return result
         }
 
         if (matrix[0].size == 1) {
-            matrix.forEach {
-                result.add(it[0])
+            matrix.mapTo(result) {
+                it[0]
             }
             return result
         }
@@ -55,8 +53,8 @@ class SpiralMatrix {
                 }
                 j++
             }
-            j--
 
+            j--
             i++
             while (i < matrix.size - depth) {
                 if (!added[i][j]) {
@@ -65,8 +63,8 @@ class SpiralMatrix {
                 }
                 i++
             }
-            i--
 
+            i--
             j--
             while (j >= depth) {
                 if (!added[i][j]) {
@@ -75,8 +73,8 @@ class SpiralMatrix {
                 }
                 j--
             }
-            j++
 
+            j++
             i--
             while (i > depth) {
                 if (!added[i][j]) {
@@ -89,37 +87,6 @@ class SpiralMatrix {
             depth++
         }
         return result
-    }
-
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val sm = SpiralMatrix()
-
-            // []
-            println(sm.spiralOrder(arrayOf()))
-
-            // [1, 2, 3]
-            println(sm.spiralOrder(arrayOf(intArrayOf(1), intArrayOf(2), intArrayOf(3))))
-
-            // [1, 2, 3]
-            println(sm.spiralOrder(arrayOf(intArrayOf(1, 2, 3))))
-
-            // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
-            println(sm.spiralOrder(arrayOf(intArrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), intArrayOf(11, 12, 13, 14, 15, 16, 17, 18, 19, 20))))
-
-            // [1, 2, 4, 3]
-            println(sm.spiralOrder(arrayOf(intArrayOf(1, 2), intArrayOf(3, 4))))
-
-            // [1, 2, 4, 6, 5, 3]
-            println(sm.spiralOrder(arrayOf(intArrayOf(1, 2), intArrayOf(3, 4), intArrayOf(5, 6))))
-
-            // [1, 2, 3, 6, 9, 8, 7, 4, 5]
-            println(sm.spiralOrder(arrayOf(intArrayOf(1, 2, 3), intArrayOf(4, 5, 6), intArrayOf(7, 8, 9))))
-
-            // [1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7]
-            println(sm.spiralOrder(arrayOf(intArrayOf(1, 2, 3, 4), intArrayOf(5, 6, 7, 8), intArrayOf(9, 10, 11, 12))))
-        }
     }
 
 }

@@ -43,23 +43,4 @@ class Permutations {
         return results
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val p = Permutations()
-
-            // Expected: [[]]
-            println(p.permute(intArrayOf()))
-
-            // Expected: [[1]]
-            println(p.permute(intArrayOf(1)))
-
-            // Expected: [[1, 2], [2, 1]]
-            println(p.permute(intArrayOf(1, 2)))
-
-            // Expected: [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
-            println(p.permute(intArrayOf(1, 2, 3)))
-        }
-    }
-
 }

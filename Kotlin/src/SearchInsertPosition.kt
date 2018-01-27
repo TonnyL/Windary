@@ -28,21 +28,4 @@ class SearchInsertPosition {
         return 0
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val sip = SearchInsertPosition()
-            // Expected: 0
-            println(sip.searchInsert(intArrayOf(1), 0))
-            // Expected: 2
-            println(sip.searchInsert(intArrayOf(1, 3, 5, 6), 5))
-            // Expected: 1
-            println(sip.searchInsert(intArrayOf(1, 3, 5, 6), 2))
-            // Expected: 4
-            println(sip.searchInsert(intArrayOf(1, 3, 5, 6), 7))
-            // Expected: 0
-            println(sip.searchInsert(intArrayOf(1, 3, 5, 6), 0))
-        }
-    }
-
 }

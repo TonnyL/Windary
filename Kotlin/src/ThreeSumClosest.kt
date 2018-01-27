@@ -37,24 +37,4 @@ class ThreeSumClosest {
         return result
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val t = ThreeSumClosest()
-
-            // Expected: 2
-            println(t.threeSumClosest(intArrayOf(-1, 2, 1, 4), 1))
-
-            // Expected: 3
-            println(t.threeSumClosest(intArrayOf(1, 1, 1, 0), 100))
-
-            // Expected: 2
-            println(t.threeSumClosest(intArrayOf(1, 1, 1, 0), -100))
-
-            // Expected: 2
-            println(t.threeSumClosest(intArrayOf(-1, 2, 1, -4), 1))
-        }
-    }
-
 }

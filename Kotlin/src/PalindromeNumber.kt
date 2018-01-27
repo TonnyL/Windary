@@ -29,22 +29,4 @@ class PalindromeNumber {
         return num == y || num == y / 10
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val pn = PalindromeNumber()
-
-            // Expected: false
-            println(pn.isPalindrome(-1))
-            // Expected: true
-            println(pn.isPalindrome(1))
-            // Expected: true
-            println(pn.isPalindrome(121))
-            // Expected: true
-            println(pn.isPalindrome(1001))
-            // Expected: false
-            println(pn.isPalindrome(1000021))
-        }
-    }
-
 }

@@ -40,27 +40,4 @@ class RestoreIPAddresses {
         return results
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val r = RestoreIPAddresses()
-
-            // Expected: []
-            println(r.restoreIpAddresses("1"))
-
-            // Expected: []
-            println(r.restoreIpAddresses("111"))
-
-            // Expected: []
-            println(r.restoreIpAddresses("1111111111111"))
-
-            // Expected: ["1.1.1.1"]
-            println(r.restoreIpAddresses("1111"))
-
-            // Expected: ["255.255.11.135", "255.255.111.35"]
-            println(r.restoreIpAddresses("25525511135"))
-        }
-    }
-
 }

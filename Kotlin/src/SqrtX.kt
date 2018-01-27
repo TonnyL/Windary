@@ -44,21 +44,4 @@ class SqrtX {
         return mid
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val sx = SqrtX()
-            // Expected: 0
-            println(sx.mySqrt(0))
-            // Expected: 1
-            println(sx.mySqrt(1))
-            // Expected: 46339
-            println(sx.mySqrt(2147395599))
-            // Expected: 46440
-            println(sx.mySqrt(2147395600))
-            // Expected: 2
-            println(sx.mySqrt(6))
-        }
-    }
-
 }

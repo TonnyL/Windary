@@ -36,25 +36,4 @@ class GroupAnagrams {
         }
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val ga = GroupAnagrams()
-
-            // Expected:
-            // [
-            //  []
-            // ]
-            println(ga.groupAnagrams(arrayOf()))
-
-            // Expected:
-            // [
-            //  ["ate", "eat","tea"],
-            //  ["nat","tan"],
-            //  ["bat"]
-            // ]
-            println(ga.groupAnagrams(arrayOf("eat", "tea", "tan", "ate", "nat", "bat")))
-        }
-    }
-
 }

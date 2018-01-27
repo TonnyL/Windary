@@ -30,20 +30,4 @@ class ContainerWithMostWater {
         return maxCapacity
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val cwmw = ContainerWithMostWater()
-
-            // Expected: 1
-            println(cwmw.maxArea(intArrayOf(1, 1)))
-
-            // Expected: 4
-            println(cwmw.maxArea(intArrayOf(1, 4, 9)))
-
-            // Expected: 8
-            println(cwmw.maxArea(intArrayOf(1, 4, 9, 4)))
-        }
-    }
-
 }

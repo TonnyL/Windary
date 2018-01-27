@@ -38,21 +38,4 @@ class GrayCode {
         return resultList.toList()
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val gc = GrayCode()
-
-            // Expected: [0]
-            println(gc.grayCode(0))
-
-            // Expected: [0, 1, 3, 2]
-            println(gc.grayCode(2))
-
-            // Expected: [0, 1, 3, 2, 6, 7, 5, 4]
-            println(gc.grayCode(3))
-        }
-    }
-
 }

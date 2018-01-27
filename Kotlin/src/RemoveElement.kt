@@ -44,26 +44,4 @@ class RemoveElement {
         }
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val re = RemoveElement()
-            // Expected:
-            // nums: [2, 2, 3, 3] length = 2
-            println(re.removeElement(intArrayOf(3, 2, 2, 3), 3))
-            // Expected:
-            // nums: [3, 3] length = 0
-            println(re.removeElement(intArrayOf(3, 3), 3))
-            // Expeted:
-            // nums: [] length = 0
-            println(re.removeElement(intArrayOf(), 0))
-            // Expected:
-            // nums: [3, 4, 5, 888, 2, 2] length = 4
-            println(re.removeElement(intArrayOf(2, 3, 4, 5, 888, 2), 2))
-            // Expected:
-            // nums: [3, 3] length = 2
-            println(re.removeElement(intArrayOf(3, 3), 0))
-        }
-    }
-
 }

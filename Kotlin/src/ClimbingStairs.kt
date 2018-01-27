@@ -26,17 +26,4 @@ class ClimbingStairs {
         return results[n - 1]
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val cs = ClimbingStairs()
-            // Expected: 1
-            println(cs.climbStairs(1))
-            // Expected: 3
-            println(cs.climbStairs(3))
-            // Expected: 8
-            println(cs.climbStairs(5))
-        }
-    }
-
 }

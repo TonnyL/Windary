@@ -77,15 +77,4 @@ public class AddBinary {
         return sb.reverse().toString();
     }
 
-    public static void main(String[] args) {
-        AddBinary ab = new AddBinary();
-
-        // Expected: 0
-        System.out.println(ab.addBinary("0", "0"));
-        // Expected: 100
-        System.out.println(ab.addBinary("11", "1"));
-        // Expected: 1010
-        System.out.println(ab.addBinary("101", "101"));
-    }
-
 }

@@ -38,13 +38,7 @@ class RomanToInteger {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            val rtt = RomanToInteger()
-            // Expected: 621 = 500 + 100 + 10 + 10 +1
-            println(rtt.romanToInt("DCXXI"))
-            // Expected: 1996 = 1000 - (100 - 1000) - (10 - 100) + 5 + 1
-            println(rtt.romanToInt("MCMXCVI"))
-            // Expected: 999 = - (100 - 1000) - (10 - 100) - (1 - 10)
-            println(rtt.romanToInt("CMXCIX"))
+
         }
     }
 

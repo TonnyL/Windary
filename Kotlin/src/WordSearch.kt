@@ -55,26 +55,4 @@ class WordSearch {
         return res
     }
 
-    companion object {
-
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val ws = WordSearch()
-
-            // Expected: false
-            println(ws.exist(arrayOf(charArrayOf()), "AB"))
-
-            val chars = arrayOf(charArrayOf('A', 'B', 'C', 'E'), charArrayOf('S', 'F', 'C', 'S'), charArrayOf('A', 'D', 'E', 'E'))
-
-            // Expected: true
-            println(ws.exist(chars, "ABCCED"))
-
-            // Expected: true
-            println(ws.exist(chars, "SEE"))
-
-            // Expected: false
-            println(ws.exist(chars, "ABCB"))
-        }
-    }
-
 }

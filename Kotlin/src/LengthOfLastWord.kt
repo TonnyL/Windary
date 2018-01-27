@@ -24,19 +24,4 @@ class LengthOfLastWord {
         return if (strs.isEmpty()) 0 else strs[strs.size - 1].length
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val llw = LengthOfLastWord()
-            // Expected: 5
-            println(llw.lengthOfLastWord("Hello World"))
-            // Expected: 0
-            println(llw.lengthOfLastWord(" "))
-            // Expected: 1
-            println(llw.lengthOfLastWord("a"))
-            // Expected: 1
-            println(llw.lengthOfLastWord("a "))
-        }
-    }
-
 }

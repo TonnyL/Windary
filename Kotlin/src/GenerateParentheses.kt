@@ -52,27 +52,4 @@ class GenerateParentheses {
         }
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val gp = GenerateParentheses()
-
-            // Expected: []
-            println(gp.generateParenthesis(0))
-
-            // Expected: [()]
-            println(gp.generateParenthesis(1))
-
-            // Expected: [()(), (())]
-            println(gp.generateParenthesis(2))
-
-            // Expected: [()()(), ()(()), (()()), (())(), ((()))]
-            println(gp.generateParenthesis(3))
-
-            // Expected: [()()()(), (()(())), (()())(), ()()(()), (())()(), (((()))), (())(()),
-            // ()((())), ()(())(), ()(()()), (()()()), ((()())), ((()))(), ((())())]
-            println(gp.generateParenthesis(4))
-        }
-    }
-
 }

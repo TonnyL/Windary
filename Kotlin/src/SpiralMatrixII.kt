@@ -70,32 +70,7 @@ class SpiralMatrixII {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            val sm = SpiralMatrixII()
 
-            // Expected: []
-            println(Arrays.deepToString(sm.generateMatrix(0)))
-
-            // Expected:
-            // [
-            //  [1]
-            // ]
-            println(Arrays.deepToString(sm.generateMatrix(1)))
-
-            // Expected:
-            // [
-            //  [1, 2],
-            //  [4, 3]
-            // ]
-            println(Arrays.deepToString(sm.generateMatrix(2)))
-
-            // Expected:
-            // [
-            //  [1, 2, 3, 4],
-            //  [12, 13, 14, 5],
-            //  [11, 16, 15, 6],
-            //  [10, 9, 8, 7]
-            // ]
-            println(Arrays.deepToString(sm.generateMatrix(4)))
         }
     }
 
