@@ -43,17 +43,4 @@ public class GrayCode {
 
     }
 
-    public static void main(String[] args) {
-        GrayCode gc = new GrayCode();
-
-        // Expected: [0]
-        System.out.println(gc.grayCode(0));
-
-        // Expected: [0, 1, 3, 2]
-        System.out.println(gc.grayCode(2));
-
-        // Expected: [0, 1, 3, 2, 6, 7, 5, 4]
-        System.out.println(gc.grayCode(3));
-    }
-
 }

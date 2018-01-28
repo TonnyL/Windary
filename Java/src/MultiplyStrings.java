@@ -37,22 +37,4 @@ public class MultiplyStrings {
         return sb.length() == 0 ? "0" : sb.toString();
     }
 
-    public static void main(String[] args) {
-        MultiplyStrings ms = new MultiplyStrings();
-
-        System.out.println(ms.multiply("", "").equals("0"));
-
-        System.out.println(ms.multiply("0", "0").equals("0"));
-
-        System.out.println(ms.multiply("100", "1").equals("100"));
-
-        System.out.println(ms.multiply("123", "45").equals("5535"));
-
-        System.out.println(ms.multiply("99", "99").equals("9801"));
-
-        System.out.println(ms.multiply("123", "123").equals("15129"));
-
-        System.out.println(ms.multiply("123456789", "123456789").equals("15241578750190521"));
-    }
-
 }

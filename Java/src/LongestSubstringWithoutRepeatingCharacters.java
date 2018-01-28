@@ -37,20 +37,4 @@ public class LongestSubstringWithoutRepeatingCharacters {
         return resultBuilder.toString().length();
     }
 
-    public static void main(String[] args) {
-        LongestSubstringWithoutRepeatingCharacters ls = new LongestSubstringWithoutRepeatingCharacters();
-        // Expected: 3
-        // wke, length = 3
-        System.out.println(ls.lengthOfLongestSubstring("pwwkew"));
-        // Expected:
-        // b, length = 1
-        System.out.println(ls.lengthOfLongestSubstring("bbbbbb"));
-        // Expected:
-        // abc, length = 3
-        System.out.println(ls.lengthOfLongestSubstring("abcabcbb"));
-        // Expected:
-        // vdf, length = 3
-        System.out.println(ls.lengthOfLongestSubstring("dvdf"));
-    }
-
 }

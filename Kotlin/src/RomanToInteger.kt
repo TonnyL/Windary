@@ -35,11 +35,4 @@ class RomanToInteger {
         return result
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-
-        }
-    }
-
 }

@@ -43,23 +43,4 @@ public class UniqueBinarySearchTrees {
         return array[n];
     }
 
-    public static void main(String[] args) {
-        UniqueBinarySearchTrees u = new UniqueBinarySearchTrees();
-
-        // Expected: 1
-        System.out.println(u.numTrees(0));
-
-        // Expected: 1
-        System.out.println(u.numTrees(1));
-
-        // Expected: 2
-        System.out.println(u.numTrees(2));
-
-        // Expected: 5
-        System.out.println(u.numTrees(3));
-
-        // Expected: 14
-        System.out.println(u.numTrees(4));
-    }
-
 }

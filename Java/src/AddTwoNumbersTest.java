@@ -4,7 +4,7 @@ import org.junit.Test;
 public class AddTwoNumbersTest {
 
     @Test
-    public void addTwoNumbers() {
+    public void testAddTwoNumbers() {
         AddTwoNumbers atn = new AddTwoNumbers();
 
         AddTwoNumbers.ListNode node0 = new AddTwoNumbers.ListNode(0);

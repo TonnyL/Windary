@@ -27,18 +27,4 @@ public class PowXN {
         return (result * result) / x;
     }
 
-    public static void main(String[] args) {
-        PowXN pxn = new PowXN();
-        // Expected: 4
-        System.out.println(pxn.myPow(2, 2));
-        // Expected: 700.28148
-        System.out.println(pxn.myPow(8.88023, 3));
-        // Expected: 0.25
-        System.out.println(pxn.myPow(2, -2));
-        // Expected: 0.0
-        System.out.println(pxn.myPow(0.00001, 2147483647));
-        // Expected: 0.00003
-        System.out.println(pxn.myPow(34.00515, -3));
-    }
-
 }

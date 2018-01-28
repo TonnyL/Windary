@@ -43,17 +43,4 @@ public class PermutationsII {
         return results;
     }
 
-    public static void main(String[] args) {
-        PermutationsII p = new PermutationsII();
-
-        // Expected: [[]]
-        System.out.println(p.permuteUnique(new int[]{}));
-
-        // Expected: [[1]]
-        System.out.println(p.permuteUnique(new int[]{1}));
-
-        // Expected: [[1, 1, 2], [1, 2, 1], [2, 1, 1]]
-        System.out.println(p.permuteUnique(new int[]{1, 1, 2}));
-    }
-
 }

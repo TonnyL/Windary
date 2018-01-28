@@ -60,17 +60,4 @@ public class CombinationSumII {
         }
     }
 
-    public static void main(String[] args) {
-        CombinationSumII cs = new CombinationSumII();
-
-        // Expected: [[1, 7], [1, 2, 5], [2, 6], [1, 1, 6]]
-        System.out.println(cs.combinationSum2(new int[]{10, 1, 2, 7, 6, 1, 5}, 8));
-
-        // Expected: []
-        System.out.println(cs.combinationSum2(new int[]{1}, 2));
-
-        // Expected: [[1, 1, 2], [2, 2]]
-        System.out.println(cs.combinationSum2(new int[]{1, 1, 2, 2}, 4));
-    }
-
 }

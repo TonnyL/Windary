@@ -36,16 +36,4 @@ public class ReverseInteger {
         return (int) result;
     }
 
-    public static void main(String[] args) {
-        ReverseInteger ri = new ReverseInteger();
-        // Expected: 321
-        System.out.println(ri.reverse(123));
-        // Expected: -321
-        System.out.println(ri.reverse(-123));
-        // Expected: 0
-        System.out.println(ri.reverse(1000000003));
-        // Expected: 0
-        System.out.println(ri.reverse(1534236469));
-    }
-
 }

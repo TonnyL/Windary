@@ -36,19 +36,4 @@ public class SearchInRotatedSortedArray {
         return -1;
     }
 
-    public static void main(String[] args) {
-        SearchInRotatedSortedArray s = new SearchInRotatedSortedArray();
-
-        // Expected: -1
-        System.out.println(s.search(new int[]{}, 1));
-        // Expected: 6
-        System.out.println(s.search(new int[]{0, 1, 2, 4, 5, 6, 7}, 7));
-        // Expected: 3
-        System.out.println(s.search(new int[]{4, 5, 6, 7, 0, 1, 2}, 7));
-        // Expected: 2
-        System.out.println(s.search(new int[]{5, 6, 7, 0, 1, 2, 4}, 7));
-        // Expected: -1
-        System.out.println(s.search(new int[]{4, 5, 6, 7, 0, 1, 2}, 8));
-    }
-
 }

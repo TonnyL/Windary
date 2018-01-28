@@ -33,20 +33,4 @@ public class IntegerToRoman {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        IntegerToRoman i = new IntegerToRoman();
-
-        // Expected: "I"
-        System.out.println(i.intToRoman(1));
-
-        // Expected: "DCXXI"
-        System.out.println(i.intToRoman(621));
-
-        // Expected: "MCMXCVI"
-        System.out.println(i.intToRoman(1996));
-
-        // Expected: "CMXCIX"
-        System.out.println(i.intToRoman(999));
-    }
-
 }

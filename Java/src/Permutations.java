@@ -47,20 +47,4 @@ public class Permutations {
         return results;
     }
 
-    public static void main(String[] args) {
-        Permutations p = new Permutations();
-
-        // Expected: [[]]
-        System.out.println(p.permute(new int[]{}));
-
-        // Expected: [[1]]
-        System.out.println(p.permute(new int[]{1}));
-
-        // Expected: [[1, 2], [2, 1]]
-        System.out.println(p.permute(new int[]{1, 2}));
-
-        // Expected: [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
-        System.out.println(p.permute(new int[]{1, 2, 3}));
-    }
-
 }

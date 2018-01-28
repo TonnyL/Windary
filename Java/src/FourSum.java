@@ -80,16 +80,4 @@ public class FourSum {
         return results;
     }
 
-    public static void main(String[] args) {
-        FourSum fs = new FourSum();
-
-        // Expected:
-        // [[-1, 0, 0, 1], [-2, -1, 1, 2], [-2, 0, 0, 2]]
-        System.out.println(fs.fourSum(new int[]{1, 0, -1, 0, -2, 2}, 0));
-
-        // Expected:
-        // [[-5, 0, 4, 5], [-3, -2, 4, 5]]
-        System.out.println(fs.fourSum(new int[]{-5, 5, 4, -3, 0, 0, 4, -2}, 4));
-    }
-
 }

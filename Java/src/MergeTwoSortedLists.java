@@ -32,6 +32,7 @@ public class MergeTwoSortedLists {
     }
 
     public static class ListNode {
+
         int val;
         ListNode next;
 
@@ -40,33 +41,14 @@ public class MergeTwoSortedLists {
         }
 
         @Override
-        public String toString() {
-            return "ListNode val: " + val + " next: -> " + next;
+        public boolean equals(Object obj) {
+            if (obj instanceof ListNode) {
+                ListNode node = (ListNode) obj;
+                return this.next == null && node.next == null || this.val == node.val && (this.next != null) && this.next.equals(node.next);
+            }
+            return false;
         }
-    }
 
-    public static void main(String[] args) {
-        MergeTwoSortedLists m = new MergeTwoSortedLists();
-
-        ListNode node1 = new ListNode(1);
-        node1.next = new ListNode(2);
-        node1.next.next = new ListNode(4);
-
-        ListNode node2 = new ListNode(1);
-        node2.next = new ListNode(3);
-        node2.next.next = new ListNode(4);
-
-        // Expected: 1->1->2->3->4->4
-        System.out.println(m.mergeTwoLists(node1, node2));
-
-        // Expected: 1->2->4
-        System.out.println(m.mergeTwoLists(node1, null));
-
-        // Expected: 1->3->4
-        System.out.println(m.mergeTwoLists(null, node2));
-
-        // Expected: null
-        System.out.println(m.mergeTwoLists(null, null));
     }
 
 }

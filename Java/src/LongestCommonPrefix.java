@@ -24,16 +24,4 @@ public class LongestCommonPrefix {
         return strs[0];
     }
 
-    public static void main(String[] args) {
-        LongestCommonPrefix lcp = new LongestCommonPrefix();
-        // Expected: "" (empty)
-        System.out.println(lcp.longestCommonPrefix(new String[]{}));
-        // Expected: abc
-        System.out.println(lcp.longestCommonPrefix(new String[]{"abc"}));
-        // Expected: abc
-        System.out.println(lcp.longestCommonPrefix(new String[]{"abcf", "abcd", "abcdefg"}));
-        // Expected: a
-        System.out.println(lcp.longestCommonPrefix(new String[]{"aa", "a"}));
-    }
-
 }

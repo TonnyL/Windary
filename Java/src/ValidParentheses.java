@@ -25,23 +25,9 @@ public class ValidParentheses {
             }
         }
 
-        System.out.println(stack);
+        // System.out.println(stack);
 
         return stack.isEmpty();
-    }
-
-    public static void main(String[] args) {
-        ValidParentheses vp = new ValidParentheses();
-        // Expected: true
-        System.out.println(vp.isValid("()"));
-        // Expected: true
-        System.out.println(vp.isValid("()[]{}"));
-        // Expected: false
-        System.out.println(vp.isValid("("));
-        // Expected: false
-        System.out.println(vp.isValid("(]"));
-        // Expected: false
-        System.out.println(vp.isValid("([)]"));
     }
 
 }

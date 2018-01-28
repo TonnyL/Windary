@@ -7,7 +7,7 @@ import java.util.List;
 public class BinaryTreeInorderTraversalTest {
 
     @Test
-    public void inorderTraversal() {
+    public void testInorderTraversal() {
         BinaryTreeInorderTraversal b = new BinaryTreeInorderTraversal();
 
         Assert.assertTrue(b.inorderTraversal(null).isEmpty());

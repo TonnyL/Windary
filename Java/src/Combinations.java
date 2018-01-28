@@ -73,20 +73,4 @@ public class Combinations {
         return results;
     }*/
 
-    public static void main(String[] args) {
-        Combinations c = new Combinations();
-
-        // Expected: []
-        System.out.println(c.combine(2, 0));
-
-        // Expected: [[1], [2]]
-        System.out.println(c.combine(2, 1));
-
-        // Expected: [[2,4], [3,4], [2,3], [1,2], [1,3], [1,4]]
-        System.out.println(c.combine(4, 2));
-
-        // Expected: [[1, 2, 3], [1, 2, 4], [1, 3, 4], [2, 3, 4]]
-        System.out.println(c.combine(4, 3));
-    }
-
 }

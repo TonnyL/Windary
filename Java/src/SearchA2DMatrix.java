@@ -36,20 +36,4 @@ public class SearchA2DMatrix {
         return Arrays.binarySearch(matrix[matrix.length - 1], target) >= 0;
     }
 
-    public static void main(String[] args) {
-        SearchA2DMatrix s = new SearchA2DMatrix();
-
-        // Expected: false
-        System.out.println(s.searchMatrix(new int[][]{}, 0));
-
-        // Expected: false
-        System.out.println(s.searchMatrix(new int[][]{{}}, 1));
-
-        // Expected: true
-        System.out.println(s.searchMatrix(new int[][]{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 50}}, 3));
-
-        // Expected: true
-        System.out.println(s.searchMatrix(new int[][]{{1}}, 1));
-    }
-
 }

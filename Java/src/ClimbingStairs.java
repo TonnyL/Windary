@@ -26,14 +26,4 @@ public class ClimbingStairs {
         return results[n - 1];
     }
 
-    public static void main(String[] args) {
-        ClimbingStairs cs = new ClimbingStairs();
-        // Expected: 1
-        System.out.println(cs.climbStairs(1));
-        // Expected: 3
-        System.out.println(cs.climbStairs(3));
-        // Expected: 8
-        System.out.println(cs.climbStairs(5));
-    }
-
 }

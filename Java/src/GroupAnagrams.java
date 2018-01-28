@@ -39,22 +39,4 @@ public class GroupAnagrams {
         return results;
     }
 
-    public static void main(String[] args) {
-        GroupAnagrams ga = new GroupAnagrams();
-
-        // Expected:
-        // [
-        //  []
-        // ]
-        System.out.println(ga.groupAnagrams(new String[]{}));
-
-        // Expected:
-        // [
-        //  ["ate", "eat","tea"],
-        //  ["nat","tan"],
-        //  ["bat"]
-        // ]
-        System.out.println(ga.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
-    }
-
 }

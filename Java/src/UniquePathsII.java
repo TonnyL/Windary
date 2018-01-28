@@ -66,33 +66,4 @@ public class UniquePathsII {
         return matrix[matrix.length - 1][matrix[0].length - 1];
     }
 
-    public static void main(String[] args) {
-        UniquePathsII up = new UniquePathsII();
-
-        // Expected: 1
-        System.out.println(up.uniquePathsWithObstacles(new int[][]{{0, 0, 0}}));
-        // Expected: 0
-        System.out.println(up.uniquePathsWithObstacles(new int[][]{{0, 1, 0}}));
-        // Expected: 0
-        System.out.println(up.uniquePathsWithObstacles(new int[][]{{1}, {0}}));
-        // Expected: 0
-        System.out.println(up.uniquePathsWithObstacles(new int[][]{{0}, {1}}));
-        // Expected: 0
-        System.out.println(up.uniquePathsWithObstacles(new int[][]{{0, 0}, {1, 1}, {0, 0}}));
-        // Expected: 1
-        System.out.println(up.uniquePathsWithObstacles(new int[][]{{0}, {0}}));
-        // Expected: 2
-        // The matrix:
-        // 1 1 1
-        // 1 0 1
-        // 1 1 2
-        System.out.println(up.uniquePathsWithObstacles(new int[][]{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}));
-        // Expected: 8
-        // 1 1 1 1
-        // 1 0 1 2
-        // 1 1 2 4
-        // 1 2 4 8
-        System.out.println(up.uniquePathsWithObstacles(new int[][]{{0, 0, 0, 0}, {0, 1, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}}));
-    }
-
 }

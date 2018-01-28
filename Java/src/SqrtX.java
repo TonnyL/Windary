@@ -43,19 +43,4 @@ public class SqrtX {
         return mid;
     }
 
-    public static void main(String[] args) {
-        SqrtX sx = new SqrtX();
-        // Expected: 0
-        System.out.println(sx.mySqrt(0));
-        // Expected: 1
-        System.out.println(sx.mySqrt(1));
-        // Expected: 46339
-        System.out.println(sx.mySqrt(2147395599));
-        // Expected: 46340
-        System.out.println(sx.mySqrt(2147395600));
-        // Expected: 2
-        System.out.println(sx.mySqrt(6));
-
-    }
-
 }

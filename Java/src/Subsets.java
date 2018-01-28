@@ -49,19 +49,4 @@ public class Subsets {
         return results;
     }
 
-    public static void main(String[] args) {
-        Subsets s = new Subsets();
-
-        // [[]]
-        System.out.println(s.subsets(new int[]{}));
-        // [[]]
-        System.out.println(s.subsets(null));
-        // [[], [1]]
-        System.out.println(s.subsets(new int[]{1}));
-        // [[], [1], [2], [1, 2]]
-        System.out.println(s.subsets(new int[]{1, 2}));
-        // [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
-        System.out.println(s.subsets(new int[]{1, 2, 3}));
-    }
-
 }

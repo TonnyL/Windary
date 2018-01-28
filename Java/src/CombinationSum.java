@@ -53,17 +53,4 @@ public class CombinationSum {
         }
     }
 
-    public static void main(String[] args) {
-        CombinationSum cs = new CombinationSum();
-
-        // Expected: [[7], [2, 2, 3]]
-        System.out.println(cs.combinationSum(new int[]{2, 3, 6, 7}, 7));
-
-        // Expected: [[1, 1, 1]]
-        System.out.println(cs.combinationSum(new int[]{1}, 3));
-
-        // Expected: [[1, 1, 1, 1], [1, 1, 2], [2, 2]]
-        System.out.println(cs.combinationSum(new int[]{1, 2}, 4));
-    }
-
 }

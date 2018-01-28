@@ -38,20 +38,4 @@ public class ThreeSumClosest {
         return result;
     }
 
-    public static void main(String[] args) {
-        ThreeSumClosest t = new ThreeSumClosest();
-
-        // Expected: 2
-        System.out.println(t.threeSumClosest(new int[]{-1, 2, 1, 4}, 1));
-
-        // Expected: 3
-        System.out.println(t.threeSumClosest(new int[]{1, 1, 1, 0}, 100));
-
-        // Expected: 2
-        System.out.println(t.threeSumClosest(new int[]{1, 1, 1, 0}, -100));
-
-        // Expected: 2
-        System.out.println(t.threeSumClosest(new int[]{-1, 2, 1, -4}, 1));
-    }
-
 }

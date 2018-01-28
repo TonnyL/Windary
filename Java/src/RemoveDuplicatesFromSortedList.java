@@ -23,48 +23,8 @@ public class RemoveDuplicatesFromSortedList {
         return head;
     }
 
-    public static void main(String[] args) {
-        RemoveDuplicatesFromSortedList r = new RemoveDuplicatesFromSortedList();
-
-        // Expected: null
-        System.out.println(r.deleteDuplicates(null));
-
-        ListNode node112 = new ListNode(1);
-        node112.next = new ListNode(1);
-        node112.next.next = new ListNode(2);
-        // Expected: 1 -> 2
-        System.out.println(r.deleteDuplicates(node112));
-
-        ListNode node11233 = new ListNode(1);
-        node11233.next = new ListNode(1);
-        node11233.next.next = new ListNode(2);
-        node11233.next.next.next = new ListNode(3);
-        node11233.next.next.next.next = new ListNode(3);
-        // Expected: 1 -> 2 -> 3
-        System.out.println(r.deleteDuplicates(node11233));
-
-        ListNode node111 = new ListNode(1);
-        node111.next = new ListNode(1);
-        node111.next.next = new ListNode(1);
-        // Expected: 1
-        System.out.println(r.deleteDuplicates(node111));
-
-        ListNode node1222 = new ListNode(1);
-        node1222.next = new ListNode(2);
-        node1222.next.next = new ListNode(2);
-        node1222.next.next.next = new ListNode(2);
-        // Expected: 1 -> 2
-        System.out.println(r.deleteDuplicates(node1222));
-
-        ListNode node1122 = new ListNode(1);
-        node1122.next = new ListNode(1);
-        node1122.next = new ListNode(2);
-        node1122.next.next = new ListNode(2);
-        // Expected: 1 -> 2
-        System.out.println(r.deleteDuplicates(node1122));
-    }
-
     public static class ListNode {
+
         int val;
         ListNode next;
 
@@ -73,9 +33,14 @@ public class RemoveDuplicatesFromSortedList {
         }
 
         @Override
-        public String toString() {
-            return "ListNode val: " + val + " next: -> " + next;
+        public boolean equals(Object obj) {
+            if (obj instanceof ListNode) {
+                ListNode node = (ListNode) obj;
+                return this.next == null && node.next == null || this.val == node.val && (this.next != null) && this.next.equals(node.next);
+            }
+            return false;
         }
+
     }
 
 }

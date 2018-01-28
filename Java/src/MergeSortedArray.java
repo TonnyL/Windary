@@ -17,26 +17,7 @@ public class MergeSortedArray {
         }
         System.arraycopy(nums2, 0, nums1, m, n);
         Arrays.sort(nums1, 0, m + n);
-//        System.out.println(Arrays.toString(nums1));
-    }
-
-    public static void main(String[] args) {
-        MergeSortedArray msa = new MergeSortedArray();
-
-        // Expected: [1]
-        msa.merge(new int[]{1}, 1, new int[]{}, 0);
-        // Expected: []
-        msa.merge(new int[]{0}, 0, new int[]{1}, 1);
-        // Expected: [1, 2, 3, 4, 5, 6]
-        msa.merge(new int[]{4, 5, 6, 0, 0, 0}, 3, new int[]{1, 2, 3}, 3);
-        // Expected: [0, 0, 0, 0, 1, 2, 3, 4, -1]
-        msa.merge(new int[]{0, 0, 0, 1, 2, 3, -1, -1, -1}, 6, new int[]{0, 4}, 2);
-        // Expected: [0, 1, 2, 3, 3, 4, 0, 0, 0]
-        msa.merge(new int[]{0, 1, 2, 3, 0, 0, 0, 0, 0}, 4, new int[]{3, 4, 0}, 2);
-        // Expected: [1, 1, 2, 0]
-        msa.merge(new int[]{1, 2, 0, 0}, 2, new int[]{1}, 1);
-        // Expected: [1, 2, 2, 3, 5, 6]
-        msa.merge(new int[]{1, 2, 3, 0, 0, 0}, 3, new int[]{2, 5, 6}, 3);
+        // System.out.println(Arrays.toString(nums1));
     }
 
 }

@@ -25,16 +25,4 @@ public class ImplementStrStr {
         return -1;
     }
 
-    public static void main(String[] args) {
-        ImplementStrStr iss = new ImplementStrStr();
-        // Expected: 3
-        System.out.println(iss.strStr("aaab", "b"));
-        // Expected: 0
-        System.out.println(iss.strStr("", ""));
-        // Expected: -1
-        System.out.println(iss.strStr("", "a"));
-        // Expected: 4
-        System.out.println(iss.strStr("whats up", "s "));
-    }
-
 }

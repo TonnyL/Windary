@@ -28,19 +28,4 @@ public class PalindromeNumber {
         return x == y || x == y / 10;
     }
 
-    public static void main(String[] args) {
-        PalindromeNumber pn = new PalindromeNumber();
-
-        // Expected: false
-        System.out.println(pn.isPalindrome(-1));
-        // Expected: true
-        System.out.println(pn.isPalindrome(1));
-        // Expected: true
-        System.out.println(pn.isPalindrome(121));
-        // Expected: true
-        System.out.println(pn.isPalindrome(1001));
-        // Expected: false
-        System.out.println(pn.isPalindrome(1000021));
-    }
-
 }

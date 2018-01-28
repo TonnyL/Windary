@@ -33,56 +33,8 @@ public class RemoveDuplicatesFromSortedListII {
         return fakeHead.next;
     }
 
-    public static void main(String[] args) {
-        RemoveDuplicatesFromSortedListII r = new RemoveDuplicatesFromSortedListII();
-
-        // Expected: 1 -> 2 -> 5
-        ListNode node1233445 = new ListNode(1);
-        node1233445.next = new ListNode(2);
-        node1233445.next.next = new ListNode(3);
-        node1233445.next.next.next = new ListNode(3);
-        node1233445.next.next.next.next = new ListNode(4);
-        node1233445.next.next.next.next.next = new ListNode(4);
-        node1233445.next.next.next.next.next.next = new ListNode(5);
-        System.out.println(r.deleteDuplicates(node1233445));
-
-        // Expected: 2 -> 3
-        ListNode node11123 = new ListNode(1);
-        node11123.next = new ListNode(1);
-        node11123.next.next = new ListNode(1);
-        node11123.next.next.next = new ListNode(2);
-        node11123.next.next.next.next = new ListNode(3);
-        System.out.println(r.deleteDuplicates(node11123));
-
-        // Expected: null
-        ListNode node111 = new ListNode(1);
-        node111.next = new ListNode(1);
-        node111.next.next = new ListNode(1);
-        System.out.println(r.deleteDuplicates(node111));
-
-        // Expected: null
-        System.out.println(r.deleteDuplicates(null));
-
-        // Expected: 1
-        ListNode node122 = new ListNode(1);
-        node122.next = new ListNode(2);
-        node122.next.next = new ListNode(2);
-        System.out.println(r.deleteDuplicates(node122));
-
-        // Expected: null
-        ListNode node11 = new ListNode(1);
-        node11.next = new ListNode(1);
-        System.out.println(r.deleteDuplicates(node11));
-
-        // Expected: null
-        ListNode node1122 = new ListNode(1);
-        node1122.next = new ListNode(1);
-        node1122.next.next = new ListNode(2);
-        node1122.next.next.next = new ListNode(2);
-        System.out.println(r.deleteDuplicates(node1122));
-    }
-
     public static class ListNode {
+
         int val;
         ListNode next;
 
@@ -91,9 +43,14 @@ public class RemoveDuplicatesFromSortedListII {
         }
 
         @Override
-        public String toString() {
-            return "ListNode val: " + val + " next: -> " + next;
+        public boolean equals(Object obj) {
+            if (obj instanceof ListNode) {
+                ListNode node = (ListNode) obj;
+                return this.next == null && node.next == null || this.val == node.val && (this.next != null) && this.next.equals(node.next);
+            }
+            return false;
         }
+
     }
 
 }

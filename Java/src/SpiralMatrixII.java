@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
  * <p>
@@ -58,35 +56,6 @@ public class SpiralMatrixII {
         }
 
         return matrix;
-    }
-
-    public static void main(String[] args) {
-        SpiralMatrixII sm = new SpiralMatrixII();
-
-        // Expected: []
-        System.out.println(Arrays.deepToString(sm.generateMatrix(0)));
-
-        // Expected:
-        // [
-        //  [1]
-        // ]
-        System.out.println(Arrays.deepToString(sm.generateMatrix(1)));
-
-        // Expected:
-        // [
-        //  [1, 2],
-        //  [4, 3]
-        // ]
-        System.out.println(Arrays.deepToString(sm.generateMatrix(2)));
-
-        // Expected:
-        // [
-        //  [1, 2, 3, 4],
-        //  [12, 13, 14, 5],
-        //  [11, 16, 15, 6],
-        //  [10, 9, 8, 7]
-        // ]
-        System.out.println(Arrays.deepToString(sm.generateMatrix(4)));
     }
 
 }

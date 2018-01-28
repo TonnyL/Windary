@@ -53,28 +53,4 @@ public class WordSearch {
         return res;
     }
 
-    public static void main(String[] args) {
-        WordSearch ws = new WordSearch();
-
-        // Expected: false
-        System.out.println(ws.exist(new char[][]{{}}, "AB"));
-
-        // Expected: false
-        System.out.println(ws.exist(null, "AB"));
-
-        char[][] chars = new char[][]{
-                {'A', 'B', 'C', 'E'},
-                {'S', 'F', 'C', 'S'},
-                {'A', 'D', 'E', 'E'}};
-
-        // Expected: true
-        System.out.println(ws.exist(chars, "ABCCED"));
-
-        // Expected: true
-        System.out.println(ws.exist(chars, "SEE"));
-
-        // Expected: false
-        System.out.println(ws.exist(chars, "ABCB"));
-    }
-
 }

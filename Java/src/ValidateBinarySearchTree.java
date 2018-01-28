@@ -47,6 +47,7 @@ public class ValidateBinarySearchTree {
     }
 
     public static class TreeNode {
+
         int val;
         TreeNode left;
         TreeNode right;
@@ -54,44 +55,28 @@ public class ValidateBinarySearchTree {
         TreeNode(int x) {
             val = x;
         }
-    }
 
-    public static void main(String[] args) {
-        ValidateBinarySearchTree v = new ValidateBinarySearchTree();
+        @Override
+        public boolean equals(Object obj) {
+            if (obj instanceof TreeNode) {
+                TreeNode node = (TreeNode) obj;
+                if (this.val != node.val) {
+                    return false;
+                }
+                if (this.left == null) {
+                    if (this.right == null) {
+                        return node.left == null && node.right == null;
+                    }
+                    return this.right.equals(node.right);
+                }
+                if (this.right == null) {
+                    return node.right == null;
+                }
+                return this.left.equals(node.left) && this.right.equals(node.right);
+            }
+            return false;
+        }
 
-        // Expected: true
-        System.out.println(v.isValidBST(null));
-
-        TreeNode node213 = new TreeNode(2);
-        node213.left = new TreeNode(1);
-        node213.right = new TreeNode(3);
-        // Expected: true
-        System.out.println(v.isValidBST(node213));
-
-        // Expected: true
-        System.out.println(v.isValidBST(new TreeNode(1)));
-
-        TreeNode node123 = new TreeNode(1);
-        node123.left = new TreeNode(2);
-        node123.right = new TreeNode(3);
-        // Expected: false
-        System.out.println(v.isValidBST(node123));
-
-        TreeNode node321 = new TreeNode(3);
-        node321.left = new TreeNode(2);
-        node321.left.left = new TreeNode(1);
-        // Expected: true
-        System.out.println(v.isValidBST(node321));
-
-        TreeNode node10 = new TreeNode(1);
-        node10.right = new TreeNode(0);
-        // Expected: false
-        System.out.println(v.isValidBST(node10));
-
-        TreeNode node0Minus1 = new TreeNode(0);
-        node0Minus1.left = new TreeNode(-1);
-        // Expected: false
-        System.out.println(v.isValidBST(node0Minus1));
     }
 
 }

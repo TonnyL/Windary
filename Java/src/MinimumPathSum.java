@@ -47,27 +47,4 @@ public class MinimumPathSum {
         return matrix[grid.length - 1][grid[0].length - 1];
     }
 
-    public static void main(String[] args) {
-        MinimumPathSum mps = new MinimumPathSum();
-
-        // Expected: 0
-        System.out.println(mps.minPathSum(new int[][]{}));
-        // Expected: 0
-        System.out.println(mps.minPathSum(new int[][]{{}}));
-        // Expected: 1
-        System.out.println(mps.minPathSum(new int[][]{{1}}));
-        // Expected: 7
-        // The matrix:
-        // 1 4 5
-        // 2 7 6
-        // 6 8 7
-        System.out.println(mps.minPathSum(new int[][]{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}}));
-        // Expected: 5
-        // The matrix:
-        // 1 2 3
-        // 2 4 4
-        // 3 6 5
-        System.out.println(mps.minPathSum(new int[][]{{1, 1, 1}, {1, 2, 1}, {1, 3, 1}}));
-    }
-
 }

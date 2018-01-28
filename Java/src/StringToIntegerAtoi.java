@@ -41,32 +41,4 @@ public class StringToIntegerAtoi {
         return minus ? -result : result;
     }
 
-    public static void main(String[] args) {
-        StringToIntegerAtoi atoi = new StringToIntegerAtoi();
-
-        // Expected: 0
-        System.out.println(atoi.myAtoi("+-1"));
-
-        // Expected: -123
-        System.out.println(atoi.myAtoi("-00123a66"));
-
-        // Expected: -1
-        System.out.println(atoi.myAtoi("-1"));
-
-        // Expected: 2147483647
-        System.out.println(atoi.myAtoi("    10522545459"));
-
-        // Expected: -2147483647
-        System.out.println(atoi.myAtoi("-2147483647"));
-
-        // Expected: 2147483647
-        System.out.println(atoi.myAtoi("2147483648"));
-
-        // Expected: -2147483648
-        System.out.println(atoi.myAtoi("-2147483649"));
-
-        // Expected: 2147483647
-        System.out.println(atoi.myAtoi("2147483647"));
-    }
-
 }

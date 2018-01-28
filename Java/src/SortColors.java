@@ -1,5 +1,3 @@
-//import java.util.Arrays;
-
 /**
  * Given an array with n objects colored red, white or blue, sort them so that objects of the same color are adjacent, with the colors in the order red, white and blue.
  * <p>
@@ -33,36 +31,7 @@ public class SortColors {
             }
         }
 
-//        System.out.println(Arrays.toString(nums));
-    }
-
-    public static void main(String[] args) {
-        SortColors sc = new SortColors();
-
-        // Expected: []
-        sc.sortColors(new int[]{});
-
-        // Expected: [0]
-        sc.sortColors(new int[]{0});
-
-        // Expected: [0, 1, 2]
-        sc.sortColors(new int[]{2, 1, 0});
-
-        // Expected: [0, 0, 0, 1, 1, 1, 1, 1, 2]
-        sc.sortColors(new int[]{0, 1, 0, 1, 1, 1, 2, 0, 1});
-
-        // Expected: [0, 0, 1, 1, 2]
-        sc.sortColors(new int[]{0, 1, 2, 0, 1});
-
-        // Expected: [0, 0, 1, 1, 2, 2, 2, 2, 2]
-        sc.sortColors(new int[]{2, 2, 2, 2, 1, 0, 2, 0, 1});
-
-        // Expected: [0, 0, 1, 1, 1, 2, 2, 2]
-        sc.sortColors(new int[]{0, 0, 1, 1, 1, 2, 2, 2});
-
-        // Expected: [0, 0, 0, 1, 1, 1, 2, 2, 2]
-        sc.sortColors(new int[]{0, 0, 0, 2, 2, 2, 1, 1, 1});
-
+        // System.out.println(Arrays.toString(nums));
     }
 
 }

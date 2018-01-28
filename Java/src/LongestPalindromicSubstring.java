@@ -54,17 +54,4 @@ public class LongestPalindromicSubstring {
         return s.substring(startIndex, maxLength + startIndex);
     }
 
-    public static void main(String[] args) {
-        LongestPalindromicSubstring l = new LongestPalindromicSubstring();
-
-        // Expected: "bab" or "aba"
-        System.out.println(l.longestPalindrome("babad"));
-
-        // Expected: "bb"
-        System.out.println(l.longestPalindrome("cbbd"));
-
-        // Expected: "ddtattarrattatdd"
-        System.out.println(l.longestPalindrome("babaddtattarrattatddetartrateedredividerb"));
-    }
-
 }

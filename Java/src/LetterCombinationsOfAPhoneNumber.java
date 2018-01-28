@@ -45,26 +45,4 @@ public class LetterCombinationsOfAPhoneNumber {
         return results;
     }
 
-    public static void main(String[] args) {
-        LetterCombinationsOfAPhoneNumber l = new LetterCombinationsOfAPhoneNumber();
-
-        // Expected: []
-        System.out.println(l.letterCombinations(""));
-
-        // Expected: [""]
-        System.out.println(l.letterCombinations("1"));
-
-        // Expected: ["a", "b", "c"]
-        System.out.println(l.letterCombinations("2"));
-
-        // Expected: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
-        System.out.println(l.letterCombinations("23"));
-
-        // Expected: ["adg", "adh", "adi", "aeg", "aeh", "aei",
-        // "afg", "afh", "afi", "bdg", "bdh", "bdi", "beg", "beh",
-        // "bei", "bfg", "bfh", "bfi", "cdg", "cdh", "cdi", "ceg",
-        // "ceh", "cei", "cfg", "cfh", "cfi"]
-        System.out.println(l.letterCombinations("234"));
-    }
-
 }

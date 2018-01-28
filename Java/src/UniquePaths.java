@@ -31,25 +31,4 @@ public class UniquePaths {
         return matrix[m - 1][n - 1];
     }
 
-    public static void main(String[] args) {
-        UniquePaths up = new UniquePaths();
-
-        // Expected: 1
-        System.out.println(up.uniquePaths(1, 1));
-        // Expected: 1
-        System.out.println(up.uniquePaths(1, 2));
-        // Expected: 2
-        // The matrix:
-        // 1 1
-        // 1 2(result)
-        System.out.println(up.uniquePaths(2, 2));
-        // Expected: 20
-        // The matrix:
-        // 1 1 1 1
-        // 1 2 3 4
-        // 1 3 6 10
-        // 1 4 10 20(result)
-        System.out.println(up.uniquePaths(4, 4));
-    }
-
 }

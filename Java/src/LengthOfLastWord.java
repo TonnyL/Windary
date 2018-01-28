@@ -23,16 +23,4 @@ public class LengthOfLastWord {
         return strs[strs.length - 1].length();
     }
 
-    public static void main(String[] args) {
-        LengthOfLastWord llw = new LengthOfLastWord();
-        // Expected: 5
-        System.out.println(llw.lengthOfLastWord("Hello World"));
-        // Expected: 0
-        System.out.println(llw.lengthOfLastWord(" "));
-        // Expected: 1
-        System.out.println(llw.lengthOfLastWord("a"));
-        // Expected: 1
-        System.out.println(llw.lengthOfLastWord("a "));
-    }
-
 }

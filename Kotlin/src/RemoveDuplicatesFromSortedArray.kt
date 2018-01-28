@@ -28,11 +28,4 @@ class RemoveDuplicatesFromSortedArray {
         return i + 1
     }
 
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-
-        }
-    }
-
 }

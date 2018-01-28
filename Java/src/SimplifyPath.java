@@ -42,23 +42,4 @@ public class SimplifyPath {
         return sb.length() == 0 ? "/" : sb.toString();
     }
 
-    public static void main(String[] args) {
-        SimplifyPath sp = new SimplifyPath();
-
-        // Expected: "/home"
-        System.out.println(sp.simplifyPath("/home/"));
-
-        // Expected: "/c"
-        System.out.println(sp.simplifyPath("/a/./b/../../c/"));
-
-        // Expected: "/"
-        System.out.println(sp.simplifyPath("/../"));
-
-        // Expected: "/home/foo"
-        System.out.println(sp.simplifyPath("/home//foo/"));
-
-        // Expected: "/a/b/c"
-        System.out.println(sp.simplifyPath("/a/b/c"));
-    }
-
 }

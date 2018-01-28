@@ -48,23 +48,4 @@ public class RemoveElement {
         }
     }
 
-    public static void main(String[] args) {
-        RemoveElement re = new RemoveElement();
-        // Expected:
-        // nums: [2, 2, 3, 3] length = 2
-        System.out.println(re.removeElement(new int[]{3, 2, 2, 3}, 3));
-        // Expected:
-        // nums: [3, 3] length = 0
-        System.out.println(re.removeElement(new int[]{3, 3}, 3));
-        // Expeted:
-        // nums: [] length = 0
-        System.out.println(re.removeElement(new int[]{}, 0));
-        // Expected:
-        // nums: [3, 4, 5, 888, 2, 2] length = 4
-        System.out.println(re.removeElement(new int[]{2, 3, 4, 5, 888, 2}, 2));
-        // Expected:
-        // nums: [3, 3] length = 2
-        System.out.println(re.removeElement(new int[]{3, 3}, 0));
-    }
-
 }

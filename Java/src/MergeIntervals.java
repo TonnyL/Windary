@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
@@ -39,6 +38,7 @@ public class MergeIntervals {
     }
 
     public static class Interval {
+
         int start;
         int end;
 
@@ -53,43 +53,14 @@ public class MergeIntervals {
         }
 
         @Override
-        public String toString() {
-            return "Interval start: " + start + " end " + end;
+        public boolean equals(Object obj) {
+            if (obj instanceof Interval) {
+                Interval interval = (Interval) obj;
+                return this.start == interval.start && this.end == interval.end;
+            }
+            return false;
         }
-    }
 
-    public static void main(String[] args) {
-        MergeIntervals mi = new MergeIntervals();
-
-        List<Interval> list11 = new ArrayList<>(1);
-        list11.add(new Interval(1, 1));
-        // Expected: [1, 1]
-        System.out.println(mi.merge(list11));
-
-        List<Interval> list1222 = new ArrayList<>(2);
-        list1222.add(new Interval(1, 2));
-        list1222.add(new Interval(2, 2));
-        // Expected: [1, 2]
-        System.out.println(mi.merge(list1222));
-
-        List<Interval> list124578 = new ArrayList<>(3);
-        list124578.add(new Interval(1, 2));
-        list124578.add(new Interval(4, 5));
-        list124578.add(new Interval(7, 8));
-        // Expected: [1, 2], [4, 5], [7, 8]
-        System.out.println(mi.merge(list124578));
-
-        List<Interval> list1324 = new ArrayList<>(2);
-        list1324.add(new Interval(1, 3));
-        list1324.add(new Interval(2, 4));
-        // Expected: [1, 4]
-        System.out.println(mi.merge(list1324));
-
-        List<Interval> list1423 = new ArrayList<>(2);
-        list1423.add(new Interval(1, 4));
-        list1423.add(new Interval(2, 3));
-        // Expected: [1, 4]
-        System.out.println(mi.merge(list1423));
     }
 
 }

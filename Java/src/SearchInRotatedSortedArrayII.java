@@ -48,33 +48,4 @@ public class SearchInRotatedSortedArrayII {
         return false;
     }
 
-    public static void main(String[] args) {
-        SearchInRotatedSortedArrayII s = new SearchInRotatedSortedArrayII();
-
-        // Expected: false
-        System.out.println(s.search(null, 4));
-
-        // Expected: false
-        System.out.println(s.search(new int[]{3, 2}, 4));
-
-        // Expected: false
-        System.out.println(s.search(new int[]{3, 1, 2}, 4));
-
-        // Expected: true
-        System.out.println(s.search(new int[]{3, 1, 2}, 2));
-
-        // Expected: true
-        System.out.println(s.search(new int[]{2, 2, 2, 2, 3, 4, 1, 1}, 4));
-
-        // Expected: true
-        System.out.println(s.search(new int[]{4, 5, 6, 7, 0, 1, 2}, 2));
-
-        // Expected: true
-        System.out.println(s.search(new int[]{4, 5, 6, 7, 0, 1, 2}, 7));
-
-        // Expected: true
-        System.out.println(s.search(new int[]{4, 5, 6, 7, 0, 1, 2}, 5));
-
-    }
-
 }

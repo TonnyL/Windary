@@ -28,20 +28,4 @@ public class MaximumSubArray {
         return max;
     }
 
-    public static void main(String[] args) {
-        MaximumSubArray ms = new MaximumSubArray();
-
-        // Expected: 1
-        System.out.println(ms.maxSubArray(new int[]{1}));
-
-        // Expected: -2
-        System.out.println(ms.maxSubArray(new int[]{-4, -2}));
-
-        // Expected: 1
-        System.out.println(ms.maxSubArray(new int[]{1, 0, -1}));
-
-        // Expected: 6
-        System.out.println(ms.maxSubArray(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4}));
-    }
-
 }

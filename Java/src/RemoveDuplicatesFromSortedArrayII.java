@@ -35,23 +35,4 @@ public class RemoveDuplicatesFromSortedArrayII {
         return nums.length - count;
     }
 
-    public static void main(String[] args) {
-        RemoveDuplicatesFromSortedArrayII r = new RemoveDuplicatesFromSortedArrayII();
-
-        // Expected: 5
-        System.out.println(r.removeDuplicates(new int[]{1, 1, 1, 2, 2, 3}));
-
-        // Expected: 5
-        System.out.println(r.removeDuplicates(new int[]{1, 1, 2, 2, 3}));
-
-        // Expected: 0
-        System.out.println(r.removeDuplicates(null));
-
-        // Expected: 2
-        System.out.println(r.removeDuplicates(new int[]{1, 1}));
-
-        // Expected: 2
-        System.out.println(r.removeDuplicates(new int[]{1, 1, 1, 1}));
-    }
-
 }

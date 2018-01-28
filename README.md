@@ -2,6 +2,8 @@
 
 My Solutions for LeetCode problems written in Go, Java, Kotlin, Python and Swift.
 
+Progress: **76 / 740**
+
 ## Solutions
 | # | Title  | Go | Java | Kotlin | Python | Swift |  Difficulty |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------:|

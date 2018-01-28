@@ -35,38 +35,4 @@ public class DecodeWays {
         return ints[s.length()];
     }
 
-    public static void main(String[] args) {
-        DecodeWays dw = new DecodeWays();
-
-        // Expected: 1, ['A']
-        System.out.println(dw.numDecodings("1"));
-
-        // Expected: 0
-        System.out.println(dw.numDecodings("0"));
-
-        // Expected: 1, ['JA']
-        System.out.println(dw.numDecodings("101"));
-
-        // Expected: 1, ['AK']
-        System.out.println(dw.numDecodings("110"));
-
-        // Expected: 1, ['JJ']
-        System.out.println(dw.numDecodings("1010"));
-
-        // Expected: 0
-        System.out.println(dw.numDecodings("012"));
-
-        // Expected: 2, ['JAA', 'JK']
-        System.out.println(dw.numDecodings("1011"));
-
-        // Expected: 2, ['AB', 'L']
-        System.out.println(dw.numDecodings("12"));
-
-        // Expected: 3, ['ABC', 'LC', 'AW']
-        System.out.println(dw.numDecodings("123"));
-
-        // Expected: 3, ['ABAT', 'LAT', 'AUT']
-        System.out.println(dw.numDecodings("12120"));
-    }
-
 }

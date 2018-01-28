@@ -37,6 +37,7 @@ public class RotateList {
     }
 
     public static class ListNode {
+
         int val;
         ListNode next;
 
@@ -45,37 +46,14 @@ public class RotateList {
         }
 
         @Override
-        public String toString() {
-            return "ListNode val: " + val + " next -> " + next;
+        public boolean equals(Object obj) {
+            if (obj instanceof ListNode) {
+                ListNode node = (ListNode) obj;
+                return this.next == null && node.next == null || this.val == node.val && (this.next != null) && this.next.equals(node.next);
+            }
+            return false;
         }
-    }
 
-    public static void main(String[] args) {
-        RotateList rl = new RotateList();
-
-        // Expected: null
-        System.out.println(rl.rotateRight(null, 1));
-
-        // Expected: 1
-        System.out.println(rl.rotateRight(new ListNode(1), 1));
-
-        // Expected: 1 -> 2
-        ListNode node12 = new ListNode(1);
-        node12.next = new ListNode(2);
-        System.out.println(rl.rotateRight(node12, 0));
-
-        // Expected: 3 -> 1 -> 2
-        ListNode node123 = new ListNode(1);
-        node123.next = new ListNode(2);
-        node123.next.next = new ListNode(3);
-        System.out.println(rl.rotateRight(node123, 1));
-
-        ListNode node12345 = new ListNode(1);
-        node12345.next = new ListNode(2);
-        node12345.next.next = new ListNode(3);
-        node12345.next.next.next = new ListNode(4);
-        node12345.next.next.next.next = new ListNode(5);
-        System.out.println(rl.rotateRight(node12345, 2));
     }
 
 }

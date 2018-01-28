@@ -55,36 +55,13 @@ public class PartitionList {
         }
 
         @Override
-        public String toString() {
-            return "ListNode val: " + val + " next -> " + next;
+        public boolean equals(Object obj) {
+            if (obj instanceof ListNode) {
+                ListNode node = (ListNode) obj;
+                return this.next == null && node.next == null || this.val == node.val && (this.next != null) && this.next.equals(node.next);
+            }
+            return false;
         }
-    }
-
-    public static void main(String[] args) {
-        PartitionList pl = new PartitionList();
-
-        // Expected: null
-        System.out.println(pl.partition(null, 2));
-
-        // Expected: 1 -> 2
-        ListNode node12 = new ListNode(1);
-        node12.next = new ListNode(2);
-        System.out.println(pl.partition(node12, 3));
-
-        // Expected: 1 -> 2
-        System.out.println(pl.partition(node12, 0));
-
-        ListNode node143252 = new ListNode(1);
-        node143252.next = new ListNode(4);
-        node143252.next.next = new ListNode(3);
-        node143252.next.next.next = new ListNode(2);
-        node143252.next.next.next.next = new ListNode(5);
-        node143252.next.next.next.next.next = new ListNode(2);
-        // Expected: 1 -> 2 -> 2 -> 4 -> 3 -> 5
-        System.out.println(pl.partition(node143252, 3));
-
-        // Expected: 1 -> 3 -> 2 -> 2 -> 4 -> 5
-        System.out.println(pl.partition(node143252, 4));
     }
 
 }

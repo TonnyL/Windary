@@ -43,23 +43,4 @@ public class RestoreIPAddresses {
         return results;
     }
 
-    public static void main(String[] args) {
-        RestoreIPAddresses r = new RestoreIPAddresses();
-
-        // Expected: []
-        System.out.println(r.restoreIpAddresses("1"));
-
-        // Expected: []
-        System.out.println(r.restoreIpAddresses("111"));
-
-        // Expected: []
-        System.out.println(r.restoreIpAddresses("1111111111111"));
-
-        // Expected: ["1.1.1.1"]
-        System.out.println(r.restoreIpAddresses("1111"));
-
-        // Expected: ["255.255.11.135", "255.255.111.35"]
-        System.out.println(r.restoreIpAddresses("25525511135"));
-    }
-
 }

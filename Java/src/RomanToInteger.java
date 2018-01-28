@@ -41,14 +41,4 @@ public class RomanToInteger {
         return result;
     }
 
-    public static void main(String[] args) {
-        RomanToInteger rtt = new RomanToInteger();
-        // Expected: 621 = 500 + 100 + 10 + 10 +1
-        System.out.println(rtt.romanToInt("DCXXI"));
-        // Expected: 1996 = 1000 - (100 - 1000) - (10 - 100) + 5 + 1
-        System.out.println(rtt.romanToInt("MCMXCVI"));
-        // Expected: 999 = - (100 - 1000) - (10 - 100) - (1 - 10)
-        System.out.println(rtt.romanToInt("CMXCIX"));
-    }
-
 }

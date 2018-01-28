@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
  * <p>
@@ -36,19 +34,6 @@ public class SearchForARange {
         }
 
         return result;
-    }
-
-    public static void main(String[] args) {
-        SearchForARange sr = new SearchForARange();
-
-        // Expected: [0, 0]
-        System.out.println(Arrays.toString(sr.searchRange(new int[]{1}, 1)));
-
-        // Expected: [-1, -1]
-        System.out.println(Arrays.toString(sr.searchRange(new int[]{5, 7, 7, 8, 8, 10}, 11)));
-
-        // Expected: [3, 4]
-        System.out.println(Arrays.toString(sr.searchRange(new int[]{5, 7, 7, 8, 8, 10}, 8)));
     }
 
 }

@@ -57,21 +57,4 @@ public class CountAndSay {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        CountAndSay cas = new CountAndSay();
-
-        // Expected: 1
-        System.out.println(cas.countAndSay(1));
-        // Expected: 11
-        System.out.println(cas.countAndSay(2));
-        // Expected: 21
-        System.out.println(cas.countAndSay(3));
-        // Expected: 1211
-        System.out.println(cas.countAndSay(4));
-        // Expected: 111221
-        System.out.println(cas.countAndSay(5));
-        // Expected: 312211
-        System.out.println(cas.countAndSay(6));
-    }
-
 }

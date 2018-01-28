@@ -52,6 +52,7 @@ public class UniqueBinarySearchTreesII {
     }
 
     public static class TreeNode {
+
         int val;
         TreeNode left;
         TreeNode right;
@@ -61,35 +62,26 @@ public class UniqueBinarySearchTreesII {
         }
 
         @Override
-        public String toString() {
-            return "TreeNode val: " + val + " left: " + left + " right: " + right;
+        public boolean equals(Object obj) {
+            if (obj instanceof TreeNode) {
+                TreeNode node = (TreeNode) obj;
+                if (this.val != node.val) {
+                    return false;
+                }
+                if (this.left == null) {
+                    if (this.right == null) {
+                        return node.left == null && node.right == null;
+                    }
+                    return this.right.equals(node.right);
+                }
+                if (this.right == null) {
+                    return node.right == null;
+                }
+                return this.left.equals(node.left) && this.right.equals(node.right);
+            }
+            return false;
         }
-    }
 
-    public static void main(String[] args) {
-        UniqueBinarySearchTreesII u = new UniqueBinarySearchTreesII();
-
-        // Expected:
-        // null
-        System.out.println(u.generateTrees(0));
-
-        // Expected:
-        // 1
-        System.out.println(u.generateTrees(1));
-
-        // Expected:
-        // 2  1
-        // /   \
-        //1    2
-        System.out.println(u.generateTrees(2));
-
-        // Expected:
-        // 1       3     3      2      1
-        // \      /     /      / \      \
-        // 3     2     1      1  3      2
-        ///    /       \                \
-        //2   1        2                 3
-        System.out.println(u.generateTrees(3));
     }
 
 }

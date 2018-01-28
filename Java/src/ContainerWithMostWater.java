@@ -23,17 +23,4 @@ public class ContainerWithMostWater {
         return maxCapacity;
     }
 
-    public static void main(String[] args) {
-        ContainerWithMostWater cwmw = new ContainerWithMostWater();
-
-        // Expected: 1
-        System.out.println(cwmw.maxArea(new int[]{1, 1}));
-
-        // Expected: 4
-        System.out.println(cwmw.maxArea(new int[]{1, 4, 9}));
-
-        // Expected: 8
-        System.out.println(cwmw.maxArea(new int[]{1, 4, 9, 4}));
-    }
-
 }

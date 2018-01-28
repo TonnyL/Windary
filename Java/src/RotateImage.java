@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * You are given an n x n 2D matrix representing an image.
  * <p>
@@ -61,31 +59,6 @@ public class RotateImage {
                 matrix[j][i] = cache;
             }
         }
-    }
-
-    public static void main(String[] args) {
-        RotateImage ri = new RotateImage();
-
-        int[][] ints1 = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-        ri.rotate(ints1);
-        System.out.print("[");
-        for (int[] ints : ints1) {
-            System.out.print("[");
-            Arrays.stream(ints).forEach(integer -> System.out.print(integer + ","));
-            System.out.print("]");
-        }
-        System.out.println("]");
-
-        int[][] ints2 = new int[][]{{5, 1, 9, 11}, {2, 4, 8, 10}, {13, 3, 6, 7}, {15, 14, 12, 16}};
-        ri.rotate(ints2);
-        System.out.print("[");
-        for (int[] ints : ints2) {
-            System.out.print("[");
-            Arrays.stream(ints).forEach(integer -> System.out.print(integer + ","));
-            System.out.print("]");
-        }
-        System.out.println("]");
-
     }
 
 }

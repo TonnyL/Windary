@@ -36,29 +36,4 @@ public class JumpGame {
         return maxLength > 0;
     }
 
-    public static void main(String[] args) {
-        JumpGame jg = new JumpGame();
-
-        // Expected: false
-        System.out.println(jg.canJump(null));
-
-        // Expected: false
-        System.out.println(jg.canJump(new int[]{}));
-
-        // Expected: true
-        System.out.println(jg.canJump(new int[]{1}));
-
-        // Expected: true
-        System.out.println(jg.canJump(new int[]{0}));
-
-        // Expected: true
-        System.out.println(jg.canJump(new int[]{2, 3, 1, 1, 4}));
-
-        // Expected: false
-        System.out.println(jg.canJump(new int[]{3, 2, 1, 0, 4}));
-
-        // Expected: true
-        System.out.println(jg.canJump(new int[]{4, 0, 0, 0}));
-    }
-
 }

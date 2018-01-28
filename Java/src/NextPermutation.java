@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
  * <p>
@@ -41,25 +39,6 @@ public class NextPermutation {
         while (i < j) {
             swap(nums, i++, j--);
         }
-    }
-
-    public static void main(String[] args) {
-        NextPermutation np = new NextPermutation();
-
-        // Expected: [1, 3, 2]
-        int[] array123 = new int[]{1, 2, 3};
-        np.nextPermutation(array123);
-        System.out.println(Arrays.toString(array123));
-
-        // Expected: [1, 2, 3]
-        int[] array321 = new int[]{3, 2, 1};
-        np.nextPermutation(array321);
-        System.out.println(Arrays.toString(array321));
-
-        // Expected: [1, 5, 1]
-        int[] array115 = new int[]{1, 1, 5};
-        np.nextPermutation(array115);
-        System.out.println(Arrays.toString(array115));
     }
 
 }

@@ -52,24 +52,4 @@ public class GenerateParentheses {
         return list;
     }
 
-    public static void main(String[] args) {
-        GenerateParentheses gp = new GenerateParentheses();
-
-        // Expected: []
-        System.out.println(gp.generateParenthesis(0));
-
-        // Expected: [()]
-        System.out.println(gp.generateParenthesis(1));
-
-        // Expected: [()(), (())]
-        System.out.println(gp.generateParenthesis(2));
-
-        // Expected: [()()(), ()(()), (()()), (())(), ((()))]
-        System.out.println(gp.generateParenthesis(3));
-
-        // Expected: [()()()(), (()(())), (()())(), ()()(()), (())()(), (((()))), (())(()),
-        // ()((())), ()(())(), ()(()()), (()()()), ((()())), ((()))(), ((())())]
-        System.out.println(gp.generateParenthesis(4));
-    }
-
 }

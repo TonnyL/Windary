@@ -61,30 +61,4 @@ public class SubsetsII {
         return lists;
     }
 
-    public static void main(String[] args) {
-        SubsetsII s = new SubsetsII();
-
-        // Expected: []
-        System.out.println(s.subsetsWithDup(null));
-
-        // Expected: []
-        System.out.println(s.subsetsWithDup(new int[]{}));
-
-        // Expected: [[1], []]
-        System.out.println(s.subsetsWithDup(new int[]{1}));
-
-        // Expected: [[], [1], [1, 1]]
-        System.out.println(s.subsetsWithDup(new int[]{1, 1}));
-
-        // Expected: [[1], [2], [1, 2], []]
-        System.out.println(s.subsetsWithDup(new int[]{1, 2}));
-
-        // Expected: [[2], [1], [1, 2, 2], [2, 2], [1, 2], []]
-        System.out.println(s.subsetsWithDup(new int[]{1, 2, 2}));
-
-        // Expected: [[], [1], [1, 4], [1, 4, 4], [1, 4, 4, 4], [1, 4, 4, 4, 4], [4], [4, 4], [4, 4, 4], [4, 4, 4, 4]]
-        System.out.println(s.subsetsWithDup(new int[]{4, 4, 4, 1, 4}));
-
-    }
-
 }

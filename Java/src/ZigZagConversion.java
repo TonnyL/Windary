@@ -33,23 +33,4 @@ public class ZigZagConversion {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        ZigZagConversion z = new ZigZagConversion();
-
-        // Expected: null
-        System.out.println(z.convert(null, 2));
-
-        // Expected: "0123456789"
-        System.out.println(z.convert("0123456789", 1));
-
-        // Expected: "PAHNAPLSIIGYIR"
-        System.out.println(z.convert("PAYPALISHIRING", 3));
-
-        // Expected: "0246813579"
-        System.out.println(z.convert("0123456789", 2));
-
-        // Expected: "0481357926"
-        System.out.println(z.convert("0123456789", 3));
-    }
-
 }
