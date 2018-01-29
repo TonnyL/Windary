@@ -11,6 +11,8 @@
 # Given the above grid map, return 7. Because the path 1→3→1→1→1 minimizes the sum.
 #
 # Python, Python 3 all accepted.
+
+
 class MinimumPathSum:
     def minPathSum(self, grid):
         """
@@ -39,25 +41,3 @@ class MinimumPathSum:
                 matrix[i][j] = min(matrix[i - 1][j] + grid[i][j], matrix[i][j - 1] + grid[i][j])
 
         return matrix[len(grid) - 1][len(grid[0]) - 1]
-
-
-mps = MinimumPathSum()
-
-# Expected: 0
-print(mps.minPathSum([]))
-# Expected: 0
-print(mps.minPathSum([[]]))
-# Expected: 1
-print(mps.minPathSum([[1]]))
-# Expected: 7
-# The matrix:
-# 1 4 5
-# 2 7 6
-# 6 8 7
-print(mps.minPathSum([[1, 3, 1], [1, 5, 1], [4, 2, 1]]))
-# Expected: 5
-# The matrix:
-# 1 2 3
-# 2 4 4
-# 3 6 5
-print(mps.minPathSum([[1, 1, 1], [1, 2, 1], [1, 3, 1]]))

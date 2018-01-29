@@ -10,6 +10,8 @@
 # 1 ≤ m ≤ n ≤ length of list.
 #
 # Python, Python3 all accepted.
+
+
 class ReverseLinkedListII:
     def reverseBetween(self, head, m, n):
         """
@@ -46,33 +48,5 @@ class ListNode:
         self.val = x
         self.next = None
 
-    def __str__(self):
-        return "ListNode val: " + str(self.val) + " next: -> " + str(self.next)
-
-
-r = ReverseLinkedListII()
-
-# Expected: None
-print(r.reverseBetween(None, 1, 2))
-
-node123 = ListNode(1)
-node123.next = ListNode(2)
-node123.next.next = ListNode(3)
-# Expected: 1 -> 3 -> 2
-print(r.reverseBetween(node123, 2, 3))
-
-# Expected: 1
-print(r.reverseBetween(ListNode(1), 1, 1))
-
-node12 = ListNode(1)
-node12.next = ListNode(2)
-# Expected: 2 -> 1
-print(r.reverseBetween(node12, 1, 2))
-
-node12345 = ListNode(1)
-node12345.next = ListNode(2)
-node12345.next.next = ListNode(3)
-node12345.next.next.next = ListNode(4)
-node12345.next.next.next.next = ListNode(5)
-# Expected: 1 -> 4 -> 3 -> 2 -> 5
-print(r.reverseBetween(node12345, 2, 4))
+    def __eq__(self, other):
+        return self.val == other.val and self.next == other.next

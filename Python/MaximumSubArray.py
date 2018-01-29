@@ -6,6 +6,8 @@
 # If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 #
 # Python, Python3 all accepted.
+
+
 class MaximumSubArray:
     def maxSubArray(self, nums):
         """
@@ -23,18 +25,3 @@ class MaximumSubArray:
                 tmp = 0
 
         return m
-
-
-ms = MaximumSubArray()
-
-# Expected: 1
-print(ms.maxSubArray([1]))
-
-# Expected: -2
-print(ms.maxSubArray([-4, -2]))
-
-# Expected: 1
-print(ms.maxSubArray([1, 0, -1]))
-
-# Expected: 6
-print(ms.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]))

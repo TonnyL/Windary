@@ -11,6 +11,8 @@
 # ]
 #
 # Python, Python 3 all accepted.
+
+
 class PermutationsII:
     def permuteUnique(self, nums):
         """
@@ -40,15 +42,3 @@ class PermutationsII:
 
         results.extend(m_set)
         return results
-
-
-p = PermutationsII()
-
-# Expected: [[]]
-print(p.permuteUnique([]))
-
-# Expected: [[1]]
-print(p.permuteUnique([1]))
-
-# Expected: [[1, 1, 2], [1, 2, 1], [2, 1, 1]]
-print(p.permuteUnique([1, 1, 2]))

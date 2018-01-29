@@ -10,6 +10,8 @@
 # 1,1,5 → 1,5,1
 #
 # Python, Python3 all accepted.
+
+
 class NextPermutation:
     def nextPermutation(self, nums):
         """
@@ -38,21 +40,3 @@ class NextPermutation:
             nums[i], nums[j] = nums[j], nums[i]
             i += 1
             j -= 1
-
-
-np = NextPermutation()
-
-# Expected: [1, 3, 2]
-array123 = [1, 2, 3]
-np.nextPermutation(array123)
-print(array123)
-
-# Expected: [1, 2, 3]
-array321 = [3, 2, 1]
-np.nextPermutation(array321)
-print(array321)
-
-# Expected: [1, 5, 1]
-array115 = [1, 1, 5]
-np.nextPermutation(array115)
-print(array115)

@@ -40,14 +40,3 @@ class ReverseInteger(object):
         if is_positive:
             return int(result)
         return -int(result)
-
-
-ri = ReverseInteger()
-#  Expected: 321
-print(ri.reverse(123))
-#  Expected: -321
-print(ri.reverse(-123))
-#  Expected: 0
-print(ri.reverse(1000000003))
-#  Expected: 0
-print(ri.reverse(1534236469))

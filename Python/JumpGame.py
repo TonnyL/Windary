@@ -12,6 +12,8 @@
 # A = [3,2,1,0,4], return false.
 #
 # Python, Python3 all accepted.
+
+
 class JumpGame:
     def canJump(self, nums):
         """
@@ -36,23 +38,3 @@ class JumpGame:
                 return False
 
         return max_length >= 0
-
-
-jg = JumpGame()
-# Expected: False
-print(jg.canJump([]))
-
-# Expected: True
-print(jg.canJump([1]))
-
-# Expected: True
-print(jg.canJump([0]))
-
-# Expected: True
-print(jg.canJump([2, 3, 1, 1, 4]))
-
-# Expected: False
-print(jg.canJump([3, 2, 1, 0, 4]))
-
-# Expected: True
-print(jg.canJump([4, 0, 0, 0]))

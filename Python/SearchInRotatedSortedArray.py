@@ -6,6 +6,8 @@
 # You may assume no duplicate exists in the array.
 #
 # Python, Python 3 all accepted.
+
+
 class SearchInRotatedSortedArray:
     def search(self, nums, target):
         """
@@ -34,17 +36,3 @@ class SearchInRotatedSortedArray:
                     right = middle - 1
 
         return -1
-
-
-s = SearchInRotatedSortedArray()
-
-# Expected: -1
-print(s.search([], 1))
-# Expected: 6
-print(s.search([0, 1, 2, 4, 5, 6, 7], 7))
-# Expected: 3
-print(s.search([4, 5, 6, 7, 0, 1, 2], 7))
-# Expected: 2
-print(s.search([5, 6, 7, 0, 1, 2, 4], 7))
-# Expected: -1
-print(s.search([4, 5, 6, 7, 0, 1, 2], 8))

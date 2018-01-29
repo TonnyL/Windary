@@ -10,6 +10,8 @@
 # return 5.
 #
 # Python, Python 3 all accepted.
+
+
 class LengthOfLastWord(object):
     def lengthOfLastWord(self, s):
         """
@@ -24,13 +26,3 @@ class LengthOfLastWord(object):
                 return len(string)
         return 0
 
-
-llw = LengthOfLastWord()
-# Expected: 5
-print(llw.lengthOfLastWord("Hello World"))
-# Expected: 0
-print(llw.lengthOfLastWord(" "))
-# Expected: 1
-print(llw.lengthOfLastWord("a"))
-# Expected: 1
-print(llw.lengthOfLastWord("a "))

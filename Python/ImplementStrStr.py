@@ -4,6 +4,8 @@
 # Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 #
 # Python, Python 3 all accepted.
+
+
 class ImplementStrStr(object):
     def strStr(self, haystack, needle):
         """
@@ -23,14 +25,3 @@ class ImplementStrStr(object):
             i += 1
 
         return -1
-
-
-iss = ImplementStrStr()
-# Expected: 3
-print(iss.strStr("aaab", "b"))
-# Expected: 0
-print(iss.strStr("", ""))
-# Expected: -1
-print(iss.strStr("", "a"))
-# Expected: 4
-print(iss.strStr("whats up", "t "))

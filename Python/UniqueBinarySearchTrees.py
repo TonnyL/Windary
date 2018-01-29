@@ -11,7 +11,8 @@
 # /     /      \                 \
 # 2    1       2                 3
 #
-#
+
+
 class UniqueBinarySearchTrees:
 
     # Recursive solution. Time limit exceeded.
@@ -44,21 +45,3 @@ class UniqueBinarySearchTrees:
                 array[i] += array[j] * array[i - j - 1]
 
         return array[n]
-
-
-u = UniqueBinarySearchTrees()
-
-# Expected: 1
-print(u.numTrees(0))
-
-# Expected: 1
-print(u.numTrees(1))
-
-# Expected: 2
-print(u.numTrees(2))
-
-# Expected: 5
-print(u.numTrees(3))
-
-# Expected: 14
-print(u.numTrees(4))

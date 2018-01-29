@@ -13,6 +13,8 @@
 # convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 #
 # Python, Python 3 all accepted.
+
+
 class ZigZagConversion:
     def convert(self, s, numRows):
         """
@@ -35,21 +37,3 @@ class ZigZagConversion:
                 j += 1
                 index = (2 * numRows - 2) * j + i
         return result
-
-
-z = ZigZagConversion()
-
-# Expeted: None
-print(z.convert(None, 1))
-
-# Expected: "0123456789"
-print(z.convert("0123456789", 1))
-
-# Expected: "PAHNAPLSIIGYIR"
-print(z.convert("PAYPALISHIRING", 3))
-
-# Expected: "0246813579"
-print(z.convert("0123456789", 2))
-
-# Expected: "0481357926"
-print(z.convert("0123456789", 3))

@@ -5,6 +5,8 @@
 # The digits are stored such that the most significant digit is at the head of the list.
 #
 # Python, Python 3 all accepted.
+
+
 class PlusOne:
     def plusOne(self, digits):
         """
@@ -31,17 +33,3 @@ class PlusOne:
             digits.insert(0, 1)
 
         return digits
-
-
-po = PlusOne()
-
-# Expected: [2]
-print(po.plusOne([1]))
-# Expected: [1, 0]
-print(po.plusOne([9]))
-# Expected: [1, 0, 0]
-print(po.plusOne([9, 9]))
-# Expected: [2, 9, 0, 0, 0]
-print(po.plusOne([2, 8, 9, 9, 9]))
-# Expected: [2, 8, 9, 0]
-print(po.plusOne([2, 8, 8, 9]))

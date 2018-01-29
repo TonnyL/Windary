@@ -12,6 +12,8 @@
 # The array may contain duplicates.
 #
 # Python, Python3 all accepted.
+
+
 class SearchInRotatedSortedArrayII:
     def search(self, nums, target):
         """
@@ -51,29 +53,3 @@ class SearchInRotatedSortedArrayII:
                 end -= 1
 
         return False
-
-
-s = SearchInRotatedSortedArrayII()
-
-# Expected: False
-print(s.search([3, 2], 4))
-
-# Expected: False
-print(s.search([3, 1, 2], 4))
-
-# Expected: True
-print(s.search([3, 1, 2], 2))
-
-# Expected: True
-print(s.search([2, 2, 2, 2, 3, 4, 1, 1], 4))
-
-# Expected: True
-print(s.search([4, 5, 6, 7, 0, 1, 2], 2))
-
-# Expected: True
-print(s.search([4, 5, 6, 7, 0, 1, 2], 7))
-
-# Expected: True
-print(s.search([4, 5, 6, 7, 0, 1, 2], 5))
-
-print(s.search([1], 1))

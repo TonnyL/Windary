@@ -25,6 +25,8 @@
 # Output: "1211"
 #
 # Python, Python 3 all accepted.
+
+
 class CountAndSay:
     def countAndSay(self, n):
         """
@@ -57,19 +59,3 @@ class CountAndSay:
             result.append("1")
 
         return ''.join(result)
-
-
-cas = CountAndSay()
-
-# Expected: 1
-print(cas.countAndSay(1))
-# Expected: 11
-print(cas.countAndSay(2))
-# Expected: 21
-print(cas.countAndSay(3))
-# Expected: 1211
-print(cas.countAndSay(4))
-# Expected: 111221
-print(cas.countAndSay(5))
-# Expected: 312211
-print(cas.countAndSay(6))

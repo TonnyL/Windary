@@ -7,6 +7,8 @@
 # return 1->2->2->4->3->5.
 #
 # Python, Python3 all accepted.
+
+
 class PartitionList:
     def partition(self, head, x):
         """
@@ -51,31 +53,5 @@ class ListNode:
         self.val = x
         self.next = None
 
-    def __str__(self):
-        return "ListNode val: " + str(self.val) + " next: -> " + str(self.next)
-
-
-pl = PartitionList()
-
-# Expected: null
-print(pl.partition(None, 2))
-
-# Expected: 1 -> 2
-node12 = ListNode(1)
-node12.next = ListNode(2)
-print(pl.partition(node12, 3))
-
-# Expected: 1 -> 2
-print(pl.partition(node12, 0))
-
-node143252 = ListNode(1)
-node143252.next = ListNode(4)
-node143252.next.next = ListNode(3)
-node143252.next.next.next = ListNode(2)
-node143252.next.next.next.next = ListNode(5)
-node143252.next.next.next.next.next = ListNode(2)
-# Expected: 1 -> 2 -> 2 -> 4 -> 3 -> 5
-print(pl.partition(node143252, 3))
-
-# Expected: 1 -> 3 -> 2 -> 2 -> 4 -> 5
-print(pl.partition(node143252, 4))
+    def __eq__(self, other):
+        return self.val == other.val and self.next == other.next

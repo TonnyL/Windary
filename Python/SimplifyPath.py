@@ -13,6 +13,8 @@
 # In this case, you should ignore redundant slashes and return "/home/foo".
 #
 # Python, Python all accepted.
+
+
 class SimplifyPath:
     def simplifyPath(self, path):
         """
@@ -61,21 +63,3 @@ class Stack:
 
     def size(self):
         return len(self.items)
-
-
-sp = SimplifyPath()
-
-# Expected: "/home"
-print(sp.simplifyPath("/home/"))
-
-# Expected: "/c"
-print(sp.simplifyPath("/a/./b/../../c/"))
-
-# Expected: "/"
-print(sp.simplifyPath("/../"))
-
-# Expected: "/home/foo"
-print(sp.simplifyPath("/home/foo/"))
-
-# Expected: "/a/b/c"
-print(sp.simplifyPath("/a/b/c"))

@@ -12,6 +12,8 @@
 # Try to do this in one pass.
 #
 # Python, Python 3 all accepted.
+
+
 class RemoveNthNodeFromEndOfList:
     def removeNthFromEnd(self, head, n):
         """
@@ -45,8 +47,8 @@ class ListNode(object):
         self.val = x
         self.next = None
 
-    def __str__(self):
-        return "ListNode val: " + str(self.val) + " next: -> " + str(self.next)
+    def __eq__(self, other):
+        return self.val == other.val and self.next == other.next
 
 
 class Stack:
@@ -67,36 +69,3 @@ class Stack:
 
     def size(self):
         return len(self.items)
-
-
-r = RemoveNthNodeFromEndOfList()
-
-node12345 = ListNode(1)
-node12345.next = ListNode(2)
-node12345.next.next = ListNode(3)
-node12345.next.next.next = ListNode(4)
-node12345.next.next.next.next = ListNode(5)
-# Expected: 1->2->3->5
-print(r.removeNthFromEnd(node12345, 2))
-
-node12 = ListNode(1)
-node12.next = ListNode(2)
-# Expected: 1
-print(r.removeNthFromEnd(node12, 1))
-
-# Expected: None
-print(r.removeNthFromEnd(ListNode(1), 1))
-
-# Expected: None
-print(r.removeNthFromEnd(None, 2))
-
-node123: ListNode = ListNode(1)
-node123.next = ListNode(2)
-node123.next.next = ListNode(3)
-# Expected: 2->3
-node123 = r.removeNthFromEnd(node123, 3)
-print(node123)
-# Expected: 2
-print(r.removeNthFromEnd(node123, 1))
-# Expected: None
-print(r.removeNthFromEnd(node123, 1))

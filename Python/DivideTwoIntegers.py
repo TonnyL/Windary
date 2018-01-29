@@ -1,6 +1,8 @@
 # Divide two integers without using multiplication, division and mod operator.
 #
 # If it is overflow, return MAX_INT.
+
+
 class DivideTwoIntegers:
     def divide(self, dividend, divisor):
         """
@@ -29,27 +31,3 @@ class DivideTwoIntegers:
             result = -result
 
         return INT_MAX_VALUE if result < INT_MIN_VALUE or result > INT_MAX_VALUE else int(result)
-
-
-d = DivideTwoIntegers()
-
-# Expected: 1
-print(d.divide(1, 1))
-
-# Expected: 0
-print(d.divide(0, 1))
-
-# Expected: 1
-print(d.divide(-1, -1))
-
-# Expected: 2147483647
-print(d.divide(2147483647, 1))
-
-# Expected: 0
-print(d.divide(2147483647, -2147483648))
-
-# Expected: 2147483647
-print(d.divide(-2147483648, -1))
-
-# Expected: 16
-print(d.divide(100, 6))

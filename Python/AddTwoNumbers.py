@@ -9,11 +9,6 @@
 #
 # Result: Accept
 
-class ListNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.next = None
-
 
 class AddTwoNumbers(object):
     def addTwoNumbers(self, l1, l2):
@@ -74,38 +69,10 @@ class AddTwoNumbers(object):
         return results[0]
 
 
-node0 = ListNode(0)
-node5 = ListNode(5)
+class ListNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.next = None
 
-node243 = ListNode(2)
-node243.next = ListNode(4)
-node243.next.next = ListNode(3)
-
-node564 = ListNode(5)
-node564.next = ListNode(6)
-node564.next.next = ListNode(4)
-
-node1 = ListNode(1)
-node99 = ListNode(9)
-node99.next = ListNode(9)
-
-atn = AddTwoNumbers()
-
-result0 = atn.addTwoNumbers(node0, node0)
-result5 = atn.addTwoNumbers(node5, node5)
-result243And564 = atn.addTwoNumbers(node243, node564)
-result1And99 = atn.addTwoNumbers(node1, node99)
-
-# Expect:
-# result: [0][0] ->  0
-print("result: [0][0] -> ", result0.val)
-# Expect:
-# result: [5][5] ->  0  ->  1
-print("result: [5][5] -> ", result5.val, " -> ", result5.next.val)
-# Expect:
-# result: [2,4,3] + [5,6,4] ->  7  ->  0  ->  8
-print("result: [2,4,3] + [5,6,4] -> ", result243And564.val, " -> ", result243And564.next.val, " -> ",
-      result243And564.next.next.val)
-# Expect:
-# result: [1] + [9,9] ->  0  ->  0  ->  1
-print("result: [1] + [9,9] -> ", result1And99.val, " -> ", result1And99.next.val, " -> ", result1And99.next.next.val)
+    def __eq__(self, other):
+        return self.val == other.val and self.next == other.next

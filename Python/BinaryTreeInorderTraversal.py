@@ -14,6 +14,8 @@
 # Note: Recursive solution is trivial, could you do it iteratively?
 #
 # Python, Python 3 all accepted.
+
+
 class BinaryTreeInorderTraversal:
 
     # Recursive solution.
@@ -65,26 +67,6 @@ class TreeNode(object):
         self.left = None
         self.right = None
 
+    def __eq__(self, other):
+        return self.val == other.val and self.left == other.left and self.right == other.right
 
-b = BinaryTreeInorderTraversal()
-
-print(b.inorderTraversal(None))
-
-node132 = TreeNode(1)
-right = TreeNode(2)
-right.left = TreeNode(3)
-node132.right = right
-
-print(b.inorderTraversal(node132))
-
-node4251637 = TreeNode(1)
-node2 = TreeNode(2)
-node3 = TreeNode(3)
-node2.left = TreeNode(4)
-node2.right = TreeNode(5)
-node3.left = TreeNode(6)
-node3.right = TreeNode(7)
-node4251637.left = node2
-node4251637.right = node3
-
-print(b.inorderTraversal(node4251637))

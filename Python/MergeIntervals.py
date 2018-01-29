@@ -5,6 +5,8 @@
 # return [1,6],[8,10],[15,18].
 #
 # Python, Python3 all accepted.
+
+
 class MergeIntervals:
     def merge(self, intervals):
         """
@@ -36,23 +38,5 @@ class Interval:
         self.start = s
         self.end = e
 
-    def __str__(self):
-        return "Interval start " + str(self.start) + " end " + str(self.end) + " "
-
-
-mi = MergeIntervals()
-
-# Expected: [1, 1]
-print("".join(str(interval) for interval in mi.merge([Interval(1, 1)])))
-
-# Expected: [1, 2]
-print("".join(str(interval) for interval in mi.merge([Interval(1, 2), Interval(2, 2)])))
-
-# Expected: [1, 2], [4, 5], [7, 8]
-print("".join(str(interval) for interval in mi.merge([Interval(1, 2), Interval(4, 5), Interval(7, 8)])))
-
-# Expected: [1, 4]
-print("".join(str(interval) for interval in mi.merge([Interval(1, 3), Interval(2, 4)])))
-
-# Expected: [1, 4]
-print("".join(str(interval) for interval in mi.merge([Interval(1, 4), Interval(2, 3)])))
+    def __eq__(self, other):
+        return self.start == other.start and self.end == other.end

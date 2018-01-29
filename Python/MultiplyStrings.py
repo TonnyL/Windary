@@ -10,6 +10,8 @@
 # You must not use any built-in BigInteger library or convert the inputs to integer directly.
 #
 # Python, Python 3 all accepted.
+
+
 class MultiplyStrings:
     def multiply(self, num1, num2):
         """
@@ -41,20 +43,3 @@ class MultiplyStrings:
         if len(res) == 0:
             return "0"
         return "".join(map(str, res))
-
-
-ms = MultiplyStrings()
-
-print(ms.multiply("", "") == "0")
-
-print(ms.multiply("0", "0") == "0")
-
-print(ms.multiply("100", "1") == "100")
-
-print(ms.multiply("123", "45") == "5535")
-
-print(ms.multiply("99", "99") == "9801")
-
-print(ms.multiply("123", "123") == "15129")
-
-print(ms.multiply("123456789", "123456789") == "15241578750190521")

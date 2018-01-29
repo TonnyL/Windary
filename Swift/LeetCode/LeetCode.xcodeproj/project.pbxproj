@@ -181,6 +181,8 @@
 		BA13C7A71FD678A300EC7943 /* PermutationsIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsIITests.swift; sourceTree = "<group>"; };
 		BA1780221FCFFE24004293A6 /* ZigZagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversion.swift; sourceTree = "<group>"; };
 		BA1780241FCFFE2F004293A6 /* ZigZagConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversionTests.swift; sourceTree = "<group>"; };
+		BA1A136D201E25AA00F65CA2 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1A136E201E25AA00F65CA2 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1E2B7A2006184B006A35F0 /* DivideTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegers.swift; sourceTree = "<group>"; };
 		BA1E2B7C20061854006A35F0 /* DivideTwoIntegersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegersTests.swift; sourceTree = "<group>"; };
 		BA28EB511FCD53A4007819DC /* UniqueBinarySearchTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueBinarySearchTrees.swift; sourceTree = "<group>"; };
@@ -323,11 +325,9 @@
 		D65A53937B34936CEBF08482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D65A543760A54B630795C53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		D65A586087659F02390C1217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D65A58948087724CE0F20538 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65A58BE5468F921B3A7A679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D65A58CAD393542E414BA0FB /* ClimbingStairsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimbingStairsTest.swift; sourceTree = "<group>"; };
 		D65A592292168BC281F8F0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		D65A5B0DF1AC9B090EAC3B12 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65A5B95DC21ABA11A554571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D65A5CAE5DDE04A55D5D8445 /* SqrtX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqrtX.swift; sourceTree = "<group>"; };
 		D65A5D6ED944EBE304B2153C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -354,15 +354,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D65A50FD0781C26B697D0A2A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D65A5B0DF1AC9B090EAC3B12 /* LeetCode.app */,
-				D65A58948087724CE0F20538 /* LeetCodeTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D65A57623779EE6CD8005FEC /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -537,9 +528,10 @@
 		D65A5D3D6E44E6EA1B45190D = {
 			isa = PBXGroup;
 			children = (
-				D65A50FD0781C26B697D0A2A /* Products */,
 				D65A57623779EE6CD8005FEC /* LeetCode */,
 				D65A5CF06754DAE6E61B01A9 /* LeetCodeTests */,
+				BA1A136D201E25AA00F65CA2 /* LeetCode.app */,
+				BA1A136E201E25AA00F65CA2 /* LeetCodeTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -561,7 +553,7 @@
 			);
 			name = LeetCodeTests;
 			productName = LeetCodeTests;
-			productReference = D65A58948087724CE0F20538 /* LeetCodeTests.xctest */;
+			productReference = BA1A136E201E25AA00F65CA2 /* LeetCodeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D65A5F22E0316D34A900C47A /* LeetCode */ = {
@@ -578,7 +570,7 @@
 			);
 			name = LeetCode;
 			productName = LeetCode;
-			productReference = D65A5B0DF1AC9B090EAC3B12 /* LeetCode.app */;
+			productReference = BA1A136D201E25AA00F65CA2 /* LeetCode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -587,6 +579,7 @@
 		D65A55BB26F3D412703BCF03 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = lizhaotailang;
 			};
 			buildConfigurationList = D65A5BBE42E7F4066A64DD62 /* Build configuration list for PBXProject "LeetCode" */;
@@ -597,7 +590,7 @@
 				en,
 			);
 			mainGroup = D65A5D3D6E44E6EA1B45190D;
-			productRefGroup = D65A50FD0781C26B697D0A2A /* Products */;
+			productRefGroup = D65A5D3D6E44E6EA1B45190D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -828,6 +821,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = LeetCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.tonnyl.LeetCode;
@@ -851,6 +845,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -858,6 +853,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -882,6 +878,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TREAT_MISSING_BASELINES_AS_TEST_FAILURES = YES;
 				VALIDATE_PRODUCT = YES;
@@ -892,6 +889,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = LeetCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.tonnyl.LeetCode;
@@ -905,6 +903,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeetCode.app/LeetCode";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = LeetCodeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.tonnyl.LeetCodeTests;
@@ -919,6 +918,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeetCode.app/LeetCode";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = LeetCodeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.tonnyl.LeetCodeTests;
@@ -943,6 +943,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -950,6 +951,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

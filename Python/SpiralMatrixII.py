@@ -13,6 +13,8 @@
 # ]
 #
 # Python, Python 3 all accepted.
+
+
 class SpiralMatrixII:
     def generateMatrix(self, n):
         """
@@ -71,31 +73,3 @@ class SpiralMatrixII:
             depth += 1
 
         return matrix
-
-
-sm = SpiralMatrixII()
-
-# Expected: []
-print(sm.generateMatrix(0))
-
-# Expected:
-# [
-#  [1]
-# ]
-print(sm.generateMatrix(1))
-
-# Expected:
-# [
-#  [1, 2],
-#  [4, 3]
-# ]
-print(sm.generateMatrix(2))
-
-# Expected:
-# [
-#  [1, 2, 3, 4],
-#  [12, 13, 14, 5],
-#  [11, 16, 15, 6],
-#  [10, 9, 8, 7]
-# ]
-print(sm.generateMatrix(4))

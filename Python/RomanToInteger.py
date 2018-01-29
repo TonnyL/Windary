@@ -4,6 +4,8 @@
 # Input is guaranteed to be within the range from 1 to 3999.
 #
 # Python, Python 3 all accepted.
+
+
 class RomanToInteger(object):
     def romanToInt(self, s):
         """
@@ -30,12 +32,3 @@ class RomanToInteger(object):
             i += 1
 
         return result
-
-
-rtt = RomanToInteger()
-# Expected: 621 = 500 + 100 + 10 + 10 +1
-print(rtt.romanToInt("DCXXI"))
-# Expected: 1996 = 1000 - (100 - 1000) - (10 - 100) + 5 + 1
-print(rtt.romanToInt("MCMXCVI"))
-# Expected: 999 = - (100 - 1000) - (10 - 100) - (1 - 10)
-print(rtt.romanToInt("CMXCIX"))

@@ -18,7 +18,9 @@
 # Note: m and n will be at most 100.
 #
 # Python, Python 3 all accepted.
-class UniquePathsII(object):
+
+
+class UniquePathsII:
     def uniquePathsWithObstacles(self, obstacleGrid):
         """
         :type obstacleGrid: List[List[int]]
@@ -54,32 +56,3 @@ class UniquePathsII(object):
                     matrix[i][j] = matrix[i - 1][j] + matrix[i][j - 1]
 
         return matrix[len(matrix) - 1][len(matrix[0]) - 1]
-
-
-up = UniquePathsII()
-
-# Expected: 1
-print(up.uniquePathsWithObstacles([[0, 0, 0]]))
-# Expected: 0
-print(up.uniquePathsWithObstacles([[0, 1, 0]]))
-# Expected: 0
-print(up.uniquePathsWithObstacles([[1], [0]]))
-# Expected: 0
-print(up.uniquePathsWithObstacles([[0], [1]]))
-# Expected: 0
-print(up.uniquePathsWithObstacles([[0, 0], [1, 1], [0, 0]]))
-# Expected: 1
-print(up.uniquePathsWithObstacles([[0], [0]]))
-# Expected: 2
-# The matrix:
-# 1 1 1
-# 1 0 1
-# 1 1 2
-print(up.uniquePathsWithObstacles([[0, 0, 0], [0, 1, 0], [0, 0, 0]]))
-# Expected: 8
-# The matrix:
-# 1 1 1 1
-# 1 0 1 2
-# 1 1 2 4
-# 1 2 4 8
-print(up.uniquePathsWithObstacles([[0, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]))

@@ -8,6 +8,8 @@
 # Given 1->1->1->2->3, return 2->3.
 #
 # Python, Python 3 all accepted.
+
+
 class RemoveDuplicatesFromSortedListII:
     def deleteDuplicates(self, head):
         """
@@ -39,53 +41,5 @@ class ListNode:
         self.val = x
         self.next = None
 
-    def __str__(self):
-        return "ListNode val: " + str(self.val) + " next: -> " + str(self.next)
-
-
-r = RemoveDuplicatesFromSortedListII()
-
-# Expected: 1 -> 2 -> 5
-node1233445 = ListNode(1)
-node1233445.next = ListNode(2)
-node1233445.next.next = ListNode(3)
-node1233445.next.next.next = ListNode(3)
-node1233445.next.next.next.next = ListNode(4)
-node1233445.next.next.next.next.next = ListNode(4)
-node1233445.next.next.next.next.next.next = ListNode(5)
-print(r.deleteDuplicates(node1233445))
-
-# Expected: 2 -> 3
-node11123 = ListNode(1)
-node11123.next = ListNode(1)
-node11123.next.next = ListNode(1)
-node11123.next.next.next = ListNode(2)
-node11123.next.next.next.next = ListNode(3)
-print(r.deleteDuplicates(node11123))
-
-# Expected: null
-node111 = ListNode(1)
-node111.next = ListNode(1)
-node111.next.next = ListNode(1)
-print(r.deleteDuplicates(node111))
-
-# Expected: null
-print(r.deleteDuplicates(None))
-
-# Expected: 1
-node122 = ListNode(1)
-node122.next = ListNode(2)
-node122.next.next = ListNode(2)
-print(r.deleteDuplicates(node122))
-
-# Expected: null
-node11 = ListNode(1)
-node11.next = ListNode(1)
-print(r.deleteDuplicates(node11))
-
-# Expected: null
-node1122 = ListNode(1)
-node1122.next = ListNode(1)
-node1122.next.next = ListNode(2)
-node1122.next.next.next = ListNode(2)
-print(r.deleteDuplicates(node1122))
+    def __eq__(self, other):
+        return self.val == other.val and self.next == other.next

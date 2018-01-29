@@ -13,6 +13,8 @@
 # Note: All inputs will be in lower-case.
 #
 # Python, Python 3 all accepted.
+
+
 class GroupAnagrams:
     def groupAnagrams(self, strs):
         """
@@ -27,20 +29,3 @@ class GroupAnagrams:
             m_map[chars].append(s)
 
         return list(m_map.values())
-
-
-ga = GroupAnagrams()
-
-# Expected:
-# [
-#   []
-# ]
-print(ga.groupAnagrams([]))
-
-# Expected:
-# [
-#  ["ate", "eat","tea"],
-#  ["nat","tan"],
-#  ["bat"]
-# ]
-print(ga.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))

@@ -41,6 +41,8 @@
 # ]
 #
 # Python, Python3 all accepted.
+
+
 class RotateImage:
     def rotate(self, matrix):
         """
@@ -59,14 +61,3 @@ class RotateImage:
                 cache = matrix[i][j]
                 matrix[i][j] = matrix[j][i]
                 matrix[j][i] = cache
-
-
-ri = RotateImage()
-
-ints1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-ri.rotate(ints1)
-print(ints1)
-
-ints2 = [[5, 1, 9, 11], [2, 4, 8, 10], [13, 3, 6, 7], [15, 14, 12, 16]]
-ri.rotate(ints2)
-print(ints2)

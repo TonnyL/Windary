@@ -16,6 +16,8 @@
 # word = "ABCB", -> returns false.
 #
 # Python, Python3 all accepted.
+
+
 class WordSearch:
     def exist(self, board, word):
         """
@@ -66,20 +68,3 @@ class WordSearch:
 
         board[i][j] = chr(ord(board[i][j]) ^ 255)
         return res
-
-
-ws = WordSearch()
-
-# Expected: False
-print(ws.exist([[]], "AB"))
-
-chars = [['A', 'B', 'C', 'E'], ['S', 'F', 'C', 'S'], ['A', 'D', 'E', 'E']]
-
-# Expected: True
-print(ws.exist(chars, "ABCCED"))
-
-# Expected: True
-print(ws.exist(chars, "SEE"))
-
-# Expected: False
-print(ws.exist(chars, "ABCB"))

@@ -9,6 +9,8 @@
 # Your function should return length = 5, with the first five elements of nums being 1, 1, 2, 2 and 3. It doesn't matter what you leave beyond the new length.
 #
 # Python, Python 3 all accepted.
+
+
 class RemoveDuplicatesFromSortedArrayII:
     def removeDuplicates(self, nums):
         """
@@ -28,21 +30,3 @@ class RemoveDuplicatesFromSortedArrayII:
                 i += 1
 
         return len(nums)
-
-
-r = RemoveDuplicatesFromSortedArrayII()
-
-# Expected: 5
-print(r.removeDuplicates([1, 1, 1, 2, 2, 3]))
-
-# Expected: 5
-print(r.removeDuplicates([1, 1, 2, 2, 3]))
-
-# Expected: 0
-print(r.removeDuplicates(None))
-
-# Expected: 2
-print(r.removeDuplicates([1, 1]))
-
-# Expected: 2
-print(r.removeDuplicates([1, 1, 1, 1]))

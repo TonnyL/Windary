@@ -19,6 +19,8 @@
 # ]
 #
 # Python, Python 3 all accepted.
+
+
 class Subsets:
     def subsets(self, nums):
         """
@@ -42,17 +44,3 @@ class Subsets:
                 results.append(tmp)
 
         return results
-
-
-s = Subsets()
-
-# [[]]
-print(s.subsets([]))
-# [[]]
-print(s.subsets(None))
-# [[], [1]]
-print(s.subsets([1]))
-# [[], [1], [2], [1, 2]]
-print(s.subsets([1, 2]))
-# [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
-print(s.subsets([1, 2, 3]))

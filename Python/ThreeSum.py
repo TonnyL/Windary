@@ -14,6 +14,8 @@
 # ]
 #
 # Python 2 accepted. Python 3 Time Limit Exceeded.
+
+
 class ThreeSum:
     def threeSum(self, nums):
         """
@@ -71,18 +73,3 @@ class Triple:
 
     def __hash__(self):
         return (-self.a) * 100 + abs(self.b) * 10 + self.c
-
-
-ts = ThreeSum()
-
-# Expected: []
-print(ts.threeSum([-1, 0]))
-
-# Expected: [[-1, -1, 2], [-1, 0, 1]]
-print(ts.threeSum([-1, 0, 1, 2, -1, -4]))
-
-# Expected: [[0, 0, 0]]
-print(ts.threeSum([0, 0, 0]))
-
-# Expected: [[-4, -2, 6], [-4, 0, 4], [-4, 1, 3], [-4, 2, 2], [-2, -2, 4], [-2, 0, 2]]
-print(ts.threeSum([-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6]))

@@ -4,6 +4,8 @@
 # Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
 #
 # Python, Python 3 all accepted.
+
+
 class SameTree(object):
     def isSameTree(self, p, q):
         """
@@ -26,27 +28,3 @@ class TreeNode(object):
         self.val = x
         self.left = None
         self.right = None
-
-
-st = SameTree()
-# Expected: True
-print(st.isSameTree(None, None))
-
-tn1 = TreeNode(1)
-# Expected: False
-print(st.isSameTree(None, tn1))
-# Expected: False
-print(st.isSameTree(tn1, None))
-
-tn2 = TreeNode(2)
-# Expected: False
-print(st.isSameTree(tn1, tn2))
-
-tn_1_1_1_1 = TreeNode(1)
-tn_1_1_1_1.left = TreeNode(1)
-tn_1_1_1_1.right = TreeNode(1)
-tn_2_1_1_1 = TreeNode(1)
-tn_2_1_1_1.left = TreeNode(1)
-tn_2_1_1_1.right = TreeNode(1)
-# Expected: True
-print(st.isSameTree(tn_1_1_1_1, tn_2_1_1_1))

@@ -8,6 +8,8 @@
 #
 # Python, Python 3 all accepted.
 # Maybe the ugliest code I have ever written since I learned Python.
+
+
 class AddBinary(object):
     def addBinary(self, a, b):
         """
@@ -76,13 +78,3 @@ class AddBinary(object):
             result += '1'
 
         return result[::-1]
-
-
-ab = AddBinary()
-
-# Expected: 0
-print(ab.addBinary("0", "0"))
-# Expected: 100
-print(ab.addBinary("11", "1"))
-# Expected: 1010
-print(ab.addBinary("101", "101"))

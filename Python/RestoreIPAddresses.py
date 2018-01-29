@@ -6,6 +6,8 @@
 # return ["255.255.11.135", "255.255.111.35"]. (Order does not matter)
 #
 # Python, Python3 all accepted.
+
+
 class RestoreIPAddresses:
     def restoreIpAddresses(self, s):
         """
@@ -32,21 +34,3 @@ class RestoreIPAddresses:
                                     results.append(string)
 
         return results
-
-
-r = RestoreIPAddresses()
-
-# Expected: []
-print(r.restoreIpAddresses("1"))
-
-# Expected: []
-print(r.restoreIpAddresses("111"))
-
-# Expected: []
-print(r.restoreIpAddresses("1111111111111"))
-
-# Expected: ["1.1.1.1"]
-print(r.restoreIpAddresses("1111"))
-
-# Expected: ["255.255.11.135", "255.255.111.35"]
-print(r.restoreIpAddresses("25525511135"))

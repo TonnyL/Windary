@@ -13,6 +13,8 @@
 # Could you come up with an one-pass algorithm using only constant space?
 #
 # Python, Python 3 all accepted.
+
+
 class SortColors:
     def sortColors(self, nums):
         """
@@ -41,30 +43,3 @@ class SortColors:
                     return
                 counter += 1
         # print(nums)
-
-
-sc = SortColors()
-
-# Expected: []
-sc.sortColors([])
-
-# Expected: [0]
-sc.sortColors([0])
-
-# Expected: [0, 1, 2]
-sc.sortColors([2, 1, 0])
-
-# Expected: [0, 0, 0, 1, 1, 1, 1, 1, 2]
-sc.sortColors([0, 1, 0, 1, 1, 1, 2, 0, 1])
-
-# Expected: [0, 0, 1, 1, 2]
-sc.sortColors([0, 1, 2, 0, 1])
-
-# Expected: [0, 0, 1, 1, 2, 2, 2, 2, 2]
-sc.sortColors([2, 2, 2, 2, 1, 0, 2, 0, 1])
-
-# Expected: [0, 0, 1, 1, 1, 2, 2, 2]
-sc.sortColors([0, 0, 1, 1, 1, 2, 2, 2])
-
-# Expected: [0, 0, 0, 1, 1, 1, 2, 2, 2]
-sc.sortColors([0, 0, 0, 2, 2, 2, 1, 1, 1])

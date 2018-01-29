@@ -17,6 +17,8 @@
 # Output: "bb"
 #
 # Python, Python3 all accepted.
+
+
 class LongestPalindromicSubstring:
     def longestPalindrome(self, s):
         """
@@ -54,15 +56,3 @@ class LongestPalindromicSubstring:
                 rightIndex += 1
 
         return str(s[start_index: start_index + max_length])
-
-
-lps = LongestPalindromicSubstring()
-
-# Expected: "bab" or "aba"
-print(lps.longestPalindrome("babad"))
-
-# Expected: "bb"
-print(lps.longestPalindrome("cbbd"))
-
-# Expected: "ddtattarrattatdd"
-print(lps.longestPalindrome("babaddtattarrattatddetartrateedredividerb"))

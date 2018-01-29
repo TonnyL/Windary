@@ -35,16 +35,3 @@ class SqrtX(object):
             mid = (low + high) // 2
 
         return mid
-
-
-sx = SqrtX()
-# Expected: 0
-print(sx.mySqrt(0))
-# Expected: 1
-print(sx.mySqrt(1))
-# Expected: 46339
-print(sx.mySqrt(2147395599))
-# Expected: 46440
-print(sx.mySqrt(2147395600))
-# Expected: 2
-print(sx.mySqrt(6))

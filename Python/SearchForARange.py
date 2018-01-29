@@ -11,6 +11,8 @@
 # return [3, 4].
 #
 # Python, Python 3 all accepted.
+
+
 class SearchForARange:
     def searchRange(self, nums, target):
         """
@@ -36,15 +38,3 @@ class SearchForARange:
             j -= 1
 
         return result
-
-
-sr = SearchForARange()
-
-# Expected: [0, 0]
-print(sr.searchRange([1], 1))
-
-# Expected: [-1, -1]
-print(sr.searchRange([5, 7, 7, 8, 8, 10], 11))
-
-# Expected: [3, 4]
-print(sr.searchRange([5, 7, 7, 8, 8, 10], 8))

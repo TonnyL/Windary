@@ -6,7 +6,9 @@
 #
 # Note: You may not slant the container and n is at least 2.
 #
-#
+# Python, Python3 all accepted.
+
+
 class ContainerWithMostWater:
     def maxArea(self, height):
         """
@@ -30,15 +32,3 @@ class ContainerWithMostWater:
                 high -= 1
 
         return max_capacity
-
-
-cwmw = ContainerWithMostWater()
-
-# Expected: 1
-print(cwmw.maxArea([1, 1]))
-
-# Expected: 4
-print(cwmw.maxArea([1, 4, 9]))
-
-# Expected: 8
-print(cwmw.maxArea([1, 4, 9, 4]))

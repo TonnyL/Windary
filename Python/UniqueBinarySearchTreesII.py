@@ -10,6 +10,8 @@
 # 2   1        2                 3
 #
 # Python, Python3 all accepted.
+
+
 class UniqueBinarySearchTreesII:
     def generateTrees(self, n):
         """
@@ -49,30 +51,5 @@ class TreeNode:
         self.left = None
         self.right = None
 
-    def __str__(self):
-        return "TreeNode val: " + str(self.val) + " left: " + str(self.left) + " right: " + str(self.right) + " "
-
-
-u = UniqueBinarySearchTreesII()
-
-# Expected:
-# None
-print("".join(str(node) for node in u.generateTrees(0)))
-
-# Expected:
-# 1
-print("".join(str(node) for node in u.generateTrees(1)))
-
-# Expected:
-# 2  1
-# /   \
-# 1    2
-print("".join(str(node) for node in u.generateTrees(2)))
-
-# Expected:
-# 1       3     3      2      1
-# \      /     /      / \      \
-# 3     2     1      1  3      2
-# /    /       \                \
-# 2   1        2                 3
-print("".join(str(node) for node in u.generateTrees(3)))
+    def __eq__(self, other):
+        return self.val == other.val and self.left == other.left and self.right == other.right

@@ -14,6 +14,8 @@
 # ]
 #
 # Python, Python3 all accepted.
+
+
 class CombinationSum:
     def combinationSum(self, candidates, target):
         """
@@ -54,15 +56,3 @@ class CombinationSum:
             path.append(candidates[i])
             self.dfs(candidates, target - candidates[i], path, ret, i)
             del path[len(path) - 1]
-
-
-cs = CombinationSum()
-
-# Expected: [[7], [2, 2, 3]]
-print(cs.combinationSum([2, 3, 6, 7], 7))
-
-# Expected: [[1, 1, 1]]
-print(cs.combinationSum([1], 3))
-
-# Expected: [[1, 1, 1, 1], [1, 1, 2], [2, 2]]
-print(cs.combinationSum([1, 2], 4))

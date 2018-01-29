@@ -12,6 +12,8 @@
 # There is a more generic way of solving this problem.
 #
 # Python, Python 3 all accepted.
+
+
 class PalindromeNumber(object):
     def isPalindrome(self, x):
         """
@@ -29,17 +31,3 @@ class PalindromeNumber(object):
             x //= 10
 
         return x == y or x == y // 10
-
-
-pn = PalindromeNumber()
-
-# Expected: False
-print(pn.isPalindrome(-1))
-# Expected: True
-print(pn.isPalindrome(1))
-# Expected: True
-print(pn.isPalindrome(121))
-# Expected: True
-print(pn.isPalindrome(1001))
-# Expected: False
-print(pn.isPalindrome(1000021))

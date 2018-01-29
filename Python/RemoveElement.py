@@ -11,6 +11,8 @@
 # Your function should return length = 2, with the first two elements of nums being 2.
 #
 # Python, Python 3 all accepted.
+
+
 class RemoveElement(object):
     def removeElement(self, nums, val):
         """
@@ -25,12 +27,3 @@ class RemoveElement(object):
                 i -= 1
             i += 1
         return len(nums)
-
-
-re = RemoveElement()
-# Expected:
-# nums: [2, 2, 3, 3] length = 2
-print(re.removeElement([3, 2, 2, 3], 3))
-# Expected:
-# nums: [3, 3] length = 0
-print(re.removeElement([3, 3], 3))

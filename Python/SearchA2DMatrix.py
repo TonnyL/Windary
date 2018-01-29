@@ -16,6 +16,8 @@
 # Given target = 3, return true.
 #
 # Python, Python3 all accepted.
+
+
 class SearchA2DMatrix:
     def searchMatrix(self, matrix, target):
         """
@@ -50,18 +52,3 @@ class SearchA2DMatrix:
                 high = mid
 
         return low if array[low] == key else -1
-
-
-s = SearchA2DMatrix()
-
-# Expected: False
-print(s.searchMatrix([], 0))
-
-# Expected: False
-print(s.searchMatrix([[]], 1))
-
-# Expected: True
-print(s.searchMatrix([[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 50]], 3))
-
-# Expected: True
-print(s.searchMatrix([[1]], 1))

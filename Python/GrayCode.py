@@ -38,15 +38,3 @@ class GrayCode(object):
             result_list.append(result_list[i] + int(math.pow(2, n - 1)))
 
         return result_list
-
-
-gc = GrayCode()
-
-# Expected: [0]
-print(gc.grayCode(0))
-
-# Expected: [0, 1, 3, 2]
-print(gc.grayCode(2))
-
-# Expected: [0, 1, 3, 2, 6, 7, 5, 4]
-print(gc.grayCode(3))

@@ -3,6 +3,8 @@
 # Input is guaranteed to be within the range from 1 to 3999.
 #
 # Python, Python3 all accepted.
+
+
 class IntegerToRoman:
     def intToRoman(self, num):
         """
@@ -34,18 +36,3 @@ class IntegerToRoman:
             num %= value[n]
 
         return result
-
-
-i = IntegerToRoman()
-
-# Expected: "I"
-print(i.intToRoman(1))
-
-# Expected: "DCXXI"
-print(i.intToRoman(621))
-
-# Expected: "MCMXCVI"
-print(i.intToRoman(1996))
-
-# Expected: "CMXCIX"
-print(i.intToRoman(999))

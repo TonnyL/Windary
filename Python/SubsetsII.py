@@ -15,6 +15,8 @@
 # ]
 #
 # Python, Python3 all accepted.
+
+
 class SubsetsII:
     def subsetsWithDup(self, nums):
         """
@@ -47,24 +49,3 @@ class SubsetsII:
                 lists.append(lst)
 
         return lists
-
-
-s = SubsetsII()
-
-# Expected: []
-print(s.subsetsWithDup([]))
-
-# Expected: [[1], []]
-print(s.subsetsWithDup([1]))
-
-# Expected: [[], [1], [1, 1]]
-print(s.subsetsWithDup([1, 1]))
-
-# Expected: [[1], [2], [1, 2], []]
-print(s.subsetsWithDup([1, 2]))
-
-# Expected: [[2], [1], [1, 2, 2], [2, 2], [1, 2], []]
-print(s.subsetsWithDup([1, 2, 2]))
-
-# Expected: [[], [1], [1, 4], [1, 4, 4], [1, 4, 4, 4], [1, 4, 4, 4, 4], [4], [4, 4], [4, 4, 4], [4, 4, 4, 4]]
-print(s.subsetsWithDup([4, 4, 4, 1, 4]))

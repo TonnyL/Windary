@@ -13,6 +13,8 @@
 # ]
 #
 # Python, Python 3 all accepted.
+
+
 class GenerateParentheses:
     def generateParenthesis(self, n):
         """
@@ -41,22 +43,3 @@ class GenerateParentheses:
             m_set.add(s + "()")
 
         return list(m_set)
-
-
-gp = GenerateParentheses()
-
-# Expected: []
-print(gp.generateParenthesis(0))
-
-# Expected: [()]
-print(gp.generateParenthesis(1))
-
-# Expected: [()(), (())]
-print(gp.generateParenthesis(2))
-
-# Expected: [()()(), ()(()), (()()), (())(), ((()))]
-print(gp.generateParenthesis(3))
-
-# Expected: [()()()(), (()(())), (()())(), ()()(()), (())()(), (((()))), (())(()),
-# ()((())), ()(())(), ()(()()), (()()()), ((()())), ((()))(), ((())())]
-print(gp.generateParenthesis(4))

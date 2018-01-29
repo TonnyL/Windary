@@ -8,6 +8,8 @@
 # Your algorithm should use only constant space. You may not modify the values in the list, only nodes itself can be changed.
 #
 # Python, Python3 all accepted.
+
+
 class SwapNodesInPairs:
     def swapPairs(self, head):
         """
@@ -35,34 +37,5 @@ class ListNode:
         self.val = x
         self.next = None
 
-    def __str__(self):
-        return "ListNode val: " + str(self.val) + " next: -> " + str(self.next)
-
-
-s = SwapNodesInPairs()
-
-# Expected: null
-print(s.swapPairs(None))
-
-# Expected: 1
-print(s.swapPairs(ListNode(1)))
-
-# Expected: 2 -> 1
-node12 = ListNode(1)
-node12.next = ListNode(2)
-print(s.swapPairs(node12))
-
-# Expected: 2 -> 1 -> 4 -> 3
-node1234 = ListNode(1)
-node1234.next = ListNode(2)
-node1234.next.next = ListNode(3)
-node1234.next.next.next = ListNode(4)
-print(s.swapPairs(node1234))
-
-# Expected: 2 -> 1 -> 4 -> 3 -> 5
-node12345 = ListNode(1)
-node12345.next = ListNode(2)
-node12345.next.next = ListNode(3)
-node12345.next.next.next = ListNode(4)
-node12345.next.next.next.next = ListNode(5)
-print(s.swapPairs(node12345))
+    def __eq__(self, other):
+        return self.val == other.val and self.next == other.next

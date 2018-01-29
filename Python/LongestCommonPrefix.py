@@ -2,6 +2,8 @@
 # Write a function to find the longest common prefix string amongst an array of strings.
 #
 # Python, Python 3 all accepted.
+
+
 class LongestCommonPrefix(object):
     def longestCommonPrefix(self, strs):
         """
@@ -19,14 +21,3 @@ class LongestCommonPrefix(object):
                     return strs[0][0:i]
 
         return strs[0]
-
-
-lcp = LongestCommonPrefix()
-# Expected: "" (empty)
-print(lcp.longestCommonPrefix([""]))
-# Expected: "abc"
-print(lcp.longestCommonPrefix(["abc"]))
-# Expected: "abc"
-print(lcp.longestCommonPrefix(["abcf", "abcd", "abcdefg"]))
-# Expected: "a"
-print(lcp.longestCommonPrefix(["aa", "a"]))

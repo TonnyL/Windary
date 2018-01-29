@@ -10,6 +10,7 @@
 # Given "pwwkew", the answer is "wke", with the length of 3.
 # Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
+
 class LongestSubstringWithoutRepeatingCharacters(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -34,18 +35,3 @@ class LongestSubstringWithoutRepeatingCharacters(object):
 
         # print(result_str)
         return len(result_str)
-
-
-lswrc = LongestSubstringWithoutRepeatingCharacters()
-# Expected:
-# wke, 3
-print(lswrc.lengthOfLongestSubstring("pwwkew"))
-# Expected:
-# b, 1
-print(lswrc.lengthOfLongestSubstring("bbbbb"))
-# Expected:
-# abc, 3
-print(lswrc.lengthOfLongestSubstring("abcabcbb"))
-# Expected:
-# vdf, 3
-print(lswrc.lengthOfLongestSubstring("dvdf"))

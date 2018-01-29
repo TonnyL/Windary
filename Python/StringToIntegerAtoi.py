@@ -9,6 +9,8 @@
 # You are responsible to gather all the input requirements up front.
 #
 # Python, Python 3 all accepted.
+
+
 class StringToIntegerAtoi:
     def myAtoi(self, str):
         """
@@ -64,27 +66,3 @@ class StringToIntegerAtoi:
             return -result
         else:
             return result
-
-
-atoi = StringToIntegerAtoi()
-
-# Expected: 0
-print(atoi.myAtoi("+-1"))
-
-# Expected: -123
-print(atoi.myAtoi("-00123a66"))
-
-# Expected: -1
-print(atoi.myAtoi("-1"))
-
-# Expected: 2147483647
-print(atoi.myAtoi("    10522545459"))
-
-# Expected: -2147483647
-print(atoi.myAtoi("-2147483647"))
-
-# Expected: -2147483648
-print(atoi.myAtoi("-2147483649"))
-
-# Expected: 2147483647
-print(atoi.myAtoi("2147483647"))

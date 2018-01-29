@@ -11,14 +11,16 @@
 # [1,3],
 # [1,4],
 # ]
+
+
 class Combinations:
     # Iterative solution.
     # Python, Python3 all accepted.
     def combine(self, n, k):
         """
-        :param n:
-        :param k:
-        :return:
+        :type n: int
+        :type k: int
+        :rtype: List[List[int]]
         """
         results = []
         if n == 0 or k == 0 or k > n:
@@ -64,14 +66,3 @@ class Combinations:
     #             results.append(tmp)
     #
     #     return results
-
-
-c = Combinations()
-
-print(c.combine(2, 0))
-
-print(c.combine(2, 1))
-
-print(c.combine(4, 2))
-
-print(c.combine(4, 3))

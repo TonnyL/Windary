@@ -14,6 +14,8 @@
 # ]
 #
 # Python, Python 3 all accepted.
+
+
 class Permutations:
     def permute(self, nums):
         """
@@ -39,18 +41,3 @@ class Permutations:
                 results.append(tmp)
 
         return results
-
-
-p = Permutations()
-
-# Expected: [[]]
-print(p.permute([]))
-
-# Expected: [[1]]
-print(p.permute([1]))
-
-# Expected: [[1, 2], [2, 1]]
-print(p.permute([1, 2]))
-
-# Expected: [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
-print(p.permute([1, 2, 3]))

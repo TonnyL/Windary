@@ -9,6 +9,8 @@
 # Output: 1->1->2->3->4->4
 #
 # Python, Python 3 all accepted.
+
+
 class MergeTwoSortedLists:
     def mergeTwoLists(self, l1, l2):
         """
@@ -41,28 +43,6 @@ class ListNode(object):
         self.val = x
         self.next = None
 
-    def __str__(self):
-        return "ListNode val: " + str(self.val) + " next: -> " + str(self.next)
+    def __eq__(self, other):
+        return self.val == other.val and self.next == other.next
 
-
-m = MergeTwoSortedLists()
-
-n1 = ListNode(1)
-n1.next = ListNode(2)
-n1.next.next = ListNode(4)
-
-n2 = ListNode(1)
-n2.next = ListNode(3)
-n2.next.next = ListNode(4)
-
-# Expected: 1->1->2->3->4->4
-print(m.mergeTwoLists(n1, n2))
-
-# Expected: 1->2->4
-print(m.mergeTwoLists(n1, None))
-
-# Expected: 1->3->4
-print(m.mergeTwoLists(None, n2))
-
-# Expected: null
-print(m.mergeTwoLists(None, None))

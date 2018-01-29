@@ -8,6 +8,8 @@
 # Although the above answer is in lexicographical order, your answer could be in any order you want.
 #
 # Python, Python3 all accepted.
+
+
 class LetterCombinationsOfAPhoneNumber:
     def letterCombinations(self, digits):
         """
@@ -37,23 +39,3 @@ class LetterCombinationsOfAPhoneNumber:
                 builder = ""
 
         return results
-
-
-lc = LetterCombinationsOfAPhoneNumber()
-# Expected: []
-print(lc.letterCombinations(""))
-
-# Expected: [""]
-print(lc.letterCombinations("1"))
-
-# Expected: ["a", "b", "c"]
-print(lc.letterCombinations("2"))
-
-# Expected: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
-print(lc.letterCombinations("23"))
-
-# Expected: ["adg", "adh", "adi", "aeg", "aeh", "aei",
-# "afg", "afh", "afi", "bdg", "bdh", "bdi", "beg", "beh",
-# "bei", "bfg", "bfh", "bfi", "cdg", "cdh", "cdi", "ceg",
-# "ceh", "cei", "cfg", "cfh", "cfi"]
-print(lc.letterCombinations("234"))

@@ -8,6 +8,8 @@
 # Note: m and n will be at most 100.
 #
 # Python, Python 3 all accepted.
+
+
 class UniquePaths(object):
     def uniquePaths(self, m, n):
         """
@@ -26,21 +28,3 @@ class UniquePaths(object):
 
         return matrix[n - 1][m - 1]
 
-
-up = UniquePaths()
-# Expected: 1
-print(up.uniquePaths(1, 1))
-# Expected: 1
-print(up.uniquePaths(1, 2))
-# Expected: 2
-# The matrix:
-# 1 1
-# 1 2(result)
-print(up.uniquePaths(2, 2))
-# Expected: 20
-# The matrix:
-# 1 1 1 1
-# 1 2 3 4
-# 1 3 6 10
-# 1 4 10 20(result)
-print(up.uniquePaths(4, 4))

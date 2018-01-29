@@ -6,7 +6,9 @@
 # Note: Given n will be a positive integer.
 #
 # Python, Python 3 all accepted.
-class ClimbingStairs(object):
+
+
+class ClimbingStairs:
     def climbStairs(self, n):
         """
         :type n: int
@@ -24,12 +26,3 @@ class ClimbingStairs(object):
             results.append(results[i - 1] + results[i - 2])
 
         return results[n - 1]
-
-
-cs = ClimbingStairs()
-# Expected: 1
-print(cs.climbStairs(1))
-# Expected: 3
-print(cs.climbStairs(3))
-# Expected: 8
-print(cs.climbStairs(5))

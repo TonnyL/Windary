@@ -23,19 +23,3 @@ class TwoSum(object):
                 if (nums[i] + nums[j]) == target:
                     return [i, j]
         return [0, 0]
-
-
-twoSum = TwoSum()
-
-nums = [2, 5, 5, 11]
-target = 10
-twoSum.twoSum(nums, target)
-print(twoSum.twoSum(nums, target))
-
-nums = [2, 7, 11, 15]
-target = 9
-print(twoSum.twoSum(nums, target))
-
-nums = [3, 2, 3]
-target = 6
-print(twoSum.twoSum(nums, target))

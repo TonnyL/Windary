@@ -10,6 +10,8 @@
 # It doesn't matter what you leave beyond the new length.
 #
 # Python, Python 3 all accepted.
+
+
 class RemoveDuplicatesFromSortedArray(object):
     def removeDuplicates(self, nums):
         """
@@ -31,14 +33,3 @@ class RemoveDuplicatesFromSortedArray(object):
         # print()
 
         return i + 1
-
-
-r = RemoveDuplicatesFromSortedArray()
-# Expected: [], length = 0
-print(r.removeDuplicates([]))
-# Expected: [1, 2, 2], length = 2
-print(r.removeDuplicates([1, 2, 2]))
-# Expected: [1, 1, 1], length = 1
-print(r.removeDuplicates([1, 1, 1]))
-# Expected: [1, 2, 3, 4, 4], length = 4
-print(r.removeDuplicates([1, 1, 2, 3, 4]))

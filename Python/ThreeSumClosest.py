@@ -7,6 +7,8 @@
 # The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 #
 # Python, Python3 all accepted.
+
+
 class ThreeSumClosest:
     def threeSumClosest(self, nums, target):
         """
@@ -32,18 +34,3 @@ class ThreeSumClosest:
                     right -= 1
 
         return result
-
-
-t = ThreeSumClosest()
-
-# Expected: 2
-print(t.threeSumClosest([-1, 2, 1, 4], 1))
-
-# Expected: 3
-print(t.threeSumClosest([1, 1, 1, 0], 100))
-
-# Expected: 2
-print(t.threeSumClosest([1, 1, 1, 0], -100))
-
-# Expected: 2
-print(t.threeSumClosest([-1, 2, 1, -4], 1))

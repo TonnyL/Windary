@@ -10,6 +10,8 @@
 # [1,3,5,6], 0 → 0
 #
 # Python, Python 3 all accepted.
+
+
 class SearchInsertPosition(object):
     def searchInsert(self, nums, target):
         """
@@ -28,18 +30,3 @@ class SearchInsertPosition(object):
                     return i + 1
 
         return 0
-
-
-sip = SearchInsertPosition()
-# Expected: 0
-print(sip.searchInsert([1], 0))
-# Expected: 1
-print(sip.searchInsert([1], 2))
-# Expected: 2
-print(sip.searchInsert([1, 3, 5, 6], 5))
-# Expected: 1
-print(sip.searchInsert([1, 3, 5, 6], 2))
-# Expected: 4
-print(sip.searchInsert([1, 3, 5, 6], 7))
-# Expected: 0
-print(sip.searchInsert([1, 3, 5, 6], 0))

@@ -5,7 +5,9 @@
 # The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
 #
 # Python, Python 3 all accepted.
-class ValidParentheses(object):
+
+
+class ValidParentheses:
     def isValid(self, s):
         """
         :type s: str
@@ -23,9 +25,7 @@ class ValidParentheses(object):
             else:
                 stack.push(c)
 
-        # print("=====")
         # print(stack)
-        # print("=====")
 
         return stack.isEmpty()
 
@@ -49,16 +49,3 @@ class Stack:
 
     def size(self):
         return len(self.items)
-
-
-vp = ValidParentheses()
-# Expected: True
-print(vp.isValid("()"))
-# Expected: True
-print(vp.isValid("()[]{}"))
-# Expected: False
-print(vp.isValid("("))
-# Expected: False
-print(vp.isValid("(]"))
-# Expected: False
-print(vp.isValid("([)]"))
