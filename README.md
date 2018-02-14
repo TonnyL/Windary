@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, Kotlin, Python and Swift.
 
-Progress: **76 / 740**
+Progress: **77 / 740**
 
 ## Solutions
 | # | Title  | Go | Java | Kotlin | Python | Swift |  Difficulty |
@@ -83,6 +83,7 @@ Progress: **76 / 740**
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/) | [√](Golang/UniqueBinarySearchTrees/UniqueBinarySearchTrees.go) | [√](Java/src/UniqueBinarySearchTrees.java) | [√](Kotlin/src/UniqueBinarySearchTrees.kt) | [√](Python/UniqueBinarySearchTrees.py) | [√](Swift/LeetCode/LeetCode/UniqueBinarySearchTrees.swift) | Medium |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) | [√](Golang/ValidateBinarySearchTree/ValidateBinarySearchTree.go) | [√](Java/src/ValidateBinarySearchTree.java) | [√](Kotlin/src/ValidateBinarySearchTree.kt) | [√](Python/ValidateBinarySearchTree.py) | [√](Swift/LeetCode/LeetCode/ValidateBinarySearchTree.swift) | Medium |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/description/) | [√](Golang/SameTree/SameTree.go) | [√](Java/src/SameTree.java) | [√](Kotlin/src/SameTree.kt) | [√](Python/SameTree.py) | [√](Swift/LeetCode/LeetCode/SameTree.swift) | Easy |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [√](Golang/MaximumDepthOfBinaryTreeTest/MaximumDepthOfBinaryTreeTest.go) | [√](Java/src/MaximumDepthOfBinaryTreeTest.java) | [√](Kotlin/scr/MaximumDepthOfBinaryTreeTest.kt) | [√](Python/MaximumDepthOfBinaryTreeTest.py) | [√](Swift/LeetCode/LeetCode/MaximumDepthOfBinaryTreeTest.swift) | Easy |
 
 ## Contributions
 ⚠️ Notice: We do **NOT** accept pull requests currently.
