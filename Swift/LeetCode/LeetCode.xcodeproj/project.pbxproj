@@ -149,6 +149,8 @@
 		BAEB1A7A1FCEA282007B4129 /* RotateImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */; };
 		BAECCDAC200B1B0E0078B9F5 /* WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAECCDAB200B1B0E0078B9F5 /* WordSearch.swift */; };
 		BAECCDAE200B21040078B9F5 /* WordSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAECCDAD200B21040078B9F5 /* WordSearchTests.swift */; };
+		BAEE748320349CD200B8416C /* PascalsTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEE748220349CD200B8416C /* PascalsTriangle.swift */; };
+		BAEE748520349CE300B8416C /* PascalsTriangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEE748420349CE300B8416C /* PascalsTriangleTests.swift */; };
 		BAF4C90A2002691C001892BD /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4C9092002691C001892BD /* MergeIntervals.swift */; };
 		BAF4C90C2002692E001892BD /* MergeIntervalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4C90B2002692E001892BD /* MergeIntervalsTests.swift */; };
 		BAF6C8071FE51B3900EF511A /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6C8061FE51B3900EF511A /* LongestPalindromicSubstring.swift */; };
@@ -323,6 +325,8 @@
 		BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageTests.swift; sourceTree = "<group>"; };
 		BAECCDAB200B1B0E0078B9F5 /* WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearch.swift; sourceTree = "<group>"; };
 		BAECCDAD200B21040078B9F5 /* WordSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearchTests.swift; sourceTree = "<group>"; };
+		BAEE748220349CD200B8416C /* PascalsTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangle.swift; sourceTree = "<group>"; };
+		BAEE748420349CE300B8416C /* PascalsTriangleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleTests.swift; sourceTree = "<group>"; };
 		BAF4C9092002691C001892BD /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
 		BAF4C90B2002692E001892BD /* MergeIntervalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervalsTests.swift; sourceTree = "<group>"; };
 		BAF6C8061FE51B3900EF511A /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
@@ -448,6 +452,7 @@
 				BA606322201748FD008D67E2 /* NextPermutation.swift */,
 				BA906DA1203441940045612D /* MaximumDepthOfBinaryTree.swift */,
 				BA59915D20346A6E003A60A6 /* SingleNumber.swift */,
+				BAEE748220349CD200B8416C /* PascalsTriangle.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -533,6 +538,7 @@
 				BA6063242017490B008D67E2 /* NextPermutationTests.swift */,
 				BA906DA5203441E40045612D /* MaximumDepthOfBinaryTreeTests.swift */,
 				BA59915F20346A7F003A60A6 /* SingleNumberTests.swift */,
+				BAEE748420349CE300B8416C /* PascalsTriangleTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -719,6 +725,7 @@
 				BAA6F09C1FCBDC300021B04F /* SameTree.swift in Sources */,
 				BA906DA2203441940045612D /* MaximumDepthOfBinaryTree.swift in Sources */,
 				BA7940E520008D5900C7D61F /* RestoreIPAddresses.swift in Sources */,
+				BAEE748320349CD200B8416C /* PascalsTriangle.swift in Sources */,
 				BA843BDB1FFF425F004466FC /* Combinations.swift in Sources */,
 				BAAD30222003572D00FEF1F1 /* DecodeWays.swift in Sources */,
 			);
@@ -737,6 +744,7 @@
 				BA57E6F61FCAB5000054C4A4 /* SpiralMatrixIITests.swift in Sources */,
 				BA97ECFD1FC92847000A3DFF /* ReverseIntegerTests.swift in Sources */,
 				BA57E6D21FCA82050054C4A4 /* SearchInRotatedSortedArrayTests.swift in Sources */,
+				BAEE748520349CE300B8416C /* PascalsTriangleTests.swift in Sources */,
 				BAC8300B1FD53537005E345F /* GenerateParenthesesTests.swift in Sources */,
 				BAA6F09A1FCBDA4E0021B04F /* GrayCodeTests.swift in Sources */,
 				BA6C11BA1FC86EB2008DACF9 /* AddTwoNumbersTests.swift in Sources */,

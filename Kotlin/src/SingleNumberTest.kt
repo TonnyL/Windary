@@ -4,7 +4,7 @@ import org.junit.Test
 class SingleNumberTest {
 
     @Test
-    fun singleNumber() {
+    fun testSingleNumber() {
         val sn = SingleNumber()
 
         Assert.assertTrue(sn.singleNumber(intArrayOf(1)) == 1)

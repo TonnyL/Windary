@@ -4,7 +4,7 @@ import org.junit.Test
 class MaximumDepthOfBinaryTreeTest {
 
     @Test
-    fun maxDepth() {
+    fun testMaxDepth() {
         val m = MaximumDepthOfBinaryTree()
 
         Assert.assertTrue(m.maxDepth(null) == 0)
