@@ -4,7 +4,7 @@ import org.junit.Test;
 public class MaximumDepthOfBinaryTreeTest {
 
     @Test
-    public void maxDepth() {
+    public void testMaxDepth() {
         MaximumDepthOfBinaryTree m = new MaximumDepthOfBinaryTree();
 
         Assert.assertTrue(m.maxDepth(null) == 0);

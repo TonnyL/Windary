@@ -9,7 +9,7 @@ import java.util.List;
 public class PascalsTriangleTest {
 
     @Test
-    public void generate() {
+    public void testGenerate() {
         PascalsTriangle pt = new PascalsTriangle();
 
         List<List<Integer>> lists = new ArrayList<>();

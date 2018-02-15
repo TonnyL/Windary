@@ -4,7 +4,7 @@ import org.junit.Test;
 public class SingleNumberTest {
 
     @Test
-    public void singleNumber() {
+    public void testSingleNumber() {
         SingleNumber sn = new SingleNumber();
 
         Assert.assertTrue(sn.singleNumber(null) == 0);

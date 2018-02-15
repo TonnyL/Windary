@@ -13,6 +13,8 @@
 		BA13C7A81FD678A300EC7943 /* PermutationsIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA13C7A71FD678A300EC7943 /* PermutationsIITests.swift */; };
 		BA1780231FCFFE24004293A6 /* ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1780221FCFFE24004293A6 /* ZigZagConversion.swift */; };
 		BA1780251FCFFE2F004293A6 /* ZigZagConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1780241FCFFE2F004293A6 /* ZigZagConversionTests.swift */; };
+		BA1D2D9920355919009D67CD /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D2D9820355919009D67CD /* SymmetricTree.swift */; };
+		BA1D2D9B20355926009D67CD /* SymmetricTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D2D9A20355926009D67CD /* SymmetricTreeTests.swift */; };
 		BA1E2B7B2006184B006A35F0 /* DivideTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E2B7A2006184B006A35F0 /* DivideTwoIntegers.swift */; };
 		BA1E2B7D20061854006A35F0 /* DivideTwoIntegersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E2B7C20061854006A35F0 /* DivideTwoIntegersTests.swift */; };
 		BA28EB521FCD53A4007819DC /* UniqueBinarySearchTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA28EB511FCD53A4007819DC /* UniqueBinarySearchTrees.swift */; };
@@ -189,6 +191,8 @@
 		BA1780241FCFFE2F004293A6 /* ZigZagConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversionTests.swift; sourceTree = "<group>"; };
 		BA1A136D201E25AA00F65CA2 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1A136E201E25AA00F65CA2 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1D2D9820355919009D67CD /* SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
+		BA1D2D9A20355926009D67CD /* SymmetricTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTreeTests.swift; sourceTree = "<group>"; };
 		BA1E2B7A2006184B006A35F0 /* DivideTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegers.swift; sourceTree = "<group>"; };
 		BA1E2B7C20061854006A35F0 /* DivideTwoIntegersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegersTests.swift; sourceTree = "<group>"; };
 		BA28EB511FCD53A4007819DC /* UniqueBinarySearchTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueBinarySearchTrees.swift; sourceTree = "<group>"; };
@@ -453,6 +457,7 @@
 				BA906DA1203441940045612D /* MaximumDepthOfBinaryTree.swift */,
 				BA59915D20346A6E003A60A6 /* SingleNumber.swift */,
 				BAEE748220349CD200B8416C /* PascalsTriangle.swift */,
+				BA1D2D9820355919009D67CD /* SymmetricTree.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -539,6 +544,7 @@
 				BA906DA5203441E40045612D /* MaximumDepthOfBinaryTreeTests.swift */,
 				BA59915F20346A7F003A60A6 /* SingleNumberTests.swift */,
 				BAEE748420349CE300B8416C /* PascalsTriangleTests.swift */,
+				BA1D2D9A20355926009D67CD /* SymmetricTreeTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -705,6 +711,7 @@
 				BABF42AC200B96DB00157FDE /* UniqueBinarySearchTreesII.swift in Sources */,
 				D65A55B0CDBE73018558E6CC /* SimplifyPath.swift in Sources */,
 				BA57E7081FCB0F690054C4A4 /* AddBinary.swift in Sources */,
+				BA1D2D9920355919009D67CD /* SymmetricTree.swift in Sources */,
 				BA6C11B81FC86A5B008DACF9 /* AddTwoNumbers.swift in Sources */,
 				BAD2ABFA2000AE6900D9D2C3 /* RotateList.swift in Sources */,
 				BA9A05AD20108E4A0022E1CB /* ThreeSumClosest.swift in Sources */,
@@ -750,6 +757,7 @@
 				BA6C11BA1FC86EB2008DACF9 /* AddTwoNumbersTests.swift in Sources */,
 				BA843BDD1FFF4270004466FC /* CombinationsTests.swift in Sources */,
 				BAD2ABFC2000AE7800D9D2C3 /* RotateListTests.swift in Sources */,
+				BA1D2D9B20355926009D67CD /* SymmetricTreeTests.swift in Sources */,
 				BA6063252017490B008D67E2 /* NextPermutationTests.swift in Sources */,
 				BA57E6DA1FCA873C0054C4A4 /* SearchInsertPositionTests.swift in Sources */,
 				BA3E703820047CDE000FA007 /* MaximumSubArrayTests.swift in Sources */,
