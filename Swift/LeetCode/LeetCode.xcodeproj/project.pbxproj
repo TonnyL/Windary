@@ -13,6 +13,8 @@
 		BA13C7A81FD678A300EC7943 /* PermutationsIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA13C7A71FD678A300EC7943 /* PermutationsIITests.swift */; };
 		BA1780231FCFFE24004293A6 /* ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1780221FCFFE24004293A6 /* ZigZagConversion.swift */; };
 		BA1780251FCFFE2F004293A6 /* ZigZagConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1780241FCFFE2F004293A6 /* ZigZagConversionTests.swift */; };
+		BA1C945F203B1AC4004081C6 /* BinaryTreeLevelOrderTraversalII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C945E203B1AC4004081C6 /* BinaryTreeLevelOrderTraversalII.swift */; };
+		BA1C9461203B1AE5004081C6 /* BinaryTreeLevelOrderTraversalIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C9460203B1AE5004081C6 /* BinaryTreeLevelOrderTraversalIITests.swift */; };
 		BA1D2D9920355919009D67CD /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D2D9820355919009D67CD /* SymmetricTree.swift */; };
 		BA1D2D9B20355926009D67CD /* SymmetricTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D2D9A20355926009D67CD /* SymmetricTreeTests.swift */; };
 		BA1E2B7B2006184B006A35F0 /* DivideTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1E2B7A2006184B006A35F0 /* DivideTwoIntegers.swift */; };
@@ -193,6 +195,8 @@
 		BA1780241FCFFE2F004293A6 /* ZigZagConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversionTests.swift; sourceTree = "<group>"; };
 		BA1A136D201E25AA00F65CA2 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1A136E201E25AA00F65CA2 /* LeetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1C945E203B1AC4004081C6 /* BinaryTreeLevelOrderTraversalII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeLevelOrderTraversalII.swift; sourceTree = "<group>"; };
+		BA1C9460203B1AE5004081C6 /* BinaryTreeLevelOrderTraversalIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeLevelOrderTraversalIITests.swift; sourceTree = "<group>"; };
 		BA1D2D9820355919009D67CD /* SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
 		BA1D2D9A20355926009D67CD /* SymmetricTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTreeTests.swift; sourceTree = "<group>"; };
 		BA1E2B7A2006184B006A35F0 /* DivideTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegers.swift; sourceTree = "<group>"; };
@@ -463,6 +467,7 @@
 				BAEE748220349CD200B8416C /* PascalsTriangle.swift */,
 				BA1D2D9820355919009D67CD /* SymmetricTree.swift */,
 				BA71BFA420395E5D00B7724A /* BinaryTreeLevelOrderTraversal.swift */,
+				BA1C945E203B1AC4004081C6 /* BinaryTreeLevelOrderTraversalII.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -551,6 +556,7 @@
 				BAEE748420349CE300B8416C /* PascalsTriangleTests.swift */,
 				BA1D2D9A20355926009D67CD /* SymmetricTreeTests.swift */,
 				BA71BFA620395E7200B7724A /* BinaryTreeLevelOrderTraversalTests.swift */,
+				BA1C9460203B1AE5004081C6 /* BinaryTreeLevelOrderTraversalIITests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -714,6 +720,7 @@
 				BA57E6D81FCA86450054C4A4 /* SearchInsertPosition.swift in Sources */,
 				BA5E0ED91FD6598C00089B61 /* Permutations.swift in Sources */,
 				BAC830091FD53312005E345F /* GenerateParentheses.swift in Sources */,
+				BA1C945F203B1AC4004081C6 /* BinaryTreeLevelOrderTraversalII.swift in Sources */,
 				BA3E703620047CCF000FA007 /* MaximumSubArray.swift in Sources */,
 				BABF42AC200B96DB00157FDE /* UniqueBinarySearchTreesII.swift in Sources */,
 				D65A55B0CDBE73018558E6CC /* SimplifyPath.swift in Sources */,
@@ -771,6 +778,7 @@
 				BA71BFA720395E7200B7724A /* BinaryTreeLevelOrderTraversalTests.swift in Sources */,
 				BAB0E3C620134AA60061805D /* IntegerToRomanTests.swift in Sources */,
 				BA59916020346A7F003A60A6 /* SingleNumberTests.swift in Sources */,
+				BA1C9461203B1AE5004081C6 /* BinaryTreeLevelOrderTraversalIITests.swift in Sources */,
 				BAE30AF420079F6F008A98F3 /* ValidateBinarySearchTreeTests.swift in Sources */,
 				BA4D43EE20132F2100552440 /* FourSumTests.swift in Sources */,
 				BA1E2B7D20061854006A35F0 /* DivideTwoIntegersTests.swift in Sources */,
