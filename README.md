@@ -1,6 +1,6 @@
 # Windary
 
-My Solutions for LeetCode problems written in Go, Java, Kotlin, Python and Swift.
+My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python and Swift.
 
 Progress: **81 / 752**
 
@@ -86,9 +86,10 @@ Progress: **81 / 752**
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | [√](Golang/SymmetricTree/SymmetricTree.go) | [√](Java/src/SymmetricTree.java) | [√](JavaScript/src/SymmetricTree.js) | [√](Kotlin/src/SymmetricTree.kt) | [√](Python/SymmetricTree.py) | [√](Swift/LeetCode/LeetCode/SymmetricTree.swift) | Easy |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | [√](Golang/BinaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.go) | [√](Java/src/BinaryTreeLevelOrderTraversal.java) | [√](JavaScript/src/BinaryTreeLevelOrderTraversal.js) | [√](Kotlin/src/BinaryTreeLevelOrderTraversal.kt) | [√](Python/BinaryTreeLevelOrderTraversal.py) | [√](Swift/LeetCode/BinaryTreeLevelOrderTraversal.swift) | Medium |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [√](Golang/MaximumDepthOfBinaryTree/MaximumDepthOfBinaryTree.go) | [√](Java/src/MaximumDepthOfBinaryTree.java) | [√](JavaScript/src/MaximumDepthOfBinaryTree.js) | [√](Kotlin/src/MaximumDepthOfBinaryTree.kt) | [√](Python/MaximumDepthOfBinaryTree.py) | [√](Swift/LeetCode/LeetCode/MaximumDepthOfBinaryTree.swift) | Easy |
-| 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/) | [√](Golang/BinaryTreeLevelOrderTraversalII/BinaryTreeLevelOrderTraversalII.go) | [√](Java/src/BinaryTreeLevelOrderTraversalII.java) | [√](JavaScript/src/BinaryTreeLevelOrderTraversalII.js) | [√](Kotlin/src/BinaryTreeLevelOrderTraversalII.kt) | [√](Python/BinaryTreeLevelOrderTraversalII.py) | [√](Swift/LeetCode/LeetCodeTests.swift) | Easy |
+| 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/) | [√](Golang/BinaryTreeLevelOrderTraversalII/BinaryTreeLevelOrderTraversalII.go) | [√](Java/src/BinaryTreeLevelOrderTraversalII.java) | [√](JavaScript/src/BinaryTreeLevelOrderTraversalII.js) | [√](Kotlin/src/BinaryTreeLevelOrderTraversalII.kt) | [√](Python/BinaryTreeLevelOrderTraversalII.py) | [√](Swift/LeetCode/LeetCode/BinaryTreeLevelOrderTraversalII.swift) | Easy |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | [√](Golang/PascalsTriangle/PascalsTriangle.go) | [√](Java/src/PascalsTriangle.java) | [√](JavaScript/src/PascalsTriangle.js) | [√](Kotlin/src/PascalsTriangle.kt) | [√](Python/PascalsTriangle.py) | [√](Swift/LeetCode/LeetCode/PascalsTriangle.swift) | Easy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/) | [√](Golang/SingleNumber/SingleNumber.go) | [√](Java/src/SingleNumber.java) | [√](JavaScript/src/SingleNumber.js) | [√](Kotlin/src/SingleNumber.kt) | [√](Python/SingleNumber.py) | [√](Swift/LeetCode/LeetCode/SingleNumber.swift) | Easy |
+| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/description/) | [√](Golang/SingleNumberII/SingleNumberII.go) | [√](Java/src/SingleNumberII.java) | [√](JavaScript/src/SingleNumberII.js) | [√](Kotlin/src/SingleNumberII.kt) | [√](Python/SingleNumberII.py) | [√](Swift/LeetCode/LeetCode/SingleNumberII.swift) | Medium |
 
 ## Contributions
 ⚠️ Notice: We do **NOT** accept pull requests currently.
