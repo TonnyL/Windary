@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python and Swift.
 
-Progress: **83 / 752**
+Progress: **84 / 752**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Swift |  Difficulty |
@@ -90,6 +90,7 @@ Progress: **83 / 752**
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | [√](Golang/PascalsTriangle/PascalsTriangle.go) | [√](Java/src/PascalsTriangle.java) | [√](JavaScript/src/PascalsTriangle.js) | [√](Kotlin/src/PascalsTriangle.kt) | [√](Python/PascalsTriangle.py) | [√](Swift/LeetCode/LeetCode/PascalsTriangle.swift) | Easy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/) | [√](Golang/SingleNumber/SingleNumber.go) | [√](Java/src/SingleNumber.java) | [√](JavaScript/src/SingleNumber.js) | [√](Kotlin/src/SingleNumber.kt) | [√](Python/SingleNumber.py) | [√](Swift/LeetCode/LeetCode/SingleNumber.swift) | Easy |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/description/) | [√](Golang/SingleNumberII/SingleNumberII.go) | [√](Java/src/SingleNumberII.java) | [√](JavaScript/src/SingleNumberII.js) | [√](Kotlin/src/SingleNumberII.kt) | [√](Python/SingleNumberII.py) | [√](Swift/LeetCode/LeetCode/SingleNumberII.swift) | Medium |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [√](Golang/LinkedListCycle/LinkedListCycle.go) | [√](Java/src/LinkedListCycle.java) | [√](JavaScript/src/LinkedListCycle.js) | [√](Kotlin/src/LinkedListCycle.kt) | [√](Python/LinkedListCycle.py) | [√](Swift/LeetCode/LeetCode/LinkedListCycle.swift) | Easy |
 
 ## Contributions
 ⚠️ Notice: We do **NOT** accept pull requests currently.
