@@ -29,6 +29,8 @@
 		BA4D43EE20132F2100552440 /* FourSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4D43ED20132F2100552440 /* FourSumTests.swift */; };
 		BA5137CF2014A716007FC700 /* CombinationSumII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5137CE2014A716007FC700 /* CombinationSumII.swift */; };
 		BA5137D12014A724007FC700 /* CombinationSumIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5137D02014A724007FC700 /* CombinationSumIITests.swift */; };
+		BA51B8BC203FE9EF005133BB /* PascalsTriangleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51B8BB203FE9EF005133BB /* PascalsTriangleII.swift */; };
+		BA51B8BE203FE9FD005133BB /* PascalsTriangleIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51B8BD203FE9FD005133BB /* PascalsTriangleIITests.swift */; };
 		BA57E6D01FCA80770054C4A4 /* SearchInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E6CF1FCA80770054C4A4 /* SearchInRotatedSortedArray.swift */; };
 		BA57E6D21FCA82050054C4A4 /* SearchInRotatedSortedArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E6D11FCA82050054C4A4 /* SearchInRotatedSortedArrayTests.swift */; };
 		BA57E6D41FCA83C90054C4A4 /* SearchForARange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57E6D31FCA83C90054C4A4 /* SearchForARange.swift */; };
@@ -215,6 +217,8 @@
 		BA4D43ED20132F2100552440 /* FourSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSumTests.swift; sourceTree = "<group>"; };
 		BA5137CE2014A716007FC700 /* CombinationSumII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSumII.swift; sourceTree = "<group>"; };
 		BA5137D02014A724007FC700 /* CombinationSumIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSumIITests.swift; sourceTree = "<group>"; };
+		BA51B8BB203FE9EF005133BB /* PascalsTriangleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleII.swift; sourceTree = "<group>"; };
+		BA51B8BD203FE9FD005133BB /* PascalsTriangleIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleIITests.swift; sourceTree = "<group>"; };
 		BA57E6CF1FCA80770054C4A4 /* SearchInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInRotatedSortedArray.swift; sourceTree = "<group>"; };
 		BA57E6D11FCA82050054C4A4 /* SearchInRotatedSortedArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInRotatedSortedArrayTests.swift; sourceTree = "<group>"; };
 		BA57E6D31FCA83C90054C4A4 /* SearchForARange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForARange.swift; sourceTree = "<group>"; };
@@ -478,6 +482,7 @@
 				BA1C945E203B1AC4004081C6 /* BinaryTreeLevelOrderTraversalII.swift */,
 				BA99D6BE203C5C3400B1542F /* SingleNumberII.swift */,
 				BAACED12203ED62B00D0D5B6 /* LinkedListCycle.swift */,
+				BA51B8BB203FE9EF005133BB /* PascalsTriangleII.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -569,6 +574,7 @@
 				BA1C9460203B1AE5004081C6 /* BinaryTreeLevelOrderTraversalIITests.swift */,
 				BA99D6C0203C5D0A00B1542F /* SingleNumberIITests.swift */,
 				BAACED14203ED63A00D0D5B6 /* LinkedListCycleTests.swift */,
+				BA51B8BD203FE9FD005133BB /* PascalsTriangleIITests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -683,6 +689,7 @@
 				BAA6F0941FCBD7260021B04F /* MergeSortedArray.swift in Sources */,
 				BA97ED241FC99351000A3DFF /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				BA57E6EC1FCAA8570054C4A4 /* SpiralMatrix.swift in Sources */,
+				BA51B8BC203FE9EF005133BB /* PascalsTriangleII.swift in Sources */,
 				BA13C7A61FD6789600EC7943 /* PermutationsII.swift in Sources */,
 				BA97ED071FC94DAD000A3DFF /* ContainerWithMostWater.swift in Sources */,
 				BA97ED281FC998EB000A3DFF /* RemoveElement.swift in Sources */,
@@ -831,6 +838,7 @@
 				BA1780251FCFFE2F004293A6 /* ZigZagConversionTests.swift in Sources */,
 				BAC481ED2002082800639EB3 /* ReverseLinkedListIITests.swift in Sources */,
 				BA9A05AF20108F460022E1CB /* ThreeSumClosestTests.swift in Sources */,
+				BA51B8BE203FE9FD005133BB /* PascalsTriangleIITests.swift in Sources */,
 				D65A505D2258A3E94C43E65A /* SqrtXTests.swift in Sources */,
 				BA97ED091FC94E9E000A3DFF /* ContainerWithMostWaterTests.swift in Sources */,
 				D65A535C30EC757CB86F02F5 /* SimplifyPathTests.swift in Sources */,
