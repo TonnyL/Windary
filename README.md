@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python and Swift.
 
-Progress: **86 / 756**
+Progress: **87 / 756**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Swift |  Difficulty |
@@ -93,6 +93,7 @@ Progress: **86 / 756**
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/description/) | [√](Golang/SingleNumberII/SingleNumberII.go) | [√](Java/src/SingleNumberII.java) | [√](JavaScript/src/SingleNumberII.js) | [√](Kotlin/src/SingleNumberII.kt) | [√](Python/SingleNumberII.py) | [√](Swift/LeetCode/LeetCode/SingleNumberII.swift) | Medium |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [?](Golang/LinkedListCycle/LinkedListCycle.go) | [√](Java/src/LinkedListCycle.java) | [√](JavaScript/src/LinkedListCycle.js) | [?](Kotlin/src/LinkedListCycle.kt) | [√](Python/LinkedListCycle.py) | [?](Swift/LeetCode/LeetCode/LinkedListCycle.swift) | Easy |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) | [?](Golang/LinkedListCycleII/LinkedListCycleII.go) | [√](Java/src/LinkedListCycleII.java) | [√](JavaScript/src/LinkedListCycleII.js) | [?](Kotlin/src/LinkedListCycleII.kt) | [√](Python/LinkedListCycleII.py) | [?](Swift/LeetCode/LeetCode/LinkedListCycleII.swift) | Medium |
+| 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) | [√](Golang/InsertionSortList/InsertionSortList.go) | [√](Java/src/InsertionSortList.java) | [√](JavaScript/src/InsertionSortList.js) | [√](Kotlin/src/InsertionSortList.kt) | [√](Python/InsertionSortList.py) | [√](Swift/LeetCode/LeetCode/InsertionSortList.swift) | Medium |
 
 ## Contributions
 ⚠️ Notice: We do **NOT** accept pull requests currently.
