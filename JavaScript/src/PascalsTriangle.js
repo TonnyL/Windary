@@ -19,8 +19,8 @@
  * @param {number} numRows
  * @return {number[][]}
  */
-var generate = function (numRows) {
-    var results = [];
+let generate = function (numRows) {
+    let results = [];
     if (numRows === 0) {
         return results;
     }
@@ -33,12 +33,12 @@ var generate = function (numRows) {
         results.push([1, 1]);
         return results;
     }
-    var tmp = generate(numRows - 1);
-    var list = [];
+    let tmp = generate(numRows - 1);
+    let list = [];
 
-    var last = tmp[tmp.length - 1];
+    let last = tmp[tmp.length - 1];
     list.push(1);
-    for (var i = 1; i < last.length; i++) {
+    for (let i = 1; i < last.length; i++) {
         list.push(last[i - 1] + last[i]);
     }
     list.push(1);
@@ -47,7 +47,7 @@ var generate = function (numRows) {
     return tmp;
 };
 
-var lists = [];
+let lists = [];
 if (generate(0).toString() === lists.toString()) {
     console.log("pass")
 } else {

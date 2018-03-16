@@ -32,11 +32,11 @@ function TreeNode(val) {
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isSymmetric = function (root) {
+let isSymmetric = function (root) {
     return isMirror(root, root);
 };
 
-var isMirror = function (node1, node2) {
+let isMirror = function (node1, node2) {
     return node1 == null && node2 == null || node1 != null && node2 != null && (node1.val === node2.val) && isMirror(node1.right, node2.left) && isMirror(node1.left, node2.right);
 };
 
@@ -47,7 +47,7 @@ if (isSymmetric(null)) {
     console.error("failed")
 }
 
-var node0 = new TreeNode(1);
+let node0 = new TreeNode(1);
 node0.left = new TreeNode(2);
 node0.right = new TreeNode(2);
 node0.left.left = new TreeNode(3);

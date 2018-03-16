@@ -11,8 +11,8 @@
  * @param {number[]} nums
  * @return {number}
  */
-var singleNumber = function (nums) {
-    var sum = 0;
+let singleNumber = function (nums) {
+    let sum = 0;
     if (nums === null) {
         return sum;
     }

@@ -19,12 +19,12 @@
  * @param {number} n
  * @return {number}
  */
-/*var numTrees = function (n) {
+/*let numTrees = function (n) {
     if (n === 0 || n === 1) {
         return 1;
     }
-    var r = 0;
-    for (var i = 1; i <= n; i++) {
+    let r = 0;
+    for (let i = 1; i <= n; i++) {
         r = r + numTrees(i - 1) * numTrees(n - i);
     }
     return r;
@@ -36,13 +36,13 @@
  * @param {number} n
  * @return {number}
  */
-var numTrees = function (n) {
-    var array = new Int32Array(n + 2);
+let numTrees = function (n) {
+    let array = new Int32Array(n + 2);
     array[0] = 1;
     array[1] = 1;
 
-    for (var i = 2; i <= n; i++) {
-        for (var j = 0; j < i; j++) {
+    for (let i = 2; i <= n; i++) {
+        for (let j = 0; j < i; j++) {
             array[i] += array[j] * array[i - j - 1];
         }
     }

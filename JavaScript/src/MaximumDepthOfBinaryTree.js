@@ -7,8 +7,8 @@ function TreeNode(val) {
  * @param {TreeNode} root
  * @return {number}
  */
-var maxDepth = function (root) {
-    var max = 0;
+let maxDepth = function (root) {
+    let max = 0;
     if (root !== null) {
         return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
@@ -21,7 +21,7 @@ if (maxDepth(null) === 0) {
     console.error("failed")
 }
 
-var node0 = new TreeNode(3);
+let node0 = new TreeNode(3);
 node0.left = new TreeNode(9);
 node0.right = new TreeNode(20);
 node0.right.left = new TreeNode(15);
@@ -32,7 +32,7 @@ if (maxDepth(node0) === 3) {
     console.error("failed")
 }
 
-var node1 = new TreeNode(1);
+let node1 = new TreeNode(1);
 node1.left = new TreeNode(2);
 node1.left.left = new TreeNode(3);
 node1.left.left.left = new TreeNode(4);

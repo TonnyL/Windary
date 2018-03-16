@@ -29,13 +29,13 @@ function TreeNode(val) {
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isValidBST = function (root) {
+let isValidBST = function (root) {
     if (root === null) {
         return true;
     }
 
-    var stack = [];
-    var pre = null;
+    let stack = [];
+    let pre = null;
     while (root != null || stack.length !== 0) {
         while (root !== null) {
             stack.push(root);
@@ -59,7 +59,7 @@ if (isValidBST(null)) {
     console.error("failed")
 }
 
-var node213 = new TreeNode(2);
+let node213 = new TreeNode(2);
 node213.left = new TreeNode(1);
 node213.right = new TreeNode(3);
 if (isValidBST(node213)) {
@@ -74,7 +74,7 @@ if (isValidBST(new TreeNode(1))) {
     console.error("failed")
 }
 
-var node123 = new TreeNode(1);
+let node123 = new TreeNode(1);
 node123.left = new TreeNode(2);
 node123.right = new TreeNode(3);
 if (isValidBST(node123) === false) {
@@ -83,7 +83,7 @@ if (isValidBST(node123) === false) {
     console.error("failed")
 }
 
-var node321 = new TreeNode(3);
+let node321 = new TreeNode(3);
 node321.left = new TreeNode(2);
 node321.left.left = new TreeNode(1);
 if (isValidBST(node321)) {
@@ -92,7 +92,7 @@ if (isValidBST(node321)) {
     console.error("failed")
 }
 
-var node10 = new TreeNode(1);
+let node10 = new TreeNode(1);
 node10.right = new TreeNode(0);
 if (isValidBST(node10) === false) {
     console.log("pass")
@@ -100,7 +100,7 @@ if (isValidBST(node10) === false) {
     console.error("failed")
 }
 
-var node0Minus1 = new TreeNode(0);
+let node0Minus1 = new TreeNode(0);
 node0Minus1.left = new TreeNode(-1);
 if (isValidBST(node0Minus1)) {
     console.log("pass")

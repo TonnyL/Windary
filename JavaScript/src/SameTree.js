@@ -15,7 +15,7 @@ function TreeNode(val) {
  * @param {TreeNode} q
  * @return {boolean}
  */
-var isSameTree = function (p, q) {
+let isSameTree = function (p, q) {
     return p === null && q === null || p !== null && q !== null && p.val === q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
 };
 
@@ -25,7 +25,7 @@ if (isSameTree(null, null)) {
     console.error("failed")
 }
 
-var tn1 = new TreeNode(1);
+let tn1 = new TreeNode(1);
 if (isSameTree(null, tn1) === false) {
     console.log("pass")
 } else {
@@ -37,17 +37,17 @@ if (isSameTree(tn1, null) === false) {
     console.error("failed")
 }
 
-var tn2 = new TreeNode(2);
+let tn2 = new TreeNode(2);
 if (isSameTree(tn1, tn2) === false) {
     console.log("pass")
 } else {
     console.error("failed")
 }
 
-var tn1111 = new TreeNode(1);
+let tn1111 = new TreeNode(1);
 tn1111.left = new TreeNode(1);
 tn1111.right = new TreeNode(1);
-var tn2111 = new TreeNode(1);
+let tn2111 = new TreeNode(1);
 tn2111.left = new TreeNode(1);
 tn2111.right = new TreeNode(1);
 if (isSameTree(tn1111, tn2111)) {

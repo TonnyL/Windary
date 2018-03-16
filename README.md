@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python and Swift.
 
-Progress: **88 / 764**
+Progress: **89 / 764**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Swift |  Difficulty |
@@ -87,7 +87,7 @@ Progress: **88 / 764**
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | [√](Golang/BinaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.go) | [√](Java/src/BinaryTreeLevelOrderTraversal.java) | [√](JavaScript/src/BinaryTreeLevelOrderTraversal.js) | [√](Kotlin/src/BinaryTreeLevelOrderTraversal.kt) | [√](Python/BinaryTreeLevelOrderTraversal.py) | [√](Swift/LeetCode/BinaryTreeLevelOrderTraversal.swift) | Medium |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [√](Golang/MaximumDepthOfBinaryTree/MaximumDepthOfBinaryTree.go) | [√](Java/src/MaximumDepthOfBinaryTree.java) | [√](JavaScript/src/MaximumDepthOfBinaryTree.js) | [√](Kotlin/src/MaximumDepthOfBinaryTree.kt) | [√](Python/MaximumDepthOfBinaryTree.py) | [√](Swift/LeetCode/LeetCode/MaximumDepthOfBinaryTree.swift) | Easy |
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/) | [√](Golang/BinaryTreeLevelOrderTraversalII/BinaryTreeLevelOrderTraversalII.go) | [√](Java/src/BinaryTreeLevelOrderTraversalII.java) | [√](JavaScript/src/BinaryTreeLevelOrderTraversalII.js) | [√](Kotlin/src/BinaryTreeLevelOrderTraversalII.kt) | [√](Python/BinaryTreeLevelOrderTraversalII.py) | [√](Swift/LeetCode/LeetCode/BinaryTreeLevelOrderTraversalII.swift) | Easy |
-| 112 | [Path Sum](https://leetcode.com/problems/path-sum/description/) | [√](Golang/PathSum/PathSum.go) | [√](Java/src/PathSum.java) | [√](JavaScript/src/PathSum.js) | [√](Kotlin/src/PathSum.kt) | [√](Python/PathSum.py) | [√](Swift/LeetCode/Leetcode/PathSum.swift) | Easy | 
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/description/) | [√](Golang/PathSum/PathSum.go) | [√](Java/src/PathSum.java) | [√](JavaScript/src/PathSum.js) | [√](Kotlin/src/PathSum.kt) | [√](Python/PathSum.py) | [√](Swift/LeetCode/LeetCode/PathSum.swift) | Easy | 
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/description/) | [√](Golang/PascalsTriangle/PascalsTriangle.go) | [√](Java/src/PascalsTriangle.java) | [√](JavaScript/src/PascalsTriangle.js) | [√](Kotlin/src/PascalsTriangle.kt) | [√](Python/PascalsTriangle.py) | [√](Swift/LeetCode/LeetCode/PascalsTriangle.swift) | Easy |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/) | [√](Golang/PascalsTriangleII/PascalsTriangleII.go) | [√](Java/src/PascalsTriangleII.java) | [√](JavaScript/src/PascalsTriangleII.js) | [√](Kotlin/src/PascalsTriangleII.kt) | [√](Python/PascalsTriangleII.py) | [√](Swift/LeetCode/LeetCode/PascalsTriangleII.swift) | Easy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/description/) | [√](Golang/SingleNumber/SingleNumber.go) | [√](Java/src/SingleNumber.java) | [√](JavaScript/src/SingleNumber.js) | [√](Kotlin/src/SingleNumber.kt) | [√](Python/SingleNumber.py) | [√](Swift/LeetCode/LeetCode/SingleNumber.swift) | Easy |
@@ -95,6 +95,7 @@ Progress: **88 / 764**
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [?](Golang/LinkedListCycle/LinkedListCycle.go) | [√](Java/src/LinkedListCycle.java) | [√](JavaScript/src/LinkedListCycle.js) | [?](Kotlin/src/LinkedListCycle.kt) | [√](Python/LinkedListCycle.py) | [?](Swift/LeetCode/LeetCode/LinkedListCycle.swift) | Easy |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) | [?](Golang/LinkedListCycleII/LinkedListCycleII.go) | [√](Java/src/LinkedListCycleII.java) | [√](JavaScript/src/LinkedListCycleII.js) | [?](Kotlin/src/LinkedListCycleII.kt) | [√](Python/LinkedListCycleII.py) | [?](Swift/LeetCode/LeetCode/LinkedListCycleII.swift) | Medium |
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) | [√](Golang/InsertionSortList/InsertionSortList.go) | [√](Java/src/InsertionSortList.java) | [√](JavaScript/src/InsertionSortList.js) | [√](Kotlin/src/InsertionSortList.kt) | [√](Python/InsertionSortList.py) | [√](Swift/LeetCode/LeetCode/InsertionSortList.swift) | Medium |
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/description/) | [√](Golang/SortList/SortList.go) | [√](Java/src/SortList.java) | [√](JavaScript/src/SortList.js) | [√](Kotlin/src/SortList.kt) | [√](Python/SortList.py) | [√](Swift/LeetCode/LeetCode/SortList.swift) | Medium | 
 
 ## Contributions
 ⚠️ Notice: We do **NOT** accept pull requests currently.
