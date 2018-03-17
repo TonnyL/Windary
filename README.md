@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python and Swift.
 
-Progress: **89 / 764**
+Progress: **90 / 764**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Swift |  Difficulty |
@@ -96,6 +96,7 @@ Progress: **89 / 764**
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) | [?](Golang/LinkedListCycleII/LinkedListCycleII.go) | [√](Java/src/LinkedListCycleII.java) | [√](JavaScript/src/LinkedListCycleII.js) | [?](Kotlin/src/LinkedListCycleII.kt) | [√](Python/LinkedListCycleII.py) | [?](Swift/LeetCode/LeetCode/LinkedListCycleII.swift) | Medium |
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) | [√](Golang/InsertionSortList/InsertionSortList.go) | [√](Java/src/InsertionSortList.java) | [√](JavaScript/src/InsertionSortList.js) | [√](Kotlin/src/InsertionSortList.kt) | [√](Python/InsertionSortList.py) | [√](Swift/LeetCode/LeetCode/InsertionSortList.swift) | Medium |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/description/) | [√](Golang/SortList/SortList.go) | [√](Java/src/SortList.java) | [√](JavaScript/src/SortList.js) | [√](Kotlin/src/SortList.kt) | [√](Python/SortList.py) | [√](Swift/LeetCode/LeetCode/SortList.swift) | Medium | 
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/description/) | [√](Golang/MajorityElement/MajorityElement.go) | [√](Java/src/MajorityElement.java) | [√](JavaScript/src/MajorityElement.js) | [√](Kotlin/src/MajorityElement.kt) | [√](Python/MajorityElement.py) | [√](Swift/LeetCode/LeetCode/MajorityElement.swift) | Easy | 
 
 ## Contributions
 ⚠️ Notice: We do **NOT** accept pull requests currently.
