@@ -20,15 +20,15 @@ class SortListTests: XCTestCase {
         
         XCTAssertEqual(SortList.ListNode(0), sl.sortList(SortList.ListNode(0)))
         
-        var node1 = SortList.ListNode(1)
+        let node1 = SortList.ListNode(1)
         node1.next = SortList.ListNode(0)
         
-        var node2 = SortList.ListNode(0)
+        let node2 = SortList.ListNode(0)
         node2.next = SortList.ListNode(1)
         
         XCTAssertEqual(node2, sl.sortList(node1))
         
-        var node3 = SortList.ListNode(0)
+        let node3 = SortList.ListNode(0)
         node3.next = SortList.ListNode(1)
         XCTAssertEqual(node3, sl.sortList(node2))
         

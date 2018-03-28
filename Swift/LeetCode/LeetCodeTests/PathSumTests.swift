@@ -20,7 +20,7 @@ class PathSumTests: XCTestCase {
         
         XCTAssertTrue(ps.hasPathSum(PathSum.TreeNode(1), 1))
         
-        var node = PathSum.TreeNode(5)
+        let node = PathSum.TreeNode(5)
         node.left = PathSum.TreeNode(4)
         node.right = PathSum.TreeNode(8)
         node.left?.left = PathSum.TreeNode(11)

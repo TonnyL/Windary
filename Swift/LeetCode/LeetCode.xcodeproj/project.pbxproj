@@ -119,6 +119,8 @@
 		BA97ED2A1FC998F5000A3DFF /* RemoveElementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97ED291FC998F5000A3DFF /* RemoveElementTests.swift */; };
 		BA97ED2C1FC99FA6000A3DFF /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97ED2B1FC99FA6000A3DFF /* ImplementStrStr.swift */; };
 		BA97ED2E1FC99FB1000A3DFF /* ImplementStrStrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97ED2D1FC99FB1000A3DFF /* ImplementStrStrTests.swift */; };
+		BA98E1A4206BC7E800FE20C3 /* IntersectionOfTwoLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98E1A3206BC7E800FE20C3 /* IntersectionOfTwoLinkedLists.swift */; };
+		BA98E1A6206BC7F300FE20C3 /* IntersectionOfTwoLinkedListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98E1A5206BC7F300FE20C3 /* IntersectionOfTwoLinkedListsTests.swift */; };
 		BA99D6BF203C5C3400B1542F /* SingleNumberII.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA99D6BE203C5C3400B1542F /* SingleNumberII.swift */; };
 		BA99D6C1203C5D0A00B1542F /* SingleNumberIITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA99D6C0203C5D0A00B1542F /* SingleNumberIITests.swift */; };
 		BA9A05AD20108E4A0022E1CB /* ThreeSumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9A05AC20108E4A0022E1CB /* ThreeSumClosest.swift */; };
@@ -319,6 +321,8 @@
 		BA97ED291FC998F5000A3DFF /* RemoveElementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElementTests.swift; sourceTree = "<group>"; };
 		BA97ED2B1FC99FA6000A3DFF /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		BA97ED2D1FC99FB1000A3DFF /* ImplementStrStrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStrTests.swift; sourceTree = "<group>"; };
+		BA98E1A3206BC7E800FE20C3 /* IntersectionOfTwoLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionOfTwoLinkedLists.swift; sourceTree = "<group>"; };
+		BA98E1A5206BC7F300FE20C3 /* IntersectionOfTwoLinkedListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionOfTwoLinkedListsTests.swift; sourceTree = "<group>"; };
 		BA99D6BE203C5C3400B1542F /* SingleNumberII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumberII.swift; sourceTree = "<group>"; };
 		BA99D6C0203C5D0A00B1542F /* SingleNumberIITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumberIITests.swift; sourceTree = "<group>"; };
 		BA9A05AC20108E4A0022E1CB /* ThreeSumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumClosest.swift; sourceTree = "<group>"; };
@@ -513,6 +517,7 @@
 				BA625ADE205BCCE200DDD751 /* SortList.swift */,
 				BA3EAC34205D4B3B00665C27 /* MajorityElement.swift */,
 				BAA1A5382060F19B00FAA102 /* ExcelSheetColumnTitle.swift */,
+				BA98E1A3206BC7E800FE20C3 /* IntersectionOfTwoLinkedLists.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -611,6 +616,7 @@
 				BA625AE0205BCCEB00DDD751 /* SortListTests.swift */,
 				BA3EAC36205D4B4800665C27 /* MajorityElementTests.swift */,
 				BAA1A53A2060F1E700FAA102 /* ExcelSheetColumnTitleTests.swift */,
+				BA98E1A5206BC7F300FE20C3 /* IntersectionOfTwoLinkedListsTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -810,6 +816,7 @@
 				BAA641E12046762D009635CB /* LinkedListCycleII.swift in Sources */,
 				BA7940E520008D5900C7D61F /* RestoreIPAddresses.swift in Sources */,
 				BAEE748320349CD200B8416C /* PascalsTriangle.swift in Sources */,
+				BA98E1A4206BC7E800FE20C3 /* IntersectionOfTwoLinkedLists.swift in Sources */,
 				BA843BDB1FFF425F004466FC /* Combinations.swift in Sources */,
 				BAAD30222003572D00FEF1F1 /* DecodeWays.swift in Sources */,
 			);
@@ -851,6 +858,7 @@
 				BAF6C8091FE51BA700EF511A /* LongestPalindromicSubstringTests.swift in Sources */,
 				BAF4C90C2002692E001892BD /* MergeIntervalsTests.swift in Sources */,
 				BA57E7061FCB0DF50054C4A4 /* PlusOneTests.swift in Sources */,
+				BA98E1A6206BC7F300FE20C3 /* IntersectionOfTwoLinkedListsTests.swift in Sources */,
 				BA57E7021FCB083E0054C4A4 /* MinimumPathSumTests.swift in Sources */,
 				BA97ED011FC93C65000A3DFF /* StringToIntegerAtoiTests.swift in Sources */,
 				BAD464201FFE3C320064C399 /* JumpGameTests.swift in Sources */,
