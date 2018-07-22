@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python and Swift.
 
-Progress: **93 / 780**
+Progress: **94 / 865**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Swift |  Difficulty |
@@ -99,7 +99,9 @@ Progress: **93 / 780**
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | [?](Golang/IntersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.go) | [✓](Java/src/IntersectionOfTwoLinkedLists.java) | [✓](JavaScript/src/IntersectionOfTwoLinkedLists.js) | [?](Kotlin/src/IntersectionOfTwoLinkedLists.kt) | [✓](Python/IntersectionOfTwoLinkedLists.py) | [?](Swift/LeetCode/LeetCode/IntersectionOfTwoLinkedLists.swift) | Easy |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) | [✓](Golang/ExcelSheetColumnTitle/ExcelSheetColumnTitle.go) | [✓](Java/src/ExcelSheetColumnTitle.java) | [✓](JavaScript/src/ExcelSheetColumnTitle.js) | [✓](Kotlin/src/ExcelSheetColumnTitle.kt) | [✓](Python/ExcelSheetColumnTitle.py) | [✓](Swift/LeetCode/LeetCode/ExcelSheetColumnTitle.swift) | Easy |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/description/) | [✓](Golang/MajorityElement/MajorityElement.go) | [✓](Java/src/MajorityElement.java) | [✓](JavaScript/src/MajorityElement.js) | [✓](Kotlin/src/MajorityElement.kt) | [✓](Python/MajorityElement.py) | [✓](Swift/LeetCode/LeetCode/MajorityElement.swift) | Easy | 
-| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | [✓](Golang/RotateArray/RotateArray.go) | [✓](Java/src/RotateArray.java) | [✓](JavaScript/src/RotateArray.js) | [✓](Kotlin/src/RotateArray.kt) | [✓](Python/RotateArray.py) | [✓](Swift/LeetCode/LeetCode/RotateArray.swift) | Easy |
+| 189  | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | [✓](Golang/RotateArray/RotateArray.go) | [✓](Java/src/RotateArray.java) | [✓](JavaScript/src/RotateArray.js) | [✓](Kotlin/src/RotateArray.kt) | [✓](Python/RotateArray.py) | [✓](Swift/LeetCode/LeetCode/RotateArray.swift) | Easy  |
+| 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | [?](Golang/ReverseBits/ReverseBits.go)| [✓](Java/src/ReverseBits.java)| [✓](JavaScript/src/ReverseBits.js)| [?](Kotlin/src/ReverseBits.kt) | [✓](Python/ReverseBits.py) | [?](Swift/LeetCode/LeetCode/ReverseBits.swift) | Easy |
+
 
 ## Contributions
 ⚠️ Notice: We do **NOT** accept pull requests currently.

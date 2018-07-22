@@ -173,6 +173,8 @@
 		BADC96191FD968EF00B63351 /* RemoveNthNodeFromEndOfListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC96181FD968EF00B63351 /* RemoveNthNodeFromEndOfListTests.swift */; };
 		BAE30AF220079F5F008A98F3 /* ValidateBinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE30AF120079F5F008A98F3 /* ValidateBinarySearchTree.swift */; };
 		BAE30AF420079F6F008A98F3 /* ValidateBinarySearchTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE30AF320079F6F008A98F3 /* ValidateBinarySearchTreeTests.swift */; };
+		BAE3E8B62104ADFC002942E8 /* ReverseBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE3E8B52104ADFC002942E8 /* ReverseBits.swift */; };
+		BAE3E8B82104AE0F002942E8 /* ReverseBitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE3E8B72104AE0F002942E8 /* ReverseBitsTests.swift */; };
 		BAEB1A781FCEA091007B4129 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB1A771FCEA091007B4129 /* RotateImage.swift */; };
 		BAEB1A7A1FCEA282007B4129 /* RotateImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */; };
 		BAECCDAC200B1B0E0078B9F5 /* WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAECCDAB200B1B0E0078B9F5 /* WordSearch.swift */; };
@@ -377,6 +379,8 @@
 		BADC96181FD968EF00B63351 /* RemoveNthNodeFromEndOfListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromEndOfListTests.swift; sourceTree = "<group>"; };
 		BAE30AF120079F5F008A98F3 /* ValidateBinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateBinarySearchTree.swift; sourceTree = "<group>"; };
 		BAE30AF320079F6F008A98F3 /* ValidateBinarySearchTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateBinarySearchTreeTests.swift; sourceTree = "<group>"; };
+		BAE3E8B52104ADFC002942E8 /* ReverseBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseBits.swift; sourceTree = "<group>"; };
+		BAE3E8B72104AE0F002942E8 /* ReverseBitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseBitsTests.swift; sourceTree = "<group>"; };
 		BAEB1A771FCEA091007B4129 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
 		BAEB1A791FCEA282007B4129 /* RotateImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImageTests.swift; sourceTree = "<group>"; };
 		BAECCDAB200B1B0E0078B9F5 /* WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearch.swift; sourceTree = "<group>"; };
@@ -523,6 +527,7 @@
 				BAA1A5382060F19B00FAA102 /* ExcelSheetColumnTitle.swift */,
 				BA98E1A3206BC7E800FE20C3 /* IntersectionOfTwoLinkedLists.swift */,
 				BAB3FFF52081FCFF000F3BBE /* RotateArray.swift */,
+				BAE3E8B52104ADFC002942E8 /* ReverseBits.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -623,6 +628,7 @@
 				BAA1A53A2060F1E700FAA102 /* ExcelSheetColumnTitleTests.swift */,
 				BA98E1A5206BC7F300FE20C3 /* IntersectionOfTwoLinkedListsTests.swift */,
 				BAB3FFF72081FD0C000F3BBE /* RotateArrayTests.swift */,
+				BAE3E8B72104AE0F002942E8 /* ReverseBitsTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -686,6 +692,9 @@
 				TargetAttributes = {
 					D65A55C0AB191F92E55E4CF0 = {
 						LastSwiftMigration = 0930;
+					};
+					D65A5F22E0316D34A900C47A = {
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -770,6 +779,7 @@
 				BAA6F0801FCBAEA30021B04F /* SetMatrixZeroes.swift in Sources */,
 				BA97ED0F1FC95427000A3DFF /* LongestCommonPrefix.swift in Sources */,
 				BAE30AF220079F5F008A98F3 /* ValidateBinarySearchTree.swift in Sources */,
+				BAE3E8B62104ADFC002942E8 /* ReverseBits.swift in Sources */,
 				BA5BB0A72011FFB8009931D0 /* LetterCombinationsOfAPhoneNumber.swift in Sources */,
 				BA5137CF2014A716007FC700 /* CombinationSumII.swift in Sources */,
 				BA57E7041FCB0C7A0054C4A4 /* PlusOne.swift in Sources */,
@@ -881,6 +891,7 @@
 				BA57E6FA1FCAB8030054C4A4 /* UniquePathsTests.swift in Sources */,
 				BAB3FFF82081FD0C000F3BBE /* RotateArrayTests.swift in Sources */,
 				BA625AE1205BCCEB00DDD751 /* SortListTests.swift in Sources */,
+				BAE3E8B82104AE0F002942E8 /* ReverseBitsTests.swift in Sources */,
 				BAA4A9FB2004E9A200FEAD22 /* SearchInRotatedSortedArrayIITests.swift in Sources */,
 				BA8601B91FE91CE80025DAE3 /* MultiplyStringsTests.swift in Sources */,
 				BA57E6EA1FCAA56B0054C4A4 /* PowXNTests.swift in Sources */,
@@ -967,7 +978,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.tonnyl.LeetCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1034,7 +1045,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.tonnyl.LeetCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
