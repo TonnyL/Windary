@@ -87,6 +87,8 @@
 		BA71BFA720395E7200B7724A /* BinaryTreeLevelOrderTraversalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA71BFA620395E7200B7724A /* BinaryTreeLevelOrderTraversalTests.swift */; };
 		BA7940E520008D5900C7D61F /* RestoreIPAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7940E420008D5900C7D61F /* RestoreIPAddresses.swift */; };
 		BA7940E720008D6900C7D61F /* RestoreIPAddressesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7940E620008D6900C7D61F /* RestoreIPAddressesTests.swift */; };
+		BA7B5F5521BD0AE90022472B /* TransposeMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B5F5421BD0AE90022472B /* TransposeMatrix.swift */; };
+		BA7B5F5921BD0CDD0022472B /* TransposeMatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B5F5821BD0CDD0022472B /* TransposeMatrixTests.swift */; };
 		BA843BDB1FFF425F004466FC /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA843BDA1FFF425F004466FC /* Combinations.swift */; };
 		BA843BDD1FFF4270004466FC /* CombinationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA843BDC1FFF4270004466FC /* CombinationsTests.swift */; };
 		BA8601B71FE91CCA0025DAE3 /* MultiplyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8601B61FE91CCA0025DAE3 /* MultiplyStrings.swift */; };
@@ -293,6 +295,8 @@
 		BA71BFA620395E7200B7724A /* BinaryTreeLevelOrderTraversalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeLevelOrderTraversalTests.swift; sourceTree = "<group>"; };
 		BA7940E420008D5900C7D61F /* RestoreIPAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreIPAddresses.swift; sourceTree = "<group>"; };
 		BA7940E620008D6900C7D61F /* RestoreIPAddressesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreIPAddressesTests.swift; sourceTree = "<group>"; };
+		BA7B5F5421BD0AE90022472B /* TransposeMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposeMatrix.swift; sourceTree = "<group>"; };
+		BA7B5F5821BD0CDD0022472B /* TransposeMatrixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposeMatrixTests.swift; sourceTree = "<group>"; };
 		BA843BDA1FFF425F004466FC /* Combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
 		BA843BDC1FFF4270004466FC /* CombinationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationsTests.swift; sourceTree = "<group>"; };
 		BA8601B61FE91CCA0025DAE3 /* MultiplyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStrings.swift; sourceTree = "<group>"; };
@@ -528,6 +532,7 @@
 				BA98E1A3206BC7E800FE20C3 /* IntersectionOfTwoLinkedLists.swift */,
 				BAB3FFF52081FCFF000F3BBE /* RotateArray.swift */,
 				BAE3E8B52104ADFC002942E8 /* ReverseBits.swift */,
+				BA7B5F5421BD0AE90022472B /* TransposeMatrix.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -629,6 +634,7 @@
 				BA98E1A5206BC7F300FE20C3 /* IntersectionOfTwoLinkedListsTests.swift */,
 				BAB3FFF72081FD0C000F3BBE /* RotateArrayTests.swift */,
 				BAE3E8B72104AE0F002942E8 /* ReverseBitsTests.swift */,
+				BA7B5F5821BD0CDD0022472B /* TransposeMatrixTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -745,6 +751,7 @@
 				BA57E7001FCB050B0054C4A4 /* MinimumPathSum.swift in Sources */,
 				BAA6F0941FCBD7260021B04F /* MergeSortedArray.swift in Sources */,
 				BA97ED241FC99351000A3DFF /* RemoveDuplicatesFromSortedArray.swift in Sources */,
+				BA7B5F5521BD0AE90022472B /* TransposeMatrix.swift in Sources */,
 				BA57E6EC1FCAA8570054C4A4 /* SpiralMatrix.swift in Sources */,
 				BA51B8BC203FE9EF005133BB /* PascalsTriangleII.swift in Sources */,
 				BA13C7A61FD6789600EC7943 /* PermutationsII.swift in Sources */,
@@ -889,6 +896,7 @@
 				BA8A677020146DA0009685E8 /* CombinationSumTests.swift in Sources */,
 				BAA6F0821FCBAEB10021B04F /* SetMatrixZeroesTests.swift in Sources */,
 				BA57E6FA1FCAB8030054C4A4 /* UniquePathsTests.swift in Sources */,
+				BA7B5F5921BD0CDD0022472B /* TransposeMatrixTests.swift in Sources */,
 				BAB3FFF82081FD0C000F3BBE /* RotateArrayTests.swift in Sources */,
 				BA625AE1205BCCEB00DDD751 /* SortListTests.swift in Sources */,
 				BAE3E8B82104AE0F002942E8 /* ReverseBitsTests.swift in Sources */,
