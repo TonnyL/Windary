@@ -79,6 +79,8 @@
 		BA625AE1205BCCEB00DDD751 /* SortListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA625AE0205BCCEB00DDD751 /* SortListTests.swift */; };
 		BA631DCB2001EA3E00535183 /* PartitionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA631DCA2001EA3E00535183 /* PartitionList.swift */; };
 		BA631DCD2001EA4B00535183 /* PartitionListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA631DCC2001EA4B00535183 /* PartitionListTests.swift */; };
+		BA6B0F3A21BD3F6400AFAA12 /* ToLowerCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B0F3921BD3F6400AFAA12 /* ToLowerCase.swift */; };
+		BA6B0F3C21BD52A400AFAA12 /* ToLowerCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B0F3B21BD52A400AFAA12 /* ToLowerCaseTests.swift */; };
 		BA6C11B41FC86710008DACF9 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B31FC86710008DACF9 /* TwoSum.swift */; };
 		BA6C11B61FC8689C008DACF9 /* TwoSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */; };
 		BA6C11B81FC86A5B008DACF9 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */; };
@@ -287,6 +289,8 @@
 		BA625AE0205BCCEB00DDD751 /* SortListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortListTests.swift; sourceTree = "<group>"; };
 		BA631DCA2001EA3E00535183 /* PartitionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionList.swift; sourceTree = "<group>"; };
 		BA631DCC2001EA4B00535183 /* PartitionListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionListTests.swift; sourceTree = "<group>"; };
+		BA6B0F3921BD3F6400AFAA12 /* ToLowerCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToLowerCase.swift; sourceTree = "<group>"; };
+		BA6B0F3B21BD52A400AFAA12 /* ToLowerCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToLowerCaseTests.swift; sourceTree = "<group>"; };
 		BA6C11B31FC86710008DACF9 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		BA6C11B51FC8689C008DACF9 /* TwoSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTests.swift; sourceTree = "<group>"; };
 		BA6C11B71FC86A5B008DACF9 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
@@ -533,6 +537,7 @@
 				BAB3FFF52081FCFF000F3BBE /* RotateArray.swift */,
 				BAE3E8B52104ADFC002942E8 /* ReverseBits.swift */,
 				BA7B5F5421BD0AE90022472B /* TransposeMatrix.swift */,
+				BA6B0F3921BD3F6400AFAA12 /* ToLowerCase.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -635,6 +640,7 @@
 				BAB3FFF72081FD0C000F3BBE /* RotateArrayTests.swift */,
 				BAE3E8B72104AE0F002942E8 /* ReverseBitsTests.swift */,
 				BA7B5F5821BD0CDD0022472B /* TransposeMatrixTests.swift */,
+				BA6B0F3B21BD52A400AFAA12 /* ToLowerCaseTests.swift */,
 			);
 			path = LeetCodeTests;
 			sourceTree = "<group>";
@@ -751,6 +757,7 @@
 				BA57E7001FCB050B0054C4A4 /* MinimumPathSum.swift in Sources */,
 				BAA6F0941FCBD7260021B04F /* MergeSortedArray.swift in Sources */,
 				BA97ED241FC99351000A3DFF /* RemoveDuplicatesFromSortedArray.swift in Sources */,
+				BA6B0F3A21BD3F6400AFAA12 /* ToLowerCase.swift in Sources */,
 				BA7B5F5521BD0AE90022472B /* TransposeMatrix.swift in Sources */,
 				BA57E6EC1FCAA8570054C4A4 /* SpiralMatrix.swift in Sources */,
 				BA51B8BC203FE9EF005133BB /* PascalsTriangleII.swift in Sources */,
@@ -928,6 +935,7 @@
 				BA8D362D1FD94DAC00073066 /* MergeTwoSortedListsTests.swift in Sources */,
 				D65A5E8086417B191C25B76C /* ClimbingStairsTests.swift in Sources */,
 				BA28EB541FCD5449007819DC /* UniqueBinarySearchTreesTests.swift in Sources */,
+				BA6B0F3C21BD52A400AFAA12 /* ToLowerCaseTests.swift in Sources */,
 				BA6C11B61FC8689C008DACF9 /* TwoSumTests.swift in Sources */,
 				BAA6F0961FCBD72E0021B04F /* MergeSortedArrayTests.swift in Sources */,
 				BA13C7A81FD678A300EC7943 /* PermutationsIITests.swift in Sources */,

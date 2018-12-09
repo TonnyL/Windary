@@ -1,7 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f141c45b-b6cc-40d4-acd5-db0ce5dd9a45" name="Default" comment="" />
+    <list default="true" id="f141c45b-b6cc-40d4-acd5-db0ce5dd9a45" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Golang/ToLowerCase/ToLowerCase.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Golang/ToLowerCase/ToLowerCase_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/src/ToLowerCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/src/ToLowerCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/src/ToLowerCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToLowerCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToLowerCaseTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/ToLowerCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/ToLowerCaseTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swift/LeetCode/LeetCode/ToLowerCase.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Swift/LeetCode/LeetCodeTests/ToLowerCaseTests.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/AddBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/AddBinary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/AddBinaryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/AddBinaryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/AddTwoNumbers$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/AddTwoNumbers$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/AddTwoNumbersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/AddTwoNumbersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeInorderTraversal$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeInorderTraversal$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeInorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeInorderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeInorderTraversalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeInorderTraversalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversal$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversal$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversalII$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversalII$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversalII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversalII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversalIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversalIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/BinaryTreeLevelOrderTraversalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ClimbingStairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ClimbingStairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ClimbingStairsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ClimbingStairsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/CombinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/CombinationSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/CombinationSumII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/CombinationSumII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/CombinationSumIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/CombinationSumIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/CombinationSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/CombinationSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/Combinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/Combinations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/CombinationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/CombinationsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ContainerWithMostWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ContainerWithMostWater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ContainerWithMostWaterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ContainerWithMostWaterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/CountAndSay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/CountAndSay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/CountAndSayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/CountAndSayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/DecodeWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/DecodeWays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/DecodeWaysTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/DecodeWaysTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/DivideTwoIntegers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/DivideTwoIntegers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/DivideTwoIntegersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/DivideTwoIntegersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ExcelSheetColumnTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ExcelSheetColumnTitle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ExcelSheetColumnTitleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ExcelSheetColumnTitleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/FourSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/FourSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/FourSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/FourSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/GenerateParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/GenerateParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/GenerateParenthesesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/GenerateParenthesesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/GrayCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/GrayCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/GrayCodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/GrayCodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/GroupAnagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/GroupAnagramsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/GroupAnagramsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ImplementStrStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ImplementStrStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ImplementStrStrTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ImplementStrStrTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/InsertionSortList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/InsertionSortList$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/InsertionSortList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/InsertionSortList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/InsertionSortListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/InsertionSortListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/IntegerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/IntegerToRoman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/IntegerToRomanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/IntegerToRomanTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/IntersectionOfTwoLinkedLists$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/IntersectionOfTwoLinkedLists$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/IntersectionOfTwoLinkedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/IntersectionOfTwoLinkedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/IntersectionOfTwoLinkedListsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/IntersectionOfTwoLinkedListsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/JumpGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/JumpGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/JumpGameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/JumpGameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LengthOfLastWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LengthOfLastWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LengthOfLastWordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LengthOfLastWordTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LetterCombinationsOfAPhoneNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LetterCombinationsOfAPhoneNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LetterCombinationsOfAPhoneNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LetterCombinationsOfAPhoneNumberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycle$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycle$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycleII$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycleII$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycleII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycleII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycleIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycleIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LinkedListCycleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LongestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LongestCommonPrefixTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LongestCommonPrefixTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LongestPalindromicSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LongestPalindromicSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LongestPalindromicSubstringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LongestPalindromicSubstringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/LongestSubstringWithoutRepeatingCharactersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/LongestSubstringWithoutRepeatingCharactersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MajorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MajorityElementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MajorityElementTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MaximumDepthOfBinaryTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MaximumDepthOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MaximumDepthOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MaximumDepthOfBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MaximumDepthOfBinaryTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MaximumDepthOfBinaryTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MaximumSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MaximumSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MaximumSubArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MaximumSubArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MergeIntervals$Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MergeIntervals$Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MergeIntervals$merge$$inlined$sortedBy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MergeIntervals$merge$$inlined$sortedBy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MergeIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MergeIntervals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MergeIntervalsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MergeIntervalsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MergeSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MergeSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MergeSortedArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MergeSortedArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MergeTwoSortedLists$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MergeTwoSortedLists$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MergeTwoSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MergeTwoSortedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MergeTwoSortedListsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MergeTwoSortedListsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MinimumPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MinimumPathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MinimumPathSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MinimumPathSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MultiplyStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MultiplyStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MultiplyStringsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MultiplyStringsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/NextPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/NextPermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/NextPermutationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/NextPermutationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PalindromeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PalindromeNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PalindromeNumberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PartitionList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PartitionList$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PartitionList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PartitionList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PartitionListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PartitionListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PascalsTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PascalsTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PascalsTriangleII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PascalsTriangleII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PascalsTriangleIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PascalsTriangleIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PascalsTriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PascalsTriangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PathSum$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PathSum$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PathSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PathSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/Permutations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/Permutations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PermutationsII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PermutationsII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PermutationsIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PermutationsIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PermutationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PermutationsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PlusOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PlusOneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PlusOneTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PowXN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PowXN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/PowXNTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/PowXNTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedArrayII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedArrayII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedArrayIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedArrayIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedList$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedListII$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedListII$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedListII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedListII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedListIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedListIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveDuplicatesFromSortedListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveElementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveElementTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveNthNodeFromEndOfList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveNthNodeFromEndOfList$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveNthNodeFromEndOfList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveNthNodeFromEndOfList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RemoveNthNodeFromEndOfListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RemoveNthNodeFromEndOfListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RestoreIPAddresses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RestoreIPAddresses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RestoreIPAddressesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RestoreIPAddressesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ReverseBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ReverseBits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ReverseBitsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ReverseBitsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ReverseInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ReverseInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ReverseIntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ReverseIntegerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ReverseLinkedListII$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ReverseLinkedListII$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ReverseLinkedListII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ReverseLinkedListII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ReverseLinkedListIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ReverseLinkedListIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RomanToInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RomanToIntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RomanToIntegerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RotateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RotateArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RotateArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RotateImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RotateImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RotateImageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RotateImageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RotateList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RotateList$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RotateList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RotateList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/RotateListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/RotateListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SameTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SameTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SameTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SameTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SameTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SameTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SearchA2DMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SearchA2DMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SearchA2DMatrixTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SearchA2DMatrixTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SearchForARange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SearchForARange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SearchForARangeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SearchForARangeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SearchInRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SearchInRotatedSortedArrayII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SearchInRotatedSortedArrayII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SearchInRotatedSortedArrayIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SearchInRotatedSortedArrayIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SearchInRotatedSortedArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SearchInRotatedSortedArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SearchInsertPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SearchInsertPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SearchInsertPositionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SearchInsertPositionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SetMatrixZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SetMatrixZeroes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SetMatrixZeroesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SetMatrixZeroesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SimplifyPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SimplifyPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SimplifyPathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SimplifyPathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SingleNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SingleNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SingleNumberII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SingleNumberII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SingleNumberIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SingleNumberIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SingleNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SingleNumberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SortColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SortColors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SortColorsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SortColorsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SortList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SortList$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SortList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SortList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SortListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SortListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SpiralMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SpiralMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SpiralMatrixII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SpiralMatrixII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SpiralMatrixIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SpiralMatrixIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SpiralMatrixTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SpiralMatrixTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SqrtX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SqrtX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SqrtXTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SqrtXTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/StringToIntegerAtoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/StringToIntegerAtoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/StringToIntegerAtoiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/StringToIntegerAtoiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/Subsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SubsetsII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SubsetsII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SubsetsIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SubsetsIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SubsetsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SubsetsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SwapNodesInPairs$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SwapNodesInPairs$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SwapNodesInPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SwapNodesInPairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SwapNodesInPairsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SwapNodesInPairsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SymmetricTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SymmetricTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SymmetricTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SymmetricTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/SymmetricTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/SymmetricTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ThreeSum$Triple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ThreeSum$Triple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ThreeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ThreeSumClosest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ThreeSumClosest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ThreeSumClosestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ThreeSumClosestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ThreeSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ThreeSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/TwoSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/TwoSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/UniqueBinarySearchTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/UniqueBinarySearchTrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/UniqueBinarySearchTreesII$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/UniqueBinarySearchTreesII$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/UniqueBinarySearchTreesII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/UniqueBinarySearchTreesII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/UniqueBinarySearchTreesIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/UniqueBinarySearchTreesIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/UniqueBinarySearchTreesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/UniqueBinarySearchTreesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/UniquePaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/UniquePaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/UniquePathsII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/UniquePathsII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/UniquePathsIITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/UniquePathsIITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/UniquePathsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/UniquePathsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ValidParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ValidParenthesesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ValidParenthesesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ValidSudoku.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ValidSudoku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ValidSudokuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ValidSudokuTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ValidateBinarySearchTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ValidateBinarySearchTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ValidateBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ValidateBinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ValidateBinarySearchTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ValidateBinarySearchTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/WordSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/WordSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/WordSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/WordSearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ZigZagConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ZigZagConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/ZigZagConversionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/ZigZagConversionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Swift/LeetCode/LeetCode.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift/LeetCode/LeetCode.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Swift/LeetCode/LeetCode.xcodeproj/project.xcworkspace/xcuserdata/lizhaotailang.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift/LeetCode/LeetCode.xcodeproj/project.xcworkspace/xcuserdata/lizhaotailang.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,19 +241,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReverseBits.kt">
+        <entry file="file://$PROJECT_DIR$/src/ToLowerCaseTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReverseBitsTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="228">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -33,22 +253,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TransposeMatrix.kt">
+        <entry file="file://$PROJECT_DIR$/src/ToLowerCase.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TransposeMatrixTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -73,6 +281,8 @@
         <option value="$PROJECT_DIR$/src/ReverseBitsTest.kt" />
         <option value="$PROJECT_DIR$/src/TransposeMatrixTest.kt" />
         <option value="$PROJECT_DIR$/src/TransposeMatrix.kt" />
+        <option value="$PROJECT_DIR$/src/ToLowerCaseTest.kt" />
+        <option value="$PROJECT_DIR$/src/ToLowerCase.kt" />
       </list>
     </option>
   </component>
@@ -110,7 +320,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544354684504" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544363083176" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -132,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ToLowerCaseTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -143,6 +353,15 @@
       <module name="Kotlin" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ReverseBitsTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToLowerCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ToLowerCaseTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,6 +383,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ToLowerCaseTest" />
         <item itemvalue="JUnit.ReverseBitsTest" />
       </list>
     </recent_temporary>
@@ -181,6 +401,7 @@
       <workItem from="1532259729137" duration="412000" />
       <workItem from="1532264251203" duration="620000" />
       <workItem from="1544342139902" duration="2377000" />
+      <workItem from="1544358811899" duration="788000" />
     </task>
     <servers />
   </component>
@@ -188,22 +409,24 @@
     <history-entry file="ReverseBitsTest - 2018.07.22 at 19h 45m 40s.xml">
       <configuration name="ReverseBitsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ToLowerCaseTest - 2018.12.09 at 20h 36m 35s.xml">
+      <configuration name="ToLowerCaseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3409000" />
+    <option name="totallyTimeSpent" value="4197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
@@ -216,7 +439,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -226,6 +449,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,10 +467,21 @@
     <entry file="file://$PROJECT_DIR$/src/AddBinary.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseBits.kt">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="710">
+          <caret line="360" column="23" selection-start-line="360" selection-start-column="23" selection-end-line="360" selection-end-column="23" />
+          <folding>
+            <element signature="e#12413#12414#0" expanded="true" />
+            <element signature="e#12466#12467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TransposeMatrix.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -260,14 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+    <entry file="file://$PROJECT_DIR$/src/ReverseBits.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="360" column="23" selection-start-line="360" selection-start-column="23" selection-end-line="360" selection-end-column="23" />
-          <folding>
-            <element signature="e#12413#12414#0" expanded="true" />
-            <element signature="e#12466#12467#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="513">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -281,10 +512,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TransposeMatrix.kt">
+    <entry file="file://$PROJECT_DIR$/src/ToLowerCaseTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="228">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToLowerCase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
         </state>
       </provider>
     </entry>

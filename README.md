@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python and Swift.
 
-Progress: **95 / 949**
+Progress: **96 / 949**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Swift |  Difficulty |
@@ -101,6 +101,7 @@ Progress: **95 / 949**
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/description/) | [✓](Golang/MajorityElement/MajorityElement.go) | [✓](Java/src/MajorityElement.java) | [✓](JavaScript/src/MajorityElement.js) | [✓](Kotlin/src/MajorityElement.kt) | [✓](Python/MajorityElement.py) | [✓](Swift/LeetCode/LeetCode/MajorityElement.swift) | Easy |
 | 189  | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | [✓](Golang/RotateArray/RotateArray.go) | [✓](Java/src/RotateArray.java) | [✓](JavaScript/src/RotateArray.js) | [✓](Kotlin/src/RotateArray.kt) | [✓](Python/RotateArray.py) | [✓](Swift/LeetCode/LeetCode/RotateArray.swift) | Easy  |
 | 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | [?](Golang/ReverseBits/ReverseBits.go)| [✓](Java/src/ReverseBits.java)| [✓](JavaScript/src/ReverseBits.js)| [?](Kotlin/src/ReverseBits.kt) | [✓](Python/ReverseBits.py) | [?](Swift/LeetCode/LeetCode/ReverseBits.swift) | Easy |
+| 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [✓](Golang/ToLowerCase/ToLowerCase.go) | [✓](Java/src/ToLowerCase.java) | [✓](JavaScript/src/ToLowerCase.js) | [✓](Kotlin/src/ToLowerCase.kt) | [✓](Python/ToLowerCase.py) | [✓](Swift/LeetCode/LeetCode/ToLowerCase.swift) | Easy |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [✓](Golang/TransposeMatrix/TransposeMatrix.go) | [✓](Java/src/TransposeMatrix.java) | [✓](JavaScript/src/TransposeMatrix.js) | [✓](Kotlin/src/TransposeMatrix.kt) | [✓](Python/TransposeMatrix.py) | [✓](Swift/LeetCode/LeetCode/TransposeMatrix.swift) | Easy |
 
 
