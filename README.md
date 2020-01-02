@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python, Rust and Swift.
 
-Progress: **97 / 1307**
+Progress: **99 / 1308**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Rust | Swift | Difficulty |
@@ -103,6 +103,7 @@ Progress: **97 / 1307**
 | 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | [?](Golang/ReverseBits/ReverseBits.go)| [✓](Java/src/ReverseBits.java)| [✓](JavaScript/src/ReverseBits.js)| [?](Kotlin/src/ReverseBits.kt) | [✓](Python/ReverseBits.py) | []() | [?](Swift/LeetCode/LeetCode/ReverseBits.swift) | Easy |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | []() | []() | []() | []() | []() | [✓](Rust/src/0217_contains_duplicate.rs) | []() | Easy
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | []() | []() | []() | []() | []() | [✓](Rust/src/0268_missing_number.rs) | []() | Easy
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) |  []() | []() | []() | []() | []() | [✓](Rust/src/0344_reverse_string.rs) | []() | Easy
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [✓](Golang/ToLowerCase/ToLowerCase.go) | [✓](Java/src/ToLowerCase.java) | [✓](JavaScript/src/ToLowerCase.js) | [✓](Kotlin/src/ToLowerCase.kt) | [✓](Python/ToLowerCase.py) | []() | [✓](Swift/LeetCode/LeetCode/ToLowerCase.swift) | Easy |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [✓](Golang/TransposeMatrix/TransposeMatrix.go) | [✓](Java/src/TransposeMatrix.java) | [✓](JavaScript/src/TransposeMatrix.js) | [✓](Kotlin/src/TransposeMatrix.kt) | [✓](Python/TransposeMatrix.py) | []() | [✓](Swift/LeetCode/LeetCode/TransposeMatrix.swift) | Easy |
 
