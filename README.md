@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python, Rust and Swift.
 
-Progress: **100 / 1320**
+Progress: **101 / 1322**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Rust | Swift | Difficulty |
@@ -102,6 +102,7 @@ Progress: **100 / 1320**
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/description/) | [✓](Golang/MajorityElement/MajorityElement.go) | [✓](Java/src/MajorityElement.java) | [✓](JavaScript/src/MajorityElement.js) | [✓](Kotlin/src/MajorityElement.kt) | [✓](Python/MajorityElement.py) | []() | [✓](Swift/LeetCode/LeetCode/MajorityElement.swift) | Easy |
 | 189  | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | [✓](Golang/RotateArray/RotateArray.go) | [✓](Java/src/RotateArray.java) | [✓](JavaScript/src/RotateArray.js) | [✓](Kotlin/src/RotateArray.kt) | [✓](Python/RotateArray.py) | []() | [✓](Swift/LeetCode/LeetCode/RotateArray.swift) | Easy  |
 | 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | [?](Golang/ReverseBits/ReverseBits.go)| [✓](Java/src/ReverseBits.java)| [✓](JavaScript/src/ReverseBits.js)| [?](Kotlin/src/ReverseBits.kt) | [✓](Python/ReverseBits.py) | []() | [?](Swift/LeetCode/LeetCode/ReverseBits.swift) | Easy |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | []() | []() | []() | []() | []() | [✓](Rust/src/0206_reverse_linked_list.rs) | []() | Easy
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | []() | []() | []() | []() | []() | [✓](Rust/src/0217_contains_duplicate.rs) | []() | Easy
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | []() | []() | []() | []() | []() | [✓](Rust/src/0268_missing_number.rs) | []() | Easy
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) |  []() | []() | []() | []() | []() | [✓](Rust/src/0344_reverse_string.rs) | []() | Easy
