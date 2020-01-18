@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python, Rust and Swift.
 
-Progress: **101 / 1322**
+Progress: **102 / 1322**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Rust | Swift | Difficulty |
@@ -103,6 +103,7 @@ Progress: **101 / 1322**
 | 189  | [Rotate Array](https://leetcode.com/problems/rotate-array/description/) | [✓](Golang/RotateArray/RotateArray.go) | [✓](Java/src/RotateArray.java) | [✓](JavaScript/src/RotateArray.js) | [✓](Kotlin/src/RotateArray.kt) | [✓](Python/RotateArray.py) | []() | [✓](Swift/LeetCode/LeetCode/RotateArray.swift) | Easy  |
 | 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | [?](Golang/ReverseBits/ReverseBits.go)| [✓](Java/src/ReverseBits.java)| [✓](JavaScript/src/ReverseBits.js)| [?](Kotlin/src/ReverseBits.kt) | [✓](Python/ReverseBits.py) | []() | [?](Swift/LeetCode/LeetCode/ReverseBits.swift) | Easy |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | []() | []() | []() | []() | []() | [✓](Rust/src/0206_reverse_linked_list.rs) | []() | Easy
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | []() | []() | []() | []() | []() | [✓](Rust/src/0215_kth_argest_element_in_an_array.rs) | []() | Medium
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | []() | []() | []() | []() | []() | [✓](Rust/src/0217_contains_duplicate.rs) | []() | Easy
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | []() | []() | []() | []() | []() | [✓](Rust/src/0268_missing_number.rs) | []() | Easy
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) |  []() | []() | []() | []() | []() | [✓](Rust/src/0344_reverse_string.rs) | []() | Easy
