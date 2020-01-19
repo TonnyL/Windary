@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python, Rust and Swift.
 
-Progress: **104 / 1322**
+Progress: **105 / 1326**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Rust | Swift | Difficulty |
@@ -108,6 +108,7 @@ Progress: **104 / 1322**
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | []() | []() | []() | []() | []() | [✓](Rust/src/0268_missing_number.rs) | []() | Easy
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | []() | []() | []() | []() | []() | [✓](Rust/src/0283_move_zeroes.rs) | []() | Easy
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) |  []() | []() | []() | []() | []() | [✓](Rust/src/0344_reverse_string.rs) | []() | Easy
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | []() | []() | []() | []() | []() | [✓](Rust/src/0347_top_k_frequent_elements.rs) | []() | Medium
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | []() | []() | []() | []() | []() | [✓](Rust/src/0412_fizz_buzz.rs) | []() | Easy
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [✓](Golang/ToLowerCase/ToLowerCase.go) | [✓](Java/src/ToLowerCase.java) | [✓](JavaScript/src/ToLowerCase.js) | [✓](Kotlin/src/ToLowerCase.kt) | [✓](Python/ToLowerCase.py) | []() | [✓](Swift/LeetCode/LeetCode/ToLowerCase.swift) | Easy |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [✓](Golang/TransposeMatrix/TransposeMatrix.go) | [✓](Java/src/TransposeMatrix.java) | [✓](JavaScript/src/TransposeMatrix.js) | [✓](Kotlin/src/TransposeMatrix.kt) | [✓](Python/TransposeMatrix.py) | []() | [✓](Swift/LeetCode/LeetCode/TransposeMatrix.swift) | Easy |
