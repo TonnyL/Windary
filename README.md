@@ -2,7 +2,7 @@
 
 My Solutions for LeetCode problems written in Go, Java, JavaScript, Kotlin, Python, Rust and Swift.
 
-Progress: **105 / 1326**
+Progress: **106 / 1326**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Rust | Swift | Difficulty |
@@ -107,6 +107,7 @@ Progress: **105 / 1326**
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | []() | []() | []() | []() | []() | [✓](Rust/src/0217_contains_duplicate.rs) | []() | Easy
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | []() | []() | []() | []() | []() | [✓](Rust/src/0268_missing_number.rs) | []() | Easy
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | []() | []() | []() | []() | []() | [✓](Rust/src/0283_move_zeroes.rs) | []() | Easy
+| 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | []() | []() | []() | []() | []() | [✓](Rust/src/0326_power_of_three.rs) | []() | Easy
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) |  []() | []() | []() | []() | []() | [✓](Rust/src/0344_reverse_string.rs) | []() | Easy
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | []() | []() | []() | []() | []() | [✓](Rust/src/0347_top_k_frequent_elements.rs) | []() | Medium
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | []() | []() | []() | []() | []() | [✓](Rust/src/0412_fizz_buzz.rs) | []() | Easy
