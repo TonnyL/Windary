@@ -2,7 +2,7 @@
 
 My Solutions to LeetCode problems written in Go, Java, JavaScript, Kotlin, Python, Rust and Swift.
 
-Progress: **107 / 1326**
+Progress: **108 / 1335**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Rust | Swift | Difficulty |
@@ -111,6 +111,7 @@ Progress: **107 / 1326**
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) |  []() | []() | []() | []() | []() | [✓](Rust/src/0344_reverse_string.rs) | []() | Easy
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | []() | []() | []() | []() | []() | [✓](Rust/src/0347_top_k_frequent_elements.rs) | []() | Medium
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | []() | []() | []() | []() | []() | [✓](Rust/src/0371_sum_of_two_integers.rs) | []() | Easy
+| 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | []() | []() | []() | []() | []() | [✓](Rust/src/0378_kth_smallest_element_in_a_sorted_matrix.rs) | []() | Easy
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | []() | []() | []() | []() | []() | [✓](Rust/src/0412_fizz_buzz.rs) | []() | Easy
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [✓](Golang/ToLowerCase/ToLowerCase.go) | [✓](Java/src/ToLowerCase.java) | [✓](JavaScript/src/ToLowerCase.js) | [✓](Kotlin/src/ToLowerCase.kt) | [✓](Python/ToLowerCase.py) | []() | [✓](Swift/LeetCode/LeetCode/ToLowerCase.swift) | Easy |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [✓](Golang/TransposeMatrix/TransposeMatrix.go) | [✓](Java/src/TransposeMatrix.java) | [✓](JavaScript/src/TransposeMatrix.js) | [✓](Kotlin/src/TransposeMatrix.kt) | [✓](Python/TransposeMatrix.py) | []() | [✓](Swift/LeetCode/LeetCode/TransposeMatrix.swift) | Easy |
