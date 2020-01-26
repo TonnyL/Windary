@@ -2,7 +2,7 @@
 
 My Solutions to LeetCode problems written in Go, Java, JavaScript, Kotlin, Python, Rust and Swift.
 
-Progress: **108 / 1335**
+Progress: **109 / 1335**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Rust | Swift | Difficulty |
@@ -110,6 +110,7 @@ Progress: **108 / 1335**
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | []() | []() | []() | []() | []() | [✓](Rust/src/0326_power_of_three.rs) | []() | Easy
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) |  []() | []() | []() | []() | []() | [✓](Rust/src/0344_reverse_string.rs) | []() | Easy
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | []() | []() | []() | []() | []() | [✓](Rust/src/0347_top_k_frequent_elements.rs) | []() | Medium
+| 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | []() | []() | []() | []() | []() | [✓](Rust/src/0350_intersection_of_two_arrays_ii.rs) | []() | Easy
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | []() | []() | []() | []() | []() | [✓](Rust/src/0371_sum_of_two_integers.rs) | []() | Easy
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | []() | []() | []() | []() | []() | [✓](Rust/src/0378_kth_smallest_element_in_a_sorted_matrix.rs) | []() | Easy
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | []() | []() | []() | []() | []() | [✓](Rust/src/0412_fizz_buzz.rs) | []() | Easy
