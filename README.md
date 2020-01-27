@@ -2,7 +2,7 @@
 
 My Solutions to LeetCode problems written in Go, Java, JavaScript, Kotlin, Python, Rust and Swift.
 
-Progress: **110 / 1335**
+Progress: **111 / 1335**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Rust | Swift | Difficulty |
@@ -97,6 +97,7 @@ Progress: **110 / 1335**
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) | [✓](Golang/InsertionSortList/InsertionSortList.go) | [✓](Java/src/InsertionSortList.java) | [✓](JavaScript/src/InsertionSortList.js) | [✓](Kotlin/src/InsertionSortList.kt) | [✓](Python/InsertionSortList.py) | []() | [✓](Swift/LeetCode/LeetCode/InsertionSortList.swift) | Medium |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/description/) | [✓](Golang/SortList/SortList.go) | [✓](Java/src/SortList.java) | [✓](JavaScript/src/SortList.js) | [✓](Kotlin/src/SortList.kt) | [✓](Python/SortList.py) | []() | [✓](Swift/LeetCode/LeetCode/SortList.swift) | Medium |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | []() | []() | []() | []() | []() | [✓](Rust/src/0153_find_minimum_in_rotated_sorted_array.rs) | []() | Medium
+| 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | []() | []() | []() | []() | []() | [✓](Rust/src/0154_find_minimum_in_rotated_sorted_array_ii.rs) | []() | Hard
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | []() | []() | []() | []() | []() | [✓](Rust/src/0155_min_stack.rs) | []() | Easy
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | [?](Golang/IntersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.go) | [✓](Java/src/IntersectionOfTwoLinkedLists.java) | [✓](JavaScript/src/IntersectionOfTwoLinkedLists.js) | [?](Kotlin/src/IntersectionOfTwoLinkedLists.kt) | [✓](Python/IntersectionOfTwoLinkedLists.py) | []() | [?](Swift/LeetCode/LeetCode/IntersectionOfTwoLinkedLists.swift) | Easy |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) | [✓](Golang/ExcelSheetColumnTitle/ExcelSheetColumnTitle.go) | [✓](Java/src/ExcelSheetColumnTitle.java) | [✓](JavaScript/src/ExcelSheetColumnTitle.js) | [✓](Kotlin/src/ExcelSheetColumnTitle.kt) | [✓](Python/ExcelSheetColumnTitle.py) | []() | [✓](Swift/LeetCode/LeetCode/ExcelSheetColumnTitle.swift) | Easy |
