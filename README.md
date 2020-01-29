@@ -2,7 +2,7 @@
 
 My Solutions to LeetCode problems written in Go, Java, JavaScript, Kotlin, Python, Rust and Swift.
 
-Progress: **113 / 1335**
+Progress: **114 / 1335**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Rust | Swift | Difficulty |
@@ -117,6 +117,7 @@ Progress: **113 / 1335**
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | []() | []() | []() | []() | []() | [✓](Rust/src/0350_intersection_of_two_arrays_ii.rs) | []() | Easy
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | []() | []() | []() | []() | []() | [✓](Rust/src/0371_sum_of_two_integers.rs) | []() | Easy
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | []() | []() | []() | []() | []() | [✓](Rust/src/0378_kth_smallest_element_in_a_sorted_matrix.rs) | []() | Easy
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | []() | []() | []() | []() | []() | [✓](Rust/src/0387_first_unique_character_in_a_string.rs) | []() | Easy
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | []() | []() | []() | []() | []() | [✓](Rust/src/0412_fizz_buzz.rs) | []() | Easy
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [✓](Golang/ToLowerCase/ToLowerCase.go) | [✓](Java/src/ToLowerCase.java) | [✓](JavaScript/src/ToLowerCase.js) | [✓](Kotlin/src/ToLowerCase.kt) | [✓](Python/ToLowerCase.py) | []() | [✓](Swift/LeetCode/LeetCode/ToLowerCase.swift) | Easy |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | [✓](Golang/TransposeMatrix/TransposeMatrix.go) | [✓](Java/src/TransposeMatrix.java) | [✓](JavaScript/src/TransposeMatrix.js) | [✓](Kotlin/src/TransposeMatrix.kt) | [✓](Python/TransposeMatrix.py) | []() | [✓](Swift/LeetCode/LeetCode/TransposeMatrix.swift) | Easy |
