@@ -2,7 +2,7 @@
 
 My Solutions to LeetCode problems written in Go, Java, JavaScript, Kotlin, Python, Rust and Swift.
 
-Progress: **114 / 1335**
+Progress: **115 / 1335**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Rust | Swift | Difficulty |
@@ -40,6 +40,7 @@ Progress: **114 / 1335**
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/description/) | [✓](Golang/CountAndSay/CountAndSay.go) | [✓](Java/src/CountAndSay.java) | [✓](JavaScript/src/CountAndSay.js) | [✓](Kotlin/src/CountAndSay.kt) | [✓](Python/CountAndSay.py) | []() | [✓](Swift/LeetCode/LeetCode/CountAndSay.swift) |  Easy |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/description/) | [✓](Golang/CombinationSum/CombinationSum.go) | [✓](Java/src/CombinationSum.java) |[✓](JavaScript/src/CombinationSum.js) | [✓](Kotlin/src/CombinationSum.kt) | [✓](Python/CombinationSum.py) | []() | [✓](Swift/LeetCode/LeetCode/CombinationSum.swift) | Medium |
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/) | [✓](Golang/CombinationSumII/CombinationSumII.go) | [✓](Java/src/CombinationSumII.java) | [✓](JavaScript/src/CombinationSumII.js) | [✓](Kotlin/src/CombinationSumII.kt) | [✓](Python/CombinationSumII.py) | []() | [✓](Swift/LeetCode/LeetCode/CombinationSumII.swift) | Medium |
+| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | []() | []() | []() | []() | []() | [✓](Rust/src/0041_first_missing_positive.rs) | []() | Hard
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/) | [✓](Golang/MultiplyStrings/MultiplyStrings.go) | [✓](Java/src/MultiplyStrings.java) | [✓](JavaScript/src/MultiplyStrings.js) | [✓](Kotlin/src/MultiplyStrings.kt) | [✓](Python/MultiplyStrings.py) | []() | [✓](Swift/LeetCode/LeetCode/MultiplyStrings.swift) | Medium |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/description/) | [✓](Golang/Permutations/Permutations.go) | [✓](Java/src/Permutations.java) | [✓](JavaScript/src/Permutations.js) | [✓](Kotlin/src/Permutations.kt) | [✓](Python/Permutations.py) | []() | [✓](Swift/LeetCode/LeetCode/Permutations.swift) | Medium |
 | 47 | [PermutationsII](https://leetcode.com/problems/permutations-ii/description/) | [✓](Golang/PermutationsII/PermutationsII.go) | [✓](Java/src/PermutationsII.java) | [✓](JavaScript/src/PermutationsII.js) | [✓](Kotlin/src/PermutationsII.kt) | [✓](Python/PermutationsII.py) | []() | [✓](Swift/LeetCode/LeetCode/PermutationsII.swift) | Medium |
