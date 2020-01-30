@@ -2,7 +2,7 @@
 
 My Solutions to LeetCode problems written in Go, Java, JavaScript, Kotlin, Python, Rust and Swift.
 
-Progress: **116 / 1335**
+Progress: **117 / 1335**
 
 ## Solutions
 | # | Title  | Go | Java | JavaScript | Kotlin | Python | Rust | Swift | Difficulty |
@@ -110,6 +110,7 @@ Progress: **116 / 1335**
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | []() | []() | []() | []() | []() | [✓](Rust/src/0206_reverse_linked_list.rs) | []() | Easy
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | []() | []() | []() | []() | []() | [✓](Rust/src/0215_kth_argest_element_in_an_array.rs) | []() | Medium
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | []() | []() | []() | []() | []() | [✓](Rust/src/0217_contains_duplicate.rs) | []() | Easy
+| 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | []() | []() | []() | []() | []() | [✓](Rust/src/0231_power_of_two.rs) | []() | Easy
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)| []() | []() | []() | []() | []() | [✓](Rust/src/0242_valid_anagram.rs) | []() | Easy
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | []() | []() | []() | []() | []() | [✓](Rust/src/0268_missing_number.rs) | []() | Easy
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | []() | []() | []() | []() | []() | [✓](Rust/src/0283_move_zeroes.rs) | []() | Easy
